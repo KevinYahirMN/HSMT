@@ -1,0 +1,1232 @@
+ <?php
+
+//Declaración de variables
+$c = 0;
+$answer = $_POST['Q'];
+
+foreach ($answer as $key => $value) {
+   echo $value."<br>";
+}
+
+//iniciando por el 0 naco estupido
+//Perfil de escalas basicas MMPI-2
+/* 
+function scale_L(){
+calif_False($answer[15]);
+calif_False($answer[28]);
+calif_Flase($answer[40]);
+$answer[50]
+$answer[76]
+$answer[92]
+$answer[101]
+$answer[106]
+$answer[122]
+$answer[138]
+$answer[152]
+$answer[182]
+$answer[202]
+$answer[231]
+$answer[259]
+}
+
+function calif_True($ans){
+
+if(ans){
+   $c++;
+}
+
+function calif_False($ans){
+  if(!ans)
+   $c++;
+}
+
+
+//t = true, f = false
+function scale_F(){
+calif_False($answer[5]);
+calif_False($answer[11]);
+calif_True($answer[17]);
+$answer[23]t
+$answer[29]t
+$answer[35]t
+$answer[53]t
+$answer[59]t
+$answer[65]t
+$answer[71]t
+$answer[77]f
+$answer[83]t
+$answer[89]f
+$answer[95]t
+$answer[101]f
+$answer[107]f
+$answer[113]t
+$answer[119]f
+$answer[125]f
+$answer[131]f
+$answer[137]t
+$answer[143]t
+$answer[149]t
+$answer[155]t
+$answer[161]t
+$answer[167]t
+$answer[173]f
+$answer[179]t
+$answer[185]f
+$answer[191]f
+$answer[197]t
+$answer[203]f
+$answer[209]f
+$answer[215]t
+$answer[221]f
+$answer[227]t
+$answer[233]t
+$answer[239]t
+$answer[245]t
+$answer[251]t
+$answer[257]t
+$answer[263]t
+$answer[269]t
+$answer[275]f
+$answer[281]t
+$answer[287]t
+$answer[293]t
+$answer[299]t
+$answer[305]t
+$answer[311]t
+$answer[317]f
+$answer[323]t
+$answer[329]f
+$answer[335]t
+$answer[342]f
+$answer[348]t
+$answer[354]t
+$answer[360]t
+}
+
+function scale_K(){
+$answer[28]f
+$answer[36]f
+$answer[57]f
+$answer[75]f
+$answer[82]t
+$answer[109]f
+$answer[115]f
+$answer[121]f
+$answer[126]f
+$answer[129]f
+$answer[135]f
+$answer[147]f
+$answer[156]f
+$answer[157]f
+$answer[166]f
+$answer[170]f
+$answer[195]f
+$answer[212]f
+$answer[242]f
+$answer[266]f
+$answer[283]f
+$answer[289]f
+$answer[329]f
+$answer[337]f
+$answer[338]f
+$answer[340]f
+$answer[345]f
+$answer[347]f
+$answer[355]f
+$answer[364]f	
+}
+
+function scale_Hs(){
+$answer[1]f
+$answer[2]f
+$answer[7]f
+$answer[9]f
+$answer[17]f
+$answer[19]f
+$answer[27]t
+$answer[38]t
+$answer[44]f
+$answer[46]f
+$answer[52]t
+$answer[56]f
+$answer[58]t
+$answer[90]f
+$answer[96]t
+$answer[100]t
+$answer[110]t
+$answer[116]f
+$answer[140]f
+$answer[142]f
+$answer[148]t
+$answer[151]f
+$answer[163]f
+$answer[172]f
+$answer[144]t
+$answer[175]f
+$answer[178]f
+$answer[207]f
+$answer[223]f
+$answer[246]t
+$answer[248]f
+$answer[254]f
+}
+
+function scale_D(){
+$answer[1]f
+$answer[4]t
+$answer[8]f
+$answer[9]f
+$answer[14]t
+$answer[17]t
+$answer[19]f
+$answer[28]f
+$answer[30]t
+$answer[32]f
+$answer[36]f
+$answer[37]t
+$answer[38]t
+$answer[42]f
+$answer[44]f
+$answer[45]t
+$answer[48]f
+$answer[54]f
+$answer[55]t
+$answer[67]f
+$answer[72]t
+$answer[74]f
+$answer[75]f
+$answer[91]t
+$answer[94]f
+$answer[108]f
+$answer[116]t
+$answer[117]f
+$answer[126]t
+$answer[129]t
+$answer[133]f
+$answer[139]f
+$answer[140]f
+$answer[141]f
+$answer[142]f
+$answer[145]t
+$answer[146]t
+$answer[147]f
+$answer[164]f
+$answer[169]t
+$answer[174]t
+$answer[177]f
+$answer[180]t
+$answer[187]f
+$answer[188]f
+$answer[197]f
+$answer[208]f
+$answer[211]f
+$answer[223]f
+$answer[230]f
+$answer[233]f
+$answer[245]f
+$answer[252]f
+$answer[315]f
+}
+
+function scale_Hi(){
+$answer[1]f
+$answer[2]f
+$answer[6]f
+$answer[7]f
+$answer[8]f
+$answer[9]f
+$answer[10]t
+$answer[13]f
+$answer[17]t
+$answer[25]f
+$answer[28]f
+$answer[30]t
+$answer[38]t
+$answer[39]t
+$answer[43]t
+$answer[44]f
+$answer[46]f
+$answer[57]f
+$answer[64]t
+$answer[75]f
+$answer[80]f
+$answer[90]f
+$answer[94]f
+$answer[97]f
+$answer[100]t
+$answer[109]f
+$answer[114]f
+$answer[115]f
+$answer[123]f
+$answer[124]f
+$answer[128]f
+$answer[134]f
+$answer[140]f
+$answer[147]f
+$answer[150]f
+$answer[151]f
+$answer[156]f
+$answer[158]f
+$answer[160]f
+$answer[163]f
+$answer[165]t
+$answer[166]f
+$answer[171]t
+$answer[172]f
+$answer[174]t
+$answer[175]f
+$answer[178]f
+$answer[184]f
+$answer[192]f
+$answer[207]f
+$answer[212]f
+$answer[223]f
+$answer[229]t
+$answer[240]f
+$answer[242]f
+$answer[248]f
+$answer[252]f
+$answer[262]f
+$answer[264]f
+}
+
+function scale_Dp(){
+   $answer[8]f
+   $answer[11]f
+   $answer[16]t
+   $answer[20]t
+   $answer[21]t
+   $answer[30]t
+   $answer[31]t
+   $answer[33]f
+   $answer[34]t
+   $answer[41]t
+   $answer[51]t
+   $answer[53]t
+   $answer[55]t
+   $answer[69]f
+   $answer[70]t
+   $answer[78]f
+   $answer[81]t
+   $answer[82]f
+   $answer[88]t
+   $answer[93]t
+   $answer[94]f
+   $answer[98]t
+   $answer[104]t
+   $answer[112]t
+   $answer[121]f
+   $answer[124]f
+   $answer[128]f
+   $answer[142]f
+   $answer[156]f
+   $answer[157]f
+   $answer[159]f
+   $answer[166]f
+   $answer[170]f
+   $answer[184]f
+   $answer[194]f
+   $answer[201]t
+   $answer[208]f
+   $answer[213]f
+   $answer[216]f
+   $answer[218]t
+   $answer[224]t
+   $answer[225]f
+   $answer[242]f
+   $answer[258]t
+   $answer[260]f
+   $answer[262]f
+   $answer[263]t
+   $answer[265]f
+   $answer[266]f
+   $answer[287]t
+}
+
+function scale_Mf_Male(){
+   $answer[0]f
+   $answer[3]t
+   $answer[18]f
+   $answer[24]t
+   $answer[25]f
+   $answer[26]f
+   $answer[61]t
+   $answer[62]f
+   $answer[63]t
+   $answer[66]t
+   $answer[67]f
+   $answer[68]f
+   $answer[73]t
+   $answer[75]f
+   $answer[79]t
+   $answer[85]f
+   $answer[102]f
+   $answer[103]f
+   $answer[106]f
+   $answer[111]t
+   $answer[118]t
+   $answer[119]f
+   $answer[120]f
+   $answer[121]t
+   $answer[127]t
+   $answer[131]f
+   $answer[132]f
+   $answer[136]t
+   $answer[162]f
+   $answer[165]t
+   $answer[176]t
+   $answer[183]f
+   $answer[186]t
+   $answer[190]t
+   $answer[192]f
+   $answer[193]f
+   $answer[195]t
+   $answer[196]f
+   $answer[198]f
+   $answer[200]f
+   $answer[204]t
+   $answer[206]f
+   $answer[208]t
+   $answer[218]t
+   $answer[230]f
+   $answer[234]f
+   $answer[235]t
+   $answer[236]f
+   $answer[238]f
+   $answer[250]t
+   $answer[253]f
+   $answer[255]t
+   $answer[256]f
+   $answer[267]t
+   $answer[270]t
+   $answer[271]f
+}
+
+function scale_Mf_Female(){
+   $answer[0]f
+   $answer[3]t
+   $answer[18]f
+   $answer[24]t
+   $answer[25]f
+   $answer[26]f
+   $answer[61]t
+   $answer[62]f
+   $answer[63]t
+   $answer[66]t
+   $answer[67]f
+   $answer[68]f
+   $answer[73]t
+   $answer[75]f
+   $answer[79]t
+   $answer[85]f
+   $answer[102]f
+   $answer[103]f
+   $answer[106]f
+   $answer[111]t
+   $answer[118]t
+   $answer[119]f
+   $answer[120]t
+   $answer[121]t
+   $answer[127]t
+   $answer[131]f
+   $answer[132]f
+   $answer[136]t
+   $answer[162]f
+   $answer[165]f
+   $answer[176]t
+   $answer[183]f
+   $answer[186]t
+   $answer[190]t
+   $answer[192]f
+   $answer[193]f
+   $answer[195]t
+   $answer[196]f
+   $answer[198]f
+   $answer[200]f
+   $answer[204]t
+   $answer[206]f
+   $answer[208]f
+   $answer[218]t
+   $answer[230]f
+   $answer[234]f
+   $answer[235]t
+   $answer[236]f
+   $answer[238]f
+   $answer[250]t
+   $answer[253]f
+   $answer[255]t
+   $answer[256]f
+   $answer[267]f
+   $answer[270]t
+   $answer[271]f
+}
+
+function scale_Pa(){
+   $answer[15]t
+   $answer[16]t
+   $answer[21]t
+   $answer[22]t
+   $answer[23]t
+   $answer[41]t
+   $answer[80]f
+   $answer[94]f
+   $answer[97]f
+   $answer[98]t
+   $answer[99]t
+   $answer[103]t
+   $answer[109]f
+   $answer[112]t
+   $answer[137]t
+   $answer[143]t
+   $answer[144]t
+   $answer[145]t
+   $answer[161]t
+   $answer[233]t
+   $answer[243]f
+   $answer[254]f
+   $answer[258]t
+   $answer[265]f
+   $answer[270]t
+   $answer[276]t
+   $answer[282]f
+   $answer[283]f
+   $answer[284]t
+   $answer[285]f
+   $answer[296]f
+   $answer[304]t
+   $answer[306]t
+   $answer[313]f
+   $answer[314]f
+   $answer[332]t
+   $answer[333]t
+   $answer[335]t
+   $answer[354]t
+   $answer[360]t
+}
+
+function scale_Pt(){
+   $answer[2]f
+   $answer[8]f
+   $answer[10]t
+   $answer[15]t
+   $answer[22]t
+   $answer[30]t
+   $answer[32]f
+   $answer[37]t
+   $answer[55]t
+   $answer[64]t
+   $answer[72]t
+   $answer[81]t
+   $answer[88]t
+   $answer[93]t
+   $answer[108]f
+   $answer[129]t
+   $answer[139]f
+   $answer[146]t
+   $answer[164]f
+   $answer[169]t   
+   $answer[173]f
+   $answer[174]t
+   $answer[195]t
+   $answer[217]t
+   $answer[241]t
+   $answer[272]t
+   $answer[274]t
+   $answer[276]t
+   $answer[284]t
+   $answer[288]t
+   $answer[292]f
+   $answer[300]t
+   $answer[301]t
+   $answer[303]t
+   $answer[307]t
+   $answer[308]t
+   $answer[309]t
+   $answer[312]t
+   $answer[315]t
+   $answer[316]t
+   $answer[319]t
+   $answer[320]f
+   $answer[324]t
+   $answer[325]t
+   $answer[236]t
+   $answer[327]t
+   $answer[328]t
+   $answer[330]t
+}
+
+function sacle_Es(){
+   $answer[5]f
+   $answer[8]f
+   $answer[11]f
+   $answer[15]t
+   $answer[16]t
+   $answer[20]t
+   $answer[21]t
+   $answer[22]t
+   $answer[30]t
+   $answer[31]t
+   $answer[33]f
+   $answer[34]t
+   $answer[37]t
+   $answer[41]t
+   $answer[43]t
+   $answer[45]t
+   $answer[47]t
+   $answer[64]t
+   $answer[84]t
+   $answer[89]f
+   $answer[90]f
+   $answer[91]t
+   $answer[105]f
+   $answer[137]t
+   $answer[144]t
+   $answer[146]t
+   $answer[164]f
+   $answer[165]t
+   $answer[167]t
+   $answer[169]t
+   $answer[176]f
+   $answer[178]f
+   $answer[179]t
+   $answer[181]t
+   $answer[189]t
+   $answer[191]f
+   $answer[209]f
+   $answer[217]t
+   $answer[220]t
+   $answer[228]t
+   $answer[232]t
+   $answer[233]t
+   $answer[241]t
+   $answer[246]t
+   $answer[251]t
+   $answer[254]f
+   $answer[255]t
+   $answer[267]t
+   $answer[272]t
+   $answer[273]t
+   $answer[275]f
+   $answer[276]t
+   $answer[277]f
+   $answer[278]t
+   $answer[279]f
+   $answer[280]t
+   $answer[286]t
+   $answer[289]f
+   $answer[290]t
+   $answer[291]t
+   $answer[294]f
+   $answer[295]t
+   $answer[297]t
+   $answer[298]t
+   $answer[302]t
+   $answer[306]t
+   $answer[310]t
+   $answer[315]t
+   $answer[318]t
+   $answer[319]t
+   $answer[321]t
+   $answer[322]t
+   $answer[324]t
+   $answer[328]t
+   $answer[331]t
+   $answer[332]t
+   $answer[342]f
+   $answer[354]t
+}
+
+function scale_Ma(){
+   $answer[12]t
+   $answer[14]t
+   $answer[20]t
+   $answer[22]t
+   $answer[49]t
+   $answer[54]t
+   $answer[60]t
+   $answer[84]t
+   $answer[86]t
+   $answer[87]f
+   $answer[92]f
+   $answer[97]t
+   $answer[99]f
+   $answer[105]f
+   $answer[106]f
+   $answer[112]t
+   $answer[121]t
+   $answer[130]t
+   $answer[135]f
+   $answer[144]t
+   $answer[153]f
+   $answer[154]t
+   $answer[158]f
+   $answer[166]f
+   $answer[167]t
+   $answer[168]t
+   $answer[181]t
+   $answer[189]t
+   $answer[199]t
+   $answer[204]t
+   $answer[205]t
+   $answer[210]t
+   $answer[211]t
+   $answer[217]t
+   $answer[219]t
+   $answer[226]t
+   $answer[228]t
+   $answer[237]t
+   $answer[241]t
+   $answer[242]f
+   $answer[243]t
+   $answer[247]t
+   $answer[249]t
+   $answer[252]t
+   $answer[262]f
+   $answer[268]t
+}
+
+function scale_Ls(){
+   $answer[24]f
+   $answer[30]t
+   $answer[31]f
+   $answer[48]f
+   $answer[55]t
+   $answer[69]t
+   $answer[78]f
+   $answer[85]f
+   $answer[99]t
+   $answer[103]t
+   $answer[105]f
+   $answer[109]t
+   $answer[111]f
+   $answer[126]t
+   $answer[130]f
+   $answer[134]t
+   $answer[157]t
+   $answer[160]t
+   $answer[166]t
+   $answer[180]f
+   $answer[184]t
+   $answer[188]f
+   $answer[206]f
+   $answer[208]f
+   $answer[214]t
+   $answer[230]f
+   $answer[236]f
+   $answer[242]t
+   $answer[250]t
+   $answer[254]f
+   $answer[261]f
+   $answer[264]t
+   $answer[266]f
+   $answer[274]t
+   $answer[279]f
+   $answer[283]t
+   $answer[288]t
+   $answer[296]t
+   $answer[301]t
+   $answer[307]t
+   $answer[320]f
+   $answer[325]t
+   $answer[327]f
+   $answer[334]f
+   $answer[336]t
+   $answer[337]t
+   $answer[339]f
+   $answer[341]f
+   $answer[343]f
+   $answer[344]f
+   $answer[346]t
+   $answer[347]t
+   $answer[349]f
+   $answer[350]t
+   $answer[351]t
+   $answer[352]f
+   $answer[353]f
+   $answer[356]t
+   $answer[357]f
+   $answer[358]f
+   $answer[359]f
+   $answer[361]f
+   $answer[362]f
+   $answer[363]t
+   $answer[365]f
+   $answer[366]t
+   $answer[367]t
+   $answer[368]t
+   $answer[369]f
+}
+
+//Perfil de escalas suplementarias MMPI-2
+
+function scale_A(){
+   $answer[30]t
+   $answer[37]t
+   $answer[55]t
+   $answer[64]t
+   $answer[81]t
+   $answer[126]t
+   $answer[134]t
+   $answer[214]t
+   $answer[232]t
+   $answer[242]t
+   $answer[250]t
+   $answer[272]t
+   $answer[276]t
+   $answer[288]t
+   $answer[300]t
+   $answer[308]t
+   $answer[309]t
+   $answer[310]t
+   $answer[324]t
+   $answer[327]t
+   $answer[337]t
+   $answer[338]t
+   $answer[340]t
+   $answer[346]t
+   $answer[387]f
+   $answer[389]t
+   $answer[390]t
+   $answer[393]t
+   $answer[399]t
+   $answer[407]t
+   $answer[410]t
+   $answer[414]t
+   $answer[420]t
+   $answer[427]t
+   $answer[441]t
+   $answer[447]t
+   $answer[450]t
+   $answer[463]t
+   $answer[468]t
+}
+
+function scale_R(){
+   $answer[0]f
+   $answer[6]f
+   $answer[9]f
+   $answer[13]f
+   $answer[36]f
+   $answer[44]f
+   $answer[68]f
+   $answer[111]f
+   $answer[117]f
+   $answer[119]f
+   $answer[128]f
+   $answer[133]f
+   $answer[141]f
+   $answer[167]f
+   $answer[177]f
+   $answer[188]f
+   $answer[196]f
+   $answer[198]f
+   $answer[247]f
+   $answer[254]f
+   $answer[255]f
+   $answer[296]f
+   $answer[329]f
+   $answer[345]f
+   $answer[349]f
+   $answer[352]f
+   $answer[353]f
+   $answer[358]f
+   $answer[362]f
+   $answer[364]f
+   $answer[421]f
+   $answer[422]f
+   $answer[429]f
+   $answer[431]f
+   $answer[448]f
+   $answer[455]f
+   $answer[464]f
+}
+
+function sacle_Fyo(){
+   $answer[1]t
+   $answer[20]f
+   $answer[30]f
+   $answer[31]f
+   $answer[32]t
+   $answer[35]f
+   $answer[38]f
+   $answer[44]t
+   $answer[52]f
+   $answer[59]f
+   $answer[69]f
+   $answer[81]f
+   $answer[86]f
+   $answer[97]t
+   $answer[118]f
+   $answer[127]f
+   $answer[140]t
+   $answer[158]t
+   $answer[168]t
+   $answer[174]f
+   $answer[176]t
+   $answer[178]t
+   $answer[188]t
+   $answer[195]f
+   $answer[198]t
+   $answer[208]t
+   $answer[212]t
+   $answer[220]f
+   $answer[224]f
+   $answer[228]f
+   $answer[229]t
+   $answer[235]f
+   $answer[244]t
+   $answer[245]f
+   $answer[306]f
+   $answer[309]f
+   $answer[315]f
+   $answer[322]t
+   $answer[327]f
+   $answer[384]t
+   $answer[390]f
+   $answer[393]f
+   $answer[405]t
+   $answer[412]t
+   $answer[424]t
+   $answer[440]f
+   $answer[446]f
+   $answer[457]f
+   $answer[463]f
+   $answer[468]f
+   $answer[470]f
+}
+
+function scale_A_MAC(){
+   $answer[6]t
+   $answer[23]t
+   $answer[35]t
+   $answer[48]t
+   $answer[51]t
+   $answer[68]t
+   $answer[71]t
+   $answer[72]f
+   $answer[81]t
+   $answer[83]t
+   $answer[102]t
+   $answer[104]t
+   $answer[106]f
+   $answer[112]t
+   $answer[114]t
+   $answer[116]f
+   $answer[127]t
+   $answer[136]f
+   $answer[159]f
+   $answer[165]f
+   $answer[167]t
+   $answer[171]t
+   $answer[201]t
+   $answer[213]t
+   $answer[223]t
+   $answer[228]t
+   $answer[237]t
+   $answer[250]f
+   $answer[256]t
+   $answer[265]t
+   $answer[179]t
+   $answer[286]f
+   $answer[298]f
+   $answer[324]f
+   $answer[341]t
+   $answer[343]t
+   $answer[386]t
+   $answer[406]t
+   $answer[411]t
+   $answer[413]t
+   $answer[421]t
+   $answer[433]t
+   $answer[438]t
+   $answer[444]t
+   $answer[455]t
+   $answer[472]t
+   $answer[501]t
+   $answer[505]t
+   $answer[548]t
+}
+
+function sacle_HR(){
+   $answer[0]f
+   $answer[14]f
+   $answer[28]f
+   $answer[66]t
+   $answer[68]f
+   $answer[76]f
+   $answer[78]t
+   $answer[88]f
+   $answer[97]f
+   $answer[115]f
+   $answer[116]f
+   $answer[128]f
+   $answer[152]f
+   $answer[168]f
+   $answer[170]f
+   $answer[206]t
+   $answer[285]t
+   $answer[292]f
+   $answer[304]t
+   $answer[343]f
+   $answer[389]f
+   $answer[397]t
+   $answer[399]f
+   $answer[419]f
+   $answer[432]f
+   $answer[439]f
+   $answer[459]f
+   $answer[470]t
+}
+
+function scale_Do(){
+   $answer[30]f
+   $answer[51]f
+   $answer[54]t
+   $answer[69]f
+   $answer[72]f
+   $answer[81]f
+   $answer[171]f
+   $answer[200]f
+   $answer[201]f
+   $answer[206]t
+   $answer[226]f
+   $answer[231]t
+   $answer[242]f
+   $answer[243]f
+   $answer[244]t
+   $answer[274]f
+   $answer[308]f
+   $answer[385]t
+   $answer[398]f
+   $answer[411]f
+   $answer[415]t
+   $answer[469]f
+   $answer[472]f
+}
+
+function scale_Rs(){
+   $answer[6]f
+   $answer[26]f
+   $answer[28]f
+   $answer[31]f
+   $answer[83]f
+   $answer[99]t
+   $answer[102]f
+   $answer[104]f
+   $answer[144]f
+   $answer[159]t
+   $answer[163]f
+   $answer[168]f
+   $answer[198]t
+   $answer[200]f
+   $answer[201]f
+   $answer[234]f
+   $answer[265]t
+   $answer[274]f
+   $answer[357]f
+   $answer[411]f
+   $answer[416]f
+   $answer[417]f
+   $answer[429]f
+   $answer[430]f
+   $answer[431]f
+   $answer[439]t
+   $answer[455]f
+   $answer[466]t
+   $answer[467]f
+   $answer[469]f
+}
+
+function scale_Dpr(){
+   $answer[1]f
+   $answer[2]f
+   $answer[8]f
+   $answer[9]f
+   $answer[14]t
+   $answer[15]t
+   $answer[19]f
+   $answer[27]t
+   $answer[30]t
+   $answer[37]t
+   $answer[42]f
+   $answer[70]t
+   $answer[72]t
+   $answer[80]t
+   $answer[81]t
+   $answer[94]f
+   $answer[109]t
+   $answer[129]t
+   $answer[130]f
+   $answer[139]f
+   $answer[147]f
+   $answer[151]f
+   $answer[214]t
+   $answer[217]t
+   $answer[222]f
+   $answer[232]t
+   $answer[268]t
+   $answer[272]t
+   $answer[298]t
+   $answer[301]t
+   $answer[324]t
+   $answer[330]t
+   $answer[338]t
+   $answer[356]t
+   $answer[404]f
+   $answer[407]t
+   $answer[410]t
+   $answer[448]t
+   $answer[463]t
+   $answer[468]t
+   $answer[471]t
+}
+
+function scale_GM(){
+   $answer[3]f
+   $answer[7]t
+   $answer[19]t
+   $answer[22]f 
+   $answer[43]f
+   $answer[63]f
+   $answer[69]f
+   $answer[72]f
+   $answer[73]f
+   $answer[79]f
+   $answer[99]f
+   $answer[136]f
+   $answer[142]t
+   $answer[145]f
+   $answer[151]t
+   $answer[158]t
+   $answer[162]t
+   $answer[175]t
+   $answer[186]f
+   $answer[198]t
+   $answer[213]t
+   $answer[236]t
+   $answer[288]f
+   $answer[320]t
+   $answer[330]f
+   $answer[349]t
+   $answer[350]f
+   $answer[363]f
+   $answer[384]t
+   $answer[387]t
+   $answer[391]f
+   $answer[394]f
+   $answer[400]t
+   $answer[434]f
+   $answer[437]f
+   $answer[439]t
+   $answer[440]f
+   $answer[461]t
+   $answer[466]t
+   $answer[468]f
+   $answer[470]f
+   $answer[473]t
+   $answer[497]f
+   $answer[508]f
+   $answer[518]f
+   $answer[531]f
+   $answer[535]f
+}
+
+function scale_GF(){
+   $answer[0]f
+   $answer[26]f
+   $answer[61]t
+   $answer[62]f
+   $answer[66]t
+   $answer[67]f
+   $answer[78]f
+   $answer[83]f
+   $answer[104]f
+   $answer[118]t
+   $answer[120]t
+   $answer[122]f
+   $answer[127]t
+   $answer[132]f
+   $answer[154]f
+   $answer[196]f
+   $answer[200]f
+   $answer[202]t
+   $answer[219]f
+   $answer[230]f
+   $answer[237]f
+   $answer[238]f
+   $answer[249]f
+   $answer[256]f
+   $answer[262]t
+   $answer[263]f
+   $answer[265]t
+   $answer[271]f
+   $answer[286]f
+   $answer[352]t
+   $answer[383]t
+   $answer[405]f
+   $answer[416]f
+   $answer[425]t
+   $answer[448]t
+   $answer[455]t
+   $answer[464]f
+   $answer[472]t
+   $answer[476]f
+   $answer[486]f
+   $answer[509]f
+   $answer[510]f
+   $answer[536]f
+   $answer[547]f
+   $answer[549]f
+   $answer[551]t
+}
+
+function scale_EPK(){
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+   $answer[]
+}
+*/
+?>
