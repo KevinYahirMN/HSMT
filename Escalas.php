@@ -1,8 +1,8 @@
  <?php
 
 //Declaración de variables
-$c = 0;
-$answer = $_POST['Q'];
+$c = 0; //contador de puntaje
+$answer = $_POST['Q']; //Arreglo de respuestas
 
 //Sumales 1 por naco estupido
 //Perfil de escalas basicas MMPI-2
@@ -11,29 +11,32 @@ function scale_L(){
 calif_False($answer[16]);
 calif_False($answer[29]);
 calif_Flase($answer[41]);
-$answer[51]
-$answer[77]
-$answer[93]
-$answer[102]
-$answer[107]
-$answer[123]
-$answer[138]
-$answer[153]
-$answer[183]
-$answer[203]
-$answer[232]
-$answer[260]
+calif_False($answer[51]);
+calif_False($answer[77]);
+calif_False($answer[93]);
+calif_False($answer[102]);
+calif_False($answer[107]);
+calif_False($answer[123]);
+calif_False($answer[138]);
+calif_False($answer[153]);
+calif_False($answer[183]);
+calif_False($answer[203]);
+calif_False($answer[232]);
+calif_False($answer[260]);
 }
 
 function calif_True($ans){
-
-if(ans){
-   $c++;
+   if($answer == "true"){
+      $c++;
+   }
 }
 
+
 function calif_False($ans){
-  if(!ans)
-   $c++;
+  if($answer == "false"){
+      $c++;
+  }
+
 }
 
 
@@ -49,31 +52,31 @@ $answer[54]t
 $answer[60]t
 $answer[66]t
 $answer[72]t
-$answer[78]f
+calif_False($answer[78]);
 $answer[84]t
-$answer[90]f
+calif_False($answer[90]);
 $answer[96]t
-$answer[102]f
-$answer[108]f
+calif_False($answer[102]);
+calif_False($answer[108]);
 $answer[114]t
-$answer[120]f
-$answer[126]f
-$answer[132]f
+calif_False($answer[120]);
+calif_False($answer[126]);
+calif_False($answer[132]);
 $answer[138]t
 $answer[144]t
 $answer[150]t
 $answer[156]t
 $answer[162]t
 $answer[168]t
-$answer[174]f
+calif_False($answer[174]);
 $answer[180]t
-$answer[186]f
-$answer[190]f
+calif_False($answer[186]);
+calif_False($answer[190]);
 $answer[198]t
-$answer[204]f
-$answer[210]f
+calif_False($answer[204]);
+calif_False($answer[210]);
 $answer[216]t
-$answer[222]f
+calif_False($answer[222]);
 $answer[228]t
 $answer[234]t
 $answer[240]t
