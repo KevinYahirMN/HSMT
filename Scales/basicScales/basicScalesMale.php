@@ -4,10 +4,7 @@
 
 class basicScalesMale{
 
-   private $c = 0;
-
-   function __construct(){
-   }
+   private $c;
 
    //sumatoria de respuesta verdadero
    function calif_True($answer){
@@ -24,6 +21,7 @@ class basicScalesMale{
    }
 
    function scale_L($answer = array()){
+      $this-> c = 0;
       $this->calif_False($answer[16]);
       $this->calif_False($answer[29]);
       $this->calif_False($answer[41]);
@@ -42,262 +40,267 @@ class basicScalesMale{
       return $this->c;
    }
 
-   /*
-   function scale_L($answer){
-      $this->calif_False($answer);
-      return $this->c;
-   }
-
    //t = true, f = false
    function scale_F($answer){
-      calif_False($answer[6]);
-      calif_False($answer[12]);
-      calif_True($answer[18]);
-      $answer[24]t
-      $answer[30]t
-      $answer[36]t
-      $answer[54]t
-      $answer[60]t
-      $answer[66]t
-      $answer[72]t
-      calif_False($answer[78]);
-      $answer[84]t
-      calif_False($answer[90]);
-      $answer[96]t
-      calif_False($answer[102]);
-      calif_False($answer[108]);
-      $answer[114]t
-      calif_False($answer[120]);
-      calif_False($answer[126]);
-      calif_False($answer[132]);
-      $answer[138]t
-      $answer[144]t
-      $answer[150]t
-      $answer[156]t
-      $answer[162]t
-      $answer[168]t
-      calif_False($answer[174]);
-      $answer[180]t
-      calif_False($answer[186]);
-      calif_False($answer[190]);
-      $answer[198]t
-      calif_False($answer[204]);
-      calif_False($answer[210]);
-      $answer[216]t
-      calif_False($answer[222]);
-      $answer[228]t
-      $answer[234]t
-      $answer[240]t
-      $answer[246]t
-      $answer[252]t
-      $answer[258]t
-      $answer[264]t
-      $answer[270]t
-      $answer[276]f
-      $answer[282]t
-      $answer[288]t
-      $answer[294]t
-      $answer[300]t
-      $answer[306]t
-      $answer[312]t
-      $answer[318]f
-      $answer[324]t
-      $answer[330]f
-      $answer[336]t
-      $answer[343]f
-      $answer[349]t
-      $answer[355]t
-      $answer[361]t
+      $this-> c = 0;
+      $this->calif_False($answer[6]);
+      $this->calif_False($answer[12]);
+      $this->calif_True($answer[18]);
+      $this->calif_True($answer[24]);
+      $this->calif_True($answer[30]);
+      $this->calif_True($answer[36]);
+      $this->calif_True($answer[54]);
+      $this->calif_True($answer[60]);
+      $this->calif_True($answer[66]);
+      $this->calif_True($answer[72]);
+      $this->calif_False($answer[78]);
+      $this->calif_True($answer[84]);
+      $this->calif_False($answer[90]);
+      $this->calif_True($answer[96]);
+      $this->calif_False($answer[102]);
+      $this->calif_False($answer[108]);
+      $this->calif_True($answer[114]);
+      $this->calif_False($answer[120]);
+      $this->calif_False($answer[126]);
+      $this->calif_False($answer[132]);
+      $this->calif_True($answer[138]);
+      $this->calif_True($answer[144]);
+      $this->calif_True($answer[150]);
+      $this->calif_True($answer[156]);
+      $this->calif_True($answer[162]);
+      $this->calif_True($answer[168]);
+      $this->calif_False($answer[174]);
+      $this->calif_True($answer[180]);
+      $this->calif_False($answer[186]);
+      $this->calif_False($answer[190]);
+      $this->calif_True($answer[198]);
+      $this->calif_False($answer[204]);
+      $this->calif_False($answer[210]);
+      $this->calif_True($answer[216]);
+      $this->calif_False($answer[222]);
+      $this->calif_True($answer[228]);
+      $this->calif_True($answer[234]);
+      $this->calif_True($answer[240]);
+      $this->calif_True($answer[246]);
+      $this->calif_True($answer[252]);
+      $this->calif_True($answer[258]);
+      $this->calif_True($answer[264]);
+      $this->calif_True($answer[270]);
+      $this->calif_False($answer[276]);
+      $this->calif_True($answer[282]);
+      $this->calif_True($answer[288]);
+      $this->calif_True($answer[294]);
+      $this->calif_True($answer[300]);
+      $this->calif_True($answer[306]);
+      $this->calif_True($answer[312]);
+      $this->calif_False($answer[318]);
+      $this->calif_True($answer[324]);
+      $this->calif_False($answer[330]);
+      $this->calif_True($answer[336]);
+      $this->calif_False($answer[343]);
+      $this->calif_True($answer[349]);
+      $this->calif_True($answer[355]);
+      $this->calif_True($answer[361]);
+      return $this->c;
    }
    
    function scale_K(){
-      $answer[29]f
-      $answer[37]f
-      $answer[58]f
-      $answer[76]f
-      $answer[83]t
-      $answer[110]f
-      $answer[116]f
-      $answer[122]f
-      $answer[127]f
-      $answer[130]f
-      $answer[136]f
-      $answer[148]f
-      $answer[157]f
-      $answer[158]f
-      $answer[167]f
-      $answer[171]f
-      $answer[196]f
-      $answer[213]f
-      $answer[243]f
-      $answer[267]f
-      $answer[284]f
-      $answer[290]f
-      $answer[330]f
-      $answer[338]f
-      $answer[339]f
-      $answer[341]f
-      $answer[346]f
-      $answer[348]f
-      $answer[356]f
-      $answer[365]f	
+      $this-> c = 0;
+      $this->calif_False($answer[29]);
+      $this->calif_False($answer[37]);
+      $this->calif_False($answer[58]);
+      $this->calif_False($answer[76]);
+      $this->calif_True($answer[83]);
+      $this->calif_False($answer[110]);
+      $this->calif_False($answer[116]);
+      $this->calif_False($answer[122]);
+      $this->calif_False($answer[127]);
+      $this->calif_False($answer[130]);
+      $this->calif_False($answer[136]);
+      $this->calif_False($answer[148]);
+      $this->calif_False($answer[157]);
+      $this->calif_False($answer[158]);
+      $this->calif_False($answer[167]);
+      $this->calif_False($answer[171]);
+      $this->calif_False($answer[196]);
+      $this->calif_False($answer[213]);
+      $this->calif_False($answer[243]);
+      $this->calif_False($answer[267]);
+      $this->calif_False($answer[284]);
+      $this->calif_False($answer[290]);
+      $this->calif_False($answer[330]);
+      $this->calif_False($answer[338]);
+      $this->calif_False($answer[339]);
+      $this->calif_False($answer[341]);
+      $this->calif_False($answer[346]);
+      $this->calif_False($answer[348]);
+      $this->calif_False($answer[356]);
+      $this->calif_False($answer[365]);
+      return $this->c;
    }
    //
    function scale_Hs(){
-      $answer[2]f
-      $answer[3]f
-      $answer[8]f
-      $answer[10]f
-      $answer[18]f
-      $answer[20]f
-      $answer[28]t
-      $answer[39]t
-      $answer[45]f
-      $answer[47]f
-      $answer[53]t
-      $answer[57]f
-      $answer[59]t
-      $answer[91]f
-      $answer[97]t
-      $answer[101]t
-      $answer[111]t
-      $answer[117]f
-      $answer[141]f
-      $answer[143]f
-      $answer[149]t
-      $answer[152]f
-      $answer[164]f
-      $answer[173]f
-      $answer[145]t
-      $answer[176]f
-      $answer[179]f
-      $answer[208]f
-      $answer[224]f
-      $answer[247]t
-      $answer[249]f
-      $answer[255]f
+      $this-> c = 0;
+      $this->calif_False($answer[2]);
+      $this->calif_False($answer[3]);
+      $this->calif_False($answer[8]);
+      $this->calif_False($answer[10]);
+      $this->calif_False($answer[18]);
+      $this->calif_False($answer[20]);
+      $this->calif_True($answer[28]);
+      $this->calif_True($answer[39]);
+      $this->calif_False($answer[45]);
+      $this->calif_False($answer[47]);
+      $this->calif_True($answer[53]);
+      $this->calif_False($answer[57]);
+      $this->calif_True($answer[59]);
+      $this->calif_False($answer[91]);
+      $this->calif_True($answer[97]);
+      $this->calif_True($answer[101]);
+      $this->calif_True($answer[111]);
+      $this->calif_False($answer[117]);
+      $this->calif_False($answer[141]);
+      $this->calif_False($answer[143]);
+      $this->calif_True($answer[149]);
+      $this->calif_False($answer[152]);
+      $this->calif_False($answer[164]);
+      $this->calif_False($answer[173]);
+      $this->calif_True($answer[145]);
+      $this->calif_False($answer[176]);
+      $this->calif_False($answer[179]);
+      $this->calif_False($answer[208]);
+      $this->calif_False($answer[224]);
+      $this->calif_True($answer[247]);
+      $this->calif_False($answer[249]);
+      $this->calif_False($answer[255]);
+      return $this->c;
    }
    //
    function scale_D(){
-      $answer[2]f
-      $answer[5]t
-      $answer[9]f
-      $answer[10]f
-      $answer[15]t
-      $answer[18]t
-      $answer[20]f
-      $answer[29]f
-      $answer[31]t
-      $answer[33]f
-      $answer[37]f
-      $answer[38]t
-      $answer[39]t
-      $answer[43]f
-      $answer[45]f
-      $answer[46]t
-      $answer[49]f
-      $answer[55]f
-      $answer[56]t
-      $answer[68]f
-      $answer[73]t
-      $answer[75]f
-      $answer[76]f
-      $answer[92]t
-      $answer[95]f
-      $answer[109]f
-      $answer[117]t
-      $answer[118]f
-      $answer[127]t
-      $answer[130]t
-      $answer[134]f
-      $answer[140]f
-      $answer[141]f
-      $answer[142]f
-      $answer[143]f
-      $answer[146]t
-      $answer[147]t
-      $answer[148]f
-      $answer[165]f
-      $answer[170]t
-      $answer[175]t
-      $answer[178]f
-      $answer[181]t
-      $answer[188]f
-      $answer[189]f
-      $answer[198]f
-      $answer[209]f
-      $answer[212]f
-      $answer[224]f
-      $answer[231]f
-      $answer[234]f
-      $answer[246]f
-      $answer[253]f
-      $answer[316]f
+      $this-> c = 0;
+      $this->calif_False($answer[2]);
+      $this->calif_True($answer[5]);
+      $this->calif_False($answer[9]);
+      $this->calif_False($answer[10]);
+      $this->calif_True($answer[15]);
+      $this->calif_True($answer[18]);
+      $this->calif_False($answer[20]);
+      $this->calif_False($answer[29]);
+      $this->calif_True($answer[31]);
+      $this->calif_False($answer[33]);
+      $this->calif_False($answer[37]);
+      $this->calif_True($answer[38]);
+      $this->calif_True($answer[39]);
+      $this->calif_False($answer[43]);
+      $this->calif_False($answer[45]);
+      $this->calif_True($answer[46]);
+      $this->calif_False($answer[49]);
+      $this->calif_False($answer[55]);
+      $this->calif_True($answer[56]);
+      $this->calif_False($answer[68]);
+      $this->calif_True($answer[73]);
+      $this->calif_False($answer[75]);
+      $this->calif_False($answer[76]);
+      $this->calif_True($answer[92]);
+      $this->calif_False($answer[95]);
+      $this->calif_False($answer[109]);
+      $this->calif_True($answer[117]);
+      $this->calif_False($answer[118]);
+      $this->calif_True($answer[127]);
+      $this->calif_True($answer[130]);
+      $this->calif_False($answer[134]);
+      $this->calif_False($answer[140]);
+      $this->calif_False($answer[141]);
+      $this->calif_False($answer[142]);
+      $this->calif_False($answer[143]);
+      $this->calif_True($answer[146]);
+      $this->calif_True($answer[147]);
+      $this->calif_False($answer[148]);
+      $this->calif_False($answer[165]);
+      $this->calif_True($answer[170]);
+      $this->calif_True($answer[175]);
+      $this->calif_False($answer[178]);
+      $this->calif_True($answer[181]);
+      $this->calif_False($answer[188]);
+      $this->calif_False($answer[189]);
+      $this->calif_False($answer[198]);
+      $this->calif_False($answer[209]);
+      $this->calif_False($answer[212]);
+      $this->calif_False($answer[224]);
+      $this->calif_False($answer[231]);
+      $this->calif_False($answer[234]);
+      $this->calif_False($answer[246]);
+      $this->calif_False($answer[253]);
+      $this->calif_False($answer[316]);
+      return $this->c;
    }
    //
    function scale_Hi(){
-      $answer[2]f
-      $answer[3]f
-      $answer[7]f
-      $answer[8]f
-      $answer[9]f
-      $answer[10]f
+      $this-> c = 0;
+      $this->calif_False($answer[2]f
+      $this->calif_False($answer[3]f
+      $this->calif_False($answer[7]f
+      $this->calif_False($answer[8]f
+      $this->calif_False($answer[9]f
+      $this->calif_False($answer[10]f
       $answer[11]t
-      $answer[14]f
+      $this->calif_False($answer[14]f
       $answer[18]t
-      $answer[26]f
-      $answer[29]f
+      $this->calif_False($answer[26]f
+      $this->calif_False($answer[29]f
       $answer[31]t
       $answer[39]t
       $answer[40]t
       $answer[44]t
-      $answer[45]f
-      $answer[47]f
-      $answer[58]f
+      $this->calif_False($answer[45]f
+      $this->calif_False($answer[47]f
+      $this->calif_False($answer[58]f
       $answer[65]t
-      $answer[76]f
-      $answer[81]f
-      $answer[91]f
-      $answer[95]f
-      $answer[98]f
+      $this->calif_False($answer[76]f
+      $this->calif_False($answer[81]f
+      $this->calif_False($answer[91]f
+      $this->calif_False($answer[95]f
+      $this->calif_False($answer[98]f
       $answer[101]t
-      $answer[110]f
-      $answer[115]f
-      $answer[116]f
-      $answer[124]f
-      $answer[125]f
-      $answer[129]f
-      $answer[135]f
-      $answer[141]f
-      $answer[148]f
-      $answer[151]f
-      $answer[152]f
-      $answer[157]f
-      $answer[159]f
-      $answer[161]f
-      $answer[164]f
+      $this->calif_False($answer[110]f
+      $this->calif_False($answer[115]f
+      $this->calif_False($answer[116]f
+      $this->calif_False($answer[124]f
+      $this->calif_False($answer[125]f
+      $this->calif_False($answer[129]f
+      $this->calif_False($answer[135]f
+      $this->calif_False($answer[141]f
+      $this->calif_False($answer[148]f
+      $this->calif_False($answer[151]f
+      $this->calif_False($answer[152]f
+      $this->calif_False($answer[157]f
+      $this->calif_False($answer[159]f
+      $this->calif_False($answer[161]f
+      $this->calif_False($answer[164]f
       $answer[166]t
-      $answer[167]f
+      $this->calif_False($answer[167]f
       $answer[172]t
-      $answer[173]f
+      $this->calif_False($answer[173]f
       $answer[175]t
-      $answer[176]f
-      $answer[179]f
-      $answer[185]f
-      $answer[193]f
-      $answer[208]f
-      $answer[213]f
-      $answer[224]f
+      $this->calif_False($answer[176]f
+      $this->calif_False($answer[179]f
+      $this->calif_False($answer[185]f
+      $this->calif_False($answer[193]f
+      $this->calif_False($answer[208]f
+      $this->calif_False($answer[213]f
+      $this->calif_False($answer[224]f
       $answer[230]t
-      $answer[241]f
-      $answer[243]f
-      $answer[249]f
-      $answer[253]f
-      $answer[263]f
-      $answer[265]f
+      $this->calif_False($answer[241]f
+      $this->calif_False($answer[243]f
+      $this->calif_False($answer[249]f
+      $this->calif_False($answer[253]f
+      $this->calif_False($answer[263]f
+      $this->calif_False($answer[265]f
+      return $this->c;
    }
    
    function scale_Dp(){
+      $this-> c = 0;
       $answer[9]f
       $answer[12]f
       $answer[17]t
@@ -348,9 +351,11 @@ class basicScalesMale{
       $answer[266]f
       $answer[267]f
       $answer[288]t
+      return $this->c;
    }
    //Sumar uno hacia abajo jsjsjs
    function scale_Mf(){
+      $this-> c = 0;
       $answer[0]f
       $answer[3]t
       $answer[18]f
@@ -407,9 +412,11 @@ class basicScalesMale{
       $answer[267]t
       $answer[270]t
       $answer[271]f
+      return $this->c;
    }
    
   function scale_Pa(){
+      $this-> c = 0;
       $answer[15]t
       $answer[16]t
       $answer[21]t
@@ -450,9 +457,11 @@ class basicScalesMale{
       $answer[335]t
       $answer[354]t
       $answer[360]t
+      return $this->c;
    }
    
    function scale_Pt(){
+      $this-> c = 0;
       $answer[2]f
       $answer[8]f
       $answer[10]t
@@ -501,9 +510,11 @@ class basicScalesMale{
       $answer[327]t
       $answer[328]t
       $answer[330]t
+      return $this->c;
    }
    
    function scale_Es(){
+      $this-> c = 0;
       $answer[5]f
       $answer[8]f
       $answer[11]f
@@ -582,9 +593,11 @@ class basicScalesMale{
       $answer[332]t
       $answer[342]f
       $answer[354]t
+      return $this->c;
    }
    
    function scale_Ma(){
+      $this-> c = 0;
       $answer[12]t
       $answer[14]t
       $answer[20]t
@@ -631,9 +644,11 @@ class basicScalesMale{
       $answer[252]t
       $answer[262]f
       $answer[268]t
+      return $this->c;
    }
    
    function scale_Ls(){
+      $this-> c = 0;
       $answer[24]f
       $answer[30]t
       $answer[31]f
@@ -703,8 +718,8 @@ class basicScalesMale{
       $answer[367]t
       $answer[368]t
       $answer[369]f
+      return $this->c;
    }
-   */
 }
 
 ?>
