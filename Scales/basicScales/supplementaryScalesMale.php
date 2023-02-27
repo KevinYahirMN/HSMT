@@ -445,32 +445,128 @@ class supplementaryScalesMale{
     return $this->c;
  }
 
- function scale_($answer = array()){
-    $this->calif_True($answer[]);
-    
-    
-    return $this->c2;
- }
-
- function scale_($answer = array()){
-    $this->calif_True($answer[]);
-    
-    
-    return $this->c2;
- }
-
- function scale_($answer = array()){
-    $this->calif_True($answer[]);
-    
-    
-    return $this->c2;
- }
-
-
-
+ function scale_EPK($answer = array()){
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+}
+ 
 }
 //Perfil de escalas suplementarias MMPI-2
 /*
+ function scale_EPK($answer = array()){
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+   $this->calif_($answer[]);
+}
+
+
+ function scale_($answer = array()){
+    $this->calif_True($answer[]);
+    
+    
+    return $this->c2;
+ }
+
+ function scale_($answer = array()){
+    $this->calif_True($answer[]);
+    
+    
+    return $this->c2;
+ }
+
+ function scale_($answer = array()){
+    $this->calif_True($answer[]);
+    
+    
+    return $this->c2;
+ }
 function scale_A(){
    $answer[30]t
    $answer[37]t
@@ -890,55 +986,6 @@ function scale_GF(){
    $answer[547]f
    $answer[549]f
    $answer[551]t
-}
-
-function scale_EPK(){
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
-   $answer[]
 }
 */
 ?>
