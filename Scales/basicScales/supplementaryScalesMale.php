@@ -62,7 +62,7 @@ class supplementaryScalesMale{
       $this->calif_True($answer[451]);
       $this->calif_True($answer[464]);
       $this->calif_True($answer[469]);
-      return $this->c2;
+      return $this->c;
    }
 
    function scale_R($answer = array()){
@@ -102,7 +102,7 @@ class supplementaryScalesMale{
     $this->calif_False($answer[449]);
     $this->calif_False($answer[456]);
     $this->calif_False($answer[465]);
-    return $this->c2;
+    return $this->c;
  }
 
  function scale_Fyo($answer = array()){
@@ -157,7 +157,7 @@ class supplementaryScalesMale{
     $this->calif_false($answer[464]);
     $this->calif_false($answer[469]);
     $this->calif_false($answer[471]);
-    return $this->c2;
+    return $this->c;
  }
 
  function scale_A_MAC($answer = array()){
@@ -208,7 +208,7 @@ class supplementaryScalesMale{
     $this->calif_True($answer[502]);
     $this->calif_True($answer[506]);
     $this->calif_True($answer[549]);
-    return $this->c2;
+    return $this->c;
  }
 
  function scale_HR($answer = array()){
@@ -239,7 +239,7 @@ class supplementaryScalesMale{
     $this->calif_False($answer[440]);
     $this->calif_False($answer[460]);
     $this->calif_True($answer[471]);   
-    return $this->c2;
+    return $this->c;
  }
 
  function scale_Do($answer = array()){
@@ -265,7 +265,7 @@ class supplementaryScalesMale{
     $this->calif_True($answer[416]);
     $this->calif_False($answer[470]);
     $this->calif_False($answer[473]);
-    return $this->c2;
+    return $this->c;
  }
 
  function scale_Rs($answer = array()){
@@ -297,7 +297,7 @@ class supplementaryScalesMale{
     $this->calif_True($answer[467]);
     $this->calif_False($answer[468]);
     $this->calif_False($answer[470]);
-    return $this->c2;
+    return $this->c;
  }
 
  function scale_Dpr($answer = array()){
@@ -342,7 +342,7 @@ class supplementaryScalesMale{
     $this->calif_True($answer[464]);
     $this->calif_True($answer[469]);
     $this->calif_True($answer[472]);
-    return $this->c2;
+    return $this->c;
  }
 
  function scale_GM($answer = array()){
@@ -392,7 +392,7 @@ class supplementaryScalesMale{
     $this->calif_False($answer[519]);
     $this->calif_False($answer[532]);
     $this->calif_False($answer[536]);
-    return $this->c2;
+    return $this->c;
  }
 
  function scale_GF($answer = array()){
@@ -442,7 +442,7 @@ class supplementaryScalesMale{
     $this->calif_False($answer[548]);
     $this->calif_False($answer[550]);
     $this->calif_True($answer[552]);
-    return $this->c2;
+    return $this->c;
  }
 
  function scale_($answer = array()){

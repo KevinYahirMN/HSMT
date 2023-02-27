@@ -29,6 +29,6 @@ $c.array_push($basicScaleMale->scale_Ls($answer));
 echo $c;
 
 //Codigo de escalas suplementarias - puesto a cambios
-$c2 = ($supplementaryScaleMale->scale_A($answer));
-echo $c2;
+$c = ($supplementaryScaleMale->scale_A($answer));
+echo $c;
 ?>
