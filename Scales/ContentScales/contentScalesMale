@@ -41,7 +41,7 @@ class contentScalesMale{
         $this->calif_True($answer[556]);
         return $this->c;
     }
-
+/*
     function scale_($answer = array()){
         $this->c = 0;
         $this->calif_($answer[]);
@@ -97,5 +97,6 @@ class contentScalesMale{
         $this->calif_($answer[]);
         return $this->c;
     }
+*/
 }
 ?>
