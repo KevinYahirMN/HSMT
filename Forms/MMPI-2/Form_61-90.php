@@ -35,7 +35,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 63-->
-            <br><p>Mis sentimientos no son hervalueos con facilvaluead</p>
+            <br><p>Mis sentimientos no son heridos con facilidad</p>
             <input type="radio" value="true" name="Q[3]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[3]">
@@ -106,7 +106,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 73-->
-            <br><p>Decvaluevalueamente no tengo confianza en mí mismo</p>
+            <br><p>Decididamente no tengo confianza en mí mismo</p>
             <input type="radio" value="true" name="Q[13]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[13]">
@@ -120,7 +120,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 75-->
-            <br><p>Normalmente siento que la vvaluea vale la pena vivirla</p>
+            <br><p>Normalmente siento que la vida vale la pena vivirla</p>
             <input type="radio" value="true" name="Q[15]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[15]">
@@ -201,7 +201,7 @@ $_SESSION['answer'] = $answer;
             
             <!--Pregunta 86-->
             <br><p>Me gustaría asistir a reuniones o fiestas donde haya mucha alegría 
-                y ruvalueo
+                y ruido
             </p>
             <input type="radio" value="true" name="Q[26]">
             <label>verdadero</label>
@@ -209,8 +209,8 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 87-->
-            <br><p>Me he encontrado con problemas tan llenos de posibilvalueades, que no he 
-                podvalueo llegar a una decisión
+            <br><p>Me he encontrado con problemas tan llenos de posibilidades, que no he 
+                podido llegar a una decisión
             </p>
             <input type="radio" value="true" name="Q[27]">
             <label>verdadero</label>

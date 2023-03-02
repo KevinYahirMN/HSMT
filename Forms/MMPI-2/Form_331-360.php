@@ -27,7 +27,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 332-->
-            <br><p>A veces me ha gustado ser herivalueo por una persona quervaluea</p>
+            <br><p>A veces me ha gustado ser heriido por una persona querida</p>
             <input type="radio" value="true" name="Q[2]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[2]">
@@ -76,7 +76,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 339-->            
-            <p>frecuentemente mis proyectos me han parecvalueo tan llenos de dificultades que he tenvalueo que abandonarlos</p>
+            <p>frecuentemente mis proyectos me han parecido tan llenos de dificultades que he tenido que abandonarlos</p>
             <input type="radio" value="true" name="Q[9]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[9]">
@@ -118,7 +118,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 345-->            
-            <p>Si me dieran la oportunvaluead, podria hacer cosas que beneficiarian mucho al mundo</p>
+            <p>Si me dieran la oportunidad, podria hacer cosas que beneficiarian mucho al mundo</p>
             <input type="radio" value="true" name="Q[15]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[15]">
@@ -153,7 +153,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 350-->
-            <br><p>Si me dieran la oportunvaluead podría ser un buen lvalueer</p>
+            <br><p>Si me dieran la oportunidad podría ser un buen lider</p>
             <input type="radio" value="true" name="Q[20]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[20]">
@@ -167,7 +167,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 352-->            
-            <p>Normalmente la gente pvaluee para sus propios derechos más respeto que el que da a los de otras personas</p>
+            <p>Normalmente la gente pide para sus propios derechos más respeto que el que da a los de otras personas</p>
             <input type="radio" value="true" name="Q[22]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[22]">
@@ -181,14 +181,14 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 354-->
-            <br><p>Trato de memorizar los cuentos divertvalueos para poder contárselos a otros</p>
+            <br><p>Trato de memorizar los cuentos divertidos para poder contárselos a otros</p>
             <input type="radio" value="true" name="Q[24]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[24]">
             <label>falso</label>
 
             <!--Pregunta 355-->
-            <br><p>Una o más veces en mi vvaluea sentí que alguien me obligó a hacer cosas hipnotizándome</p>
+            <br><p>Una o más veces en mi vida sentí que alguien me obligó a hacer cosas hipnotizándome</p>
             <input type="radio" value="true" name="Q[25]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[25]">
@@ -209,7 +209,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
       
             <!--Pregunta 358-->
-            <br><p>A menudo han sentvalueo celos de mis valueeas porque no las pensaron antes</p>
+            <br><p>A menudo han sentido celos de mis ideas porque no las pensaron antes</p>
             <input type="radio" value="true" name="Q[28]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[28]">

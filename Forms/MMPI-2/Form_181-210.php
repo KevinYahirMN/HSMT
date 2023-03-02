@@ -27,7 +27,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 182-->
-            <br><p>He tenvalueo ataques en los que perdía el control de mis
+            <br><p>He tenido ataques en los que perdía el control de mis
                  movimientos o de la palabra, pero sabía lo que pasaba a
                   mí alrededor</p>
             <input type="radio" value="true" name="Q[2]">
@@ -50,7 +50,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 185-->
-            <br><p>Me gustaría ser menos tímvalueo</p>
+            <br><p>Me gustaría ser menos tímido</p>
             <input type="radio" value="true" name="Q[5]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[5]">
@@ -108,14 +108,14 @@ $_SESSION['answer'] = $answer;
              <label>falso</label>
              
              <!--Pregunta 193-->
-             <br><p>Cuando camino por la vereda evito cuvalueadosamente pisar las baldosas flojas</p>
+             <br><p>Cuando camino por la vereda evito cuidadosamente pisar las baldosas flojas</p>
              <input type="radio" value="true" name="Q[13]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[13]">
              <label>falso</label>
  
              <!--Pregunta 194-->
-             <br><p>Nunca he tenvalueo erupciones en la piel que me hayan preocupado</p>
+             <br><p>Nunca he tenido erupciones en la piel que me hayan preocupado</p>
              <input type="radio" value="true" name="Q[14]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[14]">
@@ -192,14 +192,14 @@ $_SESSION['answer'] = $answer;
              <label>falso</label>
  
              <!--Pregunta 205-->
-             <br><p>Alguno de mis familiares tiene costumbres que me molestan y fastvalueian muchísimo</p>
+             <br><p>Alguno de mis familiares tiene costumbres que me molestan y fastidian muchísimo</p>
              <input type="radio" value="true" name="Q[25]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[25]">
              <label>falso</label>
  
              <!--Pregunta 206-->
-             <br><p>A veces me siento capaz de tomar decisiones con extraordinaria facilvaluead</p>
+             <br><p>A veces me siento capaz de tomar decisiones con extraordinaria facilidad</p>
              <input type="radio" value="true" name="Q[26]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[26]">
@@ -213,7 +213,7 @@ $_SESSION['answer'] = $answer;
              <label>falso</label>
  
              <!--Pregunta 208-->
-             <br><p>Raramente noto los latvalueos de mi corazón y pocas veces se me corta la respiración</p>
+             <br><p>Raramente noto los latidos de mi corazón y pocas veces se me corta la respiración</p>
              <input type="radio" value="true" name="Q[28]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[28]">

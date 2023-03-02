@@ -63,7 +63,7 @@ $_SESSION['answer'] = $answer;
             
             <!--Pregunta 97-->
             <br><p>Parece como si la mayor parte del tiempo tuviera la cabeza cargada o 
-                llena de ruvalueos
+                llena de ruidos
             </p>
             <input type="radio" value="true" name="Q[7]">
             <label>verdadero</label>
@@ -133,7 +133,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 106-->
-            <br><p>Mi manera de hablar es como siempre (ni más rápvaluea, ni más lenta, 
+            <br><p>Mi manera de hablar es como siempre (ni más rápida, ni más lenta, 
                 ni más atropellada, no tengo carraspera)</p>
             <input type="radio" value="true" name="Q[16]">
             <label>verdadero</label>

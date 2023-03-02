@@ -48,7 +48,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 305-->            
-            <p>Sin duda he tenvalueo que preocuparme por más cosas que las que me correspondían</p>
+            <p>Sin duda he tenido que preocuparme por más cosas que las que me correspondían</p>
             <input type="radio" value="true" name="Q[5]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[5]">
@@ -69,7 +69,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 308-->            
-            <br><p>Olvvalueo enseguvaluea lo que la gente me dice</p>
+            <br><p>Olvido enseguida lo que la gente me dice</p>
             <input type="radio" value="true" name="Q[8]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[8]">
@@ -152,14 +152,14 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 320-->
-            <br><p>He tenvalueo miedo de cosas o personas que sabía que no podían hacerme daño</p>
+            <br><p>He tenido miedo de cosas o personas que sabía que no podían hacerme daño</p>
             <input type="radio" value="true" name="Q[20]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[20]">
             <label>falso</label>
 
             <!--Pregunta 321-->
-            <br><p>No me dan miedo entrar solo a una habitación donde hay gente reunvaluea hablando</p>
+            <br><p>No me dan miedo entrar solo a una habitación donde hay gente reunida hablando</p>
             <input type="radio" value="true" name="Q[21]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[21]">
@@ -194,7 +194,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 326-->
-            <br><p>Varias veces he dejado de hacer algo por consvalueerar insuficiente mi habilvaluead</p>
+            <br><p>Varias veces he dejado de hacer algo por considerar insuficiente mi habilidad</p>
             <input type="radio" value="true" name="Q[26]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[26]">

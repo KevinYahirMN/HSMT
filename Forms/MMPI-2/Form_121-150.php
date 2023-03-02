@@ -27,7 +27,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 122-->
-            <br><p>A veces mi pensamiento ha valueo más rápvalueo y delante de mis palabras</p>
+            <br><p>A veces mi pensamiento ha ido más rápido y delante de mis palabras</p>
             <input type="radio" value="true" name="Q[2]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[2]">
@@ -50,7 +50,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 125-->
-            <br><p>Creo que mi vvaluea hogareña es tan agradable como la de mucha gente 
+            <br><p>Creo que mi vida hogareña es tan agradable como la de mucha gente 
                 que conozco</p>
             <input type="radio" value="true" name="Q[5]">
             <label>verdadero</label>
@@ -95,14 +95,14 @@ $_SESSION['answer'] = $answer;
             
             <!--Pregunta 131-->
             <br><p>Cuando era pertenecia a una banda que intentaba mantenerse 
-                unvaluea como "carne y uña"</p>
+                unida como "carne y uña"</p>
             <input type="radio" value="true" name="Q[11]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[11]">
             <label>falso</label>
 
             <!--Pregunta 132-->
-            <br><p>Creo en la vvaluea del allá</p>
+            <br><p>Creo en la vida del allá</p>
             <input type="radio" value="true" name="Q[12]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[12]">
@@ -123,15 +123,15 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 135-->
-            <br><p>Frecuentemente he perdvalueo o desaprovechado cosas por no saber
-                 decvalueirme a tiempo</p>
+            <br><p>Frecuentemente he perdido o desaprovechado cosas por no saber
+                 decidirme a tiempo</p>
             <input type="radio" value="true" name="Q[15]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[15]">
             <label>falso</label>
 
             <!--Pregunta 136-->
-            <br><p>Me molesta que me pvaluean consejo o que me interrumpan cuando 
+            <br><p>Me molesta que me pidan consejo o que me interrumpan cuando 
                 estoy trabajando en algo importante</p>
             <input type="radio" value="true" name="Q[16]">
             <label>verdadero</label>
@@ -153,14 +153,14 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 139-->
-            <br><p>En un juego o partvaluea suelo más ganar que perder</p>
+            <br><p>En un juego o partida suelo más ganar que perder</p>
             <input type="radio" value="true" name="Q[19]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[19]">
             <label>falso</label>
 
             <!--Pregunta 140-->
-            <br><p>Casi todas las noches me duermo con valueeas o pensamientos molestos</p>
+            <br><p>Casi todas las noches me duermo con ideas o pensamientos molestos</p>
             <input type="radio" value="true" name="Q[20]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[20]">
@@ -174,7 +174,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 142-->
-            <br><p>Nunca he tenvalueo un ataque o convulsión</p>
+            <br><p>Nunca he tenido un ataque o convulsión</p>
             <input type="radio" value="true" name="Q[22]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[22]">
@@ -195,21 +195,21 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 145-->
-            <br><p>Creo que frecuentemente he svalueo castigado sin causa</p>
+            <br><p>Creo que frecuentemente he sido castigado sin causa</p>
             <input type="radio" value="true" name="Q[25]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[25]">
             <label>falso</label>
 
             <!--Pregunta 146-->
-            <br><p>Lloro con facilvaluead</p>
+            <br><p>Lloro con facilidad</p>
             <input type="radio" value="true" name="Q[26]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[26]">
             <label>falso</label>
 
             <!--Pregunta 147-->
-            <br><p>Actualmente no comprendo lo que leo con la facilvaluead 
+            <br><p>Actualmente no comprendo lo que leo con la facilidad 
                 que tenía antes</p>
             <input type="radio" value="true" name="Q[27]">
             <label>verdadero</label>
@@ -217,7 +217,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 148-->
-            <br><p>Nunca me he sentvalueo mejor que ahora</p>
+            <br><p>Nunca me he sentido mejor que ahora</p>
             <input type="radio" value="true" name="Q[28]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[28]">

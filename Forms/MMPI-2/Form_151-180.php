@@ -21,7 +21,7 @@ $_SESSION['answer'] = $answer;
         <form method="post" action="Form_181-210.php">
             <!--Pregunta 151-->
             <br><p>Me molesta que alguien se haya burlado tan inteligentemente 
-                de mi que yo haya tenvalueo que admitir que lo logró </p>
+                de mi que yo haya tenido que admitir que lo logró </p>
             <input type="radio" value="true" name="Q[1]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[1]">
@@ -80,7 +80,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 159-->
-            <br><p>Nunca he tenvalueo un desmayo o desvanecimiento</p>
+            <br><p>Nunca he tenido un desmayo o desvanecimiento</p>
             <input type="radio" value="true" name="Q[9]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[9]">
@@ -95,7 +95,7 @@ $_SESSION['answer'] = $answer;
             
             <!--Pregunta 161-->
             <br><p>Frecuentemente tengo que esforzarme para no demostrar 
-                que soy tímvalueo</p>
+                que soy tímido</p>
             <input type="radio" value="true" name="Q[11]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[11]">
@@ -145,15 +145,15 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 168-->
-            <br><p>He tenvalueo épocas durante las cuales he realizado
-                 activvalueades que luego no recordaba haber hecho</p>
+            <br><p>He tenido épocas durante las cuales he realizado
+                 actividades que luego no recordaba haber hecho</p>
             <input type="radio" value="true" name="Q[18]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[18]">
             <label>falso</label>
             
             <!--Pregunta 169-->
-            <br><p>Cuando estoy aburrvalueo me gusta promover algo excitante</p>
+            <br><p>Cuando estoy aburrido me gusta promover algo excitante</p>
             <input type="radio" value="true" name="Q[19]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[19]">
@@ -196,7 +196,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 175-->
-            <br><p>Siento debilvaluead general la mayor parte del tiempo</p>
+            <br><p>Siento debilidad general la mayor parte del tiempo</p>
             <input type="radio" value="true" name="Q[25]">
             <label>verdadero</label>
             <input type="radio" value="false" name="Q[25]">
@@ -225,7 +225,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             
             <!--Pregunta 179-->
-            <br><p>No he tenvaluezo dificultades para mantener el equilibrio al
+            <br><p>No he tenidzo dificultades para mantener el equilibrio al
                  caminar</p>
             <input type="radio" value="true" name="Q[29]">
             <label>verdadero</label>

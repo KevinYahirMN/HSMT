@@ -41,7 +41,7 @@ $_SESSION['answer'] = $answer;
           <label>falso</label>
 
           <!--Pregunta 244-->
-          <br><p>Cuando estoy abatvalueo (bajoneado), algo emocionante me saca casi siempre de ese estado</p>
+          <br><p>Cuando estoy abatido (bajoneado), algo emocionante me saca casi siempre de ese estado</p>
           <input type="radio" value="true" name="Q[4]">
           <label>verdadero</label>
           <input type="radio" value="false" name="Q[4]">
@@ -76,14 +76,14 @@ $_SESSION['answer'] = $answer;
           <label>falso</label>
 
           <!--Pregunta 249-->
-          <br><p>Mi vista es tan buena como lo ha svalueo durante años</p>
+          <br><p>Mi vista es tan buena como lo ha sido durante años</p>
           <input type="radio" value="true" name="Q[9]">
           <label>verdadero</label>
           <input type="radio" value="false" name="Q[9]">
           <label>falso</label>
 
           <!--Pregunta 250-->
-          <br><p>A veces me ha divertvalueo tanto el ingenio de un delincuente, que he deseado que le fuera bien</p>
+          <br><p>A veces me ha divertido tanto el ingenio de un delincuente, que he deseado que le fuera bien</p>
           <input type="radio" value="true" name="Q[10]">
           <label>verdadero</label>
           <input type="radio" value="false" name="Q[10]">
@@ -104,7 +104,7 @@ $_SESSION['answer'] = $answer;
           <label>falso</label>
 
           <!--Pregunta 253-->
-          <br><p>Todos los días tomo una cantvaluead excesivamente grande de agua</p>
+          <br><p>Todos los días tomo una cantidad excesivamente grande de agua</p>
           <input type="radio" value="true" name="Q[13]">
           <label>verdadero</label>
           <input type="radio" value="false" name="Q[13]">
@@ -125,7 +125,7 @@ $_SESSION['answer'] = $answer;
           <label>falso</label>
 
           <!--Pregunta 256-->
-          <br><p>De vez en cuando siento fastvalueio hacia familiares que normalmente quiero</p>
+          <br><p>De vez en cuando siento fastidio hacia familiares que normalmente quiero</p>
           <input type="radio" value="true" name="Q[16]">
           <label>verdadero</label>
           <input type="radio" value="false" name="Q[16]">
@@ -174,7 +174,7 @@ $_SESSION['answer'] = $answer;
           <label>falso</label>
 
           <!--Pregunta 263-->
-          <br><p>Siento siempre aversión por la ley cuando un criminal sale libre gracias a la habilvaluead de un abogado astuto</p>
+          <br><p>Siento siempre aversión por la ley cuando un criminal sale libre gracias a la habilidad de un abogado astuto</p>
           <input type="radio" value="true" name="Q[23]">
           <label>verdadero</label>
           <input type="radio" value="false" name="Q[23]">
@@ -195,14 +195,14 @@ $_SESSION['answer'] = $answer;
           <label>falso</label>
 
           <!--Pregunta 266-->
-          <br><p>Nunca he tenvalueo problemas con la ley</p>
+          <br><p>Nunca he tenido problemas con la ley</p>
           <input type="radio" value="true" name="Q[26]">
           <label>verdadero</label>
           <input type="radio" value="false" name="Q[26]">
           <label>falso</label>
 
           <!--Pregunta 267-->
-          <br><p>Tengo épocas en las que me he sentvalueo más animado que de costumbre sin que exista una razón especial</p>
+          <br><p>Tengo épocas en las que me he sentido más animado que de costumbre sin que exista una razón especial</p>
           <input type="radio" value="true" name="Q[27]">
           <label>verdadero</label>
           <input type="radio" value="false" name="Q[27]">

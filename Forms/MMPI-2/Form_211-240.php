@@ -20,7 +20,7 @@ $_SESSION['answer'] = $answer;
     <body>
         <form method="post" action="Form_241-270.php">
              <!--Pregunta 211-->
-             <br><p>Me han sugervalueo una forma de vvaluea basada en el deber y desde entonces la he seguvalueo cuvalueadosamente</p>
+             <br><p>Me han sugerido una forma de vida basada en el deber y desde entonces la he seguido cuidadosamente</p>
              <input type="radio" value="true" name="Q[1]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[1]">
@@ -76,7 +76,7 @@ $_SESSION['answer'] = $answer;
              <label>falso</label>
  
              <!--Pregunta 219-->
-             <br><p>He tenvalueo desengaños amorosos</p>
+             <br><p>He tenido desengaños amorosos</p>
              <input type="radio" value="true" name="Q[9]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[9]">
@@ -97,7 +97,7 @@ $_SESSION['answer'] = $answer;
              <label>falso</label>
  
              <!--Pregunta 222-->
-             <br><p>Debería enseñarse a los niños lo principal ac erca de la vvaluea sexual</p>
+             <br><p>Debería enseñarse a los niños lo principal ac erca de la vida sexual</p>
              <input type="radio" value="true" name="Q[12]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[12]">
@@ -139,21 +139,21 @@ $_SESSION['answer'] = $answer;
              <label>falso</label>
  
              <!--Pregunta 228-->
-             <br><p>Hay personas que están intentando apoderarse de mis valueeas y proyectos</p>
+             <br><p>Hay personas que están intentando apoderarse de mis ideas y proyectos</p>
              <input type="radio" value="true" name="Q[18]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[18]">
              <label>falso</label>
  
              <!--Pregunta 229-->
-             <br><p>He tenvalueo momentos de nerviosismo que interrumpieron mis activvalueades, y en los que no sabía que ocurría a mi alrededor</p>
+             <br><p>He tenido momentos de nerviosismo que interrumpieron mis actividades, y en los que no sabía que ocurría a mi alrededor</p>
              <input type="radio" value="true" name="Q[19]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[19]">
              <label>falso</label>
  
              <!--Pregunta 230-->
-             <br><p>Puedo mostrarme amistoso con la gente que hace cosas que yo consvalueero incorrectas</p>
+             <br><p>Puedo mostrarme amistoso con la gente que hace cosas que yo considero incorrectas</p>
              <input type="radio" value="true" name="Q[20]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[20]">
@@ -167,7 +167,7 @@ $_SESSION['answer'] = $answer;
              <label>falso</label>
  
              <!--Pregunta 232-->
-             <br><p>En las elecciones,algunas veces, voto candvalueatos que conozco muy poco</p>
+             <br><p>En las elecciones,algunas veces, voto candidatos que conozco muy poco</p>
              <input type="radio" value="true" name="Q[22]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[22]">

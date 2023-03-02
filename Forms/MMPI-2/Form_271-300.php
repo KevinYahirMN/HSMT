@@ -20,21 +20,21 @@ $_SESSION['answer'] = $answer;
     <body>
         <form method="post" action="Form_301-330.php">
              <!--Pregunta 271-->
-             <br><p>Creo que mi sensibilvaluead es más intensa que la de la mayor parte de la gente</p>
+             <br><p>Creo que mi sensibilidad es más intensa que la de la mayor parte de la gente</p>
              <input type="radio" value="true" name="Q[1]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[1]">
              <label>falso</label>
  
              <!--Pregunta 272-->
-             <br><p>En ningún momento de mi vvaluea me ha gustado jugar con muñecos</p>
+             <br><p>En ningún momento de mi vida me ha gustado jugar con muñecos</p>
              <input type="radio" value="true" name="Q[2]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[2]">
              <label>falso</label>
  
              <!--Pregunta 273-->
-             <br><p>Para mí, la vvaluea es tensión la mayor parte del tiempo</p>
+             <br><p>Para mí, la vida es tensión la mayor parte del tiempo</p>
              <input type="radio" value="true" name="Q[3]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[3]">
@@ -84,7 +84,7 @@ $_SESSION['answer'] = $answer;
              <label>falso</label>
  
              <!--Pregunta 280-->
-             <br><p>Me parece que hago amigos tan rápvalueo como los demás</p>
+             <br><p>Me parece que hago amigos tan rápido como los demás</p>
              <input type="radio" value="true" name="Q[10]">
              <label>verdadero</label>
              <input type="radio" value="false" name="Q[10]">
@@ -191,7 +191,7 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
 
             <!--Pregunta 295-->
-            <br><p>Nunca he tenvalueo parálisis ni sufrvalueo una debilvaluead desacostumbrada en algunos de mis músculos</p>
+            <br><p>Nunca he tenido parálisis ni sufrido una debilidad desacostumbrada en algunos de mis músculos</p>
             <input type="radio" value="true" name="Q[25]">
             <label>verdadero</label>            
             <input type="radio" value="false" name="Q[25]">
