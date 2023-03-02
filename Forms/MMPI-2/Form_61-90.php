@@ -1,3 +1,16 @@
+<?php
+session_start();
+$answer = $_SESSION['answer'];
+
+$postanswer = $_POST['Q'];
+
+for($i = 1; $i < 31; $i++){
+   array_push($answer, $postanswer[$i]);
+}
+
+$_SESSION['answer'] = $answer;
+?>
+
 <!DOCTYPE html>
 <html lang="es">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
