@@ -1,11 +1,11 @@
 <?php
 
 session_start();
-
-$respuesta = $_POST['Q'];
 $answer = $_SESSION['answer'];
 
-for($i = 0; $i < 2; $i++){
+$respuesta = $_POST['Q'];
+
+for($i = 1; $i < 31; $i++){
    array_push($answer, $respuesta[$i]);
 }
 
