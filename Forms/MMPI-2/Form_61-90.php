@@ -18,7 +18,7 @@ $_SESSION['answer'] = $answer;
         Examen ejemplo jsjsjs
     </title>
     <body>
-        <form method="post" action="Form_91-120.html">
+        <form method="post" action="../../Pruebas/pruebas.php">
             <!--Pregunta 61-->
             <br><p>Soy una persona importante</p>
             <input type="radio" value="true" name="Q[61]">
