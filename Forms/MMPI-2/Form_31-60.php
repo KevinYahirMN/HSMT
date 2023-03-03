@@ -9,7 +9,9 @@
         Examen ejemplo jsjsjs
     </title>
     <body>
-        <form method="post" action="Form_61-90.php">
+        <form method="post" action="../../Pruebas/pruebas.php">
+        <!-- -->
+        <!--<form method="post" action="Form_61-90.php">-->
             <!--Pregunta 31-->
             <br><p>Me cuesta bastante concentrarme en una tarea o trabajo</p>
             <input type="radio" value="true" name="Q[1]">
