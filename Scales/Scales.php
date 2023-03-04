@@ -1,34 +1,58 @@
  <?php
 
-//Declaración de variables
-//$c = array(); //contador de puntaje
-$answer = $_POST['Q']; //Arreglo de respuestas
-$c;
-$c2;
 include('basicScales/basicScalesMale.php');
-include('basicScales/supplementaryScalesMale.php');
+include('SupplementaryScales/supplementaryScalesMale.php');
+include('ContentScales/contentScalesMale.php');
+
+session_start();
+$answer = $_SESSION['answer'];
+
+$postanswer = $_POST['Q'];
+
+for($i = 1; $i < 31; $i++){
+   array_push($answer, $postanswer[$i]);
+}
+
+//Declaración de variables
+$cBasicMale = array(); //contador de puntaje para escala basica de hombres
+$cSupplementaryMale = array(); //contador de puntaje para escala suplementaria de hombre
+$cContentMale = array(); //contador de puntaje para escala de contenido de hombre
 
 $basicScaleMale = new basicScalesMale();
 $supplementaryScalesMale = new supplementaryScalesMale();
+$contentScaleMale = new contentScalesMale();
 
-//$c = $basicScaleMale->scale_L('false');
-$c = ($basicScaleMale->scale_L($answer));
-/*$c.array_push($basicScaleMale->scale_F($answer));
-$c.array_push($basicScaleMale->scale_K($answer));
-$c.array_push($basicScaleMale->scale_Hs($answer));
-$c.array_push($basicScaleMale->scale_D($answer));
-$c.array_push($basicScaleMale->scale_Hi($answer));
-$c.array_push($basicScaleMale->scale_Dp($answer));
-$c.array_push($basicScaleMale->scale_Mf($answer));
-$c.array_push($basicScaleMale->scale_Pa($answer));
-$c.array_push($basicScaleMale->scale_Pt($answer));
-$c.array_push($basicScaleMale->scale_Es($answer));
-$c.array_push($basicScaleMale->scale_Ma($answer));
-$c.array_push($basicScaleMale->scale_Ls($answer));
-*/
-echo $c;
+array_push($cBasicMale, $basicScaleMale->scale_L($answer));
+array_push($cBasicMale, $basicScaleMale->scale_F($answer));
+array_push($cBasicMale, $basicScaleMale->scale_K($answer));
+array_push($cBasicMale, $basicScaleMale->scale_Hs($answer));
+array_push($cBasicMale, $basicScaleMale->scale_D($answer));
+array_push($cBasicMale, $basicScaleMale->scale_Hi($answer));
+array_push($cBasicMale, $basicScaleMale->scale_Dp($answer));
+array_push($cBasicMale, $basicScaleMale->scale_Mf($answer));
+array_push($cBasicMale, $basicScaleMale->scale_Pa($answer));
+array_push($cBasicMale, $basicScaleMale->scale_Pt($answer));
+array_push($cBasicMale, $basicScaleMale->scale_Es($answer));
+array_push($cBasicMale, $basicScaleMale->scale_Ma($answer));
+array_push($cBasicMale, $basicScaleMale->scale_Ls($answer));
 
-//Codigo de escalas suplementarias - puesto a cambios
-$c = ($supplementaryScaleMale->scale_A($answer));
-echo $c;
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_A($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_R($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_Fyo($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_A_MAC($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_HR($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_Do($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_Rs($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_Dpr($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_GM($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_GF($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_EPK($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_EPS($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_ls1($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_ls2($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_ls3($answer));
+array_push($cSupplementaryMale, $supplementaryScalesMale->scale_Fp($answer));
+
+array_push($cContentMale, $contentScaleMale->scale_ANS($answer));
+
 ?>
