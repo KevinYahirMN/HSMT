@@ -1,9 +1,9 @@
 body{
-  background-color: #ededed;
+  background-color: #27d84d;
 }
 .board{
     margin: auto;
-    width: 55%;
+    width: 100%;
     height: 450px;
     background-color: #e2e2e2;
     padding: 10px;
@@ -146,6 +146,16 @@ body{
 .b3{ height: 55%}
 .b4{ height: 75%}
 .b5{ height: 85%}
+.b6{ height: 35%}
+.b7{ height: 45%}
+.b8{ height: 55%}
+.b9{ height: 75%}
+.b10{ height: 85%}
+.b11{ height: 35%}
+.b12{ height: 45%}
+.b13{ height: 55%}
+.b14{ height: 55%}
+.b15{ height: 55%}
 footer{
     position: absolute;
     bottom: 0px;
