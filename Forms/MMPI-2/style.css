@@ -1,90 +1,161 @@
-.content {
-  margin-top: 56px;
-  
-  
-
-}
-.header {
-  
-  
-  padding: 15px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 9999;
-  
- 
-}
-.left-title {
-  width: 5000000px;
-  color: #fff;
-  font-size: 18px;
-  float: left;
-  height: 11px;
-}
-.right-title {
-  width: 1000px;
-  text-align: right;
-  float: right;
-  color: #fff;
-  height: 11px;;
-}
-.quiz-body {
-  margin-top: -40px;
-  padding-bottom: 10px;
-}
-.option-block-container {
-  margin-top: 20px;
-  max-width: 4200px;
-}
-.option-block {
-  padding: 10px;
-  background: aliceblue;
-  border: 1px solid #84c5fe;
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-.result-question {
-  font-weight: bold;
-}
-.c-wrong {
-  margin-left: 20px;
-  color: #ff0000;
-}
-.c-correct {
-  margin-left: 20px;
-  color: green;
-}
-.last-row {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 25px;
-  margin-bottom: 25px;
-}
-.res-header {
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap");
 
 body {
-  background-image: url("1.jpg");
- 
+  background: url(https://images.wallpaperscraft.com/image/single/blur_glare_colorful_186437_5472x3648.jpg);
+  background-size: cover;
 }
 
-blockquote {
-  background: #eee;
+header {
+  background: rgba(0, 0, 0, 0.7);
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  color: white;
+  font-family: "Sora", sans serif;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-family: "Sora", sans serif;
+  color: white;
+}
+
+
+
+input,
+select {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  outline: none;
+  border: 2px solid white;
+}
+
+input {
+  padding: 0 0 5px 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  font-size: 13px;
+  font-weight: 300;
+  color: white;
+  font-family: "Sora", sans serif;
+}
+
+
+[type="radio"] {
+  display: inline-block;
+  margin: 0 10px 0 0 !important;
+  position: relative;
+  appearance: none;
+  height: 19px;
+  width: 23px;
+  color: blue; 
+  cursor: pointer;
+  outline: none;
+  z-index: 1000;
+  border: 2px solid white;
+  background-clip: content-box;
+  padding: 3px;
+}
+
+input[type="radio"] {
+  border-radius: 0%;
+}
+
+input[type="radio"]:checked {
+  background-color: #34970c;
+}
+
+select {
+  height: 40px;
+  padding: 10px;
   border-radius: 10px;
-  margin: 16px 0;
-  padding: 4px;
+  font-family: "Sora", sans serif;
+  background-color: black;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white;
 }
 
-
-cite {
-  margin: 16px 32px;
-  font-weight: bold;
+optgroup {
+ 
+    font-size: 12px;
 }
 
-[contenteditable='true'] {
-  caret-color: red;
+.comments-textarea {
+  display: block;
+  width: 97.5%;
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+  min-height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  resize: vertical;
+  font-family: "Sora", sans serif;
+  font-size: 13px;
 }
 
+.submit-button {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Sora", sans serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  background: linear-gradient(
+    to right,
+    #1cb90d 0%,
+    #2bff0f 50%,
+    #000000 50%,
+    #20ff0b 100%
+  );
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.3s;
+}
+.submit-button:hover {
+  background-position: 0 0;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  max-width: 1000px;
+  margin: auto;
+  font-family: "Sora", sans serif;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p{
+    
+    font-weight: bold;
+    font-size: large;
+}
