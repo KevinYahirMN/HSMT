@@ -159,3 +159,6 @@ p{
     font-weight: bold;
     font-size: large;
 }
+label{
+  text-transform: capitalize;
+}
