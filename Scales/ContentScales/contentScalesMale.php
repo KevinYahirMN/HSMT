@@ -41,13 +41,8 @@ class contentScalesMale{
         $this->calif_True($answer[556]);
         return $this->c;
     }
-<<<<<<< Updated upstream:Scales/ContentScales/contentScalesMale.php
-/*
-    function scale_($answer = array()){
-=======
-
+    
     function scale_MIE($answer = array()){
->>>>>>> Stashed changes:Scales/ContentScales/contentScalesMale
         $this->c = 0;
         $this->calif_False($answer[115]);
         $this->calif_True($answer[154]);
@@ -95,9 +90,6 @@ class contentScalesMale{
         $this->calif_True($answer[553]);        
         return $this->c;
     }
-<<<<<<< Updated upstream:Scales/ContentScales/contentScalesMale.php
-*/
-=======
 
     function scale_DEP($answer = array()){
         $this->c = 0;
@@ -462,6 +454,5 @@ class contentScalesMale{
         $this->calif_True($answer[554]);
         return $this-> c;
     }
->>>>>>> Stashed changes:Scales/ContentScales/contentScalesMale
 }
 ?>

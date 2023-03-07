@@ -1,5 +1,5 @@
- <?php
-
+<?php
+//Se aregan los archivos de las escalas para poder utilizar sus clases
 include('basicScales/basicScalesMale.php');
 include('SupplementaryScales/supplementaryScalesMale.php');
 include('ContentScales/contentScalesMale.php');
