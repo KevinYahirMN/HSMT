@@ -26,7 +26,7 @@ $_SESSION['answer'] = $answer;
     <main id="principal">
       <p id="description"> Lea con atención las siguientes preguntas y responda con total honestidad</p>
       
-      <form method="post" action="/Scales/Scales.php">
+      <form method="post" action="../../Scales/Scales.php">
         <!--Pregunta 547-->
         <p>Guardo cosas que nunca uso</p>
         <input type="radio" id="true" name="Q[1]">
