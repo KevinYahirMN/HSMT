@@ -11,9 +11,6 @@ for($i = 1; $i < 31; $i++){
 $_SESSION['answer'] = $answer;
 ?>
 
-
-
-
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="style.css">
@@ -29,9 +26,7 @@ $_SESSION['answer'] = $answer;
       
       <main id="principal">
         <p id="description"> Lea con atención las siguientes preguntas y responda con total honestidad</p>
-      
-        <form id="formulario">
-
+        
         <form method="post" action="Form_331-360.php">
              <!--Pregunta 301-->
             <p>Casi todo el tiempo siento ansiedad a causa de algo o alguien</p>

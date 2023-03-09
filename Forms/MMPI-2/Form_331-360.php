@@ -27,9 +27,7 @@ $_SESSION['answer'] = $answer;
       
       <main id="principal">
         <p id="description"> Lea con atención las siguientes preguntas y responda con total honestidad</p>
-      
-        <form id="formulario">
-
+        
         <form method="post" action="Form_361-391.php">
             <!--Pregunta 331-->            
             <p>Me inclino a tomar las cosas muy en serio</p>

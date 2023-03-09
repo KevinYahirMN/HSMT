@@ -27,9 +27,7 @@ $_SESSION['answer'] = $answer;
       
       <main id="principal">
         <p id="description"> Lea con atención las siguientes preguntas y responda con total honestidad</p>
-      
-        <form id="formulario">
-
+        
         <form method="post" action="Form_211-240.php">
             <!--Pregunta 181-->
             <p>No tengo accesos de alergia o asma</p>

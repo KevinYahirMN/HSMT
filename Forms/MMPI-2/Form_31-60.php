@@ -1,14 +1,6 @@
 <?php
 session_start();
-$answer = $_SESSION['answer'];
-
-$postanswer = $_POST['Q'];
-
-for($i = 1; $i < 31; $i++){
-   array_push($answer, $postanswer[$i]);
-}
-
-$_SESSION['answer'] = $answer;
+$_SESSION["answer"] = $_POST["Q"];
 ?>
 
 
@@ -28,9 +20,7 @@ $_SESSION['answer'] = $answer;
       
       <main id="principal">
         <p id="description"> Lea con atención las siguientes preguntas y responda con total honestidad</p>
-      
-        <form id="formulario">
-          
+                  
         <form method="post" action="Form_61-90.php">
          <!--Pregunta 31-->
          <p>Me cuesta bastante concentrarme en una tarea o trabajo</p>

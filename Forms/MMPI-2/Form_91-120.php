@@ -28,8 +28,6 @@ $_SESSION['answer'] = $answer;
       <main id="principal">
         <p id="description"> Lea con atención las siguientes preguntas y responda con total honestidad</p>
       
-        <form id="formulario">
-
         <form method="post" action="Form_121-150.php">
             <!--Pregunta 91-->
             <p>Tengo pocas o ninguna molestia a causa de espasmos o contracciones musculares</p>

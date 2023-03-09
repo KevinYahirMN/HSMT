@@ -26,9 +26,7 @@ $_SESSION['answer'] = $answer;
       
       <main id="principal">
         <p id="description"> Lea con atención las siguientes preguntas y responda con total honestidad</p>
-      
-        <form id="formulario">
-
+        
         <form method="post" action="Form_301-330.php">
              <!--Pregunta 271-->
              <p>Creo que mi sensibilidad es más intensa que la de la mayor parte de la gente</p>
