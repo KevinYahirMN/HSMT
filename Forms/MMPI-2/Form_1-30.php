@@ -14,6 +14,7 @@ $_SESSION['answer'] = $answer;
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
    <head>
     <title>Preguntas 1-30</title>
     <link rel="shortcut icon" href="ico.ico" />
