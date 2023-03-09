@@ -54,5 +54,19 @@ array_push($cSupplementaryMale, $supplementaryScalesMale->scale_ls3($answer));
 array_push($cSupplementaryMale, $supplementaryScalesMale->scale_Fp($answer));
 
 array_push($cContentMale, $contentScaleMale->scale_ANS($answer));
+array_push($cContentMale, $contentScaleMale->scale_MIE($answer));
+array_push($cContentMale, $contentScaleMale->scale_OBS($answer));
+array_push($cContentMale, $contentScaleMale->scale_DEP($answer));
+array_push($cContentMale, $contentScaleMale->scale_SAU($answer));
+array_push($cContentMale, $contentScaleMale->scale_DEL($answer));
+array_push($cContentMale, $contentScaleMale->scale_ENJ($answer));
+array_push($cContentMale, $contentScaleMale->scale_CIN($answer));
+array_push($cContentMale, $contentScaleMale->scale_PAS($answer));
+array_push($cContentMale, $contentScaleMale->scale_PTA($answer));
+array_push($cContentMale, $contentScaleMale->scale_BAE($answer));
+array_push($cContentMale, $contentScaleMale->sclae_ISO($answer));
+array_push($cContentMale, $contentScaleMale->scale_FAM($answer));
+array_push($cContentMale, $contentScaleMale->scale_DTR($answer));
+array_push($cContentMale, $contentScaleMale->scale_RTR($answer));
 
 ?>
