@@ -28,7 +28,7 @@ $_SESSION['answer'] = $answer;
       <main id="principal">
         <p id="description"> Lea con atención las siguientes preguntas y responda con total honestidad</p>
         
-        <form method="post" action="Form_271-310.php">
+        <form method="post" action="Form_271-300.php">
           <!--Pregunta 241-->
           <p>Es más seguro no confiar en nadie</p>
           <input type="radio" value="true" name="Q[1]">
