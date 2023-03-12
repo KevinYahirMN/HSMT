@@ -39,7 +39,6 @@ class basicScalesMale{
       return $this->c;
    }
 
-   //t = true, f = false
    function scale_F($answer = array()){
       $this-> c = 0;
       $this->calif_False($answer[6]);
