@@ -84,8 +84,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 123-->
-            <p>Si pudiera entrar en un espectáculo sin pagar y estuviera seguro de 
-                no ser visto, probablmente lo haría</p>
+            <p>Si pudiera entrar en un espectáculo sin pagar y estuviera seguro de no ser visto, probablmente lo haría</p>
             <input type="radio" value="true" name="Q[3]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[3]">
@@ -93,8 +92,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 124-->
-            <p>Generalmente me pregunto que razón oculta puede tener otra persona 
-                cuando me hace un favor</p>
+            <p>Generalmente me pregunto que razón oculta puede tener otra persona cuando me hace un favor</p>
             <input type="radio" value="true" name="Q[4]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[4]">
@@ -102,8 +100,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 125-->
-            <p>Creo que mi vida hogareña es tan agradable como la de mucha gente 
-                que conozco</p>
+            <p>Creo que mi vida hogareña es tan agradable como la de mucha gente que conozco</p>
             <input type="radio" value="true" name="Q[5]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[5]">
@@ -135,8 +132,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 129-->
-            <p>Mi conducta es ampliamente controlada por las costumbres que me 
-                rodean</p>
+            <p>Mi conducta es ampliamente controlada por las costumbres que me rodean</p>
             <input type="radio" value="true" name="Q[9]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[9]">
@@ -152,8 +148,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 131-->
-            <p>Cuando era pertenecia a una banda que intentaba mantenerse 
-                unida como "carne y uña"</p>
+            <p>Cuando era pertenecia a una banda que intentaba mantenerse unida como "carne y uña"</p>
             <input type="radio" value="true" name="Q[11]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[11]">
@@ -185,8 +180,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 135-->
-            <p>Frecuentemente he perdido o desaprovechado cosas por no saber
-                 decidirme a tiempo</p>
+            <p>Frecuentemente he perdido o desaprovechado cosas por no saber decidirme a tiempo</p>
             <input type="radio" value="true" name="Q[15]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[15]">
@@ -194,8 +188,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 136-->
-            <p>Me molesta que me pidan consejo o que me interrumpan cuando 
-                estoy trabajando en algo importante</p>
+            <p>Me molesta que me pidan consejo o que me interrumpan cuando estoy trabajando en algo importante</p>
             <input type="radio" value="true" name="Q[16]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[16]">
@@ -283,8 +276,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 147-->
-            <p>Actualmente no comprendo lo que leo con la facilidad 
-                que tenía antes</p>
+            <p>Actualmente no comprendo lo que leo con la facilidad que tenía antes</p>
             <input type="radio" value="true" name="Q[27]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[27]">
@@ -316,16 +308,12 @@ $_SESSION['answer'] = $answer;
             <hr>
                 
 			
-				
-					
-			
 					  
 					  <br><br>
 					  <div class="text-center">
-						<button type="button" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 					  
-				
 				<br>
 			</div>
 			<div class="card-footer text-muted text-center">

@@ -307,11 +307,7 @@ $_SESSION['answer'] = $answer;
              <input type="radio" value="false" name="Q[30]">
              <label>falso</label>
              <hr>
-                
-			
-	
-					
-			
+               
 					  
 					  <br><br>
 					  <div class="text-center">

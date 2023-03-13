@@ -122,7 +122,7 @@ $_SESSION['answer'] = $answer;
 			</div>
 			<div class="card-body">
 
-            <form method="post" action="Form_485-515.php">
+          <form method="post" action="Form_485-515.php">
           
           <!--Pregunta 454-->
           <p>Para mí el futuro carece de esperanza</p>
@@ -149,8 +149,7 @@ $_SESSION['answer'] = $answer;
           <hr>
                                                                           
           <!--Pregunta 457-->
-          <p>La gente puede hacerme cambiar de opinión muy fácilmente, incluso en materias en las 
-            que creía tener ya un criterio firme</p>
+          <p>La gente puede hacerme cambiar de opinión muy fácilmente, incluso en materias en las que creía tener ya un criterio firme</p>
           <input type="radio" id="true" name="Q[4]">
           <label>verdadero</label>  <br>          
           <input type="radio" id="false" name="Q[4]">
@@ -278,8 +277,7 @@ $_SESSION['answer'] = $answer;
           <hr>
             
           <!--Pregunta 473-->
-          <p>La persona hacia quien sentía más afecto y admiración cuando era niño, fue una mujer 
-            (madre, hermana tía u otra mujer)</p>
+          <p>La persona hacia quien sentía más afecto y admiración cuando era niño, fue una mujer (madre, hermana tía u otra mujer)</p>
           <input type="radio" id="true" name="Q[20]">
           <label>verdadero</label><br>
           <input type="radio" id="false" name="Q[20]">
@@ -374,13 +372,9 @@ $_SESSION['answer'] = $answer;
           <hr>
                 
 			
-				
-					
-			
-					  
 					  <br><br>
 					  <div class="text-center">
-						<button type="button" class="btn btn-success">Siguiente</button>
+					  <button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 					  
 				
@@ -399,21 +393,3 @@ $_SESSION['answer'] = $answer;
 					
 			
 					  
-					  <br><br>
-					  <div class="text-center">
-						<button type="button" class="btn btn-success">Siguiente</button>
-					  </div>
-					  
-				
-				<br>
-			</div>
-			<div class="card-footer text-muted text-center">
-				Lea con atención cada pregunta y responda <strong>Verdadero</strong> o <strong>Falso</strong> según corresponda.<br><br> Por favor, responda las preguntas con total honestidad.
-			</div>
-		</div>
-
-	</div>
-   
-</body>
-
-</html>

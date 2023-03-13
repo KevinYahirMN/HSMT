@@ -165,7 +165,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 343-->
-          <p>Me gustan los niños</p>
+            <p>Me gustan los niños</p>
             <input type="radio" value="true" name="Q[13]">
             <label>verdadero</label>     <br>        
             <input type="radio" value="false" name="Q[13]">
@@ -189,7 +189,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 346-->
-           <p>Con frecuencia me he encontrado con personas con reputación de expertas, pero que no eran mejores que yo</p>
+            <p>Con frecuencia me he encontrado con personas con reputación de expertas, pero que no eran mejores que yo</p>
             <input type="radio" value="true" name="Q[16]">
             <label>verdadero</label>     <br>        
             <input type="radio" value="false" name="Q[16]">
@@ -308,10 +308,6 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             <hr>
                 
-			
-				
-					
-			
 					  
 					  <br><br>
 					  <div class="text-center">

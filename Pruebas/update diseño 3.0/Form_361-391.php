@@ -67,7 +67,7 @@ $_SESSION['answer'] = $answer;
 			</div>
 			<div class="card-body">
 
-            <form method="post" action="Form_392-422.php">
+       <form method="post" action="Form_392-422.php">
        
        <!--Pregunta 361-->
        <p>Alguien ha tratado de influenciar mi mente</p>
@@ -164,10 +164,7 @@ $_SESSION['answer'] = $answer;
        <input type="radio" value="false" name="Q[12]">
        <label>falso</label>
        <hr>
- 
- 
-                                               
-                                           
+                                
        <!--Pregunta 373-->
        <p>He hecho algunas cosas malas en el pasado que no se las conté a nadie</p>
        <input type="radio" value="true" name="Q[13]">
@@ -175,10 +172,7 @@ $_SESSION['answer'] = $answer;
        <input type="radio" value="false" name="Q[13]">
        <label>falso</label>
        <hr>
-                                             
- 
-                                               
-                                          
+                                      
        <!--Pregunta 374-->
        <p>La mayoria de la gente puede hacer cosas incorrectas con tal de lograr su propósito</p>
        <input type="radio" value="true" name="Q[14]">
@@ -276,8 +270,7 @@ $_SESSION['answer'] = $answer;
        <hr>
        
        <!--Pregunta 386-->
-       <p>Muchas veces me he alejado de alguna persona por temor de decir 
-         o hacer algo de lo que después podría arrepentirme</p>
+       <p>Muchas veces me he alejado de alguna persona por temor de decir o hacer algo de lo que después podría arrepentirme</p>
        <input type="radio" value="true" name="Q[26]">
        <label>verdadero</label>   <br>         
        <input type="radio" value="false" name="Q[26]">
@@ -309,8 +302,7 @@ $_SESSION['answer'] = $answer;
        <hr>
        
        <!--Pregunta 390-->
-       <p>Desearia haber podido dejar de preocuparme por cosas que dije 
-         y que pudieron lastimar los sentimientos de algunas personas</p>
+       <p>Desearia haber podido dejar de preocuparme por cosas que dije y que pudieron lastimar los sentimientos de algunas personas</p>
        <input type="radio" value="true" name="Q[30]">
        <label>verdadero</label>     <br>       
        <input type="radio" value="false" name="Q[30]">
@@ -325,14 +317,9 @@ $_SESSION['answer'] = $answer;
        <label>falso</label>
        <hr>
                 
-			
-
-					
-			
-					  
 					  <br><br>
 					  <div class="text-center">
-						<button type="button" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 					  
 				

@@ -312,10 +312,6 @@ $_SESSION['answer'] = $answer;
             <label>falso</label>
             <hr>
             
-
-					
-			
-					  
 					  <br><br>
 					  <div class="text-center">
 						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>

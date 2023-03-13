@@ -76,8 +76,7 @@ $_SESSION['answer'] = $answer;
 			<hr>
             
             <!--Pregunta 62-->
-            <p>A menudo he deseado ser mujer. (O si usted es mujer: nunca me ha molestado 
-                ser mujer)</p>
+            <p>A menudo he deseado ser mujer. (O si usted es mujer: nunca me ha molestado ser mujer)</p>
             <input type="radio" value="true" name="Q[2]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[2]">
@@ -149,8 +148,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 71-->
-            <p>En el momento actual me es difícil tener la esperanza de 
-                llegar a ser alguien</p>
+            <p>En el momento actual me es difícil tener la esperanza de llegar a ser alguien</p>
             <input type="radio" value="true" name="Q[11]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[11]">
@@ -190,8 +188,7 @@ $_SESSION['answer'] = $answer;
 			<hr>
             
             <!--Pregunta 76-->
-            <p>Se necesita discutir mucho para convencer a la mayor parte de 
-                la gente de la verdad</p>
+            <p>Se necesita discutir mucho para convencer a la mayor parte de la gente de la verdad</p>
             <input type="radio" value="true" name="Q[16]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[16]">
@@ -231,8 +228,7 @@ $_SESSION['answer'] = $answer;
 			<hr>
             
             <!--Pregunta 81-->
-            <p>Creo que la mayor parte de la gente mentiría para conseguir 
-                lo que busca</p>
+            <p>Creo que la mayor parte de la gente mentiría para conseguir lo que busca</p>
             <input type="radio" value="true" name="Q[21]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[21]">
@@ -240,8 +236,7 @@ $_SESSION['answer'] = $answer;
 			<hr>
             
             <!--Pregunta 82-->
-            <p>Hago muchas cosas de las que me arrepiento luego. (Me arrepiento de 
-                más cosas o con más frecuencia que otras personas)</p>
+            <p>Hago muchas cosas de las que me arrepiento luego. (Me arrepiento de más cosas o con más frecuencia que otras personas)</p>
             <input type="radio" value="true" name="Q[22]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[22]">
@@ -273,9 +268,7 @@ $_SESSION['answer'] = $answer;
 			<hr>
             
             <!--Pregunta 86-->
-            <p>Me gustaría asistir a reuniones o fiestas donde haya mucha alegría 
-                y ruido
-            </p>
+            <p>Me gustaría asistir a reuniones o fiestas donde haya mucha alegría y ruido</p>
             <input type="radio" value="true" name="Q[26]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[26]">
@@ -283,9 +276,7 @@ $_SESSION['answer'] = $answer;
 			<hr>
             
             <!--Pregunta 87-->
-            <p>Me he encontrado con problemas tan llenos de posibilidades, que no he 
-                podido llegar a una decisión
-            </p>
+            <p>Me he encontrado con problemas tan llenos de posibilidades, que no he podido llegar a una decisión</p>
             <input type="radio" value="true" name="Q[27]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[27]">
@@ -315,17 +306,12 @@ $_SESSION['answer'] = $answer;
             <input type="radio" value="false" name="Q[30]">
             <label>falso</label>
 			<hr>
-                
-			
-				
-					
-			
+            
 					  
 					  <br><br>
 					  <div class="text-center">
-						<button type="button" class="btn btn-success">Siguiente</button>
+                      <button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
-					  
 				
 				<br>
 			</div>

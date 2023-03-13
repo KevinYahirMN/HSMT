@@ -67,7 +67,7 @@ $_SESSION['answer'] = $answer;
 			<div class="card-body">
 
             <form method="post" action="Form_331-360.php">
-             <!--Pregunta 301-->
+            <!--Pregunta 301-->
             <p>Casi todo el tiempo siento ansiedad a causa de algo o alguien</p>
             <input type="radio" value="true" name="Q[1]">
             <label>verdadero</label>    <br>        
@@ -308,15 +308,10 @@ $_SESSION['answer'] = $answer;
             <hr>
                 
 			
-			
-					
-			
-					  
 					  <br><br>
 					  <div class="text-center">
 						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
-					  </div>
-					  
+					  </div>	  
 				
 				<br>
 			</div>

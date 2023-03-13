@@ -69,8 +69,7 @@ $_SESSION['answer'] = $answer;
 
             <form method="post" action="Form_181-210.php">
             <!--Pregunta 151-->
-            <p>Me molesta que alguien se haya burlado tan inteligentemente 
-                de mi que yo haya tenido que admitir que lo logró </p>
+            <p>Me molesta que alguien se haya burlado tan inteligentemente de mi que yo haya tenido que admitir que lo logró </p>
             <input type="radio" value="true" name="Q[1]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[1]">
@@ -86,8 +85,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 153-->
-            <p>Me gusta conocer alguna gente importante porque esto me hace 
-                sentir importante</p>
+            <p>Me gusta conocer alguna gente importante porque esto me hace sentir importante</p>
             <input type="radio" value="true" name="Q[3]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[3]">
@@ -103,8 +101,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 155-->
-            <p>No me sentiría nervioso si algún familiar tuviera problemas 
-                con la ley</p>
+            <p>No me sentiría nervioso si algún familiar tuviera problemas con la ley</p>
             <input type="radio" value="true" name="Q[5]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[5]">
@@ -128,8 +125,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 158-->
-            <p>Me siento incómodo cuando tengo que hacer una payasada 
-                en una reunión, incluso aunque otros estén haciendo</p>
+            <p>Me siento incómodo cuando tengo que hacer una payasada en una reunión, incluso aunque otros estén haciendo</p>
             <input type="radio" value="true" name="Q[8]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[8]">
@@ -153,8 +149,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 161-->
-            <p>Frecuentemente tengo que esforzarme para no demostrar 
-                que soy tímido</p>
+            <p>Frecuentemente tengo que esforzarme para no demostrar que soy tímido</p>
             <input type="radio" value="true" name="Q[11]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[11]">
@@ -202,8 +197,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 167-->
-            <p>Me es difícil entablar una conversación cuando 
-                recién conozco a alguien</p>
+            <p>Me es difícil entablar una conversación cuando recién conozco a alguien</p>
             <input type="radio" value="true" name="Q[17]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[17]">
@@ -211,8 +205,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 168-->
-            <p>He tenido épocas durante las cuales he realizado
-                 actividades que luego no recordaba haber hecho</p>
+            <p>He tenido épocas durante las cuales he realizado actividades que luego no recordaba haber hecho</p>
             <input type="radio" value="true" name="Q[18]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[18]">
@@ -244,8 +237,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 172-->
-            <p>Frecuentemente noto temblar mis manos cuando intento
-                 hacer algo</p>
+            <p>Frecuentemente noto temblar mis manos cuando intento hacer algo</p>
             <input type="radio" value="true" name="Q[22]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[22]">
@@ -293,8 +285,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 178-->
-            <p>A veces, cuando estoy preocupado, comienzo a sudar, lo que
-                 me molesta mucho</p>
+            <p>A veces, cuando estoy preocupado, comienzo a sudar, lo que me molesta mucho</p>
             <input type="radio" value="true" name="Q[28]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[28]">
@@ -302,8 +293,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 179-->
-            <p>No he tenidzo dificultades para mantener el equilibrio al
-                 caminar</p>
+            <p>No he tenidzo dificultades para mantener el equilibrio al caminar</p>
             <input type="radio" value="true" name="Q[29]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[29]">
@@ -319,17 +309,11 @@ $_SESSION['answer'] = $answer;
             <hr>
 
 
-                
-			
-				
-					
-			
 					  
 					  <br><br>
 					  <div class="text-center">
-						<button type="button" class="btn btn-success">Siguiente</button>
-					  </div>
-					  
+						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+					  </div>  
 				
 				<br>
 			</div>

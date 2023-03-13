@@ -59,8 +59,8 @@ $_SESSION["answer"] = $_POST["Q"];
 			<div class="card-body">
 
             <form method="post" action="Form_61-90.php">
-         <!--Pregunta 31-->
-         <p>Me cuesta bastante concentrarme en una tarea o trabajo</p>
+            <!--Pregunta 31-->
+            <p>Me cuesta bastante concentrarme en una tarea o trabajo</p>
             <input type="radio" value="true" name="Q[1]">
             <label>verdadero</label> <br>
             <input type="radio" value="false" name="Q[1]">
@@ -116,9 +116,7 @@ $_SESSION["answer"] = $_POST["Q"];
             <hr>
             
             <!--Pregunta 38-->
-            <p>He tenido períodos de días, semanas o meses en los que no podía 
-                preocuparme por las cosas, porque no tenía ánimo de nada
-            </p>
+            <p>He tenido períodos de días, semanas o meses en los que no podía preocuparme por las cosas, porque no tenía ánimo de nada</p>
             <input type="radio" value="true" name="Q[8]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[8]">
@@ -166,9 +164,7 @@ $_SESSION["answer"] = $_POST["Q"];
             <hr>
             
             <!--Pregunta 44-->
-            <p>Una vez a la semana o más a menudo, siento calor por todo el cuerpo sin 
-                causa aparente
-            </p>
+            <p>Una vez a la semana o más a menudo, siento calor por todo el cuerpo sin causa aparente</p>
             <input type="radio" value="true" name="Q[14]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[14]">
@@ -184,10 +180,7 @@ $_SESSION["answer"] = $_POST["Q"];
             <hr>
             
             <!--Pregunta 46-->
-            <p>Prefiero hacerme el desentendido con amigos del colegio, o personas 
-                conocidas que no veo desde hace tiempo, a menos que ellos me hablen 
-                primero
-            </p>
+            <p>Prefiero hacerme el desentendido con amigos del colegio, o personas conocidas que no veo desde hace tiempo, a menos que ellos me hablen primero</p>
             <input type="radio" value="true" name="Q[16]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[16]">
@@ -203,9 +196,7 @@ $_SESSION["answer"] = $_POST["Q"];
             <hr>
             
             <!--Pregunta 48-->
-            <p>En muchas ocasiones me gustaría más sentarme y soñar despierto 
-                que hacer cualquier cosa
-            </p>
+            <p>En muchas ocasiones me gustaría más sentarme y soñar despierto que hacer cualquier cosa</p>
             <input type="radio" value="true" name="Q[18]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[18]">
@@ -245,9 +236,7 @@ $_SESSION["answer"] = $_POST["Q"];
             <hr>
             
             <!--Pregunta 53-->
-            <p>A menudo algunas partes de mi cuerpo tienen sensaciones de hormigueo, 
-                quemazón, picazón o bien de quedarse "dormidas"
-            </p>
+            <p>A menudo algunas partes de mi cuerpo tienen sensaciones de hormigueo, quemazón, picazón o bien de quedarse "dormidas"</p>
             <input type="radio" value="true" name="Q[23]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[23]">
@@ -255,8 +244,7 @@ $_SESSION["answer"] = $_POST["Q"];
             <hr>
             
             <!--Pregunta 54-->
-            <p>A mi familia no le gusta el trabajo que he elegido (o el trabajo que 
-                pienso elegir para mi futuro)</p>
+            <p>A mi familia no le gusta el trabajo que he elegido (o el trabajo que pienso elegir para mi futuro)</p>
             <input type="radio" value="true" name="Q[24]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[24]">
@@ -264,9 +252,7 @@ $_SESSION["answer"] = $_POST["Q"];
             <hr>
             
             <!--Pregunta 55-->
-            <p>Algunas veces persisto en una cosa o tema hasta que los demás pierden 
-                la pasciencia conmigo
-            </p>
+            <p>Algunas veces persisto en una cosa o tema hasta que los demás pierden la pasciencia conmigo</p>
             <input type="radio" value="true" name="Q[25]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[25]">
@@ -290,9 +276,7 @@ $_SESSION["answer"] = $_POST["Q"];
             <hr>
             
             <!--Pregunta 58-->
-            <p>Pienso que una gran mayoría de la gente exagera sus desgracias para 
-                lograr la simpatía y ayuda de los demás
-            </p>
+            <p>Pienso que una gran mayoría de la gente exagera sus desgracias para lograr la simpatía y ayuda de los demás</p>
             <input type="radio" value="true" name="Q[28]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[28]">
@@ -314,19 +298,12 @@ $_SESSION["answer"] = $_POST["Q"];
             <input type="radio" value="false" name="Q[30]">
             <label>falso</label>
             <hr>
-        
-                
-			
-				
-					
-			
-					  
+        	  
 					  <br><br>
 					  <div class="text-center">
-						<button type="button" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
-					  
-				
+
 				<br>
 			</div>
 			<div class="card-footer text-muted text-center">

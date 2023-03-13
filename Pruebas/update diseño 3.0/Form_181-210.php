@@ -77,9 +77,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 182-->
-            <p>He tenido ataques en los que perdía el control de mis
-                 movimientos o de la palabra, pero sabía lo que pasaba a
-                  mí alrededor</p>
+            <p>He tenido ataques en los que perdía el control de mismovimientos o de la palabra, pero sabía lo que pasaba a mí alrededor</p>
             <input type="radio" value="true" name="Q[2]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[2]">
@@ -119,8 +117,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 187-->
-            <p>Si fuera periodista me gustartía mucho
-                 informar sobre teatro</p>
+            <p>Si fuera periodista me gustartía mucho informar sobre teatro</p>
             <input type="radio" value="true" name="Q[7]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[7]">
@@ -128,8 +125,7 @@ $_SESSION['answer'] = $answer;
             <hr>
 
             <!--Pregunta 188-->
-            <p>Disfruto con muy diferentes clases de
-                 juegos o diversiones</p>
+            <p>Disfruto con muy diferentes clases de juegos o diversiones</p>
             <input type="radio" value="true" name="Q[8]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[8]">
@@ -312,17 +308,12 @@ $_SESSION['answer'] = $answer;
              <label>falso</label>
              <hr>
                 
-			
-				
-					
-			
 					  
 					  <br><br>
 					  <div class="text-center">
-						<button type="button" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 					  
-				
 				<br>
 			</div>
 			<div class="card-footer text-muted text-center">

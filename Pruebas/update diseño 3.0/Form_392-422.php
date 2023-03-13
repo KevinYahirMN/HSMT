@@ -66,7 +66,7 @@ $_SESSION['answer'] = $answer;
 			</div>
 			<div class="card-body">
 
-            <form method="post" action="Form_423-453.php">
+       <form method="post" action="Form_423-453.php">
         
         <!--Pregunta 392-->
         <p>Le tengo miedo a los relámpagos</p>
@@ -213,8 +213,7 @@ $_SESSION['answer'] = $answer;
         <hr>
         
         <!--Pregunta 410-->
-        <p>A menudo me molesta tanto que alguien trate de "colarse" delante de mí
-           en una cola, que tengo que decirle algo</p>
+        <p>A menudo me molesta tanto que alguien trate de "colarse" delante de mí en una cola, que tengo que decirle algo</p>
         <input type="radio" value="true" name="Q[19]">
         <label>verdadero</label><br>
         <input type="radio" value="false" name="Q[19]">
@@ -317,16 +316,11 @@ $_SESSION['answer'] = $answer;
         <label>falso</label>
         <hr>
                 
-			
-	
-					
-			
 					  
 					  <br><br>
 					  <div class="text-center">
                  <button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
-					  
 				
 				<br>
 			</div>

@@ -66,7 +66,7 @@ $_SESSION['answer'] = $answer;
 			</div>
 			<div class="card-body">
                 
-            <form method="post" action="Form_271-300.php">
+          <form method="post" action="Form_271-300.php">
           <!--Pregunta 241-->
           <p>Es más seguro no confiar en nadie</p>
           <input type="radio" value="true" name="Q[1]">
@@ -306,9 +306,6 @@ $_SESSION['answer'] = $answer;
           <input type="radio" value="false" name="Q[30]">
           <label>falso</label>
           <hr>
-			
-			
-					
 			
 					  
 					  <br><br>

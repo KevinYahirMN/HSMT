@@ -117,9 +117,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 97-->
-            <p>Parece como si la mayor parte del tiempo tuviera la cabeza cargada o 
-                llena de ruidos
-            </p>
+            <p>Parece como si la mayor parte del tiempo tuviera la cabeza cargada o llena de ruidos</p>
             <input type="radio" value="true" name="Q[7]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[7]">
@@ -127,9 +125,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 98-->
-            <p>Hay algunas personas tan mandonas que me dan ganas de hacer lo contrario 
-                de lo que quieren, aunque sepa que tiene razón
-            </p>
+            <p>Hay algunas personas tan mandonas que me dan ganas de hacer lo contrario de lo que quieren, aunque sepa que tiene razón</p>
             <input type="radio" value="true" name="Q[8]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[8]">
@@ -153,9 +149,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 101-->
-            <p>A menudo siento como si tuviera una venda puesta fuertemente alrededor 
-                de mi cabeza
-            </p>
+            <p>A menudo siento como si tuviera una venda puesta fuertemente alrededor de mi cabeza</p>
             <input type="radio" value="true" name="Q[11]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[11]">
@@ -187,9 +181,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 105-->
-            <p>En el colegio, algunas veces, fui enviado al director a causa 
-                de mi mala conducta
-            </p>
+            <p>En el colegio, algunas veces, fui enviado al director a causa de mi mala conducta</p>
             <input type="radio" value="true" name="Q[15]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[15]">
@@ -197,8 +189,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 106-->
-            <p>Mi manera de hablar es como siempre (ni más rápida, ni más lenta, 
-                ni más atropellada, no tengo carraspera)</p>
+            <p>Mi manera de hablar es como siempre (ni más rápida, ni más lenta, ni más atropellada, no tengo carraspera)</p>
             <input type="radio" value="true" name="Q[16]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[16]">
@@ -214,9 +205,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 108-->
-            <p>Cualquier persona capacitada y dispuesta a trabajar fuerte, tiene muchas probabiliades 
-                de tener éxito
-            </p>
+            <p>Cualquier persona capacitada y dispuesta a trabajar fuerte, tiene muchas probabiliades de tener éxito</p>
             <input type="radio" value="true" name="Q[18]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[18]">
@@ -232,9 +221,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 110-->
-            <p>Para no perder un beneficio o ventaja, la mayoría de la gente está dispuesta 
-                a hacer cualquier cosa
-            </p>
+            <p>Para no perder un beneficio o ventaja, la mayoría de la gente está dispuesta a hacer cualquier cosa</p>
             <input type="radio" value="true" name="Q[20]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[20]">
@@ -266,9 +253,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 114-->
-            <p>A veces me siento tan atraído por las cosas de otros (zapatos, reloj), 
-                que tengo ganas de robarlas
-            </p>
+            <p>A veces me siento tan atraído por las cosas de otros (zapatos, reloj), que tengo ganas de robarlas</p>
             <input type="radio" value="true" name="Q[24]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[24]">
@@ -284,9 +269,7 @@ $_SESSION['answer'] = $answer;
             <hr>
             
             <!--Pregunta 116-->
-            <p>Frecuentemente no puedo comprender porque he estado tan gruñón 
-                y malhumorado
-            </p>
+            <p>Frecuentemente no puedo comprender porque he estado tan gruñón y malhumorado</p>
             <input type="radio" value="true" name="Q[26]">
             <label>verdadero</label><br>
             <input type="radio" value="false" name="Q[26]">
@@ -326,18 +309,12 @@ $_SESSION['answer'] = $answer;
             <hr>
 
 
-                
-			
-				
-					
-			
 					  
 					  <br><br>
 					  <div class="text-center">
-						<button type="button" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 					  
-				
 				<br>
 			</div>
 			<div class="card-footer text-muted text-center">

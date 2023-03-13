@@ -66,7 +66,7 @@ $_SESSION['answer'] = $answer;
 			</div>
 			<div class="card-body">
 
-            <form method="post" action="Form_516-546.php">
+        <form method="post" action="Form_516-546.php">
         <!--Pregunta 485-->
         <p>A veces siento que no soy tan bueno como los demás</p>
         <input type="radio" id="true" name="Q[1]">
@@ -317,12 +317,10 @@ $_SESSION['answer'] = $answer;
                 
 			
 			
-					
-			
 					  
 					  <br><br>
 					  <div class="text-center">
-						<button type="button" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 					  
 				
