@@ -22,7 +22,7 @@ $_SESSION['answer'] = $answer;
 	<link rel="stylesheet" href="bootstrap.min.css">
 	<link rel="stylesheet" href="font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
-	<title>Preguntas 1-30</title>
+	<title>Preguntas 454-484</title>
 	<style>
 		.btn-group.respuestas {
 			margin: 0 auto;
@@ -60,7 +60,7 @@ $_SESSION['answer'] = $answer;
 				<h4>
 					
 					<span class="badge badge-success">
-						Preguntas 1-30
+						Preguntas 454-484
 					</span>
 				</h4>
 			</div>
