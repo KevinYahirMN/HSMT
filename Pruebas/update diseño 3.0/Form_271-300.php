@@ -290,7 +290,7 @@ $_SESSION['answer'] = $answer;
       
             <!--Pregunta 298-->
             <p>A veces percibo olores extraños</p>
-            <input type="radio" value="true" name="[Q28]">
+            <input type="radio" value="true" name="Q[28]">
             <label>verdadero</label>        <br>    
             <input type="radio" value="false" name="Q[28]">
             <label>falso</label>

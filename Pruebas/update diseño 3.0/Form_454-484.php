@@ -10,64 +10,8 @@ for($i = 1; $i < 32; $i++){
 
 $_SESSION['answer'] = $answer;
 ?>
-
+  	
 <!doctype html>
-<html lang="es">
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="ITT residencia">
-	<link rel="icon" href="ico.ico">
-	<link rel="stylesheet" href="bootstrap.min.css">
-	<link rel="stylesheet" href="font-awesome.min.css">
-	<link rel="stylesheet" href="style.css">
-	<title>Preguntas 454-484</title>
-	<style>
-		.btn-group.respuestas {
-			margin: 0 auto;
-			display: block;
-			width: 100%;
-			text-align: center;
-		}
-		
-		.btn-group.respuestas .btn {
-			min-width: 100px;
-		}
-		.banterior:hover{
-			cursor:pointer;
-		}
-	</style>
-</head>
-
-<body>
-	<div class="container">
-		<header class="blog-header py-3">
-			<div class="row flex-nowrap justify-content-between align-items-center">
-				<div class="col-4 pt-1">
-					
-				</div>
-				<div class="col-4 text-center">
-					<img src="logo-big.png" class="img-fluid" style="max-height: 150px;">
-				</div>
-				<div class="col-4 d-flex justify-content-end align-items-center">
-					<a href="//" class="btn btn-danger"><i class="fa fa-power-off"></i> </a>
-				</div>
-			</div>
-		</header>
-		<div class="card">
-			<div class="card-header text-center">
-				<h4>
-					
-					<span class="badge badge-success">
-						Preguntas 454-484
-					</span>
-				</h4>
-			</div>
-			<div class="card-body">
-                
-			
-            <!doctype html>
 <html lang="es">
 
 <head>
