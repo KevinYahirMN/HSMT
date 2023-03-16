@@ -3,6 +3,7 @@
 include('basicScales/basicScalesMale.php');
 include('SupplementaryScales/supplementaryScalesMale.php');
 include('ContentScales/contentScalesMale.php');
+include('FactorK.php');
 
 session_start();
 $answer = $_SESSION['answer'];
@@ -21,6 +22,7 @@ $cContentMale = array(); //contador de puntaje para escala de contenido de hombr
 $basicScaleMale = new basicScalesMale();
 $supplementaryScalesMale = new supplementaryScalesMale();
 $contentScaleMale = new contentScalesMale();
+$factorK = new FactorK();
 
 array_push($cBasicMale, $basicScaleMale->scale_L($answer));
 array_push($cBasicMale, $basicScaleMale->scale_F($answer));
@@ -35,6 +37,12 @@ array_push($cBasicMale, $basicScaleMale->scale_Pt($answer));
 array_push($cBasicMale, $basicScaleMale->scale_Es($answer));
 array_push($cBasicMale, $basicScaleMale->scale_Ma($answer));
 array_push($cBasicMale, $basicScaleMale->scale_Ls($answer));
+
+$cBasicMale[3] = $factorK->sum5K($cBasicMale[3], $cBasicMale[2]);
+$cBasicMale[6] = $factorK->sum4K($cBasicMale[6], $cBasicMale[2]);
+$cBasicMale[9] = $factorK->sumK($cBasicMale[9], $cBasicMale[2]);
+$cBasicMale[10] = $factorK->sumK($cBasicMale[10], $cBasicMale[2]);
+$cBasicMale[11] = $factorK->sum2K($cBasicMale[11], $cBasicMale[2]);
 
 array_push($cSupplementaryMale, $supplementaryScalesMale->scale_A($answer));
 array_push($cSupplementaryMale, $supplementaryScalesMale->scale_R($answer));
