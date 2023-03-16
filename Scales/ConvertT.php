@@ -44,8 +44,8 @@ class ConvertT{
                 case 12:
                     $counter[12] = $this->scale_ls($counter[12]);
                 break;
-
             }
+            $i++;
         }
     }
 
@@ -60,10 +60,47 @@ class ConvertT{
                 $T = intval($T/15);
             }
         }
+        $T += 30;
         return $T;
     }
 
     function scale_F($c){
+        if($c <= 14){
+            $T = (($c-1)*84);
+            if($T%30 == 0){
+                $T = round(($c*84)/30);
+            }else{
+                $T = intval(($c*84)/30);
+            }
+        }else{
+            switch($c){
+                case 17:
+                    $T = intval(($c*84)/30);
+                break;
+                case 18:
+                    $T = intval(($c*84)/30);
+                break;
+                case 19:
+                    $T = intval(($c*84)/30);
+                break;
+                case 23:
+                    $T = intval(($c*84)/30);
+                break;
+                case 24:
+                    $T = intval(($c*84)/30);
+                break;
+                case 28:
+                    $T = intval(($c*84)/30);
+                break;
+                case 29:
+                    $T = intval(($c*84)/30);
+                break;
+                default:
+                    $T = round(($c*84)/30);
+                break;
+            }
+        }
+        $T += 35;
         return $T;
     }
 
