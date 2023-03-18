@@ -54,7 +54,7 @@ class ConvertT{
             $T = 38;
         }else{
             $T = $c*58;
-            if($T%15 >= 9){
+            if($T%15 > 8){
                 $T = round($T/15);
             }else{
                 $T = intval($T/15);
@@ -65,7 +65,7 @@ class ConvertT{
     }
 
     function scale_F($c){
-        if($c <= 14){
+        if($c < 15){
             $T = (($c-1)*84);
             if($T%30 == 0){
                 $T = round(($c*84)/30);
@@ -105,22 +105,119 @@ class ConvertT{
     }
 
     function scale_K($c){
+        $T = ($c*2) + 16;
+        if($c > 20){
+            $T++;
+        }
         return $T;
     }
 
     function scale_Hs($c){
+        $T = ($c*2);
+        switch($c){
+            case $c < 12:
+                $T += 18;
+            break;
+            case $c < 14:
+                $T += 19;
+            break;
+            case $c < 16:
+                $T += 20;
+            break;
+            case $c < 18:
+                $T += 21;
+            break;
+            case $c < 27:
+                $T += 22;
+            break;
+            default:
+                $T += 23;
+            break;
+        }
+
         return $T;
     }
 
     function scale_D($c){
+        $T = ($c*2) + 9;
+        if($c < 23){
+            $T++;
+        }else{
+            $T += 2;
+        }
         return $T;
     }
 
     function scale_Hi($c){
+        $T = ($c*2);
+        switch($c){
+            case $c < 22:
+                $T += 7;
+            break;
+            case $c < 27:
+                $T += 8;
+            break;
+            case $c < 33:
+                $T += 9;
+            break;
+            case $c < 40:
+                $T += 10;
+            break;
+            case $c < 47:
+                $T += 11;
+            break;
+            case $c < 53:
+                $T += 12;
+            break;
+            default:
+                $T += 13;
+            break;            
+        }
+        
         return $T;
     }
 
     function scale_Dp($c){
+        $T = ($c*2);
+        switch($c){
+            case $c < 23:
+                $T += 2;
+            break;
+            case $c < 26:
+                $T += 3;
+            break;
+            case $c < 28:
+                $T += 4;
+            break;
+            case $c < 30:
+                $T += 5;
+            break;
+            case $c < 32:
+                $T += 6;
+            break;
+            case $c < 34:
+                $T += 7;
+            break;
+            case $c < 36:
+                $T += 8;
+            break;
+            case $c < 38:
+                $T += 9;
+            break;
+            case $c < 41:
+                $T += 10;
+            break;
+            case $c < 43:
+                $T += 11;
+            break;
+            case $c < 45:
+                $T += 12;
+            break;
+            default:
+                $T += 13;
+            break;
+        }
+
         return $T;
     }
 

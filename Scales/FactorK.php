@@ -22,7 +22,6 @@ class FactorK{
         $factorK = 0;
         if($K%2.5 == 0){
             $factorK = $K*0.4;
-            $c += $factorK;
         }else{
             if($K%2.5 >= 0.5){
                 $factorK = round($K*0.4);
@@ -41,7 +40,7 @@ class FactorK{
         if($K%5 == 0){
             $factorK = ($K*0.2);
         }else{
-            if($K%5 >= 0.5){
+            if($K%5 >= 3){
                 $factorK = round($K*0.2);
             }
             else{
