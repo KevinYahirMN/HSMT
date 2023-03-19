@@ -115,24 +115,12 @@ class ConvertT{
     function scale_Hs($c){
         $T = ($c*2);
         switch($c){
-            case $c < 12:
-                $T += 18;
-            break;
-            case $c < 14:
-                $T += 19;
-            break;
-            case $c < 16:
-                $T += 20;
-            break;
-            case $c < 18:
-                $T += 21;
-            break;
-            case $c < 27:
-                $T += 22;
-            break;
-            default:
-                $T += 23;
-            break;
+            case $c < 12: $T += 18; break;
+            case $c < 14: $T += 19; break;
+            case $c < 16: $T += 20; break;
+            case $c < 18: $T += 21; break;
+            case $c < 27: $T += 22; break;
+            default: $T += 23; break;
         }
 
         return $T;
@@ -151,27 +139,13 @@ class ConvertT{
     function scale_Hi($c){
         $T = ($c*2);
         switch($c){
-            case $c < 22:
-                $T += 7;
-            break;
-            case $c < 27:
-                $T += 8;
-            break;
-            case $c < 33:
-                $T += 9;
-            break;
-            case $c < 40:
-                $T += 10;
-            break;
-            case $c < 47:
-                $T += 11;
-            break;
-            case $c < 53:
-                $T += 12;
-            break;
-            default:
-                $T += 13;
-            break;            
+            case $c < 22: $T += 7; break;
+            case $c < 27: $T += 8; break;
+            case $c < 33: $T += 9; break;
+            case $c < 40: $T += 10; break;
+            case $c < 47: $T += 11; break;
+            case $c < 53: $T += 12; break;
+            default: $T += 13; break;            
         }
         
         return $T;
@@ -180,68 +154,104 @@ class ConvertT{
     function scale_Dp($c){
         $T = ($c*2);
         switch($c){
-            case $c < 23:
-                $T += 2;
-            break;
-            case $c < 26:
-                $T += 3;
-            break;
-            case $c < 28:
-                $T += 4;
-            break;
-            case $c < 30:
-                $T += 5;
-            break;
-            case $c < 32:
-                $T += 6;
-            break;
-            case $c < 34:
-                $T += 7;
-            break;
-            case $c < 36:
-                $T += 8;
-            break;
-            case $c < 38:
-                $T += 9;
-            break;
-            case $c < 41:
-                $T += 10;
-            break;
-            case $c < 43:
-                $T += 11;
-            break;
-            case $c < 45:
-                $T += 12;
-            break;
-            default:
-                $T += 13;
-            break;
+            case $c < 23: $T += 2; break;
+            case $c < 26: $T += 3; break;
+            case $c < 28: $T += 4; break;
+            case $c < 30: $T += 5; break;
+            case $c < 32: $T += 6; break;
+            case $c < 34: $T += 7; break;
+            case $c < 36: $T += 8; break;
+            case $c < 38: $T += 9; break;
+            case $c < 41: $T += 10; break;
+            case $c < 43: $T += 11; break;
+            case $c < 45: $T += 12; break;
+            default: $T += 13; break;
         }
 
         return $T;
     }
 
     function scale_Mf($c){
+        $T = ($c*2);
+        switch($c){
+            case $c < 17: $T--; break;
+            case $c < 20: break;
+            case $c < 22: $T++; break;
+            case $c < 24: $T += 2; break;
+            case $c < 27: $T += 3; break;
+            case $c < 29: $T += 4; break;
+            case $c < 31: $T += 5; break;
+            case $c < 33: $T += 6; break;
+            case $c < 36: $T += 7; break;
+            case $c < 38: $T += 8; break;
+            case $c < 41: $T += 9; break;
+            case $c < 43: $T += 10; break;
+            case $c < 45: $T += 11; break;
+            case $c < 48: $T += 12; break;
+            case $c < 50: $T += 13; break;
+            case $c < 52: $T += 14; break;
+            default: $T += 15; break;
+        }
+
         return $T;
     }
 
     function scale_Pa($c){
+        $T = ($c*3);
+        switch($c){
+            case $c < 7: $T += 21; break;
+            case $c < 10: $T += 21; break;
+            case $c < 13: $T += 23; break;
+            case $c < 25: $T += 24; break;
+            case $c < 26: $T += 25; break;
+            case $c < 31: $T += 26; break;
+            default: $T += 27; break;
+        }
+
         return $T;
     }
 
     function scale_Pt($c){
+        $T = ($c*2);
+        switch($c){
+            case $c < 25: $T -= 6; break;
+            case $c < 28: $T -= 5; break;
+            default: $T -= 4; break;
+        }
         return $T;
     }
 
     function scale_Es($c){
+        $T = ($c*2);
+        switch($c){
+            case $c : break;
+            case $c : break;
+            case $c : break;
+            default: break;
+        }
+
         return $T;
     }
 
     function scale_Ma($c){
+        $T = ($c*2);
+        switch($c){
+            case $c : break;
+            case $c : break;
+            case $c : break;
+            default: break;
+        }
         return $T;
     }
 
     function scale_ls($c){
+        $T = ($c*2);
+        switch($c){
+            case $c : break;
+            case $c : break;
+            case $c : break;
+            default: break;
+        }
         return $T;
     }
 }
