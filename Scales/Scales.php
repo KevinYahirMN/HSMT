@@ -36,7 +36,7 @@ array_push($cBasicMale, $basicScaleMale->scale_Pa($answer));
 array_push($cBasicMale, $basicScaleMale->scale_Pt($answer));
 array_push($cBasicMale, $basicScaleMale->scale_Es($answer));
 array_push($cBasicMale, $basicScaleMale->scale_Ma($answer));
-array_push($cBasicMale, $basicScaleMale->scale_Ls($answer));
+array_push($cBasicMale, $basicScaleMale->scale_Is($answer));
 
 $cBasicMale[3] = $factorK->sum5K($cBasicMale[3], $cBasicMale[2]);
 $cBasicMale[6] = $factorK->sum4K($cBasicMale[6], $cBasicMale[2]);

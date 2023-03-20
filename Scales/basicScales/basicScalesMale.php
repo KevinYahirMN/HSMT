@@ -645,7 +645,7 @@ class basicScalesMale{
       return $this->c;
    }
    
-   function scale_Ls($answer = array()){
+   function scale_Is($answer = array()){
       $this-> c = 0;
       $this->calif_False($answer[24]);
       $this->calif_True($answer[30]);
