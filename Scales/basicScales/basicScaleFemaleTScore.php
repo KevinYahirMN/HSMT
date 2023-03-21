@@ -228,9 +228,9 @@ class ConvertT{
     function scale_Pt($c){
         $T = ($c*2);
         switch($c){
-            case $c < : $T -= ; break;
-            case $c < : $T -= ; break;
-            default: $T -= ; break;
+            case $c < 21: $T -= 6; break;
+            case $c < 61: $T -= 7; break;
+            default: $T -= 8; break;
         }
         return $T;
     }
@@ -238,31 +238,18 @@ class ConvertT{
     function scale_Es($c){
         $T = ($c*2);
         switch($c){
-            case $c < 22: $T -= 5; break;
-            case $c < 28: $T -= 6; break;
-            case $c < 33: $T -= 7; break;
-            case $c < 36: $T -= 8; break;
-            case 36: $T -= 9; break;
-            case $c < 39: $T -= 10; break;
-            case $c < 41: $T -= 11; break;
+            case $c < 24: $T -= 6; break;
+            case $c < 26: $T -= 7; break;
+            case $c < 29: $T -= 8; break;
+            case $c < 31: $T -= 9; break;
+            case $c < 34: $T -= 10; break;
+            case $c < 38: $T -= 11; break;
             case $c < 43: $T -= 12; break;
-            case $c < 45: $T -= 13; break;
-            case 45: $T -= 14; break;
-            case $c < 48: $T -= 16; break;
-            case $c < 50: $T -= 17; break;
-            case $c < 52: $T -= 18; break;
-            case $c < 54: $T -= 19; break;
-            case 56: $T -= 20; break;
-            case $c < 59: $T -= 21; break;
-            case $c < 61: $T -= 22; break;
-            case $c < 63: $T -= 23; break;
-            case $c < 65: $T -= 24; break;
-            case $c < 67: $T -= 25; break;
-            case 67: $T -= 26; break;
-            case $c < 70: $T -= 27; break;
-            case $c < 72: $T -= 28; break;
-            case $c < 74: $T -= 29; break;
-            default: $T -= 30; break;
+            case $c < 49: $T -= 13; break;
+            case $c < 54: $T -= 14; break;
+            case $c < 59: $T -= 15; break;
+            case $c < 65: $T -= 16; break;
+            default: $T -= 17; break;
         }
 
         return $T;
@@ -271,54 +258,39 @@ class ConvertT{
     function scale_Ma($c){
         $T = ($c*2);
         switch($c){
-            case $c < 20: $T += 5; break;
-            case $c < 23: $T += 6; break;
-            case $c < 25: $T += 7; break;
-            case $c < 29: $T += $c - 17; break;
-            case $c < 31: $T += 12; break;
-            default: $T += $c - 17; break;
+            case $c < 18: $T += 5; break;
+            case $c < 20: $T += 6; break;
+            case 20: $T += 7; break;
+            case $c < 23: $T += 8; break;
+            case $c < 26: $T += $c - 14; break;
+            case 26: $T += 11; break;
+            case $c < 29: $T += $c - 15; break;
+            case $c < 32: $T += $c - 16; break;
+            case $c < 36: $T += $c - 17; break;
+            case $c < 38: $T += $c - 18; break;
+            case $c < 41: $T += $c - 19; break;
+            case $c < 44: $T += $c - 20; break;
+            default: $T += $c - 21; break;
         }
         return $T;
     }
 
     function scale_Is($c){
-        $T = ($c*2);
+        $T = $c;
         switch($c){
-            case $c < 20: $T += 4; break;
-            case 20: $T += 3; break;
-            case $c < 22: $T += 2; break;
-            case 23: $T++; break;
-            case $c < 26: break;
-            case 26: $T--; break;
-            case $c < 29: $T -= 2; break;
-            case 29: $T -= 3; break;
-            case $c < 32: $T -= 4; break;
-            case 32: $T -= 5; break;
-            case $c < 35: $T -= 6; break;
-            case 35: $T -= 7; break;
-            case $c < 38: $T -= 8; break;
-            case 38: $T -= 9; break;
-            case 39: $T -= 10; break;
-            case $c < 42: $T -= 11; break;
-            case 42: $T -= 12; break;
-            case $c < 45: $T -= 13; break;
-            case 45: $T -= 14; break;
-            case $c < 48: $T -= 15; break;
-            case 48: $T -= 16; break;
-            case $c < 51: $T -= 17; break;
-            case 51: $T -= 18; break;
-            case $c < 54: $T -= 19; break;
-            case 54: $T -= 20; break;
-            case $c < 57: $T -= 21; break;
-            case 57: $T -= 22; break;
-            case $c < 60: $T -= 23; break;
-            case 60: $T -= 24; break;
-            case 61: $T -= 25; break;
-            case $c < 64: $T -= 26; break;
-            case 64: $T -= 27; break;
-            case $c < 67: $T -= 28; break;
-            case 67: $T -= 29; break;
-            default: $T -= 30; break;
+            case $c < 18: $T += 20; break;
+            case $c < 22: $T += 21; break;
+            case $c < 27: $T += 22; break;
+            case $c < 32: $T += 23; break;
+            case $c < 36: $T += 24; break;
+            case $c < 41: $T += 25; break;
+            case $c < 46: $T += 26; break;
+            case $c < 50: $T += 27; break;
+            case $c < 55: $T += 28; break;
+            case $c < 60: $T += 29; break;
+            case $c < 64: $T += 30; break;
+            case $c < 69: $T += 31; break;
+            default: $T -= 32; break;
         }
         return $T;
     }
