@@ -1,6 +1,8 @@
 <?php
 //Se aregan los archivos de las escalas para poder utilizar sus clases
 include('basicScales/basicScalesMale.php');
+include('basicScales/basicScaleMaleTScore.php');
+include('basicScales/basicScaleFemaleTScore.php');
 include('SupplementaryScales/supplementaryScalesMale.php');
 include('ContentScales/contentScalesMale.php');
 include('FactorK.php');
@@ -23,6 +25,8 @@ $basicScaleMale = new basicScalesMale();
 $supplementaryScalesMale = new supplementaryScalesMale();
 $contentScaleMale = new contentScalesMale();
 $factorK = new FactorK();
+$scoreTMale = new scoreTMale();
+$scoreTFemale = new scoreTFemale();
 
 array_push($cBasicMale, $basicScaleMale->scale_L($answer));
 array_push($cBasicMale, $basicScaleMale->scale_F($answer));
@@ -44,6 +48,11 @@ $cBasicMale[9] = $factorK->sumK($cBasicMale[9], $cBasicMale[2]);
 $cBasicMale[10] = $factorK->sumK($cBasicMale[10], $cBasicMale[2]);
 $cBasicMale[11] = $factorK->sum2K($cBasicMale[11], $cBasicMale[2]);
 
+$cBasicMale = $scoreTMale->valuesT($cBasicMale);
+
+
+
+/////////////////////////////////////////////////////////////////////////////
 array_push($cSupplementaryMale, $supplementaryScalesMale->scale_A($answer));
 array_push($cSupplementaryMale, $supplementaryScalesMale->scale_R($answer));
 array_push($cSupplementaryMale, $supplementaryScalesMale->scale_Fyo($answer));

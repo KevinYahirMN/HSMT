@@ -1,5 +1,5 @@
 <?php
-class ConvertT{
+class scoreTMale{
 
     function valuesT($counter = array()){
         $i = 0;
@@ -47,6 +47,7 @@ class ConvertT{
             }
             $i++;
         }
+        return $counter;
     }
 
     function scale_L($c){
