@@ -272,35 +272,210 @@ class basicScaleInterpretation{
     }
 
     function scale_Hi($c){
-        
+        switch($c){
+            case $c < 41:
+                $text = 'Probabilidad de actitud cínica.\n
+                Poco interesado en las relaciones sociales, 
+                conformista, tendencias de aislamiento 
+                social.\n
+                Gama de intereses restringida.\n
+                Obstinado, poco amistoso y evita 
+                situaciones donde él sea el líder.\n
+                Conformista, con pocas metas.\n
+                Poco preocupado por su salud, no manifiesta 
+                síntomas somáticos.\n
+                Frío, distante, realista, poco arriesgado.';
+            break;
+            case $c < 56:
+                $text = 'Actitud realista.\n
+                Apertura hacia los sentimientos.\n
+                Estilo lógico y racional.';
+            break;
+            case $c < 66:
+                $text = 'Actitud centrada en sí mismo, 
+                superficialidad.\n
+                Inmadurez y actitud manipuladora ocasional.\n
+                Conformismo, moralismo.\n
+                Necesidad de agradar, inseguridad.\n
+                Actitud demostrativa y extravertida.';
+            break;
+            case $c < 76:
+                $text = 'Predominio defensivo de negación y 
+                disociación.\n
+                Quejas y síntomas somáticos específicos.\n
+                Ingenuidad, escasa capacidad de insight.\n
+                Actitud exigente, demandante e histriónica.';
+            break;
+            default:
+                $text = 'Alta sugestionabilidad.\n
+                Tendencia a la preocupación.\n
+                Utiliza técnicas manipuladoras, tortuosas 
+                para obtener atención y simpatía.\n
+                Episodios súbitos de ansiedad o pánico.\n
+                Desinhibición, inseguridad, conducta 
+                arrebatada e infantil.\n
+                Aparición de síntomas físicos como reacción 
+                a situaciones o actitudes vergonzantes.\n
+                Manifiesta preocupación ante el fracaso 
+                escolar o laboral aunque suelen ser muy 
+                poco trabajador y con pocas 
+                aspiraciones.\n
+                Le cuesta comprender los orígenes de 
+                su propio comportamiento.\n
+                No manifiesta síntomas depresivos.\n
+                Se involucran emocionalmente, son 
+                amistosos y conversadores. Da más 
+                de sí de acuerdo a sus intereses 
+                personales.';
+            break;
+        }
         return $text;
     }
 
     function scale_Dp($c){
+        switch($c){
+            case $c < 41:
+                $text = '';
+            break;
+            case $c < 56:
+                $text = '';
+            break;
+            case $c < 66:
+                $text = '';
+            break;
+            case $c < 76:
+                $text = '';
+            break;
+            default:
+                $text = '';
+            break;
+        }
         return $text;
     }
 
     function scale_Mf($c){
+        switch($c){
+            case $c < 41:
+                $text = '';
+            break;
+            case $c < 56:
+                $text = '';
+            break;
+            case $c < 66:
+                $text = '';
+            break;
+            case $c < 76:
+                $text = '';
+            break;
+            default:
+                $text = '';
+            break;
+        }
         return $text;
     }
 
     function scale_Pa($c){
+        switch($c){
+            case $c < 41:
+                $text = '';
+            break;
+            case $c < 56:
+                $text = '';
+            break;
+            case $c < 66:
+                $text = '';
+            break;
+            case $c < 76:
+                $text = '';
+            break;
+            default:
+                $text = '';
+            break;
+        }
         return $text;
     }
 
     function scale_Pt($c){
+        switch($c){
+            case $c < 41:
+                $text = '';
+            break;
+            case $c < 56:
+                $text = '';
+            break;
+            case $c < 66:
+                $text = '';
+            break;
+            case $c < 76:
+                $text = '';
+            break;
+            default:
+                $text = '';
+            break;
+        }
         return $text;
     }
 
     function scale_Es($c){
+        switch($c){
+            case $c < 41:
+                $text = '';
+            break;
+            case $c < 56:
+                $text = '';
+            break;
+            case $c < 66:
+                $text = '';
+            break;
+            case $c < 76:
+                $text = '';
+            break;
+            default:
+                $text = '';
+            break;
+        }
         return $text;
     }
 
     function scale_Ma($c){
+        switch($c){
+            case $c < 41:
+                $text = '';
+            break;
+            case $c < 56:
+                $text = '';
+            break;
+            case $c < 66:
+                $text = '';
+            break;
+            case $c < 76:
+                $text = '';
+            break;
+            default:
+                $text = '';
+            break;
+        }
         return $text;
     }
 
     function scale_Is($c){
+        switch($c){
+            case $c < 41:
+                $text = '';
+            break;
+            case $c < 56:
+                $text = '';
+            break;
+            case $c < 66:
+                $text = '';
+            break;
+            case $c < 76:
+                $text = '';
+            break;
+            default:
+                $text = '';
+            break;
+        }
         return $text;
     }
 }
