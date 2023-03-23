@@ -27,7 +27,7 @@ class basicScaleInterpretation{
                     $counter[6] = $this->scale_Dp($counter[6]);
                 break;
                 case 7:
-                    $counter[7] = $this->scale_Mf($counter[7]);
+                    $counter[7] = $this->scale_MfM($counter[7]);
                 break;
                 case 8:
                     $counter[8] = $this->scale_Pa($counter[8]);
@@ -335,40 +335,139 @@ class basicScaleInterpretation{
     function scale_Dp($c){
         switch($c){
             case $c < 41:
-                $text = '';
+                $text = 'Rigidez, convencionalismo.\n
+                Pasividad, escasa asertividad, con bajas 
+                expectativas.\n
+                Sumisión ante reglas y normas sociales o 
+                legales.\n
+                Falta de creatividad y espontaniedad.\n
+                Moralista, conformista, reservado, 
+                autocrítico.\n
+                Sobrecontrol.';
             break;
             case $c < 56:
-                $text = '';
+                $text = 'Sinceridad, actitud confiable, 
+                confianza hacia los demás.\n
+                Persistencia, responsabilidad.';
             break;
             case $c < 66:
-                $text = '';
+                $text = 'Impulsividad.\n
+                Conducta intrépida y aventurera.\n
+                Actitud hedonista.\n
+                Resentimiento, inestabilidad, impaciencia.\n
+                Sociabilidad.\n
+                Seguridad y asertividad.\n
+                Probable creatividad e imaginación.';
             break;
             case $c < 76:
-                $text = '';
+                $text = 'Baja tolerancia al aburrimiento, al 
+                tedio y a la frustración.\n
+                Problemas con la autoridad.\n
+                Problemas laborales o matrimoniales 
+                recurrentes.\n
+                Actitud rebelde y hostil, rechazo por las normas 
+                sociales y legales.\n
+                Reacciones emocionales superficiales y de corta 
+                duración (vergüenza, culpa).\n
+                Probabilidad de abuso de sustancias.\n 
+                Antecedentes laborales o escolares de logro 
+                reducido.\n
+                Relaciones y respuestas emocionales 
+                superficiales.';
             break;
             default:
-                $text = '';
+                $text = 'Pobreza en la adecuación del juicio.\n
+                Inestabilidad, irresponsabilidad.\n
+                Delegan responsabilidades de sus actos a otros.\n
+                Actitud centrada en sí mismo, inmadurez.\n
+                Actitudes y comportamientos antisociales.\n
+                Agresividad, provocación.';
             break;
         }
         return $text;
     }
 
-    function scale_Mf($c){
+    function scale_MfM($c){
         switch($c){
             case $c < 41:
-                $text = '';
+                $text = 'Patrón tradicional de intereses 
+                masculinos.\n
+                Pocos intereses, temerarios, 
+                descuidados, toscos, poca 
+                originalidad, agresivos.\n
+                Orientado a la acción.\n
+                Si la escala 4 es elevada, puede reflejar 
+                un estereotipo de machismo prominente.';
             break;
             case $c < 56:
-                $text = '';
+                $text = 'Sentido práctico.\n
+                Actitud realista.\n
+                Convencionalismo.\n
+                Iniciativa.';
             break;
             case $c < 66:
-                $text = '';
+                $text = 'Control del sí.\n
+                Expresividad demostrativa.\n
+                Sentido común.\n
+                Intereses hacia el arte, la estética y la 
+                belleza.\n
+                Tacto y sensibilidad social.';
             break;
             case $c < 76:
-                $text = '';
+                $text = 'Curiosidad y creatividad.\n
+                Actitud de tolerancia.\n
+                Ambicioso, constante en sus metas, 
+                competitivo, individualismo.\n
+                Intereses intelectuales.\n
+                Empatía.';
             break;
             default:
-                $text = '';
+                $text = 'Suave, extremadamente pasivo y 
+                sumiso.\n
+                Homosexualidad manifiesta o reprimida.\n
+                Posibilidad de conflictos de identidad sexual 
+                mayor,\n';
+            break;
+        }
+        return $text;
+    }
+
+    function scale_MfF($c){
+        switch($c){
+            case $c < 41:
+                $text = 'Pasiva, sumisa, restringida, 
+                dependencia, modestia.\n
+                Buen control de impulsos.\n
+                Facilidad de autocomprenderse y para obeservar 
+                errores externos de sí misma.';
+            break;
+            case $c < 52:
+                $text = 'Empatía.\n
+                Conducta competente.\n
+                Iniciativa.\n
+                Actitud de consideración.\n
+                Idealismo.';
+            break;
+            case $c < 60:
+                $text = 'Actividad.\n
+                Actitud aventurera.\n
+                Espontaniedad.\n
+                Asertividad.';
+            break;
+            case $c < 70:
+                $text = 'Autoconfianza, equilibrio, 
+                estabilidad, seguridad y vigor.\n
+                Estilo lógico, poco emocional.\n
+                Competitividad.';
+            break;
+            default:
+                $text = 'Agresividad y deshinibidas.\n
+                Rebeldía contra roles típicamente femeninos.\n
+                Dominantes y dadas de acción.\n
+                Poca dependencia.\n
+                Poco amigables, torpes y varoniles.\n
+                Suele intensificarse el significado si la escala 
+                4 es también elevada.';
             break;
         }
         return $text;
