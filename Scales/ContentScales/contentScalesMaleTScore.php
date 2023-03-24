@@ -238,8 +238,8 @@ class contentScoreTMale{
             case 10: $T = 70; break;
             case 11: $T = 73; break; 
             case 12: $T = 76; break;
-            case 13: $T = 79; break;
-            case 14: $T = 79; break;   
+            case 13: $T = 78; break;
+            case 14: $T = 81; break;   
             case 15: $T = 83; break;   
             case 16: $T = 86; break;
             case 17: $T = 89; break;
@@ -511,8 +511,8 @@ class contentScoreTMale{
             case 11: $T = 55; break;     
             case 12: $T = 57; break;
             case 13: $T = 60; break;
-            case 14: $T = 65; break;   
-            case 15: $T = 68; break;
+            case 14: $T = 64; break;   
+            case 15: $T = 67; break;
             case 16: $T = 70; break;
             case 17: $T = 73; break; 
             case 18: $T = 76; break;
