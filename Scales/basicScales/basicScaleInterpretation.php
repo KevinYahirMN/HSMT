@@ -9,40 +9,40 @@ class basicScaleInterpretation{
                     array_push($suggestions, $this->scale_L($counter[0]));
                 break;
                 case 1:
-                    $counter[1] = $this->scale_F($counter[1]);
+                    array_push($suggestions, $this->scale_F($counter[1]));
                 break;
                 case 2:
-                    $counter[2] = $this->scale_K($counter[2]);
+                    array_push($suggestions, $this->scale_K($counter[2]));
                 break;
                 case 3:
-                    $counter[3] = $this->scale_Hs($counter[3]);
+                    array_push($suggestions, $this->scale_Hs($counter[3]));
                 break;
                 case 4:
-                    $counter[4] = $this->scale_D($counter[4]);
+                    array_push($suggestions, $this->scale_D($counter[4]));
                 break;
                 case 5:
-                    $counter[5] = $this->scale_Hi($counter[5]);
+                    array_push($suggestions, $this->scale_Hi($counter[5]));
                 break;
                 case 6:
-                    $counter[6] = $this->scale_Dp($counter[6]);
+                    array_push($suggestions, $this->scale_Dp($counter[6]));
                 break;
                 case 7:
-                    $counter[7] = $this->scale_MfM($counter[7]);
+                    array_push($suggestions, $this->scale_MfM($counter[7]));
                 break;
                 case 8:
-                    $counter[8] = $this->scale_Pa($counter[8]);
+                    array_push($suggestions, $this->scale_Pa($counter[8]));
                 break;
                 case 9:
-                    $counter[9] = $this->scale_Pt($counter[9]);
+                    array_push($suggestions, $this->scale_Pt($counter[9]));
                 break;
                 case 10:
-                    $counter[10] = $this->scale_Es($counter[10]);
+                    array_push($suggestions, $this->scale_Es($counter[10]));
                 break;
                 case 11:
-                    $counter[11] = $this->scale_Ma($counter[11]);
+                    array_push($suggestions, $this->scale_Ma($counter[11]));
                 break;
                 case 12:
-                    $counter[12] = $this->scale_Is($counter[12]);
+                    array_push($suggestions, $this->scale_Is($counter[12]));
                 break;
             }
             $i++;
@@ -476,19 +476,71 @@ class basicScaleInterpretation{
     function scale_Pa($c){
         switch($c){
             case $c < 41:
-                $text = '';
+                $text = 'Pacientes no psiquiátricos:\n
+                Tendencia al equilibrio y al ánimo 
+                placentero.\n
+                Sujetos ordenados, razonables, maduros en sus 
+                relaciones, prudentes.\n
+                Lealtad, confianza.\n
+                Reservado, convencional, autocontrol.\n
+                Interesado en actividades sociales.\n
+                Adaptación a situaciones cotidianas.\n
+                Ordenados, sensatos, organizados y cautelosos.\n
+                \nPacientes clínicos:\n
+                Prudente, evasivo, reservado, 
+                desconfiado, obstinado, testarudo.\n
+                Falta de interés.\n
+                Insatisfacción, sensible, egocéntrico, 
+                convicciones rígidas, poco exitoso.\n
+                Torpe, descortes, rudo.\n
+                Susceptible.\n
+                Poca capacidad de insight.\n
+                Probabilidad de rasgos paranoides.';
             break;
             case $c < 56:
-                $text = '';
+                $text = 'Racionalidad.\n
+                Pensamiento claro.\n
+                Cautela.\n
+                Flexibilidad.';
             break;
             case $c < 66:
-                $text = '';
+                $text = 'Sensibilidad al rechazo y a los 
+                desaires.\n
+                Notorio interés por las opiniones ajenas.\n
+                Sujetos enérgicos, trabajadores, creativos, 
+                inteligentes, colaboradores.\n
+                Falta de autoconfianza.\n
+                Nerviosismo y preocupación.\n
+                Desconfianza. Cautela y defensa en el inicio 
+                de los contactos sociales.\n
+                Contracción al trabajo.';
             break;
             case $c < 76:
-                $text = '';
+                $text = 'Ira, resentimiento, sensibilidad, 
+                desconfianza, suceptibilidad.\n
+                Tendencias paranoides.\n
+                Desplazamiento de la culpa, actitud crítica.\n
+                Hostilidad, suspicacia.\n
+                Moralidad, rigidez en convicciones, 
+                obstinación.\n
+                Tendencia a racionalizar y/o negar conflictos 
+                emocionales.\n
+                Tendencia a malinterpretar situaciones sociales.';
             break;
             default:
-                $text = '';
+                $text = 'Probabilidad de desorden del 
+                pensamiento.\n
+                Sintomas psicóticos.\n
+                Proyección como mecanismo de defensa.\n
+                Pensamientos perturbados, delirios de 
+                grandenza.\n                
+                Creencias erróneas.\n
+                Ideas de referencia.\n
+                Disposición vengativa, hostilidad, rencor y 
+                amargura.\n
+                Cavilación excesiva.\n
+                Probabilidad de actuación en función del 
+                delirio.';
             break;
         }
         return $text;
@@ -497,19 +549,49 @@ class basicScaleInterpretation{
     function scale_Pt($c){
         switch($c){
             case $c < 41:
-                $text = '';
+                $text = 'Autoconfianza, metas e intereses 
+                variados.\n
+                Libre de inseguridad.\n
+                Ausencia de temores desadaptativos.\n
+                Actitud relajada y de bienestar.\n
+                Persistencia y eficiencia.';
             break;
             case $c < 56:
-                $text = '';
+                $text = 'Actitud confiable.\n
+                Equilibrio, adaptabilidad, capaces, eficientes 
+                sin preocupaciones innecesarias.\n
+                Organización, puntualidad.';
             break;
             case $c < 66:
-                $text = '';
+                $text = 'Conciencia y responsabilidad acerca 
+                del propio accionar.
+                Tendencia a intelectualizar.
+                Contracción al trabajo.
+                Organización, orden, tendencia al 
+                perfeccionismo.
+                Actitud autocrítica.
+                Capacidad introspectiva.';
             break;
             case $c < 76:
-                $text = '';
+                $text = 'Inseguridad, ansiedad, tensión.\n
+                Preocupación, actitud aprensiva, nerviosismo, 
+                agitación, angustia.\n
+                Temor a cometer equivocaciones y errores.\n
+                Minuciosidad, indecisión.\n
+                Labilidad de intereses\n
+                Moralismo';
             break;
             default:
-                $text = '';
+                $text = 'Cavilación, rumiación permanente de 
+                problemas y sus posibles soluciones.\n
+                Agitación psicomotora.\n
+                Sentimientos de culpa, ansiedad, miedo 
+                irracional, temores.
+                Probabilidad de conductas rituales.\n
+                Supersticiones, rigidez en convicciones 
+                religiosas o morales.\n
+                Sentimientos de culpa.\n
+                Expresiones de depresión.';
             break;
         }
         return $text;
@@ -518,19 +600,45 @@ class basicScaleInterpretation{
     function scale_Es($c){
         switch($c){
             case $c < 41:
-                $text = '';
+                $text = 'Convencionalismo, conservadurismo.\n
+                Control sobre los propios impulsos.\n
+                Actitud sumisa, dependencia, sensibilidad, 
+                bondad, responsabilidad, poca imaginación.';
             break;
             case $c < 56:
-                $text = '';
+                $text = 'Adaptabilidad.\n
+                Confiabilidad, seguridad.\n
+                Equilibrio emocional.';
             break;
             case $c < 66:
-                $text = '';
+                $text = 'Escaso interés por las personas.\n
+                Poca habilidad práctica.\n
+                Creatividad e imaginación.\n
+                Preocupaciones religiosas o espirituales.';
             break;
             case $c < 76:
-                $text = '';
+                $text = 'Creencias inusuales.\n
+                Actos bizarros.\n
+                Problemas de identificación y autoconfianza.\n
+                Dificultades de concentración y razonamiento.';
             break;
             default:
-                $text = '';
+                $text = 'Disturbios del pensamiento.\n
+                Comportamiento excéntrico.\n
+                Probabilidad de delirios (somáticos, de 
+                persecusión, entre otros).\n
+                Probabilidad de alucinaciones.\n
+                Retraimiento social, aislamiento.\n
+                Confusión, desorganización y desorientación.\n
+                Objetivos indeterminados, inalcanzables o 
+                exagerados.\n
+                Ansiedad generalizada y con aguda agitación 
+                psicológica.\n
+                Presenta apatía, impulsividad, hostilidad, 
+                desordenamiento, resentimiento, incomprensión, 
+                inadaptación, excentricidad, nerviosismo, 
+                prolijidad.
+                Contacto con la realidad deficitario.';
             break;
         }
         return $text;
@@ -539,19 +647,48 @@ class basicScaleInterpretation{
     function scale_Ma($c){
         switch($c){
             case $c < 41:
-                $text = '';
+                $text = 'Actitud pesimista y apática.\n
+                Frecuente aparición de fatiga.\n
+                Depresión.\n
+                Falta de energía.\n
+                Timidez, dependencia.\n
+                Poca autoconfianza.\n
+                Humildad, modestia.\n
+                Indiferencia y poco afán antes cosas o 
+                situaciones que se presentan.\n
+                Sentimientos depresivos.';
             break;
             case $c < 56:
-                $text = '';
+                $text = 'Sociabilidad, amigabilidad.\n
+                Actitud responsable, realista.\n
+                Entusiasmo.\n
+                Equilibrio';
             break;
             case $c < 66:
-                $text = '';
+                $text = 'Gregario.\n
+                Poca tolerancia al tedio.\n
+                Amplia gama de intereses.\n
+                Contracción al trabajo, efectividad.\n
+                Orientación al logro.\n
+                Actitud emprendedora.';
             break;
             case $c < 76:
-                $text = '';
+                $text = 'Euforia.\n
+                Actividad excesiva.\n
+                Locuacidad.\n
+                Inquietud, impaciencia, labilidad.\n
+                Relaciones superficiales.';
             break;
             default:
-                $text = '';
+                $text = 'Expansividad, grandiosidad.\n
+                Personas activas y enérgicas.\n
+                Pobre control impulsivo.\n
+                Hiperactividad, excitación, distractibilidad, 
+                irritabilidad, hostilidad injustificada e 
+                irracional, agitación, rapidez psicomotora, 
+                poca tolerancia a la frustración.\n
+                Toma de decisiones impulsiva.\n
+                Confusión.';
             break;
         }
         return $text;
@@ -560,19 +697,38 @@ class basicScaleInterpretation{
     function scale_Is($c){
         switch($c){
             case $c < 41:
-                $text = '';
+                $text = 'Calidez.\n
+                Sociabilidad, actitud agregaria, 
+                carismáticos.\n
+                Autoconfianza y asertividad.\n
+                Autoindulgencia.\n
+                Exhibicionismo, iniciativa, 
+                manipulador, oportunista, inmaduro.';
             break;
             case $c < 56:
-                $text = '';
+                $text = 'Actividad, energía.\n
+                Actitud amistosa.\n
+                Locuacidad.';
             break;
             case $c < 66:
-                $text = '';
+                $text = 'Reserva, seriedad, cautela.\n
+                Sobrecontrol de los impulsos.\n
+                Apocada habilidad social.';
             break;
             case $c < 76:
-                $text = '';
+                $text = 'Introversión.\n
+                Depresión.\n
+                Actitud vergonzante, timidez.\n
+                Falta de autoconfianza.\n
+                Actitud taciturna, irritabilidad.\n
+                Rigidez en sus convicciones, 
+                sumisión, obediencia.';
             break;
             default:
-                $text = '';
+                $text = 'Ensimismamiento, actitud distante.\n
+                Desconfianza, inseguridad, indecisión.\n
+                Austeridad, recato.\n
+                Rumiación.';
             break;
         }
         return $text;
