@@ -532,12 +532,13 @@ class basicScaleInterpretation{
             Si la F es valida pero la Fp no, solo se
             podrá interpretar las escalas basicas, 
             pero no las suplementarias.';
-
+            break;
             case $c > 110:
                 $text = 'Puntuacion invalida\n
                 Si la F y la Fp están arriba de
                 110, la prueba no es valida y
                 NO se interpreta.';
+            break;
         }
         return $text;
     }

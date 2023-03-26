@@ -333,8 +333,8 @@ class supplementaryScoreTMale{
             case 26: $T = 30; break;
             case 27: $T = 32; break;
             case 28: $T = 35; break;   
-            case c < 47: $T -= 21; break;
-            default: $T = 73
+            case $c < 47: $T -= 21; break;
+            default: $T = 73; break;
         }
         return $T;
     }
