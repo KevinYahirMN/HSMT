@@ -626,7 +626,7 @@ class basicScaleInterpretation{
                 $text = 'Disturbios del pensamiento.\n
                 Comportamiento excéntrico.\n
                 Probabilidad de delirios (somáticos, de 
-                persecusión, entre otros).\n
+                persecución, entre otros).\n
                 Probabilidad de alucinaciones.\n
                 Retraimiento social, aislamiento.\n
                 Confusión, desorganización y desorientación.\n
@@ -637,7 +637,7 @@ class basicScaleInterpretation{
                 Presenta apatía, impulsividad, hostilidad, 
                 desordenamiento, resentimiento, incomprensión, 
                 inadaptación, excentricidad, nerviosismo, 
-                prolijidad.
+                prolijidad.\n
                 Contacto con la realidad deficitario.';
             break;
         }
