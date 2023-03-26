@@ -172,8 +172,7 @@ class basicScaleInterpretation{
                 pocos recursos psicológicos para 
                 enfrentarse al estrés, por lo que su 
                 pronóstico con relación al cambio 
-                en psicoterapia, no es positivo.
-                ';
+                en psicoterapia, no es positivo.';
             break;
             case $c > 64:
                 $text = 'Tienden a estar más adaptados 
@@ -202,8 +201,7 @@ class basicScaleInterpretation{
                 cínicos ante los demás. 
                 Los hombres con puntuaciones 
                 elevadas tienen un apropiado 
-                estilo de conducta masculino.
-                ';
+                estilo de conducta masculino.';
             break;   
         }
         return $text;
@@ -346,8 +344,7 @@ class basicScaleInterpretation{
         switch($c){
             case $c < 41:
                 $text = 'Los sujetos con puntuaciones bajas en Dpr, 
-                tienden a ser bien adaptados, optimistas y consientes.
-                ';
+                tienden a ser bien adaptados, optimistas y consientes.';
             break;
             case $c > 64:
                 $text = 'Parecen estar un poco adaptadas, 
@@ -382,8 +379,7 @@ class basicScaleInterpretation{
                 honestidad y la disposición para probar 
                 nuevas cosas, además de que indica la 
                 carencia de preocupaciones y sentimientos 
-                referidos a sí mismas.
-                ';
+                referidos a sí mismas.';
             break;   
         }
         return $text;
@@ -437,8 +433,7 @@ class basicScaleInterpretation{
                 pensamientos, expresan sentimientos de 
                 no ser comprendidos o considerados por 
                 los demás, debido a las situaciones 
-                estresantes que han vivido.
-                ';
+                estresantes que han vivido.';
             break;   
         }
         return $text;
@@ -485,8 +480,7 @@ class basicScaleInterpretation{
             case $c < 41:
                 $text = 'La escala es bipolar significa que las 
                 puntuaciones bajas indican lo contrario a los 
-                puntajes altos.
-                ';
+                puntajes altos.';
             break;
             case $c > 64:
                 $text = 'Tienden a evitar estar en grupo, son poco 
@@ -494,8 +488,7 @@ class basicScaleInterpretation{
                 con los demás. Quizá les disguste las fiestas y los 
                 bailes. Indica disgusto y repudio a las actividades 
                 en grupo y al estar en multitudes, por lo que estos
-                sujetos evitan el contacto con otras personas.
-                ';
+                sujetos evitan el contacto con otras personas.';
             break;   
         }
         return $text;
@@ -525,8 +518,7 @@ class basicScaleInterpretation{
                 $text = 'Si tanto la F como la Fp están 
                 debajo de 89 se puede interpretar 
                 todas las escalas, las básicas, las de 
-                contenido y las suplementarias.
-                ';
+                contenido y las suplementarias.';
             break;
             case $c > 90:
                 $text = 'Puntuacion cuestionable\n
@@ -539,7 +531,7 @@ class basicScaleInterpretation{
             escalas relacionadas son validas.\n
             Si la F es valida pero la Fp no, solo se
             podrá interpretar las escalas basicas, 
-            pero no las suplementarias.'
+            pero no las suplementarias.';
 
             case $c > 110:
                 $text = 'Puntuacion invalida\n
