@@ -1,3 +1,7 @@
+<?php 
+    header("Content-Type: text/css; charset: UTF-8");
+    include("supplementaryScaleInterpretation.php");
+?>
 body{
   background-color: #27d84d;
 }
@@ -141,24 +145,22 @@ body{
     padding-right: 10px;
     box-sizing: border-box;
 }
-.b1{ height: 100%}
-.b2{ height: 45%}
-.b3{ height: 55%}
-.b4{ height: 75%}
-.b5{ height: 85%}
-.b6{ height: 35%}
-.b7{ height: 45%}
-.b8{ height: 55%}
-.b9{ height: 75%}
-.b10{ height: 85%}
-.b11{ height: 35%}
-.b12{ height: 45%}
-.b13{ height: 55%}
-.b14{ height: 55%}
-.b15{ height: 55%}
-.b16{ height: 55%}
-.b17{ height: 55%}
-.b18{ height: 55%}
+.b1{ height: <?php echo $counter[0];?>%}
+.b2{ height: <?php echo $counter[1];?>%}
+.b3{ height: <?php echo $counter[2];?>%}
+.b4{ height: <?php echo $counter[3];?>%}
+.b5{ height: <?php echo $counter[4];?>%}
+.b6{ height: <?php echo $counter[5];?>%}
+.b7{ height: <?php echo $counter[6];?>%}
+.b8{ height: <?php echo $counter[7];?>%}
+.b9{ height: <?php echo $counter[8];?>%}
+.b10{ height: <?php echo $counter[9];?>%}
+.b11{ height: <?php echo $counter[10];?>%}
+.b12{ height: <?php echo $counter[11];?>%}
+.b13{ height: <?php echo $counter[12];?>%}
+.b14{ height: <?php echo $counter[13];?>%}
+.b15{ height: <?php echo $counter[14];?>%}
+.b16{ height: <?php echo $counter[15];?>%}
 footer{
     position: absolute;
     bottom: 0px;
