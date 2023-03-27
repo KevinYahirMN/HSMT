@@ -1,6 +1,6 @@
 <?php
 class supplementaryScoreTMale{
-
+    $_SESSION['datos'] = $counter
     function valuesT($counter = array()){
         $i = 0;
         while($i < count($counter)){
