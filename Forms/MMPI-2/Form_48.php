@@ -1,6 +1,14 @@
 <?php
 session_start();
-$_SESSION["answer"] = $_POST["Q"];
+$answer = $_SESSION['answer'];
+
+$postanswer = $_POST['Q'];
+
+for($i = 1; $i < 2; $i++){
+   array_push($answer, $postanswer[$i]);
+}
+
+$_SESSION['answer'] = $answer;
 ?>
 
 <!doctype html>
