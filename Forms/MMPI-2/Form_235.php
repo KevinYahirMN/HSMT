@@ -66,7 +66,7 @@ $_SESSION['answer'] = $answer;
 			</div>
 			<div class="card-body">
 
-            <form method="post" action="Form_235.php">
+            <form method="post" action="Form_236.php">
 
 			       
 					<!--Pregunta 235-->

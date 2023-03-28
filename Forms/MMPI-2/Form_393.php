@@ -22,7 +22,7 @@ $_SESSION['answer'] = $answer;
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Pregunta #393/title>
+	<title>Pregunta #393</title>
 	<style>
 		.btn-group.respuestas {
 			margin: 0 auto;
