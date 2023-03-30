@@ -1,5 +1,5 @@
 <?php
-class supplementaryScoreTMale{
+class supplementaryScaleMaleTscore{
     function valuesT($counter = array()){
         $i = 0;
         while($i < count($counter)){
