@@ -1,7 +1,8 @@
-<?
-include("supplementaryScaleInterpretation.php");
+<?php
+include("interpretacionPRUEBA.php");
+$arreglo = new supplementaryScaleInterpretation();
+$arreglo ->valuesT($counter);
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -137,3 +138,6 @@ include("supplementaryScaleInterpretation.php");
     </div>
 </body>
 </html>
+
+<?php
+?>

@@ -1,9 +1,9 @@
 <?php 
     header("Content-Type: text/css; charset: UTF-8");
-    include("supplementaryScaleInterpretation.php");
+    include("arrayPRUEBA.php");
 ?>
 body{
-  background-color: #27d84d;
+  background-color: #ffffffff;
 }
 .board{
     margin: auto;
