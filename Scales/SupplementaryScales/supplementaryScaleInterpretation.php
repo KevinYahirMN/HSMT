@@ -56,6 +56,7 @@ class supplementaryScaleInterpretation{
             }
             $i++;
         }
+        return $suggestions;
     }
     function scale_A($c){        
         switch($c){

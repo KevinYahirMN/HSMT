@@ -53,6 +53,8 @@ class contentScaleInterpretation{
             }
             $i++;
         }
+
+        return $suggestions;
     }
     function scale_ANS($c){        
         switch($c){

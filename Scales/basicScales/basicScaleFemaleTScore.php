@@ -1,5 +1,5 @@
 <?php
-class scoreTFemale{
+class basicscoreTFemale{
 
     function valuesT($counter = array()){
         $i = 0;

@@ -20,7 +20,7 @@ class aditionalInterpretation{
         }
         $sum = $fcMax + $scMax;
 
-        $this->SuggestionMenu($sum, $fcMax);
+        $text = $this->SuggestionMenu($sum, $fcMax);
 
     }
 
@@ -68,7 +68,7 @@ class aditionalInterpretation{
     }
 
     function fivesubMenu($fMax){
-        if($fMax == 1){
+        if($fMax == 1 || $fMax == 4){
             $text = $this->onefive();
         }else{
             $text = $this->twofive();
@@ -81,13 +81,25 @@ class aditionalInterpretation{
             case 1:
                 $text = $this->onenine();
             break;
+            case 8:
+                $text = $this->onenine();
+            break;
             case 2:
+                $text = $this->twonine();
+            break;
+            case 7:
                 $text = $this->twonine();
             break;
             case 3:
                 $text = $this->threenine();
             break;
+            case 6:
+                $text = $this->threenine();
+            break;
             case 4:
+                $text = $this->fournine();
+            break;
+            case 5:
                 $text = $this->fournine();
             break;
         }
@@ -99,10 +111,19 @@ class aditionalInterpretation{
             case 1:
                 $text = $this->oneten();
             break;
+            case 9:
+                $text = $this->oneten();
+            break;
             case 2:
                 $text = $this->twoten();
             break;
+            case 8:
+                $text = $this->twoten();
+            break;
             case 4:
+                $text = $this->fourteen();
+            break;
+            case 7:
                 $text = $this->fourteen();
             break;
         }
@@ -114,10 +135,19 @@ class aditionalInterpretation{
             case 2:
                 $text = $this->twoeleven();
             break;
+            case 9:
+                $text = $this->twoeleven();
+            break;
             case 3:
                 $text = $this->threeeleven();
             break;
+            case 8:
+                $text = $this->threeeleven();
+            break;
             case 4:
+                $text = $this->foureleven();
+            break;
+            case 7:
                 $text = $this->foureleven();
             break;
         }
@@ -125,7 +155,7 @@ class aditionalInterpretation{
     }
 
     function fifteensubMenu($fMax){
-        if($fMax == 6){
+        if($fMax == 6 || $fMax == 9){
             $text = $this->sixfifteenn();
         }else{
             $text = $this->sevenfifteen();

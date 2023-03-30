@@ -25,8 +25,8 @@ $basicScaleMale = new basicScalesMale();
 $supplementaryScalesMale = new supplementaryScalesMale();
 $contentScaleMale = new contentScalesMale();
 $factorK = new FactorK();
-$scoreTMale = new scoreTMale();
-$scoreTFemale = new scoreTFemale();
+$scoreTMale = new basicscoreTMale();
+$scoreTFemale = new basicscoreTFemale();
 
 array_push($cBasicMale, $basicScaleMale->scale_L($answer));
 array_push($cBasicMale, $basicScaleMale->scale_F($answer));
