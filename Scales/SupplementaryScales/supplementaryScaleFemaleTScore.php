@@ -579,7 +579,7 @@ class supplementaryScoreTFemale{
             case 20: $T = 104; break;   
             case 21: $T = 107; break;
             case 22: $T = 111; break;
-            case 22: $T = 114; break;
+            case 23: $T = 114; break;
             default: $T = 118; break;
         }
         return $T;
