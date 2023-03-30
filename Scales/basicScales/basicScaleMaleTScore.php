@@ -1,5 +1,5 @@
 <?php
-class scoreTMale{
+class basicscoreTMale{
 
     function valuesT($counter = array()){
         $i = 0;

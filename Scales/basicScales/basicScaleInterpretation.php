@@ -47,7 +47,9 @@ class basicScaleInterpretation{
             }
             $i++;
         }
+        return $suggestions;
     }
+    
     function scale_L($c){        
         switch($c){
             case $c < 50:
