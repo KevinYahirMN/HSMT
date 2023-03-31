@@ -5,7 +5,11 @@ include('basicScales/basicScaleFemaleTScore.php');
 include('basicScales/basicScaleInterpretation.php');
 include('basicScales/aditionalInterpretations.php');
 include('FactorK.php');
+
 include('SupplementaryScales/supplementaryScalesMale.php');
+include('SupplementaryScales/supplementaryScaleMaleTScore.php');
+include('SupplementaryScales/supplementaryScaleFemaleTScore.php');
+include('SupplementaryScales/supplementaryScaleInterpretation.php');
 
 include('ContentScales/contentScalesMale.php');
 include('ContentScales/contentScalesMaleTScore.php');
@@ -18,6 +22,7 @@ class Connection{
     private $basicscoreTFemale;
     private $factorK;
     private $basicScaleInterpretation;
+    private $AditionalInterpretation;
 
     private $supplementaryScale;
     private $supplementaryScoreTFemale;
@@ -42,9 +47,10 @@ class Connection{
             $this->basicscoreTFemale = new basicscoreTFemale();
             $this->factorK = new FactorK();
             $this->basicScaleInterpretation = new basicScaleInterpretation();
+            $this->AditionalInterpretation = new aditionalInterpretation();
 
             $this->supplementaryScale = new supplementaryScalesMale();
-            $this->supplementaryScoreTMale = new supplementaryScoreTMale();
+            $this->supplementaryScoreTMale = new supplementaryScaleMaleTscore();
             $this->supplementaryScoreTFemale = new supplementaryScoreTFemale();
             $this->supplementaryScaleInterpretation = new supplementaryScaleInterpretation();
             
@@ -153,6 +159,11 @@ class Connection{
         $suggestions = $this->basicScaleInterpretation->valuesT($this->cBasic);
         return $suggestions;
     }
+    function interpretationAditional(){
+        $suggestions = array();
+        $suggestions = $this->AditionalInterpretation->maxScale($this->cBasic);
+        return $suggestions;
+    }
 
     function interpretationSupplementaryScales(){
         $suggestions = array();
@@ -165,6 +176,8 @@ class Connection{
         $suggestions = $this->contentScaleInterpretation->valuesT($this->cContent);
         return $suggestions;
     }
+
+
 
 }
 ?>

@@ -22,6 +22,8 @@ class aditionalInterpretation{
 
         $text = $this->SuggestionMenu($sum, $fcMax);
 
+        return $text;
+
     }
 
     function SuggestionMenu($sum, $fMax){
