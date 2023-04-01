@@ -19,34 +19,30 @@ class FactorK{
     }
 
     function sum4K($c, $K){
-        $factorK = 0;
-        if($K%2.5 == 0){
-            $factorK = $K*0.4;
-        }else{
-            if($K%2.5 >= 0.5){
-                $factorK = round($K*0.4);
-            }
-            else{
-                $factorK = intval($K*0.4);
-            }
+        $factorK = $K*0.4;
+        
+        if($K%2.5 >= 1.5){
+            $factorK = round($factorK);
         }
+        else{
+            $factorK = intval($factorK);
+        }
+
         $c += $factorK;
         
         return $c;
     }
 
     function sum2K($c, $K){
-        $factorK = 0;
-        if($K%5 == 0){
-            $factorK = ($K*0.2);
-        }else{
-            if($K%5 >= 3){
-                $factorK = round($K*0.2);
-            }
-            else{
-                $factorK = intval($K*0.2);
-            }
+        $factorK = $K*0.2;
+
+        if($K%5 >= 3){
+            $factorK = round($factorK);
         }
+        else{
+            $factorK = intval($factorK);
+        }
+        
         $c += $factorK;
 
         return $c;

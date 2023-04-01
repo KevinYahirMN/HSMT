@@ -52,6 +52,7 @@ class threeInterpretation{
     }
 
     function threesuggestionMenu($sum, $cMax, $scMax, $fcMax){
+        $text = 'No aplica';
         switch($sum){
             case 6:
                 $text = $this->sixOption($scMax);

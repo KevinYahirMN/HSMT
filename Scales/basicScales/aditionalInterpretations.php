@@ -28,6 +28,7 @@ class aditionalInterpretation{
 
     function SuggestionMenu($sum, $fMax){
         $sum = 0;
+        $text = 'No aplica';
         switch($sum){
             case 3:
                 $text = $this->three();
