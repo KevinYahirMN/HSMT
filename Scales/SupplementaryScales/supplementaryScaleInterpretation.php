@@ -435,7 +435,10 @@ class supplementaryScaleInterpretation{
                 no ser comprendidos o considerados por 
                 los demás, debido a las situaciones 
                 estresantes que han vivido.';
-            break;   
+            break;
+            default:
+                $text = '';
+            break;
         }
         return $text;
     }
@@ -453,6 +456,9 @@ class supplementaryScaleInterpretation{
                 somáticos en los que la ansiedad es un componente 
                 importante';
             break;   
+            default:
+                $text = '';
+            break;
         }
         return $text;
     }
