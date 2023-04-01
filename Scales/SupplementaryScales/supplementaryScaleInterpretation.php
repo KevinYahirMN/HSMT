@@ -103,7 +103,9 @@ class supplementaryScaleInterpretation{
                 sugestionables y conformistas, por lo 
                 que aceptan de manera abierta la 
                 autoridad de otros.';
-            break;          
+            break;     
+            default:
+            $text = 'Niveles normales';     
         }
         return $text;
     }
@@ -159,6 +161,8 @@ class supplementaryScaleInterpretation{
                 es indicativa de un individuo 
                 formal, de ideas claras, cuidadoso.';
             break;          
+            default:
+            $text = 'Niveles normales';
         }
         return $text;
     }
@@ -204,6 +208,8 @@ class supplementaryScaleInterpretation{
                 elevadas tienen un apropiado 
                 estilo de conducta masculino.';
             break;   
+            default:
+            $text = 'Niveles normales';
         }
         return $text;
     }
@@ -232,6 +238,8 @@ class supplementaryScaleInterpretation{
                 Los puntajes naturales arriba de 24 sugieren abuso 
                 de substancias, ya sea alcohol u otras drogas.';
             break;   
+            default:
+            $text = 'Niveles normales';
         }
         return $text;
     }
@@ -260,6 +268,8 @@ class supplementaryScaleInterpretation{
                 son dependientes y confiados. Suelen describir a sus 
                 familias de origen como cálidas y fuentes de apoyo.';
             break;   
+            default:
+            $text = 'Niveles normales';
         }
         return $text;
     }
@@ -285,6 +295,8 @@ class supplementaryScaleInterpretation{
                 orientadas a las tareas que les son encomendadas, por lo que 
                 se muestran muy perseverantes y ecuánimes ante situaciones adversas';
             break;   
+            default:
+            $text = 'Niveles normales';
         }
         return $text;
     }
@@ -337,6 +349,8 @@ class supplementaryScaleInterpretation{
                 énfasis excesivo al cumplimiento de su 
                 parte correspondiente de cargas y deberes.';
             break;   
+            default:
+            $text = 'Niveles normales';
         }
         return $text;
     }
@@ -355,6 +369,8 @@ class supplementaryScaleInterpretation{
                 de mayor estrés y sentir que la vida los abruma 
                 la mayor parte del tiempo';
             break;   
+            default:
+            $text = 'Niveles normales';
         }
         return $text;
     }
@@ -381,7 +397,9 @@ class supplementaryScaleInterpretation{
                 nuevas cosas, además de que indica la 
                 carencia de preocupaciones y sentimientos 
                 referidos a sí mismas.';
-            break;   
+            break;  
+            default:
+            $text = 'Niveles normales'; 
         }
         return $text;
     }
@@ -410,6 +428,8 @@ class supplementaryScaleInterpretation{
                 carencia de preocupaciones y 
                 sentimientos referidos a sí mismas.';
             break;   
+            default:
+            $text = 'Niveles normales';
         }
         return $text;
     }

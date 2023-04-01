@@ -1,6 +1,6 @@
 <?php 
     header("Content-Type: text/css; charset: UTF-8");
-    include("arrayPRUEBA.php");
+    include("Connection.php");
 ?>
 body{
   background-color: #ffffffff;

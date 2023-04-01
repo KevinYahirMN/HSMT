@@ -1,5 +1,5 @@
 <?php
-include("interpretacionPRUEBA.php");
+include("connection.php");
 $arreglo = new supplementaryScaleInterpretation();
 $arreglo ->valuesT($counter);
 ?>
