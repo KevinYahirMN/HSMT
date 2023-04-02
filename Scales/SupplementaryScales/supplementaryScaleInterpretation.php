@@ -65,13 +65,13 @@ class supplementaryScaleInterpretation{
                 siente ansioso, con fluidez verbal, franca, 
                 abierta amistosa, sociable, amable,
                 informal, asume un papel preponderante 
-                en la relación con los demás.\n
+                en la relación con los demás.
                 Es persuasivo, exhibicionista y eficiente, 
                 capaz de expresar ideas claras, versátil 
                 ingeniosos, confiado en sí mismo, 
                 competitivo con un alto valor del éxito y 
                 logros intensado en el poder, la posición 
-                y el reconocimiento.\n
+                y el reconocimiento.
                 Por otra parte manipula a las demás 
                 persona, y es incapaz de demorar la 
                 satisfacción de sus impulsos, 
@@ -81,7 +81,7 @@ class supplementaryScaleInterpretation{
                 reflejan ausencia de angustia emocional. 
                 Estas personas tienden a ser enérgicas, 
                 competitivas y socialmente 
-                extrovertidas.\n
+                extrovertidas.
                 Pueden ser incapaces de tolerar la 
                 frustración y usualmente prefieren la 
                 acción a la reflexión.';
@@ -89,7 +89,7 @@ class supplementaryScaleInterpretation{
             case $c > 64:
                 $text = 'Son personas que se caracterizan por 
                 sentirse ansiosas e incomodas, son 
-                pesimistas y apáticas.\n 
+                pesimistas y apáticas. 
                 Generalmente se alejan de 
                 personas que los rodean, debido a que 
                 son temerosas y les falta confianza en 
@@ -98,7 +98,7 @@ class supplementaryScaleInterpretation{
                 decisiones, se dejan influir pos 
                 sentimientos personales difusos, además 
                 se inclinan a racionalizar acerca de sus 
-                dificultades, y llegan a lastimar a otros.\n
+                dificultades, y llegan a lastimar a otros.
                 Son personas sumisas complacientes, 
                 sugestionables y conformistas, por lo 
                 que aceptan de manera abierta la 
@@ -125,7 +125,7 @@ class supplementaryScaleInterpretation{
                 Además son extrovertidas, 
                 emotivas, espontáneas y su estilo 
                 de vida es dominante en sus 
-                relaciones interpersonales.\n
+                relaciones interpersonales.
                 Aparecen como enérgicas, 
                 expresivas informales. La 
                 interpretación de las puntuaciones 
@@ -146,7 +146,7 @@ class supplementaryScaleInterpretation{
                 demás como convencionales y 
                 reservados en el sentido 
                 emocional, amables y poco 
-                espontáneos.\n
+                espontáneos.
                 Tiende a evitar los conflictos en 
                 vez de tratarlos directamente 
                 debido a que suele ser sumiso y 
@@ -155,7 +155,7 @@ class supplementaryScaleInterpretation{
                 conducta y acciones. Además se 
                 caracteriza por mostrar su 
                 pensamiento claro, ser lento en 
-                sus acciones y muy meticuloso.\n
+                sus acciones y muy meticuloso.
                 La interpretación de puntuaciones 
                 elevadas de la escala de represión 
                 es indicativa de un individuo 
@@ -234,7 +234,7 @@ class supplementaryScaleInterpretation{
                 están dispuestos a correr riesgos, además tienen 
                 problemas para concentrarse, pueden tener historias 
                 de problemas de conducta en la escuela o con la 
-                ley y disfrutan las competencias de cualquier tipo.\n 
+                ley y disfrutan las competencias de cualquier tipo. 
                 Los puntajes naturales arriba de 24 sugieren abuso 
                 de substancias, ya sea alcohol u otras drogas.';
             break;   
@@ -290,7 +290,7 @@ class supplementaryScaleInterpretation{
                 generalmente como dominantes en situaciones sociales, que se 
                 consideran a sí mismos y son considerados por los demás 
                 capaces de enfrentar apropiadamente las situaciones personales, 
-                no se intimidan fácilmente y se sienten seguros.\n 
+                no se intimidan fácilmente y se sienten seguros. 
                 Suelen ser personas optimistas, eficientes, realistas y
                 orientadas a las tareas que les son encomendadas, por lo que 
                 se muestran muy perseverantes y ecuánimes ante situaciones adversas';
@@ -336,7 +336,7 @@ class supplementaryScaleInterpretation{
                 persona íntegra, con sentido de 
                 responsabilidad para el grupo; además, es 
                 probable que se encuentre en situaciones 
-                de liderazgo y toma de decisiones.\n
+                de liderazgo y toma de decisiones.
                 Puntuaciones altas arriba de 60, indican 
                 un fuerte sentido de justicia y un alto 
                 sentido a las normas, indican también que
@@ -390,7 +390,7 @@ class supplementaryScaleInterpretation{
                 gran confianza en sí mismos, gran 
                 perseverancia y amplios intereses, además 
                 de la carencia de temores o sentimientos 
-                referentes de sí mismos.\n
+                referentes de sí mismos.
                 Para las mujeres GM se vincula con una 
                 gran confianza en sí mismas, con 
                 honestidad y la disposición para probar 
@@ -548,20 +548,20 @@ class supplementaryScaleInterpretation{
                 contenido y las suplementarias.';
             break;
             case $c > 90:
-                $text = 'Puntuacion cuestionable\n
+                $text = 'Puntuacion cuestionable
                 No se deben interpretar las 
                 escalas de contenido y las 
                 suplementarias';
             break;
-            case 110: $text ='Utilidad del perfil invalida\n
+            case 110: $text ='Utilidad del perfil invalida
             Posible patologia, si otras
-            escalas relacionadas son validas.\n
+            escalas relacionadas son validas.
             Si la F es valida pero la Fp no, solo se
             podrá interpretar las escalas basicas, 
             pero no las suplementarias.';
             break;
             case $c > 110:
-                $text = 'Puntuacion invalida\n
+                $text = 'Puntuacion invalida
                 Si la F y la Fp están arriba de
                 110, la prueba no es valida y
                 NO se interpreta.';
