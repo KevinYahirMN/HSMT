@@ -54,24 +54,24 @@ class basicScaleInterpretation{
         switch($c){
             case $c < 50:
                 $text = 'Presenta sinceridad, autocrítica, 
-                confianza.\n
+                confianza.
                 Capacidad de liderazgo, seguridad, 
-                independencia, espontaniedad, autonomia.\n
-                Sarcástico, irónico, cínico.\n';
+                independencia, espontaniedad, autonomia.
+                Sarcástico, irónico, cínico.';
             break;
             case $c < 70:
-                $text = 'Conforme con la imagen del sí.\n
-                Conformismo social.\n
+                $text = 'Conforme con la imagen del sí.
+                Conformismo social.
                 Moralismo y rigidez.';
             break;
             default:
-                $text = 'Estado confuncional.\n
-                Escasa capacidad introspectiva.\n
-                Resistencia a la evaluacion.\n
-                Moralismo y rigidez excesivo.\n
-                Estilo represivo.\n
+                $text = 'Estado confuncional.
+                Escasa capacidad introspectiva.
+                Resistencia a la evaluacion.
+                Moralismo y rigidez excesivo.
+                Estilo represivo.
                 Baja tolerancia a la frustración, 
-                estrés, presiones ciscunstanciales.\n
+                estrés, presiones ciscunstanciales.
                 Ingenuidad y falta de perspicacia.';
             break;
         }
@@ -81,45 +81,45 @@ class basicScaleInterpretation{
     function scale_F($c){
         switch($c){
             case $c < 50:
-                $text = 'Libre de tensión.\n
-                Respuestas razonables.\n
-                Conformismo y conformidad social.\n
-                Convencionalismo.\n
+                $text = 'Libre de tensión.
+                Respuestas razonables.
+                Conformismo y conformidad social.
+                Convencionalismo.
                 Probabilidad de fingir para proyectar 
-                una imagen aceptable.\n
-                Negación de dificultades personales.\n
+                una imagen aceptable.
+                Negación de dificultades personales.
                 Descarte de psicopatología severa.';
             break;
             case $c < 66:
                 $text = 'Respuesta hacia un área de 
-                conflicto particular.\n
-                Posibilidad de ser una persona neurótica.\n
+                conflicto particular.
+                Posibilidad de ser una persona neurótica.
                 Adaptabiliad y buen funcionamiento en aspectos 
                 divergidos a las áreas de conflicto.';
             break;
             case $c < 80:
                 $text = 'Rigidiz en convicciones morales,
-                sociales y/o políticas.\n
-                Trastorno neurótico o psicótico.\n
+                sociales y/o políticas.
+                Trastorno neurótico o psicótico.
                 Una vez descartado un trastorno psiquiátrico puede 
                 tratarse de una persona oportunista, depresiva, 
                 impaciente, insatisfecha, inestable y/o curiosa';
             break;
             case $c < 100:
-                $text = 'Responder a todos los reactivos falso.\n
-                Simulación o exageración de síntomas.\n
-                Resistencia a la prueba.\n
-                Falta de cooperación.\n
+                $text = 'Responder a todos los reactivos falso.
+                Simulación o exageración de síntomas.
+                Resistencia a la prueba.
+                Falta de cooperación.
                 Psicosis.';
             break;
             default:
                 $text = 'Respuestas ejecutadas al azar o por 
                 incapacidad para comprender la lectura. Puede 
                 haber respondido verdadero o falso a todos los 
-                reactivos.\n
+                reactivos.
                 Simulación de enfermedad mental o exageración de 
-                la misma.\n
-                Paciente psiquiátrico seriamente perturbado.\n
+                la misma.
+                Paciente psiquiátrico seriamente perturbado.
                 Inconformismo o resignación ante creencias y/o 
                 costumbres políticas, sociales o religiosas';
             break;
@@ -131,47 +131,47 @@ class basicScaleInterpretation{
         switch($c){
             case $c < 41:
                 $text = 'Se respondió verdadero a la mayoría 
-                de reactivos.\n
+                de reactivos.
                 Desorganización emocional, ingenuidad, 
-                autocrítica, debilidad yoica.\n
+                autocrítica, debilidad yoica.
                 Pretende proyetar una imagen inaceptable de su 
                 persona.
-                Exageración de conflictos.\n
+                Exageración de conflictos.
                 Timidez, inhibición, incapacidad de relacionarse 
-                con los demás.\n
+                con los demás.
                 Sinero y torpe en sus relaciones, cínico o 
-                incrédulo.\n
-                Conformista.\n
-                Abulia.\n
-                Desconfianza, suspicacia de los demás.\n
+                incrédulo.
+                Conformista.
+                Abulia.
+                Desconfianza, suspicacia de los demás.
                 Dificultad para enfrentar los problemas o darles 
-                solución.\n
-                Confusión orgánica o psicótica.\n
+                solución.
+                Confusión orgánica o psicótica.
                 Niveles bajos de autoconocimiento y 
                 autocomprensión.';
             break;
             case $c < 71:
                 $text = 'Adaptación, sociabilidad, capacidad 
-                intelectual alta.\n
-                Indepencia, autoconfianza.\n
-                Alto nivel de comunicación con el medio.\n
+                intelectual alta.
+                Indepencia, autoconfianza.
+                Alto nivel de comunicación con el medio.
                 Comprensión y solución de problemas de forma 
-                independiente y razonable.\n
-                Ingenio y versatilidad.\n
+                independiente y razonable.
+                Ingenio y versatilidad.
                 Elevado control en sus relaciones 
-                interpersonales.\n
-                Pensamiento claro.\n
+                interpersonales.
+                Pensamiento claro.
                 Pocos síntomas de trastorno emocional.';
             break;
             default:
                 $text = 'Posible negación de problemas 
-                personales.\n
-                Respondió falso a gran parte de los reactivos.\n
-                Pretende dar una imagen de control y eficacia.\n
-                Timidez, indecisión, inhibición.\n
-                Falta de autonocomiento y autoentendimiento.\n
+                personales.
+                Respondió falso a gran parte de los reactivos.
+                Pretende dar una imagen de control y eficacia.
+                Timidez, indecisión, inhibición.
+                Falta de autonocomiento y autoentendimiento.
                 Intolerancia a convicciones exrtañas o poco 
-                convencionales.\n
+                convencionales.
                 Baja probabilidad de conductas antisociales.';
             break;
         }
@@ -182,39 +182,39 @@ class basicScaleInterpretation{
         switch($c){
             case $c < 41:
                 $text = 'No presenta quejas o preocupaciones 
-                somáticas.\n
+                somáticas.
                 Probabilidad de desatención a signos 
-                síntomas de enfermedad.\n
-                Optimismo, energía, satisfacción.\n
+                síntomas de enfermedad.
+                Optimismo, energía, satisfacción.
                 Efectividad.';
             break;
             case $c < 56:
                 $text = 'Escasa preocupación acerca del cuerpo y 
-                la salud propia.\n
-                Emotividad abierta y equilibrada.\n
+                la salud propia.
+                Emotividad abierta y equilibrada.
                 Realista y perspicaz.';
             break;
             case $c < 66:
                 $text = 'Presencia de un trastorno de salud 
-                específico.\n
+                específico.
                 Probabilidad de inmadurez, irritabilidad, 
-                tendencia a la queja y al lamento.\n
+                tendencia a la queja y al lamento.
                 Preocupación por la salud corporal propia 
                 (peso, funcionamiento físico, entre otras).';
             break;
             case $c < 76:
                 $text = 'Reacción exagerada a cualquier problema 
-                real.\n
-                Egoísmo, extremo centramiento en sí.\n
-                Actitudes derrotistas y pesimistas.\n
-                Amargura y perspectiva cínica.\n
-                Demanda constante de atención.\n
-                Exageración de los problemas físicos.\n
+                real.
+                Egoísmo, extremo centramiento en sí.
+                Actitudes derrotistas y pesimistas.
+                Amargura y perspectiva cínica.
+                Demanda constante de atención.
+                Exageración de los problemas físicos.
                 Quejas intensas y temperamento mudable.';
             break;
             default:
                 $text = 'Delirios somáticos o concernientes 
-                al cuerpo.\n
+                al cuerpo.
                 Múltiples síntomas y quejas, probablemente 
                 constricción.';
             break;
@@ -225,48 +225,48 @@ class basicScaleInterpretation{
     function scale_D($c){
         switch($c){
             case $c < 41:
-                $text = 'Actividad, entusiasmo, optimismo.\n
+                $text = 'Actividad, entusiasmo, optimismo.
                 Sin disturbios emocionales, ni problemas de 
-                inhibición o retracción social.\n
-                Probabilidad de bajo control de los impulsos.\n
+                inhibición o retracción social.
+                Probabilidad de bajo control de los impulsos.
                 Intereses sociales.';
             break;
             case $c < 56:
                 $text = 'Conformidad, comodidad y adaptación 
-                antes las relaciones sociales.\n
+                antes las relaciones sociales.
                 Estabilidad emocional, autoconfianza, bajos 
-                niveles de depresión y sentimientos de culpa.\n
+                niveles de depresión y sentimientos de culpa.
                 Relajación, comodidad, felicidad, energía y
-                competividad.\n
+                competividad.
                 Energía elevada para afrontar los problemas 
-                y encontrarles solución.\n
+                y encontrarles solución.
                 Actitud realista.';
             break;
             case $c < 66:
                 $text = 'Probabilidad de inhibición, 
-                irritabilidad y timidez.\n
+                irritabilidad y timidez.
                 Sentimientos relativamente crónicos de tristeza, 
                 infelicidad, insatisfacción consigo mismo y con 
-                los demás.\n
-                Preocupación, pesimismo leve.\n
-                Actitud responsable.\n
+                los demás.
+                Preocupación, pesimismo leve.
+                Actitud responsable.
                 Modestia.';
             break;
             case $c < 76:
                 $text = 'Tendencia al aislamiento, timidez, 
-                actitud vergonzante.\n
+                actitud vergonzante.
                 Nivel energético disminuido, dificultades de 
-                concentración.\n
-                Quejas somáticas, trastornos del sueño.\n
-                Baja autoestima, sentimientos de inadecuación.\n
+                concentración.
+                Quejas somáticas, trastornos del sueño.
+                Baja autoestima, sentimientos de inadecuación.
                 Presencia de aflicción, disforia y pesimismo.';
             break;
             default:
-                $text = 'Ensimismamiento, introversión.\n
-                Desesperanza, sentimientos de culpabilidad.\n
-                Autopercepción de inadecuación.\n
+                $text = 'Ensimismamiento, introversión.
+                Desesperanza, sentimientos de culpabilidad.
+                Autopercepción de inadecuación.
                 Preocupación acerca de la muerte; probabilidad 
-                de ideación suicida.\n
+                de ideación suicida.
                 Apatía, abatimiento, enlentecimiento psicomotor.';
             break;
         }
@@ -276,55 +276,55 @@ class basicScaleInterpretation{
     function scale_Hi($c){
         switch($c){
             case $c < 41:
-                $text = 'Probabilidad de actitud cínica.\n
+                $text = 'Probabilidad de actitud cínica.
                 Poco interesado en las relaciones sociales, 
                 conformista, tendencias de aislamiento 
-                social.\n
-                Gama de intereses restringida.\n
+                social.
+                Gama de intereses restringida.
                 Obstinado, poco amistoso y evita 
-                situaciones donde él sea el líder.\n
-                Conformista, con pocas metas.\n
+                situaciones donde él sea el líder.
+                Conformista, con pocas metas.
                 Poco preocupado por su salud, no manifiesta 
-                síntomas somáticos.\n
+                síntomas somáticos.
                 Frío, distante, realista, poco arriesgado.';
             break;
             case $c < 56:
-                $text = 'Actitud realista.\n
-                Apertura hacia los sentimientos.\n
+                $text = 'Actitud realista.
+                Apertura hacia los sentimientos.
                 Estilo lógico y racional.';
             break;
             case $c < 66:
                 $text = 'Actitud centrada en sí mismo, 
-                superficialidad.\n
-                Inmadurez y actitud manipuladora ocasional.\n
-                Conformismo, moralismo.\n
-                Necesidad de agradar, inseguridad.\n
+                superficialidad.
+                Inmadurez y actitud manipuladora ocasional.
+                Conformismo, moralismo.
+                Necesidad de agradar, inseguridad.
                 Actitud demostrativa y extravertida.';
             break;
             case $c < 76:
                 $text = 'Predominio defensivo de negación y 
-                disociación.\n
-                Quejas y síntomas somáticos específicos.\n
-                Ingenuidad, escasa capacidad de insight.\n
+                disociación.
+                Quejas y síntomas somáticos específicos.
+                Ingenuidad, escasa capacidad de insight.
                 Actitud exigente, demandante e histriónica.';
             break;
             default:
-                $text = 'Alta sugestionabilidad.\n
-                Tendencia a la preocupación.\n
+                $text = 'Alta sugestionabilidad.
+                Tendencia a la preocupación.
                 Utiliza técnicas manipuladoras, tortuosas 
-                para obtener atención y simpatía.\n
-                Episodios súbitos de ansiedad o pánico.\n
+                para obtener atención y simpatía.
+                Episodios súbitos de ansiedad o pánico.
                 Desinhibición, inseguridad, conducta 
-                arrebatada e infantil.\n
+                arrebatada e infantil.
                 Aparición de síntomas físicos como reacción 
-                a situaciones o actitudes vergonzantes.\n
+                a situaciones o actitudes vergonzantes.
                 Manifiesta preocupación ante el fracaso 
                 escolar o laboral aunque suelen ser muy 
                 poco trabajador y con pocas 
-                aspiraciones.\n
+                aspiraciones.
                 Le cuesta comprender los orígenes de 
-                su propio comportamiento.\n
-                No manifiesta síntomas depresivos.\n
+                su propio comportamiento.
+                No manifiesta síntomas depresivos.
                 Se involucran emocionalmente, son 
                 amistosos y conversadores. Da más 
                 de sí de acuerdo a sus intereses 
@@ -337,52 +337,52 @@ class basicScaleInterpretation{
     function scale_Dp($c){
         switch($c){
             case $c < 41:
-                $text = 'Rigidez, convencionalismo.\n
+                $text = 'Rigidez, convencionalismo.
                 Pasividad, escasa asertividad, con bajas 
-                expectativas.\n
+                expectativas.
                 Sumisión ante reglas y normas sociales o 
-                legales.\n
-                Falta de creatividad y espontaniedad.\n
+                legales.
+                Falta de creatividad y espontaniedad.
                 Moralista, conformista, reservado, 
-                autocrítico.\n
+                autocrítico.
                 Sobrecontrol.';
             break;
             case $c < 56:
                 $text = 'Sinceridad, actitud confiable, 
-                confianza hacia los demás.\n
+                confianza hacia los demás.
                 Persistencia, responsabilidad.';
             break;
             case $c < 66:
-                $text = 'Impulsividad.\n
-                Conducta intrépida y aventurera.\n
-                Actitud hedonista.\n
-                Resentimiento, inestabilidad, impaciencia.\n
-                Sociabilidad.\n
-                Seguridad y asertividad.\n
+                $text = 'Impulsividad.
+                Conducta intrépida y aventurera.
+                Actitud hedonista.
+                Resentimiento, inestabilidad, impaciencia.
+                Sociabilidad.
+                Seguridad y asertividad.
                 Probable creatividad e imaginación.';
             break;
             case $c < 76:
                 $text = 'Baja tolerancia al aburrimiento, al 
-                tedio y a la frustración.\n
-                Problemas con la autoridad.\n
+                tedio y a la frustración.
+                Problemas con la autoridad.
                 Problemas laborales o matrimoniales 
-                recurrentes.\n
+                recurrentes.
                 Actitud rebelde y hostil, rechazo por las normas 
-                sociales y legales.\n
+                sociales y legales.
                 Reacciones emocionales superficiales y de corta 
-                duración (vergüenza, culpa).\n
-                Probabilidad de abuso de sustancias.\n 
+                duración (vergüenza, culpa).
+                Probabilidad de abuso de sustancias.
                 Antecedentes laborales o escolares de logro 
-                reducido.\n
+                reducido.
                 Relaciones y respuestas emocionales 
                 superficiales.';
             break;
             default:
-                $text = 'Pobreza en la adecuación del juicio.\n
-                Inestabilidad, irresponsabilidad.\n
-                Delegan responsabilidades de sus actos a otros.\n
-                Actitud centrada en sí mismo, inmadurez.\n
-                Actitudes y comportamientos antisociales.\n
+                $text = 'Pobreza en la adecuación del juicio.
+                Inestabilidad, irresponsabilidad.
+                Delegan responsabilidades de sus actos a otros.
+                Actitud centrada en sí mismo, inmadurez.
+                Actitudes y comportamientos antisociales.
                 Agresividad, provocación.';
             break;
         }
@@ -393,42 +393,42 @@ class basicScaleInterpretation{
         switch($c){
             case $c < 41:
                 $text = 'Patrón tradicional de intereses 
-                masculinos.\n
+                masculinos.
                 Pocos intereses, temerarios, 
                 descuidados, toscos, poca 
-                originalidad, agresivos.\n
-                Orientado a la acción.\n
+                originalidad, agresivos.
+                Orientado a la acción.
                 Si la escala 4 es elevada, puede reflejar 
                 un estereotipo de machismo prominente.';
             break;
             case $c < 56:
-                $text = 'Sentido práctico.\n
-                Actitud realista.\n
-                Convencionalismo.\n
+                $text = 'Sentido práctico.
+                Actitud realista.
+                Convencionalismo.
                 Iniciativa.';
             break;
             case $c < 66:
-                $text = 'Control del sí.\n
-                Expresividad demostrativa.\n
-                Sentido común.\n
+                $text = 'Control del sí.
+                Expresividad demostrativa.
+                Sentido común.
                 Intereses hacia el arte, la estética y la 
-                belleza.\n
+                belleza.
                 Tacto y sensibilidad social.';
             break;
             case $c < 76:
-                $text = 'Curiosidad y creatividad.\n
-                Actitud de tolerancia.\n
+                $text = 'Curiosidad y creatividad.
+                Actitud de tolerancia.
                 Ambicioso, constante en sus metas, 
-                competitivo, individualismo.\n
-                Intereses intelectuales.\n
+                competitivo, individualismo.
+                Intereses intelectuales.
                 Empatía.';
             break;
             default:
                 $text = 'Suave, extremadamente pasivo y 
-                sumiso.\n
-                Homosexualidad manifiesta o reprimida.\n
+                sumiso.
+                Homosexualidad manifiesta o reprimida.
                 Posibilidad de conflictos de identidad sexual 
-                mayor,\n';
+                mayor.';
             break;
         }
         return $text;
@@ -438,36 +438,36 @@ class basicScaleInterpretation{
         switch($c){
             case $c < 41:
                 $text = 'Pasiva, sumisa, restringida, 
-                dependencia, modestia.\n
-                Buen control de impulsos.\n
+                dependencia, modestia.
+                Buen control de impulsos.
                 Facilidad de autocomprenderse y para obeservar 
                 errores externos de sí misma.';
             break;
             case $c < 52:
-                $text = 'Empatía.\n
-                Conducta competente.\n
-                Iniciativa.\n
-                Actitud de consideración.\n
+                $text = 'Empatía.
+                Conducta competente.
+                Iniciativa.
+                Actitud de consideración.
                 Idealismo.';
             break;
             case $c < 60:
-                $text = 'Actividad.\n
-                Actitud aventurera.\n
-                Espontaniedad.\n
+                $text = 'Actividad.
+                Actitud aventurera.
+                Espontaniedad.
                 Asertividad.';
             break;
             case $c < 70:
                 $text = 'Autoconfianza, equilibrio, 
-                estabilidad, seguridad y vigor.\n
-                Estilo lógico, poco emocional.\n
+                estabilidad, seguridad y vigor.
+                Estilo lógico, poco emocional.
                 Competitividad.';
             break;
             default:
-                $text = 'Agresividad y deshinibidas.\n
-                Rebeldía contra roles típicamente femeninos.\n
-                Dominantes y dadas de acción.\n
-                Poca dependencia.\n
-                Poco amigables, torpes y varoniles.\n
+                $text = 'Agresividad y deshinibidas.
+                Rebeldía contra roles típicamente femeninos.
+                Dominantes y dadas de acción.
+                Poca dependencia.
+                Poco amigables, torpes y varoniles.
                 Suele intensificarse el significado si la escala 
                 4 es también elevada.';
             break;
@@ -478,69 +478,69 @@ class basicScaleInterpretation{
     function scale_Pa($c){
         switch($c){
             case $c < 41:
-                $text = 'Pacientes no psiquiátricos:\n
+                $text = 'Pacientes no psiquiátricos:
                 Tendencia al equilibrio y al ánimo 
-                placentero.\n
+                placentero.
                 Sujetos ordenados, razonables, maduros en sus 
-                relaciones, prudentes.\n
-                Lealtad, confianza.\n
-                Reservado, convencional, autocontrol.\n
-                Interesado en actividades sociales.\n
-                Adaptación a situaciones cotidianas.\n
-                Ordenados, sensatos, organizados y cautelosos.\n
-                \nPacientes clínicos:\n
+                relaciones, prudentes.
+                Lealtad, confianza.
+                Reservado, convencional, autocontrol.
+                Interesado en actividades sociales.
+                Adaptación a situaciones cotidianas.
+                Ordenados, sensatos, organizados y cautelosos.
+                \nPacientes clínicos:
                 Prudente, evasivo, reservado, 
-                desconfiado, obstinado, testarudo.\n
-                Falta de interés.\n
+                desconfiado, obstinado, testarudo.
+                Falta de interés.
                 Insatisfacción, sensible, egocéntrico, 
-                convicciones rígidas, poco exitoso.\n
-                Torpe, descortes, rudo.\n
-                Susceptible.\n
-                Poca capacidad de insight.\n
+                convicciones rígidas, poco exitoso.
+                Torpe, descortes, rudo.
+                Susceptible.
+                Poca capacidad de insight.
                 Probabilidad de rasgos paranoides.';
             break;
             case $c < 56:
-                $text = 'Racionalidad.\n
-                Pensamiento claro.\n
-                Cautela.\n
+                $text = 'Racionalidad.
+                Pensamiento claro.
+                Cautela.
                 Flexibilidad.';
             break;
             case $c < 66:
                 $text = 'Sensibilidad al rechazo y a los 
-                desaires.\n
-                Notorio interés por las opiniones ajenas.\n
+                desaires.
+                Notorio interés por las opiniones ajenas.
                 Sujetos enérgicos, trabajadores, creativos, 
-                inteligentes, colaboradores.\n
-                Falta de autoconfianza.\n
-                Nerviosismo y preocupación.\n
+                inteligentes, colaboradores.
+                Falta de autoconfianza.
+                Nerviosismo y preocupación.
                 Desconfianza. Cautela y defensa en el inicio 
-                de los contactos sociales.\n
+                de los contactos sociales.
                 Contracción al trabajo.';
             break;
             case $c < 76:
                 $text = 'Ira, resentimiento, sensibilidad, 
-                desconfianza, suceptibilidad.\n
-                Tendencias paranoides.\n
-                Desplazamiento de la culpa, actitud crítica.\n
-                Hostilidad, suspicacia.\n
+                desconfianza, suceptibilidad.
+                Tendencias paranoides.
+                Desplazamiento de la culpa, actitud crítica.
+                Hostilidad, suspicacia.
                 Moralidad, rigidez en convicciones, 
-                obstinación.\n
+                obstinación.
                 Tendencia a racionalizar y/o negar conflictos 
-                emocionales.\n
+                emocionales.
                 Tendencia a malinterpretar situaciones sociales.';
             break;
             default:
                 $text = 'Probabilidad de desorden del 
-                pensamiento.\n
-                Sintomas psicóticos.\n
-                Proyección como mecanismo de defensa.\n
+                pensamiento.
+                Sintomas psicóticos.
+                Proyección como mecanismo de defensa.
                 Pensamientos perturbados, delirios de 
-                grandenza.\n                
-                Creencias erróneas.\n
-                Ideas de referencia.\n
+                grandenza.                
+                Creencias erróneas.
+                Ideas de referencia.
                 Disposición vengativa, hostilidad, rencor y 
-                amargura.\n
-                Cavilación excesiva.\n
+                amargura.
+                Cavilación excesiva.
                 Probabilidad de actuación en función del 
                 delirio.';
             break;
@@ -552,16 +552,16 @@ class basicScaleInterpretation{
         switch($c){
             case $c < 41:
                 $text = 'Autoconfianza, metas e intereses 
-                variados.\n
-                Libre de inseguridad.\n
-                Ausencia de temores desadaptativos.\n
-                Actitud relajada y de bienestar.\n
+                variados.
+                Libre de inseguridad.
+                Ausencia de temores desadaptativos.
+                Actitud relajada y de bienestar.
                 Persistencia y eficiencia.';
             break;
             case $c < 56:
-                $text = 'Actitud confiable.\n
+                $text = 'Actitud confiable.
                 Equilibrio, adaptabilidad, capaces, eficientes 
-                sin preocupaciones innecesarias.\n
+                sin preocupaciones innecesarias.
                 Organización, puntualidad.';
             break;
             case $c < 66:
@@ -575,24 +575,24 @@ class basicScaleInterpretation{
                 Capacidad introspectiva.';
             break;
             case $c < 76:
-                $text = 'Inseguridad, ansiedad, tensión.\n
+                $text = 'Inseguridad, ansiedad, tensión.
                 Preocupación, actitud aprensiva, nerviosismo, 
-                agitación, angustia.\n
+                agitación, angustia.
                 Temor a cometer equivocaciones y errores.\n
-                Minuciosidad, indecisión.\n
-                Labilidad de intereses\n
+                Minuciosidad, indecisión.
+                Labilidad de intereses
                 Moralismo';
             break;
             default:
                 $text = 'Cavilación, rumiación permanente de 
-                problemas y sus posibles soluciones.\n
-                Agitación psicomotora.\n
+                problemas y sus posibles soluciones.
+                Agitación psicomotora.
                 Sentimientos de culpa, ansiedad, miedo 
                 irracional, temores.
                 Probabilidad de conductas rituales.\n
                 Supersticiones, rigidez en convicciones 
-                religiosas o morales.\n
-                Sentimientos de culpa.\n
+                religiosas o morales.
+                Sentimientos de culpa.
                 Expresiones de depresión.';
             break;
         }
@@ -602,44 +602,44 @@ class basicScaleInterpretation{
     function scale_Es($c){
         switch($c){
             case $c < 41:
-                $text = 'Convencionalismo, conservadurismo.\n
-                Control sobre los propios impulsos.\n
+                $text = 'Convencionalismo, conservadurismo.
+                Control sobre los propios impulsos.
                 Actitud sumisa, dependencia, sensibilidad, 
                 bondad, responsabilidad, poca imaginación.';
             break;
             case $c < 56:
-                $text = 'Adaptabilidad.\n
-                Confiabilidad, seguridad.\n
+                $text = 'Adaptabilidad.
+                Confiabilidad, seguridad.
                 Equilibrio emocional.';
             break;
             case $c < 66:
-                $text = 'Escaso interés por las personas.\n
-                Poca habilidad práctica.\n
-                Creatividad e imaginación.\n
+                $text = 'Escaso interés por las personas.
+                Poca habilidad práctica.
+                Creatividad e imaginación.
                 Preocupaciones religiosas o espirituales.';
             break;
             case $c < 76:
-                $text = 'Creencias inusuales.\n
-                Actos bizarros.\n
-                Problemas de identificación y autoconfianza.\n
+                $text = 'Creencias inusuales.
+                Actos bizarros.
+                Problemas de identificación y autoconfianza.
                 Dificultades de concentración y razonamiento.';
             break;
             default:
-                $text = 'Disturbios del pensamiento.\n
-                Comportamiento excéntrico.\n
+                $text = 'Disturbios del pensamiento.
+                Comportamiento excéntrico.
                 Probabilidad de delirios (somáticos, de 
-                persecución, entre otros).\n
-                Probabilidad de alucinaciones.\n
-                Retraimiento social, aislamiento.\n
-                Confusión, desorganización y desorientación.\n
+                persecución, entre otros).
+                Probabilidad de alucinaciones.
+                Retraimiento social, aislamiento.
+                Confusión, desorganización y desorientación.
                 Objetivos indeterminados, inalcanzables o 
-                exagerados.\n
+                exagerados.
                 Ansiedad generalizada y con aguda agitación 
-                psicológica.\n
+                psicológica.
                 Presenta apatía, impulsividad, hostilidad, 
                 desordenamiento, resentimiento, incomprensión, 
                 inadaptación, excentricidad, nerviosismo, 
-                prolijidad.\n
+                prolijidad.
                 Contacto con la realidad deficitario.';
             break;
         }
@@ -649,47 +649,47 @@ class basicScaleInterpretation{
     function scale_Ma($c){
         switch($c){
             case $c < 41:
-                $text = 'Actitud pesimista y apática.\n
-                Frecuente aparición de fatiga.\n
-                Depresión.\n
-                Falta de energía.\n
-                Timidez, dependencia.\n
-                Poca autoconfianza.\n
-                Humildad, modestia.\n
+                $text = 'Actitud pesimista y apática.
+                Frecuente aparición de fatiga.
+                Depresión.
+                Falta de energía.
+                Timidez, dependencia.
+                Poca autoconfianza.
+                Humildad, modestia.
                 Indiferencia y poco afán antes cosas o 
-                situaciones que se presentan.\n
+                situaciones que se presentan.
                 Sentimientos depresivos.';
             break;
             case $c < 56:
-                $text = 'Sociabilidad, amigabilidad.\n
-                Actitud responsable, realista.\n
-                Entusiasmo.\n
+                $text = 'Sociabilidad, amigabilidad.
+                Actitud responsable, realista.
+                Entusiasmo.
                 Equilibrio';
             break;
             case $c < 66:
-                $text = 'Gregario.\n
-                Poca tolerancia al tedio.\n
-                Amplia gama de intereses.\n
-                Contracción al trabajo, efectividad.\n
-                Orientación al logro.\n
+                $text = 'Gregario.
+                Poca tolerancia al tedio.
+                Amplia gama de intereses.
+                Contracción al trabajo, efectividad.
+                Orientación al logro.
                 Actitud emprendedora.';
             break;
             case $c < 76:
-                $text = 'Euforia.\n
-                Actividad excesiva.\n
-                Locuacidad.\n
-                Inquietud, impaciencia, labilidad.\n
+                $text = 'Euforia.
+                Actividad excesiva.
+                Locuacidad.
+                Inquietud, impaciencia, labilidad.
                 Relaciones superficiales.';
             break;
             default:
-                $text = 'Expansividad, grandiosidad.\n
-                Personas activas y enérgicas.\n
-                Pobre control impulsivo.\n
+                $text = 'Expansividad, grandiosidad.
+                Personas activas y enérgicas.
+                Pobre control impulsivo.
                 Hiperactividad, excitación, distractibilidad, 
                 irritabilidad, hostilidad injustificada e 
                 irracional, agitación, rapidez psicomotora, 
-                poca tolerancia a la frustración.\n
-                Toma de decisiones impulsiva.\n
+                poca tolerancia a la frustración.
+                Toma de decisiones impulsiva.
                 Confusión.';
             break;
         }
@@ -699,37 +699,37 @@ class basicScaleInterpretation{
     function scale_Is($c){
         switch($c){
             case $c < 41:
-                $text = 'Calidez.\n
+                $text = 'Calidez.
                 Sociabilidad, actitud agregaria, 
-                carismáticos.\n
-                Autoconfianza y asertividad.\n
-                Autoindulgencia.\n
+                carismáticos.
+                Autoconfianza y asertividad.
+                Autoindulgencia.
                 Exhibicionismo, iniciativa, 
                 manipulador, oportunista, inmaduro.';
             break;
             case $c < 56:
-                $text = 'Actividad, energía.\n
-                Actitud amistosa.\n
+                $text = 'Actividad, energía.
+                Actitud amistosa.
                 Locuacidad.';
             break;
             case $c < 66:
-                $text = 'Reserva, seriedad, cautela.\n
-                Sobrecontrol de los impulsos.\n
+                $text = 'Reserva, seriedad, cautela.
+                Sobrecontrol de los impulsos.
                 Apocada habilidad social.';
             break;
             case $c < 76:
-                $text = 'Introversión.\n
-                Depresión.\n
-                Actitud vergonzante, timidez.\n
-                Falta de autoconfianza.\n
-                Actitud taciturna, irritabilidad.\n
+                $text = 'Introversión.
+                Depresión.
+                Actitud vergonzante, timidez.
+                Falta de autoconfianza.
+                Actitud taciturna, irritabilidad.
                 Rigidez en sus convicciones, 
                 sumisión, obediencia.';
             break;
             default:
-                $text = 'Ensimismamiento, actitud distante.\n
-                Desconfianza, inseguridad, indecisión.\n
-                Austeridad, recato.\n
+                $text = 'Ensimismamiento, actitud distante.
+                Desconfianza, inseguridad, indecisión.
+                Austeridad, recato.
                 Rumiación.';
             break;
         }
