@@ -71,7 +71,11 @@ class supplementaryScaleInterpretation{
                 ingeniosos, confiado en sí mismo, 
                 competitivo con un alto valor del éxito y 
                 logros intensado en el poder, la posición 
+<<<<<<< HEAD
                 y el reconocimiento.<br>
+=======
+                y el reconocimiento.
+>>>>>>> 0ff87f0122c05bd8fbe946b5aa6ea5cd210673d4
                 Por otra parte manipula a las demás 
                 persona, y es incapaz de demorar la 
                 satisfacción de sus impulsos, 
@@ -567,12 +571,20 @@ class supplementaryScaleInterpretation{
                 contenido y las suplementarias.";
             break;
             case $c > 90:
+<<<<<<< HEAD
                 $text = "<br><h3><B> Escala Fp </B></h3> Puntuacion cuestionable
+=======
+                $text = 'Puntuacion cuestionable
+>>>>>>> 0ff87f0122c05bd8fbe946b5aa6ea5cd210673d4
                 No se deben interpretar las 
                 escalas de contenido y las 
                 suplementarias.";
             break;
+<<<<<<< HEAD
             case 110: $text ="<br><h3><B> Escala Fp </B></h3> Utilidad del perfil invalida
+=======
+            case 110: $text ='Utilidad del perfil invalida
+>>>>>>> 0ff87f0122c05bd8fbe946b5aa6ea5cd210673d4
             Posible patologia, si otras
             escalas relacionadas son validas.
             Si la F es valida pero la Fp no, solo se
@@ -580,7 +592,11 @@ class supplementaryScaleInterpretation{
             pero no las suplementarias.";
             break;
             case $c > 110:
+<<<<<<< HEAD
                 $text = "<br><h3><B> Escala Fp </B></h3> Puntuacion invalida
+=======
+                $text = 'Puntuacion invalida
+>>>>>>> 0ff87f0122c05bd8fbe946b5aa6ea5cd210673d4
                 Si la F y la Fp están arriba de
                 110, la prueba no es valida y
                 NO se interpreta.";
