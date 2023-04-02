@@ -1,6 +1,6 @@
 <?php
-include("connection.php");
-$arreglo = new supplementaryScaleInterpretation();
+include("InterpretacionPRUEBA.php");
+$arreglo = new InterpretacionPRUEBA();
 $arreglo ->valuesT($counter);
 ?>
 <!DOCTYPE html>
@@ -120,7 +120,10 @@ $arreglo ->valuesT($counter);
                 </div>
                 <div class="tag_board">
                     <div class="sub_tag_board">
-                        <div>100</div>
+                    
+                    <div>120</div>
+                    <div>110</div>
+                    <div>100</div>
                         <div>90</div>
                         <div>80</div>
                         <div>70</div>

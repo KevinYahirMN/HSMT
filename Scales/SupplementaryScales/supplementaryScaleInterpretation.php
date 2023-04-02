@@ -58,20 +58,20 @@ class supplementaryScaleInterpretation{
         }
         return $suggestions;
     }
-    function scale_A($c){        
+    function scale_A($c){    
         switch($c){
             case $c < 41:
-                $text = 'Es indicativa de que el individuo no se 
+                $text = "<h3><B> Escala A </B></h3> <p>Es indicativa de que el individuo no se 
                 siente ansioso, con fluidez verbal, franca, 
                 abierta amistosa, sociable, amable,
                 informal, asume un papel preponderante 
-                en la relación con los demás.\n
+                en la relación con los demás.
                 Es persuasivo, exhibicionista y eficiente, 
                 capaz de expresar ideas claras, versátil 
                 ingeniosos, confiado en sí mismo, 
                 competitivo con un alto valor del éxito y 
                 logros intensado en el poder, la posición 
-                y el reconocimiento.\n
+                y el reconocimiento.<br>
                 Por otra parte manipula a las demás 
                 persona, y es incapaz de demorar la 
                 satisfacción de sus impulsos, 
@@ -81,15 +81,15 @@ class supplementaryScaleInterpretation{
                 reflejan ausencia de angustia emocional. 
                 Estas personas tienden a ser enérgicas, 
                 competitivas y socialmente 
-                extrovertidas.\n
+                extrovertidas.
                 Pueden ser incapaces de tolerar la 
                 frustración y usualmente prefieren la 
-                acción a la reflexión.';
+                acción a la reflexión.</p>";
             break;
             case $c > 64:
-                $text = 'Son personas que se caracterizan por 
+                $text = "<h3><B> Escala A </B></h3>Son personas que se caracterizan por 
                 sentirse ansiosas e incomodas, son 
-                pesimistas y apáticas.\n 
+                pesimistas y apáticas. 
                 Generalmente se alejan de 
                 personas que los rodean, debido a que 
                 son temerosas y les falta confianza en 
@@ -98,22 +98,23 @@ class supplementaryScaleInterpretation{
                 decisiones, se dejan influir pos 
                 sentimientos personales difusos, además 
                 se inclinan a racionalizar acerca de sus 
-                dificultades, y llegan a lastimar a otros.\n
+                dificultades, y llegan a lastimar a otros.
                 Son personas sumisas complacientes, 
                 sugestionables y conformistas, por lo 
                 que aceptan de manera abierta la 
-                autoridad de otros.';
-            break;     
+                autoridad de otros.";
+            break;          
             default:
-            $text = 'Niveles normales';     
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
     
-    function scale_R($c){        
+    function scale_R($c){     
         switch($c){
             case $c < 41:
-                $text = 'Puede ser una persona emotiva, 
+                $text = "<br><h3><B> Escala R </B></h3>Puede ser una persona emotiva, 
                 desinhibida verbal, entusiasta, 
                 atrevida y alegre. 
                 También puede ser una persona 
@@ -125,7 +126,7 @@ class supplementaryScaleInterpretation{
                 Además son extrovertidas, 
                 emotivas, espontáneas y su estilo 
                 de vida es dominante en sus 
-                relaciones interpersonales.\n
+                relaciones interpersonales.
                 Aparecen como enérgicas, 
                 expresivas informales. La 
                 interpretación de las puntuaciones 
@@ -136,17 +137,17 @@ class supplementaryScaleInterpretation{
                 Además es mandón, le gusta 
                 discutir, es egoísta, 
                 autoindulgente, perspicaz, 
-                precavido.';
+                precavido.";
             break;
             case $c > 64:
-                $text = 'Parece carecer de insight, es 
+                $text = "<br><h3><B> Escala R </B></h3> Parece carecer de insight, es 
                 sobrecontrolador e inhibido 
                 socialmente, también se percibe a 
                 sí mismos y son percibidos por los 
                 demás como convencionales y 
                 reservados en el sentido 
                 emocional, amables y poco 
-                espontáneos.\n
+                espontáneos.
                 Tiende a evitar los conflictos en 
                 vez de tratarlos directamente 
                 debido a que suele ser sumiso y 
@@ -155,32 +156,33 @@ class supplementaryScaleInterpretation{
                 conducta y acciones. Además se 
                 caracteriza por mostrar su 
                 pensamiento claro, ser lento en 
-                sus acciones y muy meticuloso.\n
+                sus acciones y muy meticuloso.
                 La interpretación de puntuaciones 
                 elevadas de la escala de represión 
                 es indicativa de un individuo 
-                formal, de ideas claras, cuidadoso.';
+                formal, de ideas claras, cuidadoso.";
             break;          
             default:
-            $text = 'Niveles normales';
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
 
-    function scale_Fyo($c){        
+    function scale_Fyo($c){     
         switch($c){
             case $c < 41:
-                $text = 'Las personas con puntajes bajos 
+                $text = "<br><h3><B> Escala Fyo </B></h3> Las personas con puntajes bajos 
                 tienden a presentar más 
                 problemas y más severos que las 
                 demás personas. Además tienen 
                 pocos recursos psicológicos para 
                 enfrentarse al estrés, por lo que su 
                 pronóstico con relación al cambio 
-                en psicoterapia, no es positivo.';
+                en psicoterapia, no es positivo.";
             break;
             case $c > 64:
-                $text = 'Tienden a estar más adaptados 
+                $text = "<br><h3><B> Escala Fyo </B></h3> Tienden a estar más adaptados 
                 psicológicamente y muestran más 
                 habilidades para enfrentarse a los 
                 problemas y situaciones 
@@ -206,25 +208,26 @@ class supplementaryScaleInterpretation{
                 cínicos ante los demás. 
                 Los hombres con puntuaciones 
                 elevadas tienen un apropiado 
-                estilo de conducta masculino.';
+                estilo de conducta masculino.";
             break;   
             default:
-            $text = 'Niveles normales';
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
 
-    function scale_AMAC($c){   //INVESTIGAR QUE ES PUNTAJE CRUDO      
+    function scale_AMAC($c){   //INVESTIGAR QUE ES PUNTAJE CRUDO    
         switch($c){
             case $c < 41:
-                $text = 'Los puntajes bajos indican que el 
+                $text = "<br><h3><B> Escala A-MAC </B></h3> Los puntajes bajos indican que el 
                 individuo tiende a ser introvertido, tímido y 
                 con falta de confianza en sí mismo. 
                 Puntajes crudos menores de 24 contraindican 
-                abuso de substancias';
+                abuso de substancias.";
             break;
             case $c > 64:
-                $text = 'La elevación de la escala Mac Andrew 
+                $text = "<br><h3><B> Escala A-MAC </B></h3> La elevación de la escala Mac Andrew 
                 no sugiere desarrollo de adicción a las substancias 
                 ni indica la presencia de uso o abuso de substancias, 
                 solamente sugiere un desarrollo potencial de 
@@ -234,29 +237,30 @@ class supplementaryScaleInterpretation{
                 están dispuestos a correr riesgos, además tienen 
                 problemas para concentrarse, pueden tener historias 
                 de problemas de conducta en la escuela o con la 
-                ley y disfrutan las competencias de cualquier tipo.\n 
+                ley y disfrutan las competencias de cualquier tipo. 
                 Los puntajes naturales arriba de 24 sugieren abuso 
-                de substancias, ya sea alcohol u otras drogas.';
+                de substancias, ya sea alcohol u otras drogas.";
             break;   
             default:
-            $text = 'Niveles normales';
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
 
-    function scale_HR($c){        
+    function scale_HR($c){     
         switch($c){
             case $c < 41:
-                $text = 'Puntuaciones bajas en HR, no existen suficientes 
+                $text = "<br><h3><B> Escala HR </B></h3> Puntuaciones bajas en HR, no existen suficientes 
                 datos que permitan la interpretación adecuada, por lo que 
                 dichas puntuaciones pueden interpretarse de dos formas, 
                 ya que no se espera que presenten el síndrome de hostilidad 
                 sobrecontrolada, esto es: o son personas crónicamente 
                 agresivas o son individuos que expresan de manera bastante 
-                apropiada sus sentimientos de agresión';
+                apropiada sus sentimientos de agresión.";
             break;
             case $c > 64:
-                $text = 'Los individuos que obtienen puntuaciones altas 
+                $text = "<br><h3><B> Escala HR </B></h3> Los individuos que obtienen puntuaciones altas 
                 en la escala tienden a evitar la expresión abierta de la 
                 agresión sin embargo a menudo en momentos de extrema 
                 provocación, actúan de una manera muy violenta y pueden 
@@ -266,45 +270,47 @@ class supplementaryScaleInterpretation{
                 son sociables y responsables y tienen una fuerte 
                 necesidad de sobresalir ante los demás; no obstante, 
                 son dependientes y confiados. Suelen describir a sus 
-                familias de origen como cálidas y fuentes de apoyo.';
+                familias de origen como cálidas y fuentes de apoyo.";
             break;   
             default:
-            $text = 'Niveles normales';
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
 
-    function scale_Do($c){        
+    function scale_Do($c){      
         switch($c){
             case $c < 41:
-                $text = 'Las puntuaciones bajas en Do, muestran a personas 
+                $text = "<br><h3><B> Escala Do </B></h3> Las puntuaciones bajas en Do, muestran a personas 
                 sumisas, poco enérgicas y fácilmente influenciables por 
                 otras personas, carecen de confianza en sí mismas y 
-                sienten que manejan sus problemas inadecuadamente.';
+                sienten que manejan sus problemas inadecuadamente.";
             break;
             case $c > 64:
-                $text = 'Los puntajes altos de Do son asociados con 
+                $text = "<br><h3><B> Escala Do </B></h3> Los puntajes altos de Do son asociados con 
                 equilibrio, confianza, liderazgo, seguridad en sí mismo, 
                 iniciativa social, perseverancia, resolución y liderazgo 
                 de grupo, es decir son características de personas consideradas 
                 generalmente como dominantes en situaciones sociales, que se 
                 consideran a sí mismos y son considerados por los demás 
                 capaces de enfrentar apropiadamente las situaciones personales, 
-                no se intimidan fácilmente y se sienten seguros.\n 
+                no se intimidan fácilmente y se sienten seguros. 
                 Suelen ser personas optimistas, eficientes, realistas y
                 orientadas a las tareas que les son encomendadas, por lo que 
-                se muestran muy perseverantes y ecuánimes ante situaciones adversas';
+                se muestran muy perseverantes y ecuánimes ante situaciones adversas.";
             break;   
             default:
-            $text = 'Niveles normales';
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
 
-    function scale_Rs($c){        
+    function scale_Rs($c){    
         switch($c){
             case $c < 41:
-                $text = 'Quienes obtienen puntuaciones bajas en 
+                $text = "<br><h3><B> Escala Rs </B></h3> Quienes obtienen puntuaciones bajas en 
                 Rs, debajo de 40, se caracterizan por no 
                 estar dispuestas a asumir 
                 responsabilidades y tal vez no hayan 
@@ -312,10 +318,10 @@ class supplementaryScaleInterpretation{
                 otra parte no pueden ser vistos a sí mismos 
                 como poco dignos de confianza, faltos de 
                 integridad y con pobre sentido de 
-                responsabilidad para con el grupo';
+                responsabilidad para con el grupo.";
             break;
             case $c > 64:
-                $text = 'Las personas que tienen más de 25 años 
+                $text = "<br><h3><B> Escala Rs </B></h3> Las personas que tienen más de 25 años 
                 con puntuaciones altas tienden a aceptar 
                 su sistema de valores actual e intentan 
                 continuar utilizándolo, y quienes obtienen 
@@ -336,7 +342,7 @@ class supplementaryScaleInterpretation{
                 persona íntegra, con sentido de 
                 responsabilidad para el grupo; además, es 
                 probable que se encuentre en situaciones 
-                de liderazgo y toma de decisiones.\n
+                de liderazgo y toma de decisiones.
                 Puntuaciones altas arriba de 60, indican 
                 un fuerte sentido de justicia y un alto 
                 sentido a las normas, indican también que
@@ -347,10 +353,11 @@ class supplementaryScaleInterpretation{
                 interesados en problemas éticos y morales: 
                 rechazan los privilegios y favores, y dan un 
                 énfasis excesivo al cumplimiento de su 
-                parte correspondiente de cargas y deberes.';
-            break;   
+                parte correspondiente de cargas y deberes.";
+            break;  
             default:
-            $text = 'Niveles normales';
+            $text = "Puntuacion normal";
+            break; 
         }
         return $text;
     }
@@ -358,30 +365,31 @@ class supplementaryScaleInterpretation{
     function scale_Dpr($c){        
         switch($c){
             case $c < 41:
-                $text = 'Los sujetos con puntuaciones bajas en Dpr, 
-                tienden a ser bien adaptados, optimistas y consientes.';
+                $text = "<br><h3><B> Escala Dpr </B></h3> Los sujetos con puntuaciones bajas en Dpr, 
+                tienden a ser bien adaptados, optimistas y consientes.";
             break;
             case $c > 64:
-                $text = 'Parecen estar un poco adaptadas, 
+                $text = "<br><h3><B> Escala Dpr </B></h3> Parecen estar un poco adaptadas, 
                 además de ser generalmente ineficientes, 
                 pesimistas y angustiados además pueden 
                 desarrollar síntomas físicos durante periodos 
                 de mayor estrés y sentir que la vida los abruma 
-                la mayor parte del tiempo';
+                la mayor parte del tiempo";
             break;   
             default:
-            $text = 'Niveles normales';
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
 
-    function scale_GM($c){        
+    function scale_GM($c){     
         switch($c){
             case $c < 41:
-                $text = '';//Interpretacion no encontrada
+                $text = "<br><h3><B> Escala GM </B></h3>";//Interpretacion no encontrada
             break;
             case $c > 64:
-                $text = 'Las puntuaciones elevadas tanto en 
+                $text = "<br><h3><B> Escala GM </B></h3> Las puntuaciones elevadas tanto en 
                 hombres con mujeres, son características 
                 positivas, debido a que son personas que 
                 tienden a tener confianzas en sí mismas y 
@@ -390,27 +398,28 @@ class supplementaryScaleInterpretation{
                 gran confianza en sí mismos, gran 
                 perseverancia y amplios intereses, además 
                 de la carencia de temores o sentimientos 
-                referentes de sí mismos.\n
+                referentes de sí mismos.
                 Para las mujeres GM se vincula con una 
                 gran confianza en sí mismas, con 
                 honestidad y la disposición para probar 
                 nuevas cosas, además de que indica la 
                 carencia de preocupaciones y sentimientos 
-                referidos a sí mismas.';
-            break;  
+                referidos a sí mismas.";
+            break;   
             default:
-            $text = 'Niveles normales'; 
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
 
-    function scale_GF($c){        
+    function scale_GF($c){    
         switch($c){
             case $c < 41:
-                $text = '';//Interpretacion no encontrada.
+                $text = "<br><h3><B> Escala GF </B></h3> ";//Interpretacion no encontrada.
             break;
             case $c > 64:
-                $text = 'Las puntuaciones elevadas tanto en 
+                $text = "<br><h3><B> Escala GF </B></h3> Las puntuaciones elevadas tanto en 
                 hombres con mujeres, son 
                 características positivas, debido a que 
                 son personas que tienden a tener 
@@ -426,18 +435,19 @@ class supplementaryScaleInterpretation{
                 honestidad y la disposición para probar 
                 nuevas cosas, además de que indica la 
                 carencia de preocupaciones y 
-                sentimientos referidos a sí mismas.';
+                sentimientos referidos a sí mismas.";
             break;   
             default:
-            $text = 'Niveles normales';
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
 
-    function scale_EPK($c){        
+    function scale_EPK($c){     
         switch($c){
             case $c > 64://corte natural 30. Investigar.
-                $text = 'Los veteranos de guerra y otras personas 
+                $text = "<br><h3><B> Escala EPK </B></h3> Los veteranos de guerra y otras personas 
                 que hayan experimentado un evento 
                 catastrófico y que obtengan 
                 puntuaciones altas en EPK, tienden a 
@@ -454,19 +464,19 @@ class supplementaryScaleInterpretation{
                 pensamientos, expresan sentimientos de 
                 no ser comprendidos o considerados por 
                 los demás, debido a las situaciones 
-                estresantes que han vivido.';
-            break;
+                estresantes que han vivido.";
+            break;   
             default:
-                $text = '';
+            $text = "Puntuacion por debajo de 65";
             break;
         }
         return $text;
     }
 
-    function scale_EPS($c){        
+    function scale_EPS($c){     
         switch($c){
             case $c > 64:
-                $text = 'Parece estar muy relacionada con los 
+                $text = "<br><h3><B> Escala EPS </B></h3> Parece estar muy relacionada con los 
                 índices de ansiedad y con la Pt y A. La escala EPS 
                 tiende a elevarse en personas que presentan trastornos 
                 somáticos en los que la ansiedad es un componente importante.
@@ -474,100 +484,110 @@ class supplementaryScaleInterpretation{
                 también en pacientes con dermatitis, lo que podría indicar 
                 que tiende a elevarse en personas que presentan trastornos 
                 somáticos en los que la ansiedad es un componente 
-                importante';
-            break;   
-            default:
-                $text = '';
+                importante.";
             break;
+            default:
+            $text = "Puntuacion por debajo de 65";
+            break;   
         }
         return $text;
     }
 
-    function scale_ls1($c){        
+    function scale_ls1($c){       
         switch($c){
             case $c < 41:
-                $text = 'La escala es bipolar significa que las puntuaciones 
-                bajas indican lo contrario a las puntajes altos.';
+                $text = "<br><h3><B> Escala ls1 </B></h3> La escala es bipolar significa que las puntuaciones 
+                bajas indican lo contrario a las puntajes altos.";
             break;
             case $c > 64:
-                $text = 'Son tímidos en las situaciones interpersonales, 
+                $text = "<br><h3><B> Escala ls1 </B></h3> Son tímidos en las situaciones interpersonales, 
                 muestran incomodidad al estar rodeados de otros y 
                 son reacios para iniciar relaciones. No se 
                 consideran a sí mismos como sociables. Las 
                 personas pueden mostrase tímidas con los demás, 
                 apenarse fácilmente, molestas en situaciones 
-                sociales e incomodas en situaciones nuevas.';
+                sociales e incomodas en situaciones nuevas.";
             break;   
+            default:
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
 
-    function scale_ls2($c){        
+    function scale_ls2($c){      
         switch($c){
             case $c < 41:
-                $text = 'La escala es bipolar significa que las 
+                $text = "<br><h3><B> Escala ls2 </B></h3> La escala es bipolar significa que las 
                 puntuaciones bajas indican lo contrario a los 
-                puntajes altos.';
+                puntajes altos.";
             break;
             case $c > 64:
-                $text = 'Tienden a evitar estar en grupo, son poco 
+                $text = "<br><h3><B> Escala ls2 </B></h3> Tienden a evitar estar en grupo, son poco 
                 amigables, se aíslan socialmente y evitan participar 
                 con los demás. Quizá les disguste las fiestas y los 
                 bailes. Indica disgusto y repudio a las actividades 
                 en grupo y al estar en multitudes, por lo que estos
-                sujetos evitan el contacto con otras personas.';
+                sujetos evitan el contacto con otras personas.";
             break;   
+            default:
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
 
-    function scale_ls3($c){        
+    function scale_ls3($c){      
         switch($c){
             case $c < 41:
-                $text = 'La escala es bipolar significa que las puntuaciones 
-                bajas indican lo contrario a las puntajes altos.';
+                $text = "<br><h3><B> Escala ls3 </B></h3> La escala es bipolar significa que las puntuaciones 
+                bajas indican lo contrario a las puntajes altos.";
             break;
             case $c > 64:
-                $text = 'Tienden a evitar estar en grupo, son poco 
+                $text = "<br><h3><B> Escala ls3 </B></h3> Tienden a evitar estar en grupo, son poco 
                 amigables, se aíslan socialmente y evitan participar 
                 con los demás. Quizá les disguste las fiestas y los 
                 bailes. Esta escala indica baja autoestima y poca confianza 
                 autocrítica, cuestionamiento del juicio propio y sentimientos 
-                de incapacidad para determinar el propio destino';
+                de incapacidad para determinar el propio destino.";
             break;   
+            default:
+            $text = "Puntuacion normal";
+            break;
         }
         return $text;
     }
 
-    function scale_Fp($c){        
+    function scale_Fp($c){    
         switch($c){
             case $c < 89:
-                $text = 'Si tanto la F como la Fp están 
+                $text = "<br><h3><B> Escala Fp </B></h3> Si tanto la F como la Fp están 
                 debajo de 89 se puede interpretar 
                 todas las escalas, las básicas, las de 
-                contenido y las suplementarias.';
+                contenido y las suplementarias.";
             break;
             case $c > 90:
-                $text = 'Puntuacion cuestionable\n
+                $text = "<br><h3><B> Escala Fp </B></h3> Puntuacion cuestionable
                 No se deben interpretar las 
                 escalas de contenido y las 
-                suplementarias';
+                suplementarias.";
             break;
-            case 110: $text ='Utilidad del perfil invalida\n
+            case 110: $text ="<br><h3><B> Escala Fp </B></h3> Utilidad del perfil invalida
             Posible patologia, si otras
-            escalas relacionadas son validas.\n
+            escalas relacionadas son validas.
             Si la F es valida pero la Fp no, solo se
             podrá interpretar las escalas basicas, 
-            pero no las suplementarias.';
+            pero no las suplementarias.";
             break;
             case $c > 110:
-                $text = 'Puntuacion invalida\n
+                $text = "<br><h3><B> Escala Fp </B></h3> Puntuacion invalida
                 Si la F y la Fp están arriba de
                 110, la prueba no es valida y
-                NO se interpreta.';
+                NO se interpreta.";
             break;
         }
         return $text;
     }
+
 }
 ?>

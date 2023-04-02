@@ -1,7 +1,9 @@
 <?php 
     header("Content-Type: text/css; charset: UTF-8");
-    include("arrayPRUEBA.php");
+    include("Connection.php");
 
+    $conexion = new Connection();
+    $x = $conexion->scoreBasicScales();
 ?>
 body{
   background-color: #ffffffff;
@@ -146,22 +148,19 @@ body{
     padding-right: 10px;
     box-sizing: border-box;
 }
-.b1{ height: <?php echo $counter[0];?>%}
-.b2{ height: <?php echo $counter[1];?>%}
-.b3{ height: <?php echo $counter[2];?>%}
-.b4{ height: <?php echo $counter[3];?>%}
-.b5{ height: <?php echo $counter[4];?>%}
-.b6{ height: <?php echo $counter[5];?>%}
-.b7{ height: <?php echo $counter[6];?>%}
-.b8{ height: <?php echo $counter[7];?>%}
-.b9{ height: <?php echo $counter[8];?>%}
-.b10{ height: <?php echo $counter[9];?>%}
-.b11{ height: <?php echo $counter[10];?>%}
-.b12{ height: <?php echo $counter[11];?>%}
-.b13{ height: <?php echo $counter[12];?>%}
-.b14{ height: <?php echo $counter[13];?>%}
-.b15{ height: <?php echo $counter[14];?>%}
-.b16{ height: <?php echo $counter[15];?>%}
+.b1{ height: <?php echo $x[0];?>%}
+.b2{ height: <?php echo $x[1];?>%}
+.b3{ height: <?php echo $x[2];?>%}
+.b4{ height: <?php echo $x[3];?>%}
+.b5{ height: <?php echo $x[4];?>%}
+.b6{ height: <?php echo $x[5];?>%}
+.b7{ height: <?php echo $x[6];?>%}
+.b8{ height: <?php echo $x[7];?>%}
+.b9{ height: <?php echo $x[8];?>%}
+.b10{ height: <?php echo $x[9];?>%}
+.b11{ height: <?php echo $x[10];?>%}
+.b12{ height: <?php echo $x[11];?>%}
+.b13{ height: <?php echo $x[12];?>%}
 footer{
     position: absolute;
     bottom: 0px;

@@ -1,6 +1,6 @@
 <?php
 include("arrayPRUEBA.php");
-class supplementaryScaleInterpretation{
+class InterpretacionPRUEBA{
 
     function valuesT($counter){
         $i = 0;
