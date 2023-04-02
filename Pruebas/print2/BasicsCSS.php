@@ -1,6 +1,6 @@
 <?php 
     header("Content-Type: text/css; charset: UTF-8");
-    include("Connection.php");
+    include("../../Scales/Connection.php");
 
     $conexion = new Connection();
     $x = $conexion->scoreBasicScales();

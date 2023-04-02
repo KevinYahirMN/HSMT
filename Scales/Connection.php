@@ -1,5 +1,5 @@
 <?php
-include('basicScales/basicScalesMale.php');
+include('basicScales/basicScales.php');
 include('basicScales/basicScaleMaleTScore.php');
 include('basicScales/basicScaleFemaleTScore.php');
 include('basicScales/basicScaleInterpretation.php');
@@ -42,7 +42,7 @@ class Connection{
 
     function __construct(){
         if($this-> basicScale == null){
-            $this->basicScale = new basicScalesMale();
+            $this->basicScale = new basicScales();
             $this->basicscoreTMale = new basicscoreTMale();
             $this->basicscoreTFemale = new basicscoreTFemale();
             $this->factorK = new FactorK();
@@ -75,7 +75,11 @@ class Connection{
         array_push($this->cBasic, $this->basicScale->scale_D($this->answer));
         array_push($this->cBasic, $this->basicScale->scale_Hi($this->answer));
         array_push($this->cBasic, $this->basicScale->scale_Dp($this->answer));
-        array_push($this->cBasic, $this->basicScale->scale_Mf($this->answer));
+        if($this->gender == 'Masculino'){
+            array_push($this->cBasic, $this->basicScale->scale_Mf_Male($this->answer));
+        }else{
+            array_push($this->cBasic, $this->basicScale->scale_Mf_Female($this->answer));
+        }
         array_push($this->cBasic, $this->basicScale->scale_Pa($this->answer));
         array_push($this->cBasic, $this->basicScale->scale_Pt($this->answer));
         array_push($this->cBasic, $this->basicScale->scale_Es($this->answer));
@@ -174,6 +178,5 @@ class Connection{
         $suggestions = $this->contentScaleInterpretation->valuesT($this->cContent);
         return $suggestions;
     }
-
 }
 ?>
