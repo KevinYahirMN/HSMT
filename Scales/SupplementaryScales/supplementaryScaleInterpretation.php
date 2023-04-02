@@ -561,8 +561,8 @@ class supplementaryScaleInterpretation{
         }
         return $text;
     }
-
-    function scale_Fp($c){    
+    function scale_Fp($c){  
+        $text = "";      
         switch($c){
             case $c < 89:
                 $text = "<br><h3><B> Escala Fp </B></h3> Si tanto la F como la Fp están 
@@ -571,20 +571,12 @@ class supplementaryScaleInterpretation{
                 contenido y las suplementarias.";
             break;
             case $c > 90:
-<<<<<<< HEAD
                 $text = "<br><h3><B> Escala Fp </B></h3> Puntuacion cuestionable
-=======
-                $text = 'Puntuacion cuestionable
->>>>>>> 0ff87f0122c05bd8fbe946b5aa6ea5cd210673d4
                 No se deben interpretar las 
                 escalas de contenido y las 
                 suplementarias.";
             break;
-<<<<<<< HEAD
             case 110: $text ="<br><h3><B> Escala Fp </B></h3> Utilidad del perfil invalida
-=======
-            case 110: $text ='Utilidad del perfil invalida
->>>>>>> 0ff87f0122c05bd8fbe946b5aa6ea5cd210673d4
             Posible patologia, si otras
             escalas relacionadas son validas.
             Si la F es valida pero la Fp no, solo se
@@ -592,11 +584,7 @@ class supplementaryScaleInterpretation{
             pero no las suplementarias.";
             break;
             case $c > 110:
-<<<<<<< HEAD
                 $text = "<br><h3><B> Escala Fp </B></h3> Puntuacion invalida
-=======
-                $text = 'Puntuacion invalida
->>>>>>> 0ff87f0122c05bd8fbe946b5aa6ea5cd210673d4
                 Si la F y la Fp están arriba de
                 110, la prueba no es valida y
                 NO se interpreta.";
@@ -604,6 +592,5 @@ class supplementaryScaleInterpretation{
         }
         return $text;
     }
-
 }
 ?>
