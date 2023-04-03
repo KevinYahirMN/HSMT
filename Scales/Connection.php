@@ -62,8 +62,6 @@ class Connection{
         
         $this->answer = $_SESSION['answer'];
         $this->gender = $_SESSION['gender'];
-        //$postanswer = $_POST['Q'];
-        //array_push($answer, $postanswer);
     }
 
     function scoreBasicScales(){
