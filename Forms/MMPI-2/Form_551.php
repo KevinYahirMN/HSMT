@@ -1,16 +1,30 @@
 <?php
 session_start();
-$answer = $_SESSION['answer'];
+$c = $_SESSION["counter"];
+$p = $_SESSION["pointer"];
+$temp = $_SESSION["answer"];
 
-$postanswer = $_POST['Q'];
-
-for($i = 1; $i < 2; $i++){
-   array_push($answer, $postanswer[$i]);
+if($p == 549){
+	$p++;
+	$c++;
+	$get = $_POST["Q"];
+	array_push($temp, $get);
+	$_SESSION["pointer"] = $p;
+	$_SESSION["counter"] = $c;
+	$_SESSION["answer"] = $temp;
+}else{	
+	if($c == 549){
+		$get = $_POST["Q"];
+		$temp[549] = $get;
+		$_SESSION["answer"] = $temp;
+		$c++;
+	}else{
+		$c--;
+	}
+	$_SESSION["counter"] = $c;
 }
 
-$_SESSION['answer'] = $answer;
 ?>
-
 <!doctype html>
 <html lang="es">
 
@@ -71,9 +85,9 @@ $_SESSION['answer'] = $answer;
 			       
 			   <!--Pregunta 551-->
 			   <p> A veces siento que escuchan lo que estoy pensando</p>
-			   <input type="radio" id="true" name="Q[1]">
+			   <input type="radio" value="true" name="Q">
 			   <label>Verdadero</label><br>
-			   <input type="radio" id="false" name="Q[1]">
+			   <input type="radio" value="false" name="Q">
 			   <label>Falso</label>
 			   <hr>
 
@@ -82,6 +96,7 @@ $_SESSION['answer'] = $answer;
         	  
 					  <br><br>
 					  <div class="text-center">
+					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
 						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 
@@ -95,5 +110,5 @@ $_SESSION['answer'] = $answer;
 	</div>
    
 </body>
-
+<script type="text/javascript" src="js/function.js"></script>
 </html>
