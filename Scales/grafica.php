@@ -7,6 +7,12 @@ session_start();
 $_SESSION['gender'] = 'Masculino';
 $_SESSION['answer'] = array();
 
+/*$temp = $_SESSION["answer"]
+  $get = $_POST["Q"];
+  array_push($temp, $get);
+  $_SESSION["answer"] = $temp;
+  */
+
 for($i = 0; $i < 568; $i++){
     if($i%2 != 0){
         array_push($_SESSION['answer'], 'true');
@@ -34,14 +40,14 @@ for ($i = 0; $i < 15; ++$i)
 {                 
     $html = $AnsIC[$i];
     print $html;
-}
+}*/
 
 for ($i = 0; $i < 15; ++$i)
 {                 
-    $html = $AnsIC[$i];
+    $html = $AnsIS[$i];
     print $html;
 }
-*/
+
 ?>
 
 <head>
