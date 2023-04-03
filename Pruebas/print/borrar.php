@@ -8,15 +8,16 @@ $datosVentas = [5000, 1500, 8000, 5102];
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráficas</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="x.css">
 </head>
 
 <body>
     <h1>Gráfica creada con PHP</h1>
-    <canvas id="grafica"></canvas>
+    <canvas id="grafica" width = "1" height = "1">  </canvas>
     <script type="text/javascript">
+        
         const $grafica = document.querySelector("#grafica");
         // Pasaamos las etiquetas desde PHP
         const etiquetas = <?php echo json_encode($etiquetas) ?>;

@@ -24,7 +24,7 @@ $AnsIC = $conexion->interpretationContentScales();
 $AnsS = $conexion->scoreSupplementaryScales();
 $AnsIS = $conexion->interpretationSupplementaryScales();
 
-for ($i = 0; $i < 13; ++$i)
+/*for ($i = 0; $i < 13; ++$i)
 {                 
     $html = $AnsIB[$i];
     print $html;
@@ -41,6 +41,7 @@ for ($i = 0; $i < 15; ++$i)
     $html = $AnsIC[$i];
     print $html;
 }
+*/
 ?>
 
 <head>
@@ -48,11 +49,13 @@ for ($i = 0; $i < 15; ++$i)
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráficas</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="grafica.css">
+
 </head>
 
 <body>
 <h2>Gráfica de resultados de escalas basicas</h2>
-    <canvas id="grafica"></canvas>
+<canvas id="grafica"></canvas>
     <script type="text/javascript">
         const $grafica = document.querySelector("#grafica");
         const Tvalue = {
@@ -89,6 +92,7 @@ for ($i = 0; $i < 15; ++$i)
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráficas</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="grafica.css">
 </head>
 
 <body>
@@ -131,6 +135,7 @@ for ($i = 0; $i < 15; ++$i)
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráficas</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="grafica.css">
 </head>
 
 <body>
