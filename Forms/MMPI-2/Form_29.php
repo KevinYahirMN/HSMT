@@ -1,12 +1,27 @@
 <?php
 session_start();
-if($_SESSION["counter"] == $_SESSION["pointer"]){
-	array_push($_SESSION["answer"], $_POST["Q"]);
-	$_SESSION["counter"]++;
-	$_SESSION["pointer"]++;
-}else{
-	$_SESSION["answer"][$pointer] = $_POST["Q"];
-	$_SESSION["pointer"]++;
+$c = $_SESSION["counter"];
+$p = $_SESSION["pointer"];
+$temp = $_SESSION["answer"];
+
+if($p == 27){
+	$p++;
+	$c++;
+	$get = $_POST["Q"];
+	array_push($temp, $get);
+	$_SESSION["pointer"] = $p;
+	$_SESSION["counter"] = $c;
+	$_SESSION["answer"] = $temp;
+}else{	
+	if($c == 27){
+		$get = $_POST["Q"];
+		$temp[27] = $get;
+		$_SESSION["answer"] = $temp;
+		$c++;
+	}else{
+		$c--;
+	}
+	$_SESSION["counter"] = $c;
 }
 
 ?>
@@ -71,17 +86,18 @@ if($_SESSION["counter"] == $_SESSION["pointer"]){
 			       
 					<!--Pregunta 29-->
 					<p>A veces siento deseos de maldecir</p>
-					<input type="radio" value="true" name="Q[1]">
+					<input type="radio" value="true" name="Q">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q[1]">
+					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
 
 			     
             
         	  
-					  <br><br>
+					<br><br>
 					  <div class="text-center">
+					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
 						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 
@@ -95,5 +111,5 @@ if($_SESSION["counter"] == $_SESSION["pointer"]){
 	</div>
    
 </body>
-
+<script type="text/javascript" src="js/function.js"></script>
 </html>

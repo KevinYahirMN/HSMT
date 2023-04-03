@@ -79,6 +79,7 @@ if(empty($_SESSION["answer"])){
 					
 					  <br><br>
 					  <div class="text-center">
+					    
 						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 				
@@ -92,5 +93,5 @@ if(empty($_SESSION["answer"])){
 	</div>
    
 </body>
-
+<script type="text/javascript" src="js/function.js"></script>
 </html>

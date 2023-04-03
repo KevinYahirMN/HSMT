@@ -86,9 +86,9 @@ if($p == 8){
 			       
 					<!--Pregunta 10-->
 					<p>Actualmente tengo tanta capacidad de trabajo como antes</p>
-					<input type="radio" value="true" name="Q[1]">
+					<input type="radio" value="true" name="Q">
 					<label>verdadero</label>    <br>        
-					<input type="radio" value="false" name="Q[1]">
+					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
 
@@ -97,6 +97,7 @@ if($p == 8){
         	  
 					  <br><br>
 					  <div class="text-center">
+					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
 						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 
@@ -110,5 +111,5 @@ if($p == 8){
 	</div>
    
 </body>
-
+<script type="text/javascript" src="js/function.js"></script>
 </html>

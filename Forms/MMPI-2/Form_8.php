@@ -87,9 +87,9 @@ if($p == 6){
 					
 					<!--Pregunta 8-->
 					<p>Normalmente tengo bastante calientes los pies y las manos</p>
-					<input type="radio" value="true" name="Q[1]">
+					<input type="radio" value="true" name="Q">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q[1]">
+					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
 
@@ -98,6 +98,7 @@ if($p == 6){
         	  
 					  <br><br>
 					  <div class="text-center">
+					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
 						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 
@@ -111,5 +112,5 @@ if($p == 6){
 	</div>
    
 </body>
-
+<script type="text/javascript" src="js/function.js"></script>
 </html>
