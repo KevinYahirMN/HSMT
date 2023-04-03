@@ -1,12 +1,28 @@
 <?php
 session_start();
-if($_SESSION["counter"] == $_SESSION["pointer"]){
-	array_push($_SESSION["answer"], $_POST["Q"]);
-	$_SESSION["counter"]++;
-	$_SESSION["pointer"]++;
+$c = $_SESSION["counter"];
+$p = $_SESSION["pointer"];
+$temp = $_SESSION["answer"];
+
+if($p == 1){
+	$p++;
+	$c++;
+	$temp = $_SESSION["answer"];
+	$get = $_POST["Q"];
+	array_push($temp, $get);
+	$_SESSION["pointer"] = $p;
+	$_SESSION["counter"] = $c;
+	$_SESSION["answer"] = $temp;
 }else{
-	$_SESSION["answer"][$pointer] = $_POST["Q"];
-	$_SESSION["pointer"]++;
+	if($c == 1){
+		$get = $_POST["Q"];
+		$temp[1] = $get;
+		$_SESSION["answer"] = $temp;
+		$c++;
+	}else{
+		$c--;
+	}
+	$_SESSION["counter"] = $c;
 }
 
 ?>

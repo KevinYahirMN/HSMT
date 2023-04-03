@@ -4,8 +4,10 @@ $_SESSION["counter"] = 0;
 if(empty($_SESSION["answer"])){
 	$_SESSION["pointer"] = 0;
 	$_SESSION["answer"] = array();
+	echo "holiiii";
 }else{
 	$temp = $_SESSION["answer"];
+	echo "holooooo";
 }
 ?>
 

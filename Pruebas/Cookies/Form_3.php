@@ -1,12 +1,33 @@
 <?php
 session_start();
-$_SESSION["counter"] = 0;
-if(empty($_SESSION["answer"])){
-	$_SESSION["pointer"] = 0;
-	$_SESSION["answer"] = array();
-}else{
+$c = $_SESSION["counter"];
+$p = $_SESSION["pointer"];
+$temp = $_SESSION["answer"];
+
+if($p == 1){
+	echo "siguiente";
+	$p++;
+	$c++;
 	$temp = $_SESSION["answer"];
+	$get = $_POST["Q"];
+	array_push($temp, $get);
+	$_SESSION["pointer"] = $p;
+	$_SESSION["counter"] = $c;
+	$_SESSION["answer"] = $temp;
+}else{
+	if($c == 1){
+		echo "modifica";
+		$get = $_POST["Q"];
+		$temp[1] = $get;
+		$_SESSION["answer"] = $temp;
+		$c++;
+	}else{
+		echo "anterior";
+		$c--;
+	}
+	$_SESSION["counter"] = $c;
 }
+
 ?>
 
 <!doctype html>
@@ -20,7 +41,7 @@ if(empty($_SESSION["answer"])){
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Pregunta #1 </title>
+	<title>Pregunta #3</title>
 	<style>
 		.btn-group.respuestas {
 			margin: 0 auto;
@@ -58,30 +79,35 @@ if(empty($_SESSION["answer"])){
 				<h4>
 					
 					<span class="badge badge-success">
-						Pregunta #1
+						Pregunta #3
 					</span>
 				</h4>
 			</div>
 			<div class="card-body">
-                
-			
-				<form method="post" action="Form_2.php">
-       
-					<!--Pregunta 1-->            
-					<p>Me gustan las revistas de mecánica</p>
+
+            <form method="post" action="Form_4.php">
+
+			       
+					
+					<!--Pregunta 3-->
+					<p>Casi siempre me levanto por las mañanas descansado y como nuevo</p>
 					<input type="radio" value="true" name="Q">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-			
-					
-					
+
+			     
+            
+        	  
 					  <br><br>
 					  <div class="text-center">
 						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
-				
+					  </form>
+			<form action="Form_2.php">
+			<button type="submit" id="boton" class="btn btn-success">Anterior</button>
+			</form>
 				<br>
 			</div>
 			<div class="card-footer text-muted text-center">
