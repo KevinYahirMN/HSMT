@@ -1,14 +1,29 @@
 <?php
 session_start();
-$answer = $_SESSION['answer'];
+$c = $_SESSION["counter"];
+$p = $_SESSION["pointer"];
+$temp = $_SESSION["answer"];
 
-$postanswer = $_POST['Q'];
-
-for($i = 1; $i < 2; $i++){
-   array_push($answer, $postanswer[$i]);
+if($p == 438){
+	$p++;
+	$c++;
+	$get = $_POST["Q"];
+	array_push($temp, $get);
+	$_SESSION["pointer"] = $p;
+	$_SESSION["counter"] = $c;
+	$_SESSION["answer"] = $temp;
+}else{	
+	if($c == 438){
+		$get = $_POST["Q"];
+		$temp[438] = $get;
+		$_SESSION["answer"] = $temp;
+		$c++;
+	}else{
+		$c--;
+	}
+	$_SESSION["counter"] = $c;
 }
 
-$_SESSION['answer'] = $answer;
 ?>
 <!doctype html>
 <html lang="es">
@@ -70,17 +85,18 @@ $_SESSION['answer'] = $answer;
 			       
 					<!--Pregunta 440-->
 					<p>Generalmente hago las cosas por mí mismo, en vez de buscar a alguien que me diga como hacerlas</p>
-                    <input type="radio" id="true" name="Q[1]">
+                    <input type="radio" id="true" name="Q">
                     <label>verdadero</label>     <br>        
-                    <input type="radio" id="false" name="Q[1]">
+                    <input type="radio" id="false" name="Q">
                     <label>falso</label>
 					<hr>
 
 			     
             
         	  
-					  <br><br>
+					<br><br>
 					  <div class="text-center">
+					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
 						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
 					  </div>
 
@@ -94,5 +110,5 @@ $_SESSION['answer'] = $answer;
 	</div>
    
 </body>
-
+<script type="text/javascript" src="js/function.js"></script>
 </html>
