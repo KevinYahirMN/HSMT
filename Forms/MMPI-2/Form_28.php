@@ -1,15 +1,16 @@
 <?php
 session_start();
-$answer = $_SESSION['answer'];
-
-$postanswer = $_POST['Q'];
-
-for($i = 1; $i < 2; $i++){
-   array_push($answer, $postanswer[$i]);
+if($_SESSION["counter"] == $_SESSION["pointer"]){
+	array_push($_SESSION["answer"], $_POST["Q"]);
+	$_SESSION["counter"]++;
+	$_SESSION["pointer"]++;
+}else{
+	$_SESSION["answer"][$pointer] = $_POST["Q"];
+	$_SESSION["pointer"]++;
 }
 
-$_SESSION['answer'] = $answer;
 ?>
+
 <!doctype html>
 <html lang="es">
 
