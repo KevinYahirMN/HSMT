@@ -39,8 +39,6 @@ for ($i = 0; $i < 15; ++$i)
     $html = $AnsIC[$i];
     print $html;
 }
-
-?>
 ?>
 
 <!DOCTYPE html>

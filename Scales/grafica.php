@@ -68,7 +68,6 @@ for ($i = 0; $i < 15; ++$i)
                 labels: ["L","F","K","Hs","D","Hi","Dp","MfM","Pa","Pt","Es","Ma","Is"],
                 datasets: [
                     Tvalue,
-                    // Aquí más datos...
                 ]
             },
             options: {
@@ -111,7 +110,6 @@ for ($i = 0; $i < 15; ++$i)
                          "PAS","PTA","BAE","ISO","FAM","DTR","RTR"],
                 datasets: [
                     Tvalue2,
-                    // Aquí más datos...
                 ]
             },
             options: {
@@ -148,13 +146,12 @@ for ($i = 0; $i < 15; ++$i)
             borderWidth: 1, // Ancho del borde
         };
         new Chart($grafica3, {
-            type: 'bar', // Tipo de gráfica
+            type: 'bar', 
             data: {
                 labels: ["A","R","Fyo","A-MAC","HR","Do","Rs","Dpr","GM",
                          "GF","EPK","EPS","ls1","ls2","ls3","Fp"],
                 datasets: [
                     Tvalue3,
-                    // Aquí más datos...
                 ]
             },
             options: {
