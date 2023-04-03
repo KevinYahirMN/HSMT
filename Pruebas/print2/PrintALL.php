@@ -408,6 +408,8 @@ for ($i = 0; $i < 15; ++$i)
                 </div>
                 <div class="tag_board">
                     <div class="sub_tag_board">
+                        <div>120</div>
+                        <div>110</div>
                         <div>100</div>
                         <div>90</div>
                         <div>80</div>
