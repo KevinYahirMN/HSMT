@@ -11,7 +11,6 @@ $get = $_POST["Q"];
 array_push($temp, $get);
 $_SESSION["answer"] = $temp;
   
-
 $conexion = new Connection();
 $AnsB = $conexion->scoreBasicScales();
 $AnsIB = $conexion->interpretationBasicScales();
@@ -61,6 +60,7 @@ for ($i = 0; $i < 16; ++$i)
     print $html;
 }
 
+$_SESSION["answer"] = array();
 ?>
 <head>
     <meta charset="UTF-8">
@@ -197,3 +197,4 @@ for ($i = 0; $i < 16; ++$i)
   Imprimir
 </button>
 </head>
+
