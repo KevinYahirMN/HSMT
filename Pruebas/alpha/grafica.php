@@ -7,19 +7,10 @@ session_start();
 $_SESSION['gender'] = 'Masculino';
 $_SESSION['answer'] = array();
 
-/*$temp = $_SESSION["answer"]
-  $get = $_POST["Q"];
-  array_push($temp, $get);
-  $_SESSION["answer"] = $temp;
-  */
-
-for($i = 0; $i < 568; $i++){
-    if($i%2 != 0){
-        array_push($_SESSION['answer'], 'true');
-    }else{
-        array_push($_SESSION['answer'], 'false');
-    }
-}
+$temp = $_SESSION["answer"];
+$get = $_POST["Q"];
+array_push($temp, $get);
+$_SESSION["answer"] = $temp;
 
 $conexion = new Connection();
 $AnsB = $conexion->scoreBasicScales();
@@ -30,20 +21,8 @@ $AnsIC = $conexion->interpretationContentScales();
 $AnsS = $conexion->scoreSupplementaryScales();
 $AnsIS = $conexion->interpretationSupplementaryScales();
 
-/*for ($i = 0; $i < 13; ++$i)
-{                 
-    $html = $AnsIB[$i];
-    print $html;
-}
-
-for ($i = 0; $i < 15; ++$i)
-{                 
-    $html = $AnsIC[$i];
-    print $html;
-}*/
-
 $TituloEB = array("Escala L", "Escala F", "Escala K", "Escala Hs",
-"Escala D", "Escala Hi", "Escala Dp","Escala MfM","Escala Pa","Escala Pt",
+"Escala D", "Escala Hi", "Escala Dp","Escala Mf","Escala Pa","Escala Pt",
 "Escala Es", "Escala Ma", "Escala Is");
 
 echo "<br><h2><B>Escalas basicas</B></h3>";
@@ -53,6 +32,12 @@ for ($i = 0; $i < 13; ++$i)
     $html = $AnsIB[$i];
     print $html;
 }
+
+echo "<br><h2><B>Escalas adicionales</B></h3>";
+$html = $AnsIBA;
+print $html;
+
+
 
 $TituloEC = array("Escala ANS", "Escala MIE", "Escala OBS", "Escala DEP",
 "Escala SAU", "Escala DEL", "Escala ENJ","Escala CIN","Escala PAS","Escala PTA",
