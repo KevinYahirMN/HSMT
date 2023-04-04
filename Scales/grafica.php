@@ -42,14 +42,44 @@ for ($i = 0; $i < 15; ++$i)
     print $html;
 }*/
 
+$TituloEB = array("Escala L", "Escala F", "Escala K", "Escala Hs",
+"Escala D", "Escala Hi", "Escala Dp","Escala MfM","Escala Pa","Escala Pt",
+"Escala Es", "Escala Ma", "Escala Is");
+
+echo "<br><h2><B>Escalas basicas</B></h3>";
+for ($i = 0; $i < 13; ++$i)
+{   
+    echo "<h3><B>$TituloEB[$i]</B></h3>";
+    $html = $AnsIB[$i];
+    print $html;
+}
+
+$TituloEC = array("Escala ANS", "Escala MIE", "Escala OBS", "Escala DEP",
+"Escala SAU", "Escala DEL", "Escala ENJ","Escala CIN","Escala PAS","Escala PTA",
+"Escala BAE", "Escala ISO", "Escala FAM", "Escala DTR", "Escala RTR");
+
+echo "<br><h2><B>Escalas de contenido</B></h2>";
 for ($i = 0; $i < 15; ++$i)
-{                 
+{   
+    echo "<h3><B>$TituloEC[$i]</B></h3>";
+    $html = $AnsIC[$i];
+    print $html;
+}
+
+
+$TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
+"Escala HR", "Escala Do", "Escala Rs","Escala Dpr","Escala GM","Escala GF",
+"Escala EPK", "Escala EPS", "Escala ls1","Escala ls2","Escala ls3","Escala Fp");
+
+echo "<br><h2><B>Escalas suplementarias</B></h2>";
+for ($i = 0; $i < 16; ++$i)
+{   
+    echo "<h3><B>$TituloES[$i]</B></h3>";
     $html = $AnsIS[$i];
     print $html;
 }
 
 ?>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -178,3 +208,10 @@ for ($i = 0; $i < 15; ++$i)
     </script>
 </body>
 </html>
+
+<head>
+    <link rel="stylesheet" href="dontPrint.css">
+<button onclick="window.print();" class="dontPrint">
+  Print
+</button>
+</head>

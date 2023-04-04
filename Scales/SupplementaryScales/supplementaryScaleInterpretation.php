@@ -61,7 +61,7 @@ class supplementaryScaleInterpretation{
     function scale_A($c){    
         switch($c){
             case $c < 41:
-                $text = "<h3><B> Escala A </B></h3> <p>Es indicativa de que el individuo no se 
+                $text = "Es indicativa de que el individuo no se 
                 siente ansioso, con fluidez verbal, franca, 
                 abierta amistosa, sociable, amable,
                 informal, asume un papel preponderante 
@@ -87,7 +87,7 @@ class supplementaryScaleInterpretation{
                 acción a la reflexión.</p>";
             break;
             case $c > 64:
-                $text = "<h3><B> Escala A </B></h3>Son personas que se caracterizan por 
+                $text = "Son personas que se caracterizan por 
                 sentirse ansiosas e incomodas, son 
                 pesimistas y apáticas. 
                 Generalmente se alejan de 
@@ -114,7 +114,7 @@ class supplementaryScaleInterpretation{
     function scale_R($c){     
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala R </B></h3>Puede ser una persona emotiva, 
+                $text = "Puede ser una persona emotiva, 
                 desinhibida verbal, entusiasta, 
                 atrevida y alegre. 
                 También puede ser una persona 
@@ -140,7 +140,7 @@ class supplementaryScaleInterpretation{
                 precavido.";
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala R </B></h3> Parece carecer de insight, es 
+                $text = "Parece carecer de insight, es 
                 sobrecontrolador e inhibido 
                 socialmente, también se percibe a 
                 sí mismos y son percibidos por los 
@@ -172,7 +172,7 @@ class supplementaryScaleInterpretation{
     function scale_Fyo($c){     
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala Fyo </B></h3> Las personas con puntajes bajos 
+                $text = "Las personas con puntajes bajos 
                 tienden a presentar más 
                 problemas y más severos que las 
                 demás personas. Además tienen 
@@ -182,7 +182,7 @@ class supplementaryScaleInterpretation{
                 en psicoterapia, no es positivo.";
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala Fyo </B></h3> Tienden a estar más adaptados 
+                $text = "Tienden a estar más adaptados 
                 psicológicamente y muestran más 
                 habilidades para enfrentarse a los 
                 problemas y situaciones 
@@ -220,14 +220,14 @@ class supplementaryScaleInterpretation{
     function scale_AMAC($c){   //INVESTIGAR QUE ES PUNTAJE CRUDO    
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala A-MAC </B></h3> Los puntajes bajos indican que el 
+                $text = "Los puntajes bajos indican que el 
                 individuo tiende a ser introvertido, tímido y 
                 con falta de confianza en sí mismo. 
                 Puntajes crudos menores de 24 contraindican 
                 abuso de substancias.";
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala A-MAC </B></h3> La elevación de la escala Mac Andrew 
+                $text = "La elevación de la escala Mac Andrew 
                 no sugiere desarrollo de adicción a las substancias 
                 ni indica la presencia de uso o abuso de substancias, 
                 solamente sugiere un desarrollo potencial de 
@@ -251,7 +251,7 @@ class supplementaryScaleInterpretation{
     function scale_HR($c){     
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala HR </B></h3> Puntuaciones bajas en HR, no existen suficientes 
+                $text = "Puntuaciones bajas en HR, no existen suficientes 
                 datos que permitan la interpretación adecuada, por lo que 
                 dichas puntuaciones pueden interpretarse de dos formas, 
                 ya que no se espera que presenten el síndrome de hostilidad 
@@ -260,7 +260,7 @@ class supplementaryScaleInterpretation{
                 apropiada sus sentimientos de agresión.";
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala HR </B></h3> Los individuos que obtienen puntuaciones altas 
+                $text = "Los individuos que obtienen puntuaciones altas 
                 en la escala tienden a evitar la expresión abierta de la 
                 agresión sin embargo a menudo en momentos de extrema 
                 provocación, actúan de una manera muy violenta y pueden 
@@ -282,13 +282,13 @@ class supplementaryScaleInterpretation{
     function scale_Do($c){      
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala Do </B></h3> Las puntuaciones bajas en Do, muestran a personas 
+                $text = "Las puntuaciones bajas en Do, muestran a personas 
                 sumisas, poco enérgicas y fácilmente influenciables por 
                 otras personas, carecen de confianza en sí mismas y 
                 sienten que manejan sus problemas inadecuadamente.";
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala Do </B></h3> Los puntajes altos de Do son asociados con 
+                $text = "Los puntajes altos de Do son asociados con 
                 equilibrio, confianza, liderazgo, seguridad en sí mismo, 
                 iniciativa social, perseverancia, resolución y liderazgo 
                 de grupo, es decir son características de personas consideradas 
@@ -310,7 +310,7 @@ class supplementaryScaleInterpretation{
     function scale_Rs($c){    
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala Rs </B></h3> Quienes obtienen puntuaciones bajas en 
+                $text = "Quienes obtienen puntuaciones bajas en 
                 Rs, debajo de 40, se caracterizan por no 
                 estar dispuestas a asumir 
                 responsabilidades y tal vez no hayan 
@@ -321,7 +321,7 @@ class supplementaryScaleInterpretation{
                 responsabilidad para con el grupo.";
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala Rs </B></h3> Las personas que tienen más de 25 años 
+                $text = "Las personas que tienen más de 25 años 
                 con puntuaciones altas tienden a aceptar 
                 su sistema de valores actual e intentan 
                 continuar utilizándolo, y quienes obtienen 
@@ -365,11 +365,11 @@ class supplementaryScaleInterpretation{
     function scale_Dpr($c){        
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala Dpr </B></h3> Los sujetos con puntuaciones bajas en Dpr, 
+                $text = "Los sujetos con puntuaciones bajas en Dpr, 
                 tienden a ser bien adaptados, optimistas y consientes.";
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala Dpr </B></h3> Parecen estar un poco adaptadas, 
+                $text = "Parecen estar un poco adaptadas, 
                 además de ser generalmente ineficientes, 
                 pesimistas y angustiados además pueden 
                 desarrollar síntomas físicos durante periodos 
@@ -386,10 +386,10 @@ class supplementaryScaleInterpretation{
     function scale_GM($c){     
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala GM </B></h3>";//Interpretacion no encontrada
+                $text = "";//Interpretacion no encontrada
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala GM </B></h3> Las puntuaciones elevadas tanto en 
+                $text = "Las puntuaciones elevadas tanto en 
                 hombres con mujeres, son características 
                 positivas, debido a que son personas que 
                 tienden a tener confianzas en sí mismas y 
@@ -416,10 +416,10 @@ class supplementaryScaleInterpretation{
     function scale_GF($c){    
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala GF </B></h3> ";//Interpretacion no encontrada.
+                $text = " ";//Interpretacion no encontrada.
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala GF </B></h3> Las puntuaciones elevadas tanto en 
+                $text = "Las puntuaciones elevadas tanto en 
                 hombres con mujeres, son 
                 características positivas, debido a que 
                 son personas que tienden a tener 
@@ -447,7 +447,7 @@ class supplementaryScaleInterpretation{
     function scale_EPK($c){     
         switch($c){
             case $c > 64://corte natural 30. Investigar.
-                $text = "<br><h3><B> Escala EPK </B></h3> Los veteranos de guerra y otras personas 
+                $text = "Los veteranos de guerra y otras personas 
                 que hayan experimentado un evento 
                 catastrófico y que obtengan 
                 puntuaciones altas en EPK, tienden a 
@@ -476,7 +476,7 @@ class supplementaryScaleInterpretation{
     function scale_EPS($c){     
         switch($c){
             case $c > 64:
-                $text = "<br><h3><B> Escala EPS </B></h3> Parece estar muy relacionada con los 
+                $text = "Parece estar muy relacionada con los 
                 índices de ansiedad y con la Pt y A. La escala EPS 
                 tiende a elevarse en personas que presentan trastornos 
                 somáticos en los que la ansiedad es un componente importante.
@@ -496,11 +496,11 @@ class supplementaryScaleInterpretation{
     function scale_ls1($c){       
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala ls1 </B></h3> La escala es bipolar significa que las puntuaciones 
+                $text = "La escala es bipolar significa que las puntuaciones 
                 bajas indican lo contrario a las puntajes altos.";
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala ls1 </B></h3> Son tímidos en las situaciones interpersonales, 
+                $text = "Son tímidos en las situaciones interpersonales, 
                 muestran incomodidad al estar rodeados de otros y 
                 son reacios para iniciar relaciones. No se 
                 consideran a sí mismos como sociables. Las 
@@ -518,12 +518,12 @@ class supplementaryScaleInterpretation{
     function scale_ls2($c){      
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala ls2 </B></h3> La escala es bipolar significa que las 
+                $text = "La escala es bipolar significa que las 
                 puntuaciones bajas indican lo contrario a los 
                 puntajes altos.";
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala ls2 </B></h3> Tienden a evitar estar en grupo, son poco 
+                $text = "Tienden a evitar estar en grupo, son poco 
                 amigables, se aíslan socialmente y evitan participar 
                 con los demás. Quizá les disguste las fiestas y los 
                 bailes. Indica disgusto y repudio a las actividades 
@@ -540,11 +540,11 @@ class supplementaryScaleInterpretation{
     function scale_ls3($c){      
         switch($c){
             case $c < 41:
-                $text = "<br><h3><B> Escala ls3 </B></h3> La escala es bipolar significa que las puntuaciones 
+                $text = "La escala es bipolar significa que las puntuaciones 
                 bajas indican lo contrario a las puntajes altos.";
             break;
             case $c > 64:
-                $text = "<br><h3><B> Escala ls3 </B></h3> Tienden a evitar estar en grupo, son poco 
+                $text = "Tienden a evitar estar en grupo, son poco 
                 amigables, se aíslan socialmente y evitan participar 
                 con los demás. Quizá les disguste las fiestas y los 
                 bailes. Esta escala indica baja autoestima y poca confianza 
@@ -561,18 +561,18 @@ class supplementaryScaleInterpretation{
         $text = "";      
         switch($c){
             case $c < 89:
-                $text = "<br><h3><B> Escala Fp </B></h3> Si tanto la F como la Fp están 
+                $text = "Si tanto la F como la Fp están 
                 debajo de 89 se puede interpretar 
                 todas las escalas, las básicas, las de 
                 contenido y las suplementarias.";
             break;
             case $c > 90:
-                $text = "<br><h3><B> Escala Fp </B></h3> Puntuacion cuestionable
+                $text = "Puntuacion cuestionable
                 No se deben interpretar las 
                 escalas de contenido y las 
                 suplementarias.";
             break;
-            case 110: $text ="<br><h3><B> Escala Fp </B></h3> Utilidad del perfil invalida
+            case 110: $text ="Utilidad del perfil invalida
             Posible patologia, si otras
             escalas relacionadas son validas.
             Si la F es valida pero la Fp no, solo se
@@ -580,7 +580,7 @@ class supplementaryScaleInterpretation{
             pero no las suplementarias.";
             break;
             case $c > 110:
-                $text = "<br><h3><B> Escala Fp </B></h3> Puntuacion invalida
+                $text = "Puntuacion invalida
                 Si la F y la Fp están arriba de
                 110, la prueba no es valida y
                 NO se interpreta.";
