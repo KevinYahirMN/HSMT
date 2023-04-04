@@ -49,7 +49,6 @@ for ($i = 0; $i < 15; ++$i)
     print $html;
 }
 
-
 $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 "Escala HR", "Escala Do", "Escala Rs","Escala Dpr","Escala GM","Escala GF",
 "Escala EPK", "Escala EPS", "Escala ls1","Escala ls2","Escala ls3","Escala Fp");
@@ -87,7 +86,7 @@ for ($i = 0; $i < 16; ++$i)
         new Chart($grafica, {
             type: 'bar',
             data: {
-                labels: ["L","F","K","Hs","D","Hi","Dp","MfM","Pa","Pt","Es","Ma","Is"],
+                labels: ["L","F","K","Hs","D","Hi","Dp","Mf","Pa","Pt","Es","Ma","Is"],
                 datasets: [
                     Tvalue,
                 ]
