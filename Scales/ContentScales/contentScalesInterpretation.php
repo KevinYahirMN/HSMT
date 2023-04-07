@@ -76,7 +76,7 @@ class contentScaleInterpretation{
                 Esta escala parece evaluar la desadaptación general, como síntomas 
                 específicos tales como la depresión y los problemas somáticos';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;          
         }
@@ -94,7 +94,7 @@ class contentScaleInterpretation{
                 Las mujeres que calificaron alto, fueron vistas por sus parejas como: 
                 desadaptadas, nerviosas y preocupadas acerca de la muerte.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;          
         }
@@ -117,7 +117,7 @@ class contentScaleInterpretation{
                 Las mujeres fueron descritas como realistas acerca de sus habilidades, 
                 exageradamente autocríticas y con tendencia a culparse a sí mismas.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;   
         }
@@ -144,7 +144,7 @@ class contentScaleInterpretation{
                 Además de sensibles al rechazo, indecisos y poco 
                 efectivos para enfrentar los retos cotidianos.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;   
         }
@@ -164,7 +164,7 @@ class contentScaleInterpretation{
                 y se sienten más enfermos que el resto de las personas.
                 Las personas que tienen problemas reales de salud puntuan elevadas en esta escala';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;   
         }
@@ -183,7 +183,7 @@ class contentScaleInterpretation{
                 Estas personas pueden creer que tienen una misión o poderes especiales. 
                 En la población mexicana indica que esta elevación puede deberse a factores religiosos y místicos.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;   
         }
@@ -206,7 +206,7 @@ class contentScaleInterpretation{
                 Las mujeres presentaban estas mismas características, 
                 pero además se entristecían fácilmente y se les dificultaba salir de ese estado.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;   
         }
@@ -232,7 +232,7 @@ class contentScaleInterpretation{
                 En estudios realizados en delincuentes se encontró esta escala 
                 elevada, siendo el grupo de homicidas el que presento las calificaciones más altas.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;   
         }
@@ -263,7 +263,7 @@ class contentScaleInterpretation{
                 confiables y tienen dificultades para aceptar reglas, 
                 aun cuando no esté elevada, pero sea un pico del perfil.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;   
         }
@@ -289,7 +289,7 @@ class contentScaleInterpretation{
                 Las esposas de los hombres que obtuvieron puntuaciones 
                 elevadas, los describen como mundanos, críticos, enojones y tensos.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;     
         }
@@ -319,7 +319,7 @@ class contentScaleInterpretation{
                 Son personas que experimentan dificultad para tomar 
                 decisiones, se preocupan demasiado y tienen miedo a muchas cosas.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;    
         }
@@ -345,7 +345,7 @@ class contentScaleInterpretation{
                 disfrutar de las fiestas y de la convivencia con los amigos.
                 ';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;   
         }
@@ -367,7 +367,7 @@ class contentScaleInterpretation{
                 mujeres eran percibidas como desadaptadas, hostiles, 
                 hiperactivas, antisociales y poco confiables o responsables.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;   
         }
@@ -398,7 +398,7 @@ class contentScaleInterpretation{
                 Lo anterior ocurre aunque la escala no esté marcadamente 
                 elevada, pero sí que sea el pico del perfil.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;   
         }
@@ -418,7 +418,7 @@ class contentScaleInterpretation{
                 Prefieren pasar por alto una crisis o dificultad 
                 que enfrentarla; con frecuencia reportan sintomas somáticos.';
             break;
-            case $c < 64:
+            case $c <= 64:
                 $text = 'No aplica';
             break;
             

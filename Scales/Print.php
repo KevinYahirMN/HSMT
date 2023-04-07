@@ -4,7 +4,7 @@
 include("Connection.php");
 
 session_start();
-$_SESSION['gender'] = 'Masculino';
+$gender = $_SESSION['gender'] ;
 
 $temp = $_SESSION["answer"];
 $get = $_POST["Q"];
@@ -24,7 +24,7 @@ $TituloEB = array("Escala L", "Escala F", "Escala K", "Escala Hs",
 "Escala D", "Escala Hi", "Escala Dp","Escala Mf","Escala Pa","Escala Pt",
 "Escala Es", "Escala Ma", "Escala Is");
 
-echo "<br><h2><B>Escalas basicas</B></h3>";
+echo "<h2><B>Escalas basicas</B></h3>";
 for ($i = 0; $i < 13; ++$i)
 {   
     echo "<h3><B>$TituloEB[$i]</B></h3>";
@@ -60,7 +60,6 @@ for ($i = 0; $i < 16; ++$i)
     print $html;
 }
 
-$_SESSION["answer"] = array();
 ?>
 <head>
     <meta charset="UTF-8">
@@ -196,5 +195,8 @@ $_SESSION["answer"] = array();
 <button onclick="window.print();" class="dontPrint">
   Imprimir
 </button>
-</head>
 
+<?php $_SESSION["answer"] = array();
+ $_SESSION['gender'] = "";
+ ?>
+</head>

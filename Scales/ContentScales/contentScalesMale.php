@@ -382,7 +382,7 @@ class contentScalesMale{
         $this->calif_True($answer[543]);
         $this->calif_True($answer[550]);
         $this->calif_True($answer[563]);
-        $this->calif_True($answer[567]);
+        $this->calif_True($answer[566]);//SE LE RESTO 1
         return $this-> c;
     }
 
