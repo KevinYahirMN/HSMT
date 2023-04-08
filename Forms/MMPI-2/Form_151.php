@@ -85,10 +85,10 @@ if($p == 149){
 			       
 					<!--Pregunta 151-->
 					<p>Me molesta que alguien se haya burlado tan inteligentemente de mi que yo haya tenido que admitir que lo logró </p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

@@ -85,10 +85,10 @@ if($p == 148){
 			       
 					<!--Pregunta 150-->
 					<p>A veces siento que tengo que hacerme daño a mi mismo o alguien</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

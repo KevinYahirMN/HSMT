@@ -86,7 +86,7 @@ if($p == 106){
 			       
 					<!--Pregunta 108-->
 					<p>Cualquier persona capacitada y dispuesta a trabajar fuerte, tiene muchas probabiliades de tener éxito</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

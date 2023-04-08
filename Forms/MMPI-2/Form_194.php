@@ -86,10 +86,10 @@ if($p == 192){
 			       
 					<!--Pregunta 194-->
 					<p>Nunca he tenido erupciones en la piel que me hayan preocupado</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

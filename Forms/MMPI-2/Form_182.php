@@ -86,10 +86,10 @@ if($p == 180){
 			       
 					<!--Pregunta 182-->
 					<p>He tenido ataques en los que perdía el control de mismovimientos o de la palabra, pero sabía lo que pasaba a mí alrededor</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

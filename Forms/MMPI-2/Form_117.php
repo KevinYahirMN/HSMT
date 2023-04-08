@@ -86,11 +86,11 @@ if($p == 115){
 			       
 					 <!--Pregunta 117-->
 					 <p>Nunca he vomitado sangre, ni sangrado al toser</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
-					 <hr>
+					 <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

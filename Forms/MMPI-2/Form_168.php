@@ -86,12 +86,11 @@ if($p == 166){
 			       
 					<!--Pregunta 168-->
 					<p>He tenido épocas durante las cuales he realizado actividades que luego no recordaba haber hecho</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  

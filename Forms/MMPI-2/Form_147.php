@@ -86,10 +86,10 @@ if($p == 145){
 			       
 					<!--Pregunta 147-->
 					<p>Actualmente no comprendo lo que leo con la facilidad que tenía antes</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

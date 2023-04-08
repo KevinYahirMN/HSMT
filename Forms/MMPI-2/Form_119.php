@@ -86,7 +86,7 @@ if($p == 117){
 			       
 					<!--Pregunta 119-->
 					<p>Me gusta recoger flores o cultivar plantas en casa</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

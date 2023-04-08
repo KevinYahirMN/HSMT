@@ -86,10 +86,10 @@ if($p == 119){
 			       
 					<!--Pregunta 121-->
 					<p>Nunca me he entregado a prácticas sexuales fuera de lo común</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

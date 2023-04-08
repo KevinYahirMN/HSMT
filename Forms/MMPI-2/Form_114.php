@@ -85,7 +85,7 @@ if($p == 112){
 			       
 					<!--Pregunta 114-->
 					<p>A veces me siento tan atraído por las cosas de otros (zapatos, reloj), que tengo ganas de robarlas</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

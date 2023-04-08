@@ -86,10 +86,10 @@ if($p == 118){
 			       
 					<!--Pregunta 120-->
 					<p>Frecuentemente encuentro necesario defender lo que es justo</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

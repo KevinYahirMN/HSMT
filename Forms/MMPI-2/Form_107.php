@@ -86,11 +86,11 @@ if($p == 105){
 			       
 					 <!--Pregunta 107-->
 					 <p>Mis modales en la mesa no son tan correctos en mi casa como cuando salgo a comer afuera</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
-					 <hr>
+					 <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

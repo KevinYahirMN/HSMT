@@ -86,10 +86,10 @@ if($p == 123){
 			       
 					<!--Pregunta 125-->
 					<p>Creo que mi vida hogareña es tan agradable como la de mucha gente que conozco</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

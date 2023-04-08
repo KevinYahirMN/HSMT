@@ -86,12 +86,11 @@ if($p == 121){
 			       
 					<!--Pregunta 123-->
 					<p>Si pudiera entrar en un espectáculo sin pagar y estuviera seguro de no ser visto, probablmente lo haría</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  
