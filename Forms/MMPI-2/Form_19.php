@@ -86,12 +86,11 @@ if($p == 17){
 			       
 					<!--Pregunta 19-->
 					<p>Cuando acepto un nuevo empleo, me gusta descubrir a quien debo "caerle bien"</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-			     
             
         	  
 					<br><br>

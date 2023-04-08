@@ -86,7 +86,7 @@ if($p == 55){
 			       
 					<!--Pregunta 57-->
 					<p>Muy raras veces siento dolor en la nuca</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

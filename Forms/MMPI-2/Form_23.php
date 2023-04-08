@@ -86,12 +86,11 @@ if($p == 21){
 			       
 					<!--Pregunta 23-->
 					<p>A veces tengo accesos de risa y llanto que no puedo controlar</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-			     
             
         	  
 					<br><br>

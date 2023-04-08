@@ -85,7 +85,7 @@ if($p == 69){
 			       
 					<!--Pregunta 71-->
 					<p>En el momento actual me es difícil tener la esperanza de llegar a ser alguien</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

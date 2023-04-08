@@ -86,7 +86,7 @@ if($p == 91){
 			       
 					<!--Pregunta 93-->
 					<p>A veces, cuando no me siento bien, estoy irritable</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

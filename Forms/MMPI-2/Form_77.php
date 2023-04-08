@@ -86,7 +86,7 @@ if($p == 75){
 			       
 					<!--Pregunta 77-->
 					<p>De vez en cuando dejo para mañana lo que debería hacer hoy</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

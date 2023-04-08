@@ -86,12 +86,11 @@ if($p == 16){
 			       
 					<!--Pregunta 18-->
 					<p>Sufro ataques de náuseas y vómitos</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

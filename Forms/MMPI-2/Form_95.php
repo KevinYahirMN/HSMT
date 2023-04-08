@@ -86,7 +86,7 @@ if($p == 93){
 			       
 					<!--Pregunta 95-->
 					<p>Soy feliz la mayor parte del tiempo</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

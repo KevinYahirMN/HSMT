@@ -86,7 +86,7 @@ if($p == 94){
 			       
 					<!--Pregunta 96-->
 					<p>Veo a mi alrededor cosas, animales o personas que otros no ven</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

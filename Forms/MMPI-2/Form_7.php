@@ -87,8 +87,8 @@ if($p == 5){
 					
 					<!--Pregunta 7-->
 					<p>Me gusta leer artículos sobre crímenes en los periódicos</p>
-					<input type="radio" value="true" name="Q">
-					<label>verdadero</label>      <br>      
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>

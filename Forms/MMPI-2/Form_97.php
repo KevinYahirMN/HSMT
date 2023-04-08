@@ -86,7 +86,7 @@ if($p == 95){
 			       
 					<!--Pregunta 97-->
 					<p>Parece como si la mayor parte del tiempo tuviera la cabeza cargada o llena de ruidos</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

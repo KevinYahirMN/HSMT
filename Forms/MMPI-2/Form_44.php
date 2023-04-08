@@ -86,12 +86,11 @@ if($p == 42){
 			       
 					<!--Pregunta 44-->
 					<p>Una vez a la semana o más a menudo, siento calor por todo el cuerpo sin causa aparente</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-			     
             
         	  
 					<br><br>

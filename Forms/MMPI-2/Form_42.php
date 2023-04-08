@@ -85,7 +85,7 @@ if($p == 40){
 			       
 					<!--Pregunta 42-->
 					<p>Si los demás no se la hubieran tomado conmigo, hubiese tenido más éxito</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

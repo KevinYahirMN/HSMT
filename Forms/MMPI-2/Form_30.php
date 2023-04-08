@@ -86,7 +86,7 @@ if($p == 28){
 			       
 					<!--Pregunta 30-->
 					<p>A menudo tengo pesadillas</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

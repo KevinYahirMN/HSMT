@@ -86,7 +86,7 @@ if($p == 23){
 			       
 					<!--Pregunta 25-->
 					<p>Me gustaría ser cantante</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

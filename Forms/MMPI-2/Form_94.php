@@ -85,12 +85,11 @@ if($p == 92){
 			       
 					<!--Pregunta 94-->
 					<p>La mayor parte del tiempo me parece haber hecho algo malo o equivocado</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

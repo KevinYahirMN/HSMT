@@ -86,7 +86,7 @@ if($p == 82){
 			       
 					<!--Pregunta 84-->
 					<p>Siendo joven me echaron de clase, una o más veces, por portarme mal</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

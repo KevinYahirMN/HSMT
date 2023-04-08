@@ -87,8 +87,8 @@ if($p == 4){
 					
 					<!--Pregunta 6-->
 					<p>Mi padre es un buen hombre (o lo fue en caso de haber fallecido)</p>
-					<input type="radio" value="true" name="Q">
-					<label>verdadero</label>      <br>      
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>

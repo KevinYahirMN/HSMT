@@ -86,7 +86,7 @@ if($p == 45){
 			       
 					<!--Pregunta 47-->
 					<p>Casi nunca he sufrido de doleres en el pecho o en el corazón</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

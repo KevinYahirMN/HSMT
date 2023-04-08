@@ -86,12 +86,11 @@ if($p == 24){
 			       
 					<!--Pregunta 26-->
 					<p>Cuando estoy en dificultades o problemas creo que lo mejor es callarme</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

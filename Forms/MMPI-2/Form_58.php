@@ -85,7 +85,7 @@ if($p == 56){
 			       
 					<!--Pregunta 58-->
 					<p>Pienso que una gran mayoría de la gente exagera sus desgracias para lograr la simpatía y ayuda de los demás</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

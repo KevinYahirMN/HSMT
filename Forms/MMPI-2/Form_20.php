@@ -86,7 +86,7 @@ if($p == 18){
 			       
 					<!--Pregunta 20-->
 					<p>Muy rara vez sufro de constipación (sequedad de vientre)</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

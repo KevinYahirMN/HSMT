@@ -86,12 +86,11 @@ if($p == 86){
 			       
 					<!--Pregunta 88-->
 					<p>Creo que las mujeres deben tener tanta libertad sexual como los hombres</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-			     
             
         	  
 					<br><br>

@@ -86,7 +86,7 @@ if($p == 52){
 			       
 					<!--Pregunta 54-->
 					<p>A mi familia no le gusta el trabajo que he elegido (o el trabajo que pienso elegir para mi futuro)</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

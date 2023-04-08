@@ -86,12 +86,11 @@ if($p == 57){
 			       
 					<!--Pregunta 59-->
 					<p>Tengo molestias en la boca del estómago casi a diario</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

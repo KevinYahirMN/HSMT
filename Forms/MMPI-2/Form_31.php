@@ -86,7 +86,7 @@ if($p == 29){
 			       
 					<!--Pregunta 31-->
 					<p>Me cuesta bastante concentrarme en una tarea o trabajo</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

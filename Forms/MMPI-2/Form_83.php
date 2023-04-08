@@ -86,7 +86,7 @@ if($p == 81){
 			       
 					<!--Pregunta 83-->
 					<p>Tengo pocas peleas con las personas de mi familia</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

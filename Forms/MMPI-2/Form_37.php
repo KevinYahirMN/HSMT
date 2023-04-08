@@ -86,7 +86,7 @@ if($p == 35){
 			       
 					<!--Pregunta 37-->
 					<p>A veces siento deseos de romper cosas</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

@@ -85,7 +85,7 @@ if($p == 73){
 			       
 					<!--Pregunta 75-->
 					<p>Normalmente siento que la vida vale la pena vivirla</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

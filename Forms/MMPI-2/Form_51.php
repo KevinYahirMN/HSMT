@@ -85,7 +85,7 @@ if($p == 49){
 			       
 					<!--Pregunta 51-->
 					<p>No leo diariamente todos los artículos principales del diario</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

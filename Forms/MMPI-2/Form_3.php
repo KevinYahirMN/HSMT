@@ -88,8 +88,8 @@ if($p == 1){
 					
 					<!--Pregunta 3-->
 					<p>Casi siempre me levanto por las mañanas descansado y como nuevo</p>
-					<input type="radio" value="true" name="Q">
-					<label>verdadero</label>      <br>      
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>

@@ -86,7 +86,7 @@ if($p == 60){
 			       
 					 <!--Pregunta 62-->
 					<p>A menudo he deseado ser mujer. (O si usted es mujer: nunca me ha molestado ser mujer)</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

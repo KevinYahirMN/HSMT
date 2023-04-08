@@ -86,7 +86,7 @@ if($p == 36){
 			       
 					<!--Pregunta 38-->
 					<p>He tenido períodos de días, semanas o meses en los que no podía preocuparme por las cosas, porque no tenía ánimo de nada</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

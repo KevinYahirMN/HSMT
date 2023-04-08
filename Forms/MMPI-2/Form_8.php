@@ -87,7 +87,7 @@ if($p == 6){
 					
 					<!--Pregunta 8-->
 					<p>Normalmente tengo bastante calientes los pies y las manos</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

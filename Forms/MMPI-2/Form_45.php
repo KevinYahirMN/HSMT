@@ -86,7 +86,7 @@ if($p == 43){
 			       
 					<!--Pregunta 45-->
 					<p>Tengo tan buena salud física como la mayor parte de mis amigos</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

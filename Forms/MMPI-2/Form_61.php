@@ -86,7 +86,7 @@ if($p == 59){
 			       
 					<!--Pregunta 61-->
 					<p>Soy una persona importante</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

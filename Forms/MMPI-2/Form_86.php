@@ -86,7 +86,7 @@ if($p == 84){
 			       
 					<!--Pregunta 86-->
 					<p>Me gustaría asistir a reuniones o fiestas donde haya mucha alegría y ruido</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

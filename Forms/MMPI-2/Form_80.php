@@ -85,12 +85,11 @@ if($p == 78){
 			       
 					<!--Pregunta 80-->
 					<p>Me gustaría ser enfermero</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

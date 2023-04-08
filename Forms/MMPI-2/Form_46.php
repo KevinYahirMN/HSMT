@@ -86,7 +86,7 @@ if($p == 44){
 			       
 					<!--Pregunta 46-->
 					<p>Prefiero hacerme el desentendido con amigos del colegio, o personas conocidas que no veo desde hace tiempo, a menos que ellos me hablen primero</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

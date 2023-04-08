@@ -86,7 +86,7 @@ if($p == 46){
 			       
 					<!--Pregunta 48-->
 					<p>En muchas ocasiones me gustaría más sentarme y soñar despierto que hacer cualquier cosa</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

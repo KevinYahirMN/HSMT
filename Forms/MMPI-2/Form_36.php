@@ -85,12 +85,11 @@ if($p == 34){
 			       
 					<!--Pregunta 36-->
 					<p>Tengo tos la mayor parte del tiempo</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

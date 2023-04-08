@@ -86,12 +86,11 @@ if($p == 68){
 			       
 					<!--Pregunta 70-->
 					<p>En una discusión o debate, me dejo vencer facilmente</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

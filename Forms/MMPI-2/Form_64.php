@@ -85,12 +85,11 @@ if($p == 62){
 			       
 					<!--Pregunta 64-->
 					<p>Me gusta leer novelas de amor</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

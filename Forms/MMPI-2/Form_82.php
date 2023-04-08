@@ -86,12 +86,11 @@ if($p == 80){
 			       
 					<!--Pregunta 82-->
 					<p>Hago muchas cosas de las que me arrepiento luego. (Me arrepiento de más cosas o con más frecuencia que otras personas)</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

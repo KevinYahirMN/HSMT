@@ -86,12 +86,11 @@ if($p == 39){
 			       
 					<!--Pregunta 41-->
 					<p>No digo siempre la verdad</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

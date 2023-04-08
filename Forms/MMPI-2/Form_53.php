@@ -86,7 +86,7 @@ if($p == 51){
 			       
 					<!--Pregunta 53-->
 					<p>A menudo algunas partes de mi cuerpo tienen sensaciones de hormigueo, quemazón, picazón o bien de quedarse "dormidas"</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

@@ -86,12 +86,11 @@ if($p == 38){
 			       
 					<!--Pregunta 40-->
 					<p>La mayor parte del tiempo parece dolerme la cabeza por todas partes</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

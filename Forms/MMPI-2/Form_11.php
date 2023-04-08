@@ -85,7 +85,7 @@ if($p == 9){
 			       
 					<!--Pregunta 11-->
 					<p>La mayor parte del tiempo me parece tener un nudo en la garganta</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
