@@ -86,13 +86,11 @@ if($p == 209){
 			       
 					<!--Pregunta 211-->
 					<p>Me han sugerido una forma de vida basada en el deber y desde entonces la he seguido cuidadosamente</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
-			     
             
         	  
 					<br><br>

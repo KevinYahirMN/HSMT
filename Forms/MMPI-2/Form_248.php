@@ -86,10 +86,10 @@ if($p == 246){
 			       
 					<!--Pregunta 248-->
 					<p>No culpo a aquel que se aprovecha de otro que deja que se aprovechen de él</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

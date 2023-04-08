@@ -86,12 +86,11 @@ if($p == 260){
 			       
 					<!--Pregunta 262-->
 					<p>Puedo iniciar una discusión, en un grupo de personas, sobre un tema que conozco</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  

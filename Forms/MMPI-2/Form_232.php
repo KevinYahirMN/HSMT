@@ -86,10 +86,10 @@ if($p == 230){
 			       
 					<!--Pregunta 232-->
 					<p>En las elecciones,algunas veces, voto candidatos que conozco muy poco</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

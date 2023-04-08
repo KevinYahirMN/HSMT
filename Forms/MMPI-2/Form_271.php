@@ -86,12 +86,11 @@ if($p == 269){
 			       
 					<!--Pregunta 271-->
 					<p>Creo que mi sensibilidad es más intensa que la de la mayor parte de la gente</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  

@@ -85,12 +85,11 @@ if($p == 201){
 			       
 					<!--Pregunta 203-->
 					<p>A veces soy un poco chismoso</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  

@@ -86,12 +86,11 @@ if($p == 285){
 			       
 					<!--Pregunta 287-->            
 					<p>Muchos de mis sueños son sobre temas sexuales</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  

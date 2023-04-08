@@ -86,12 +86,11 @@ if($p == 295){
 			       
 					<!--Pregunta 297-->
 					<p>Mi padre o mi padre me obligaron frecuentemente a obedecer, incluso cuando yo pensaba que ello no era razonable</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  

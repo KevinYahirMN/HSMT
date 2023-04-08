@@ -86,10 +86,10 @@ if($p == 294){
 			       
 					<!--Pregunta 296-->            
 					<p>Algunas veces pierdo o se me cambia la voz, incluso sin estar resfriado</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

@@ -86,10 +86,10 @@ if($p == 216){
 			       
 					<!--Pregunta 218-->
 					<p>Hay momentos en que estoy tan nervioso que no puedo estar sentado mucho tiempo</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

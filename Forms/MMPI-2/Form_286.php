@@ -86,12 +86,11 @@ if($p == 284){
 			       
 					<!--Pregunta 286-->
 					<p>A la mayor parte de la gente le desagrada interiormente dejar lo suyo para ayudar a los demás</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  

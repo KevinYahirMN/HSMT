@@ -86,10 +86,10 @@ if($p == 237){
 			       
 					<!--Pregunta 239-->
 					<p>Soy una persona plenamente segura de sí misma</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 			     
             

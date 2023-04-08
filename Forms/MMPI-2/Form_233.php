@@ -85,12 +85,11 @@ if($p == 231){
 			       
 					<!--Pregunta 233-->
 					<p>Me cuesta empezar a hacer cualquier cosa</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-			     
             
         	  
 					<br><br>

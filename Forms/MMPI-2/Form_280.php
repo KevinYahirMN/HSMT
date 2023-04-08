@@ -86,10 +86,10 @@ if($p == 278){
 			       
 					<!--Pregunta 280-->
 					<p>Me parece que hago amigos tan rápido como los demás</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

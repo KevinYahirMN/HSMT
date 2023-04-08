@@ -86,10 +86,10 @@ if($p == 255){
 			       
 					<!--Pregunta 257-->
 					<p>Si fuera periodista me gustaría mucho informar sobre deportes</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

@@ -86,10 +86,10 @@ if($p == 200){
 			       
 					<!--Pregunta 202-->
 					<p>A menudo a mis padres les molestó el tipo de amigos que tenía</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

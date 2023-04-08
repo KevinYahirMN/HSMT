@@ -85,12 +85,11 @@ if($p == 263){
 			       
 					<!--Pregunta 265-->
 					<p>Por lo general no le hablo a las personas hasta que ellas me hablan a mí</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  

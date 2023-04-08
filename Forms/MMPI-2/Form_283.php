@@ -86,10 +86,10 @@ if($p == 281){
 			       
 					<!--Pregunta 283-->
 					<p>Quien provoca la tentación dejando una cosa valiosa sin protegerla es tan culpable del robo como quien la roba</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

@@ -86,10 +86,10 @@ if($p == 210){
 			       
 					<!--Pregunta 212-->
 					<p>A veces traté de que alguien no hiciera algo, porque eso estaba en contra de mis principios</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

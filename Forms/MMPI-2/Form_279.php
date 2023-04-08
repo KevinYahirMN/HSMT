@@ -86,12 +86,11 @@ if($p == 277){
 			       
 					<!--Pregunta 279-->
 					<p>Me niego a participar en algunos juegos porque no soy hábil en ellos</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-			     
             
         	  
 					<br><br>

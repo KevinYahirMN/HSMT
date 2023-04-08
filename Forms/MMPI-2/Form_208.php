@@ -86,12 +86,11 @@ if($p == 206){
 			       
 					<!--Pregunta 208-->
 					<p>Raramente noto los latidos de mi corazón y pocas veces se me corta la respiración</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  

@@ -86,10 +86,10 @@ if($p == 251){
 			       
 					<!--Pregunta 253-->
 					<p>Todos los días tomo una cantidad excesivamente grande de agua</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

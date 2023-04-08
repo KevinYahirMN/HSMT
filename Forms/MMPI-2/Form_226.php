@@ -86,10 +86,10 @@ if($p == 224){
 			       
 					<!--Pregunta 226-->
 					<p>Algunas veces, sin razón alguna, incluso cuando las cosas van mal, me siento feliz, "flotando entre las nubes"</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

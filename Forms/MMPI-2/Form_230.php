@@ -86,10 +86,10 @@ if($p == 228){
 			       
 					<!--Pregunta 230-->
 					<p>Puedo mostrarme amistoso con la gente que hace cosas que yo considero incorrectas</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

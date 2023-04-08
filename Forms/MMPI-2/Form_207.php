@@ -86,12 +86,11 @@ if($p == 205){
 			       
 					<!--Pregunta 207-->
 					<p>Me gustaría pertenecer a variuos clubes o asociaciones</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-			     
             
         	  
 					<br><br>

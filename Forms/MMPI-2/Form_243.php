@@ -86,10 +86,10 @@ if($p == 241){
 			       
 					<!--Pregunta 243-->
 					<p>Cuando estoy con un grupo de gente, me altera tener que pensar en temas adecuados de conversación</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

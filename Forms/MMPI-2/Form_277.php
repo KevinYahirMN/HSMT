@@ -86,10 +86,10 @@ if($p == 275){
 			       
 					<!--Pregunta 277-->
 					<p>Incluso cuando estoy con gente, me siento solo la mayor parte del tiempo</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

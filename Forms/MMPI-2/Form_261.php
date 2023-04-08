@@ -85,10 +85,10 @@ if($p == 259){
 			       
 					<!--Pregunta 261-->
 					<p>Comparado con mis amigos, tengo muy pocos miedos</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     
