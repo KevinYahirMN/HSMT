@@ -63,28 +63,32 @@ if(empty($_SESSION["answer"])){
 				</h4>
 			</div>
 			<div class="card-body">
-                
 			
+			<!--COPIAR Y PEGAR EN TODOS LOS FORMS-->   
+			<script type="text/javascript">
+			function habilitar()
+			{
+				document.getElementById("boton").disabled=false;
+			}
+			</script>
+
 				<form method="post" action="Form_2.php">
-       
 					<!--Pregunta 1-->            
 					<p>Me gustan las revistas de mecánica</p>
-					<input type="radio" value="true" name="Q">
-					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
-					<label>falso</label>
-					<hr>
-			
-					
-					
+					<!--USAR ESTE FORMATO PARA LOS RADIOBUTTON EN TODOS LOS FORMS-->   
+					<input  type="radio" value="true" name="Q" onclick="habilitar()" /> Verdadero
+					<br>
+					<input  type="radio" value="false" name="Q" onclick="habilitar()" /> Falso
+					<hr>					
 					  <br><br>
 					  <div class="text-center">
-					    
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+					 <!--EL BOTON DEBE TENER LA ETIQUETA disabled-->   
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
+				</form>
 				
 				<br>
-			</div>
+			</div>S
 			<div class="card-footer text-muted text-center">
 				Lea con atención cada pregunta y responda <strong>Verdadero</strong> o <strong>Falso</strong> según corresponda.<br><br> Por favor, responda las preguntas con total honestidad.
 			</div>
