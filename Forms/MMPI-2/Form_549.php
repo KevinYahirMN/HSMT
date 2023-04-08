@@ -86,11 +86,11 @@ if($p == 547){
 			       
 				<!--Pregunta 549-->
 			   <p>En todo lo que hago, siento que me están tomando</p>
-			   <input type="radio" value="true" name="Q">
-			   <label>Verdadero</label><br>
-			   <input type="radio" value="false" name="Q">
-			   <label>Falso</label>
-			   <hr>
+			   <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

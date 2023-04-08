@@ -85,7 +85,7 @@ if($p == 560){
 			       
 			   <!--Pregunta 562-->
 			   <p>Me resulta dificil aceptar elogios</p>
-			   <input type="radio" value="true" name="Q">
+			   <input type="radio" value="true" name="Q" checked="checked">
 			   <label>Verdadero</label><br>
 			   <input type="radio" value="false" name="Q">
 			   <label>Falso</label>

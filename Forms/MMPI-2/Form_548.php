@@ -86,11 +86,11 @@ if($p == 546){
 			       
 				<!--Pregunta 548-->
 			   <p>He estado tan enojado que llegué a golpear y lastimar a una persona</p>
-			   <input type="radio" value="true" name="Q">
-			   <label>Verdadero</label><br>
-			   <input type="radio" value="false" name="Q">
-			   <label>Falso</label>
-			   <hr>
+			   <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

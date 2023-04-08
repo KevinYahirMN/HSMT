@@ -86,11 +86,11 @@ if($p == 533){
 			       
 					<!--Pregunta 535-->
 	                <p>Me pone de mal humor que la gente con la que trabajo no haga las cosas a tiempo.</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

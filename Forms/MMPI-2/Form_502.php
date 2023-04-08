@@ -86,11 +86,11 @@ if($p == 500){
 			       
 					<!--Pregunta 502-->
 	                <p>Tengo tan arraigados uno o varios malos hábitos que es inútil luchar contra ellos</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

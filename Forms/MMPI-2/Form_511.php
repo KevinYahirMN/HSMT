@@ -86,11 +86,11 @@ if($p == 509){
 			       
 					<!--Pregunta 511-->
 	                <p>Por lo menos una vez por semana me emborracho o me drogo.</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+	                <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

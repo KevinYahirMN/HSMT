@@ -86,11 +86,11 @@ if($p == 536){
 			       
 					<!--Pregunta 538-->
 	                <p>Muchos hombres son infieles a sus parejas.</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+	                <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

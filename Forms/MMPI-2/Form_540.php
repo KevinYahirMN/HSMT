@@ -86,11 +86,11 @@ if($p == 538){
 			       
 					<!--Pregunta 540-->
 	                <p>Hubo ocasiones en las que me enojé y romp cosas por haber bebido mucho</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+	                <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

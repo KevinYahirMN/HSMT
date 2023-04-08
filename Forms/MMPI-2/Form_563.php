@@ -86,7 +86,7 @@ if($p == 561){
 			       
 			   <!--Pregunta 563-->
 			   <p>En la mayoría de los matrimonios, una de las personas o ambas son poco felices.</p>
-			   <input type="radio" value="true" name="Q">
+			   <input type="radio" value="true" name="Q" checked="checked">
 			   <label>Verdadero</label><br>
 			   <input type="radio" value="false" name="Q">
 			   <label>Falso</label>

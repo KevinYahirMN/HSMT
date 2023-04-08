@@ -86,11 +86,11 @@ if($p == 499){
 			       
 					<!--Pregunta 501-->
 	                <p>Conversar acerca de los problemas es más útil que tomar remedios para resolverlos</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

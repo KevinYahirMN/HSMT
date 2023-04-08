@@ -86,11 +86,11 @@ if($p == 544){
 			       
 					<!--Pregunta 546-->
 	                <p>Últimamente, pienso mucho en la muerte y "el más allá"</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+	                <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

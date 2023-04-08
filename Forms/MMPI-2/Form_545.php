@@ -86,11 +86,11 @@ if($p == 543){
 			       
 					<!--Pregunta 545-->
 	                <p> Tengo poco tiempo para poder hacer las cosas que debo</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+	                <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

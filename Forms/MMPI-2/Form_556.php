@@ -85,7 +85,7 @@ if($p == 554){
 			       
 			   <!--Pregunta 556-->
 			   <p>Me preocupo mucho por el dinero</p>
-			   <input type="radio" value="true" name="Q">
+			   <input type="radio" value="true" name="Q" checked="checked">
 			   <label>Verdadero</label><br>
 			   <input type="radio" value="false" name="Q">
 			   <label>Falso</label>

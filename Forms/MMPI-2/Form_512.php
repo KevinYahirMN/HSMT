@@ -86,11 +86,11 @@ if($p == 510){
 			       
 					<!--Pregunta 512-->
 	                <p>Tuve una pérdida afectiva importante en mi vida que no puedo olvidar</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

@@ -86,11 +86,11 @@ if($p == 521){
 			       
 					<!--Pregunta 523-->
 	                <p>Me disgusta tener que hacer colas en cines teatros o restaurantes</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+	                <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

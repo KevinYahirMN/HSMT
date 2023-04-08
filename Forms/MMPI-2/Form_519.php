@@ -86,11 +86,11 @@ if($p == 517){
 			       
 					<!--Pregunta 519-->
 	                <p>Me enojo conmigo mismo por ser tan generoso con los demás</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

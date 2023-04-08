@@ -86,7 +86,7 @@ if($p == 565){
 			       
 			   <!--Pregunta 567-->
 			   <p>La mayor parte de los matrimonios no muestran que están enamorados uno del otro</p>
-			   <input type="radio" value="true" name="Q">
+			   <input type="radio" value="true" name="Q" checked="checked">
 			   <label>Verdadero</label><br>
 			   <input type="radio" value="false" name="Q">
 			   <label>Falso</label>

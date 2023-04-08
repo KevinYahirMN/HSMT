@@ -86,11 +86,11 @@ if($p == 553){
 			       
 			   <!--Pregunta 555-->
 			   <p>Me da miedo entrar a una habitación oscura en mi propia casa</p>
-			   <input type="radio" value="true" name="Q">
-			   <label>Verdadero</label><br>
-			   <input type="radio" value="false" name="Q">
-			   <label>Falso</label>
-			   <hr>
+			   <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

@@ -86,11 +86,11 @@ if($p == 542){
 			       
 					<!--Pregunta 544-->
 	                <p> La gente me dice que tengo problemas con el alcohol, pero yo no estoy de acuerdo</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+	                <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             
