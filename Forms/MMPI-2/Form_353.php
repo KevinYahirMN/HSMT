@@ -86,7 +86,7 @@ if($p == 351){
 			       
 					<!--Pregunta 353-->
 					<p>Me gustan las reuniones sociales porque puedo estar con gente</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

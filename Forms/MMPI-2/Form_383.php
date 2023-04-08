@@ -86,7 +86,7 @@ if($p == 381){
 			       
 					<!--Pregunta 383-->
 					<p>Se que puedo contar con la ayuda de mi familia cuando las cosas me van mal</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

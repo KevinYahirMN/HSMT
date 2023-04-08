@@ -86,7 +86,7 @@ if($p == 308){
 			       
 					<!--Pregunta 310-->
 					<p>A menudo cruzo la calle para no encontrarme con alguna persona</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

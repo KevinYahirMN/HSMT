@@ -86,7 +86,7 @@ if($p == 335){
 			       
 					<!--Pregunta 337-->
 					<p>En las fiestas y reuniones, en vez de unirme al grupo, es más probable que me siente solo o con otra persona</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

@@ -86,7 +86,7 @@ if($p == 339){
 			       
 					<!--Pregunta 341-->
 					<p>Durante ciertos periodos mi mente parece trabajar más despacio que de costumbre</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

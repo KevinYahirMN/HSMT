@@ -86,7 +86,7 @@ if($p == 372){
 			       
 					<!--Pregunta 374-->
 					<p>La mayoria de la gente puede hacer cosas incorrectas con tal de lograr su propósito</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

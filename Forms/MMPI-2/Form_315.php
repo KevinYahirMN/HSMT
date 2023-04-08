@@ -86,7 +86,7 @@ if($p == 313){
 			       
 					<!--Pregunta 315-->            
 					<p>Tiendo a ponerme en guardia con aquellos que se muestran algo más amables de lo que yo esperaba</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

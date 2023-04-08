@@ -86,7 +86,7 @@ if($p == 309){
 			       
 					<!--Pregunta 311-->            
 					<p>Con frecuencia siento como si las cosas no fueran reales</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

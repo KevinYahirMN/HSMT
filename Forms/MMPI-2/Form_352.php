@@ -86,7 +86,7 @@ if($p == 350){
 			       
 					<!--Pregunta 352-->            
 					<p>Normalmente la gente pide para sus propios derechos más respeto que el que da a los de otras personas</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

@@ -86,7 +86,7 @@ if($p == 324){
 			       
 					<!--Pregunta 326-->
 					<p>Varias veces he dejado de hacer algo por considerar insuficiente mi habilidad</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

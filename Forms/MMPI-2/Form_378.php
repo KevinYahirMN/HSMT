@@ -86,12 +86,11 @@ if($p == 376){
 			       
 					<!--Pregunta 378-->
 					<p>Generalmente me enojo cuando amigos o familiares me dan consejos</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

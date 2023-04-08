@@ -86,7 +86,7 @@ if($p == 311){
 			       
 					<!--Pregunta 313-->
 					<p>Tengo la costumbre de contar con objetos sin importancia, como las bombillas de un letrero luminoso o cosas similares</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

@@ -86,7 +86,7 @@ if($p == 397){
 			       
 					<!--Pregunta 399-->
 					<p>El futuro es demasiado incierto para que una persona haga planes importantes</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

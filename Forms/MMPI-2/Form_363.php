@@ -86,7 +86,7 @@ if($p == 361){
 			       
 					<!--Pregunta 363-->
 					<p>Mis preocupaciones tienden a desaparecer cuando me junto con amigos</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

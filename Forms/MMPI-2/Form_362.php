@@ -86,7 +86,7 @@ if($p == 360){
 			       
 					<!--Pregunta 362-->            
 					<p>He fingido "estar enfermo" para evitar hacer algo</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

@@ -86,7 +86,7 @@ if($p == 364){
 			       
 					<!--Pregunta 366-->
 					<p>He tenido períodos en los que me sentí tan lleno de fuerzas que no necesitaba dormir</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

@@ -85,7 +85,7 @@ if($p == 367){
 			       
 					<!--Pregunta 369-->
 					<p>Me considero capaz de lograr lo que me propongo cuando otros creen que no vale la pena</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

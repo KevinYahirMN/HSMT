@@ -86,12 +86,11 @@ if($p == 354){
 			       
 					<!--Pregunta 356-->            
 					<p>Me resulta difícil abandonar una tarea una vez que la empecé</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

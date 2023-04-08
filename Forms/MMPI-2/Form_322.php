@@ -86,7 +86,7 @@ if($p == 320){
 			       
 					<!--Pregunta 322-->            
 					<p>Me da miedo utilizar cuchillos u objetos muy afilados o puntiagudos</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

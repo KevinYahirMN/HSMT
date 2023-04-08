@@ -86,7 +86,7 @@ if($p == 322){
 			       
 					<!--Pregunta 324-->
 					<p>Me resulta fácil lograr que la gente me tenga miedo y eso me divierte</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

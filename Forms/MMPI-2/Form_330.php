@@ -86,7 +86,7 @@ if($p == 328){
 			       
 					<!--Pregunta 330-->
 					<p>A veces siento que me sobran energías</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

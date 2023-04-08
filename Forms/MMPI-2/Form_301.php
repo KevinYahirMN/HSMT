@@ -86,7 +86,7 @@ if($p == 299){
 			       
 					<!--Pregunta 301-->
 					<p>Casi todo el tiempo siento ansiedad a causa de algo o alguien</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

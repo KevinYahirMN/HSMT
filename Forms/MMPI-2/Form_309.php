@@ -86,12 +86,11 @@ if($p == 307){
 			       
 					<!--Pregunta 309-->
 					<p>Normalmente tengo que pararme a pensar antes de actuar, incluso en asuntos sin importancia</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

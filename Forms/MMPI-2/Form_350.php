@@ -86,7 +86,7 @@ if($p == 348){
 			       
 					<!--Pregunta 350-->
 					<p>Si me dieran la oportunidad podría ser un buen lider</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

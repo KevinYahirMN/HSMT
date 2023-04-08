@@ -86,7 +86,7 @@ if($p == 382){
 			       
 					<!--Pregunta 384-->
 					<p>Me gustaba jugar "a la mamá" o "al papá" cuando era niño</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

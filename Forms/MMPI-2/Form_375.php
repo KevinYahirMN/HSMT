@@ -85,7 +85,7 @@ if($p == 373){
 			       
 					<!--Pregunta 375-->
 					<p>Me pongo nervioso cuando la gente me hacer preguntas personales</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

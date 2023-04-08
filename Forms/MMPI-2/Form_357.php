@@ -86,7 +86,7 @@ if($p == 355){
 			       
 					<!--Pregunta 357-->
 					<p>Generalmente no me involucro en los chismes que cuentan los que me rodean</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

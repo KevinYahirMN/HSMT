@@ -86,7 +86,7 @@ if($p == 374){
 			       
 					<!--Pregunta 376-->
 					<p>Me siento incapaz de planificar mi futuro</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

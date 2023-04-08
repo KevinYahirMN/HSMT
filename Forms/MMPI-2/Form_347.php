@@ -86,7 +86,7 @@ if($p == 345){
 			       
 					<!--Pregunta 347-->
 					<p>Me siento fracasado cuando hablan del éxito de alguien que conozco bien</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

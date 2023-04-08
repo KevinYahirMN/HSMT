@@ -86,7 +86,7 @@ if($p == 356){
 			       
 					<!--Pregunta 358-->
 					<p>A menudo han sentido celos de mis ideas porque no las pensaron antes</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

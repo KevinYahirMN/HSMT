@@ -86,7 +86,7 @@ if($p == 363){
 			       
 					<!--Pregunta 365-->            
 					<p>Me gusta que la gente conozca lo que realmente pienso</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
