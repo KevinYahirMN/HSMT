@@ -86,12 +86,11 @@ if($p == 435){
 			       
 					<!--Pregunta 437-->
 					<p>Generalmente "le hablo claro" a la gente que estoy intentando corregir o mejorar</p>
-                    <input type="radio" id="true" name="Q">
-                    <label>verdadero</label>    <br>         
-                    <input type="radio" id="false" name="Q">
-                    <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  

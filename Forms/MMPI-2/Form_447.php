@@ -86,7 +86,7 @@ if($p == 445){
 			       
 					<!--Pregunta 447-->
 					<p>La suciedad me espanta o me disgusta</p>
-                    <input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

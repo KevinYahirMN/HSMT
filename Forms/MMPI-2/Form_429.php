@@ -86,10 +86,10 @@ if($p == 427){
 			       
 					<!--Pregunta 429-->
 					<p>Nunca tomo drogas o pastillas para dormir, a no ser por orden del médico</p>
-                    <input type="radio" id="true" name="Q">
-                    <label>verdadero</label>     <br>        
-                    <input type="radio" id="false" name="Q">
-                    <label>falso</label>
+                    <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

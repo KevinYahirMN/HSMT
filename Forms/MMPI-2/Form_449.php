@@ -86,7 +86,7 @@ if($p == 447){
 			       
 					<!--Pregunta 449-->
 					<p>Algunos de mis familiares tienen mal carácter</p>
-                    <input type="radio" value="true" name="Q">
+                    <input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

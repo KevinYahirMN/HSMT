@@ -86,7 +86,7 @@ if($p == 459){
 			       
 					<!--Pregunta 461-->
 	                <p>Me pone de mal humor que la gente me apure</p>
-	                <input type="radio" value="true" name="Q">
+	                <input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

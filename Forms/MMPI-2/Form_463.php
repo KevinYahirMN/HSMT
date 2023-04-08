@@ -86,7 +86,7 @@ if($p == 461){
 			       
 					<!--Pregunta 463-->
 	                <p>Varias veces a la semana siento como si fuera a suceder algo espantoso</p>
-	                <input type="radio" value="true" name="Q">
+	                <input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

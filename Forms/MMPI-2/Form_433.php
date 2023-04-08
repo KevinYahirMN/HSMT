@@ -86,10 +86,10 @@ if($p == 431){
 			       
 					<!--Pregunta 433-->
 					<p>Cuando estoy en una situacion difícil sólo digo aquella parte de la verdad que probablemente no me a perjudicar</p>
-                    <input type="radio" id="true" name="Q">
-                    <label>verdadero</label>     <br>        
-                    <input type="radio" id="false" name="Q">
-                    <label>falso</label>
+                    <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

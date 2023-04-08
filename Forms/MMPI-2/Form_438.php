@@ -86,11 +86,11 @@ if($p == 436){
 			       
 				   <!--Pregunta 438-->
 				   <p>Me aterroriza la idea de un terremoto</p>
-                   <input type="radio" id="true" name="Q">
-                   <label>verdadero</label>     <br>        
-                   <input type="radio" id="false" name="Q">
-                   <label>falso</label>
-				   <hr>
+                   <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

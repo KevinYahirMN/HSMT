@@ -86,12 +86,11 @@ if($p == 414){
 			       
 					<!--Pregunta 416-->
 					<p>Tengo opiniones políticas muy definvalueas</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

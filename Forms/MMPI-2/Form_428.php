@@ -86,10 +86,10 @@ if($p == 426){
 			       
 				    <!--Pregunta 428-->
 				    <p>Varias veces he cambiado de modo de pensar acerca de mí trabajo</p>
-                    <input type="radio" id="true" name="Q">
-                    <label>verdadero</label>  <br>           
-                    <input type="radio" id="false" name="Q">
-                    <label>falso</label>
+					<input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

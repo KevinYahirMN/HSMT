@@ -86,7 +86,7 @@ if($p == 399){
 			       
 					<!--Pregunta 401-->
 					<p>No le tengo miedo al agua</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

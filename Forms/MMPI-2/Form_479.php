@@ -86,11 +86,11 @@ if($p == 477){
 			       
 					<!--Pregunta 479-->
 	               <p>Algunas personas piensan que es difícil conocerme, saber como soy</p>
-	               <input type="radio" value="true" name="Q">
-	               <label>verdadero</label>         <br>   
-	               <input type="radio" value="false" name="Q">
-	               <label>falso</label>
-				   <hr>
+	               <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

@@ -85,7 +85,7 @@ if($p == 441){
 			       
 					<!--Pregunta 443-->
 					<p>No trato de disimular mi pobre opinión o lástima sobre algunas personas</p>
-                    <input type="radio" value="true" name="Q">
+                    <input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

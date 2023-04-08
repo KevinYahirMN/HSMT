@@ -85,12 +85,11 @@ if($p == 429){
 			       
 					<!--Pregunta 431-->
 					<p>En la escuela, mis calificaciones en conducta fueron generalmente malas</p>
-                    <input type="radio" id="true" name="Q">
-                    <label>verdadero</label>   <br>         
-                    <input type="radio" id="false" name="Q">
-                    <label>falso</label>
+                    <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  

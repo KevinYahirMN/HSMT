@@ -86,7 +86,7 @@ if($p == 443){
 			       
 					<!--Pregunta 445-->
 					<p>Frecuentemente he trabajado a las órdenes de personas que parecen haber arreglado las cosas de tal modo, que ellas son las que reciben el reconocimiento de una buena labor y, en cambio, atribuyen los errores a sus subordinados</p>
-                    <input type="radio" value="true" name="Q">
+                    <input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

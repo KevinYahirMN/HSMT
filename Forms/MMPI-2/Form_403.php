@@ -86,7 +86,7 @@ if($p == 401){
 			       
 					<!--Pregunta 403-->
 					<p>A menudo la gente ha interpretado mal mis intenciones cuando trataba de ayudarla</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

@@ -86,7 +86,7 @@ if($p == 419){
 			       
 					<!--Pregunta 421-->
 					<p>Tiendo a dejar algo que deseo hacer porque otros piensan que lo encaro incorrectamente</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

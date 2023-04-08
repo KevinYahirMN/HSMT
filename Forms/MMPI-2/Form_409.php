@@ -86,7 +86,7 @@ if($p == 407){
 			       
 					<!--Pregunta 409-->
 					<p>Me molesta que alguien me observe cuando trabajo aunque sepa que lo hago bien</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

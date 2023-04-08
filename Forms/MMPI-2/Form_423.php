@@ -86,11 +86,11 @@ if($p == 421){
 			       
 				   <!--Pregunta 423-->
 				   <p>Con frecuencia me esfuerzo para triunfar sobre alguien que se enfrenta a mí</p>
-                   <input type="radio" id="true" name="Q">
-                   <label>verdadero</label>    <br>        
-                   <input type="radio" id="false" name="Q">
-                   <label>falso</label>
-				   <hr>
+                   <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

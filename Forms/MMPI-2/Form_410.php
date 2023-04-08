@@ -86,7 +86,7 @@ if($p == 408){
 			       
 					<!--Pregunta 410-->
 					<p>A menudo me molesta tanto que alguien trate de "colarse" delante de mí en una cola, que tengo que decirle algo</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

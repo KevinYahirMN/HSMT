@@ -86,11 +86,11 @@ if($p == 488){
 			       
 					<!--Pregunta 490-->
 	                <p>Los fantasmas o espíritus influyen en la vida de las personas, para bien o para mal</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+	                <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

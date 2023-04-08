@@ -85,7 +85,7 @@ if($p == 416){
 			       
 					<!--Pregunta 418-->
 					<p>Es correcto bordear los límites de la Ley con tal de no violarla claramente</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

@@ -85,12 +85,11 @@ if($p == 417){
 			       
 					<!--Pregunta 419-->
 					<p>Me desagradan tanto algunas personas, que me alegro interiormente cuando les llaman la atención por algo que han hecho</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

@@ -85,10 +85,10 @@ if($p == 423){
 			       
 					<!--Pregunta 425-->
 					<p>El hombre que más tuvo que ver conmigo cuando era niño (como mi padre, padrastro, etc.) fue muy rígido</p>
-                    <input type="radio" id="true" name="Q">
-                    <label>verdadero</label> <br>            
-                    <input type="radio" id="false" name="Q">
-                    <label>falso</label>
+                    <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     

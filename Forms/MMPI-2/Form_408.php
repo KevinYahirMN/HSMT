@@ -85,12 +85,11 @@ if($p == 406){
 			       
 					<!--Pregunta 408-->
 					<p>Me tomo tan en serio las preocupaciones que me cuesta sacármelas de la cabeza</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  

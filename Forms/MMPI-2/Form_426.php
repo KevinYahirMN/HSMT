@@ -85,11 +85,11 @@ if($p == 424){
 
 	  <!--Pregunta 426-->
       <p>Cuando era chico, me gustaba jugar al rango y a la soga</p>
-      <input type="radio" id="true" name="Q">
-      <label>verdadero</label>   <br>         
-      <input type="radio" id="false" name="Q">
-      <label>falso</label>			
-	  <hr>
+      <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

@@ -86,7 +86,7 @@ if($p == 418){
 			       
 					<!--Pregunta 420-->
 					<p>Me pone nervioso tener que esperar</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

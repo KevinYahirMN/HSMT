@@ -86,7 +86,7 @@ if($p == 412){
 			       
 					<!--Pregunta 414-->
 					<p>A veces he tenvalueo que ser duro con personas groseras o inoportunas</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

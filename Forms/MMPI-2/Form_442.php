@@ -85,7 +85,7 @@ if($p == 440){
 			       
 					<!--Pregunta 442-->
 					<p>Admito que a veces me he preocupado sin motivo alguno por cosas que no valían la pena</p>
-                    <input type="radio" value="true" name="Q">
+                    <input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

@@ -86,7 +86,7 @@ if($p == 451){
 			       
 					<!--Pregunta 453-->
 					<p>No temo a las arañas</p>
-                    <input type="radio" value="true" name="Q">
+                    <input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

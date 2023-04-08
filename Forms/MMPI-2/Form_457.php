@@ -86,7 +86,7 @@ if($p == 455){
 			       
 					<!--Pregunta 457-->
 	                <p>La gente puede hacerme cambiar de opinión muy fácilmente, incluso en materias en las que creía tener ya un criterio firme</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

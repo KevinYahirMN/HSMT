@@ -86,11 +86,11 @@ if($p == 464){
 			       
 					<!--Pregunta 466-->
 	               <p>Algunas veces estoy seguro de que otro puede decir lo que estoy pensando</p>
-	               <input type="radio" value="true" name="Q">
-	               <label>verdadero</label>         <br>   
-	               <input type="radio" value="false" name="Q">
-	               <label>falso</label>
-				   <hr>
+	               <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 
 			     
             

@@ -86,7 +86,7 @@ if($p == 413){
 			       
 					<!--Pregunta 415-->
 					<p>Me preocupo bastante por posibles desgracias</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" checked="checked">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q">
 					<label>falso</label>

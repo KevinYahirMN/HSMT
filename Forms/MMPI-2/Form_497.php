@@ -85,12 +85,11 @@ if($p == 495){
 			       
 				    <!--Pregunta 497-->
 	               <p>Me molesta pensar en hacer cambios en mi vida</p>
-	               <input type="radio" value="true" name="Q">
-	               <label>verdadero</label><br>
-	               <input type="radio" value="false" name="Q">
-	               <label>falso</label>
-				   <hr>
-
+	               <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
+					<hr>
 			     
             
         	  

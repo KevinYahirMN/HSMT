@@ -86,10 +86,10 @@ if($p == 433){
 			       
 					<!--Pregunta 435-->
 					<p>A menudo tengo miedo a la oscuridad</p>
-                    <input type="radio" id="true" name="Q">
-                    <label>verdadero</label>     <br>        
-                    <input type="radio" id="false" name="Q">
-                    <label>falso</label>
+                    <input type="radio" value="true" name="Q" checked="checked">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q">
+					<label>falso</label>
 					<hr>
 
 			     
