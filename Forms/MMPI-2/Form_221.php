@@ -86,9 +86,9 @@ if($p == 219){
 			       
 					<!--Pregunta 221-->
 					<p>Sueño frecuentemente con cosas que es mejor guardarlas para mí mismo</p>
-					<input type="radio" value="true" name="Q" checked="checked">
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
 					<hr>
 			     
@@ -97,7 +97,7 @@ if($p == 219){
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

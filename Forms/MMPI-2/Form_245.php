@@ -86,9 +86,9 @@ if($p == 243){
 			       
 					<!--Pregunta 245-->
 					<p>Cuando salgo de casa no me preocupa si la puerta y las ventanas quedan bien cerradas</p>
-					<input type="radio" value="true" name="Q" checked="checked">
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
 					<hr>
 			     
@@ -97,9 +97,8 @@ if($p == 243){
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
-
 				<br>
 			</div>
 			<div class="card-footer text-muted text-center">

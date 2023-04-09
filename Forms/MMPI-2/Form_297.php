@@ -86,9 +86,9 @@ if($p == 295){
 			       
 					<!--Pregunta 297-->
 					<p>Mi padre o mi padre me obligaron frecuentemente a obedecer, incluso cuando yo pensaba que ello no era razonable</p>
-					<input type="radio" value="true" name="Q" checked="checked">
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
 					<hr>
 			     
@@ -97,7 +97,7 @@ if($p == 295){
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>
