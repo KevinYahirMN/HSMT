@@ -69,9 +69,9 @@ if(empty($_SESSION["answer"])){
        
 					<!--Pregunta 1-->            
 					<p>Me gustan las revistas de mecánica</p>
-					<input type="radio" value="true" name="Q" checked="checked">
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
 					<hr>
 			
@@ -80,7 +80,7 @@ if(empty($_SESSION["answer"])){
 					  <br><br>
 					  <div class="text-center">
 					    
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 				
 				<br>
