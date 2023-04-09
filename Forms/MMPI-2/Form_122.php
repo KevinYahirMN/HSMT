@@ -86,9 +86,9 @@ if($p == 120){
 			       
 					<!--Pregunta 122-->
 					<p>A veces mi pensamiento ha ido más rápido y delante de mis palabras</p>
-					<input type="radio" value="true" name="Q" checked="checked">
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
 					<hr>
 
@@ -98,7 +98,7 @@ if($p == 120){
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

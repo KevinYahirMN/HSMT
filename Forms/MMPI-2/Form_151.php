@@ -85,9 +85,9 @@ if($p == 149){
 			       
 					<!--Pregunta 151-->
 					<p>Me molesta que alguien se haya burlado tan inteligentemente de mi que yo haya tenido que admitir que lo logró </p>
-					<input type="radio" value="true" name="Q" checked="checked">
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
 					<hr>
 
@@ -97,7 +97,7 @@ if($p == 149){
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>
