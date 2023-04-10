@@ -243,7 +243,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
         	  
 					<br><br>
 					  <div class="text-center">
-						<button onclick="window.print();" id="print" class="btn btn-success">Imprimir</button>
+						<button onclick="window.print();" id="print" class="print_Button">Imprimir</button>
 					  </div>
 
 				<br>
