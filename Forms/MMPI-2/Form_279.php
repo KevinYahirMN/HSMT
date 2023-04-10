@@ -86,18 +86,17 @@ if($p == 277){
 			       
 					<!--Pregunta 279-->
 					<p>Me niego a participar en algunos juegos porque no soy hábil en ellos</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" onclick="enable()">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q" onclick="enable()">
+					<label>falso</label>
 					<hr>
-			     
             
         	  
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

@@ -86,19 +86,18 @@ if($p == 307){
 			       
 					<!--Pregunta 309-->
 					<p>Normalmente tengo que pararme a pensar antes de actuar, incluso en asuntos sin importancia</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

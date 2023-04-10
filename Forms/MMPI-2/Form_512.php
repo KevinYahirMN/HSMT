@@ -86,11 +86,11 @@ if($p == 510){
 			       
 					<!--Pregunta 512-->
 	                <p>Tuve una pérdida afectiva importante en mi vida que no puedo olvidar</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+					<input type="radio" value="true" name="Q" onclick="enable()">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q" onclick="enable()">
+					<label>falso</label>
+					<hr>
 
 			     
             
@@ -98,7 +98,7 @@ if($p == 510){
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

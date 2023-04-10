@@ -86,19 +86,18 @@ if($p == 293){
 			       
 					<!--Pregunta 295-->
 					<p>Nunca he tenido parálisis ni sufrido una debilidad desacostumbrada en algunos de mis músculos</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" onclick="enable()">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q" onclick="enable()">
+					<label>falso</label>
 					<hr>
-
 			     
             
         	  
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

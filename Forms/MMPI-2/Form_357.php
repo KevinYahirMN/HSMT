@@ -86,9 +86,9 @@ if($p == 355){
 			       
 					<!--Pregunta 357-->
 					<p>Generalmente no me involucro en los chismes que cuentan los que me rodean</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
 					<hr>
 
@@ -98,7 +98,7 @@ if($p == 355){
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

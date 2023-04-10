@@ -86,12 +86,11 @@ if($p == 476){
 			       
 					<!--Pregunta 478-->
 	                <p>Detesto a mi familia</p>
-	                <input type="radio" id="true" name="Q[1]">
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+					<input type="radio" value="true" name="Q" onclick="enable()">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q" onclick="enable()">
+					<label>falso</label>
+					<hr>
 
 			     
             
@@ -99,7 +98,7 @@ if($p == 476){
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

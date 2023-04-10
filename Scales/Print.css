@@ -9,7 +9,7 @@
 }
 
 @media print {
-    .dontPrint{
+    .print_Button{
         display:none;
     }
 }

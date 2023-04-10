@@ -86,19 +86,18 @@ if($p == 550){
 			       
 			   <!--Pregunta 552-->
 			   <p>Cuando estoy triste, me hace bien visitar amigos</p>
-			   <input type="radio" value="true" name="Q">
-			   <label>Verdadero</label><br>
-			   <input type="radio" value="false" name="Q">
-			   <label>Falso</label>
-			   <hr>
-
+			   <input type="radio" value="true" name="Q" onclick="enable()">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q" onclick="enable()">
+					<label>falso</label>
+					<hr>
 			     
             
         	  
-					 <br><br>
+					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

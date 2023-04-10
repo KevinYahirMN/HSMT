@@ -86,11 +86,11 @@ if($p == 471){
 			       
 					<!--Pregunta 473-->
 	                <p>La persona hacia quien sentía más afecto y admiración cuando era niño, fue una mujer (madre, hermana tía u otra mujer)</p>
-	                <input type="radio" value="true" name="Q">
-	                <label>verdadero</label>         <br>   
-	                <input type="radio" value="false" name="Q">
-	                <label>falso</label>
-				    <hr>
+					<input type="radio" value="true" name="Q" onclick="enable()">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q" onclick="enable()">
+					<label>falso</label>
+					<hr>
 
 			     
             
@@ -98,7 +98,7 @@ if($p == 471){
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

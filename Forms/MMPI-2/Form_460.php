@@ -86,19 +86,18 @@ if($p == 458){
 			       
 					<!--Pregunta 460-->
 	                <p>Varias veces he sido el último en darme por vencido al tratar de hacer algo</p>
-	                <input type="radio" value="true" name="Q">
+	                <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
 					<hr>
-
 			     
             
         	  
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

@@ -86,10 +86,10 @@ if($p == 145){
 			       
 					<!--Pregunta 147-->
 					<p>Actualmente no comprendo lo que leo con la facilidad que tenía antes</p>
-					 <input type="radio" value="true" name="Q">
-					 <label>verdadero</label><br>
-					 <input type="radio" value="false" name="Q">
-					 <label>falso</label>
+					<input type="radio" value="true" name="Q" onclick="enable()">
+					<label>verdadero</label><br>
+					<input type="radio" value="false" name="Q" onclick="enable()">
+					<label>falso</label>
 					<hr>
 
 			     
@@ -98,7 +98,7 @@ if($p == 145){
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

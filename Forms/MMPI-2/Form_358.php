@@ -86,9 +86,9 @@ if($p == 356){
 			       
 					<!--Pregunta 358-->
 					<p>A menudo han sentido celos de mis ideas porque no las pensaron antes</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
 					<hr>
 
@@ -98,7 +98,7 @@ if($p == 356){
 					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>

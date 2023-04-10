@@ -85,9 +85,9 @@ if($p == 9){
 			       
 					<!--Pregunta 11-->
 					<p>La mayor parte del tiempo me parece tener un nudo en la garganta</p>
-					<input type="radio" value="true" name="Q">
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
 					<hr>
 					
@@ -95,10 +95,10 @@ if($p == 9){
 			     
             
         	  
-					  <br><br>
+					<br><br>
 					  <div class="text-center">
 					    <button type="button" id="boton_atras" onClick="history.back();" class="btn btn-success">Anterior</button>
-						<button type="submit" id="boton" class="btn btn-success">Siguiente</button>
+						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 
 				<br>
