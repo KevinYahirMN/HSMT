@@ -83,7 +83,7 @@ if(empty($_SESSION["answer"])){
 				</form>
 				
 				<br>
-			</div>S
+			</div>
 			<div class="card-footer text-muted text-center">
 				Lea con atención cada pregunta y responda <strong>Verdadero</strong> o <strong>Falso</strong> según corresponda.<br><br> Por favor, responda las preguntas con total honestidad.
 			</div>
