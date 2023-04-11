@@ -68,17 +68,13 @@ if(empty($_SESSION["answer"])){
 				<form method="post" action="Form_2.php">
 					<!--Pregunta 1-->            
 					<p>Me gustan las revistas de mecánica</p>  
-					<input  type="radio" value="true" name="Q" onclick="habilitar()" /> Verdadero
-					<br>
-					<input  type="radio" value="false" name="Q" onclick="habilitar()" /> Falso
-					<hr>					
-
-					<input type="radio" value="true" name="Q" checked="checked">
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
-					<hr>					
+					<hr>				
 
+							
 					  <br><br>
 					  <div class="text-center">
 					  
