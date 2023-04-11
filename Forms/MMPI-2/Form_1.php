@@ -64,18 +64,10 @@ if(empty($_SESSION["answer"])){
 			</div>
 			<div class="card-body">
 			
-			<!--COPIAR Y PEGAR EN TODOS LOS FORMS-->   
-			<script type="text/javascript">
-			function habilitar()
-			{
-				document.getElementById("boton").disabled=false;
-			}
-			</script>
 
 				<form method="post" action="Form_2.php">
 					<!--Pregunta 1-->            
-					<p>Me gustan las revistas de mecánica</p>
-					<!--USAR ESTE FORMATO PARA LOS RADIOBUTTON EN TODOS LOS FORMS-->   
+					<p>Me gustan las revistas de mecánica</p>  
 					<input  type="radio" value="true" name="Q" onclick="habilitar()" /> Verdadero
 					<br>
 					<input  type="radio" value="false" name="Q" onclick="habilitar()" /> Falso
@@ -89,7 +81,7 @@ if(empty($_SESSION["answer"])){
 
 					  <br><br>
 					  <div class="text-center">
-					 <!--EL BOTON DEBE TENER LA ETIQUETA disabled-->   
+					  
 						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 				</form>
