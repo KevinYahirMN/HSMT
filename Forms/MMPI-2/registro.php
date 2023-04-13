@@ -50,29 +50,29 @@
 			</div>
 			<div class="card-body">
               
-				<form id="form_">
+			<form method="post" action="Form_1.php">
 					<div class="form-row">
 					  <div class="form-group col-md-6">
 						<label for="nombres">Nombre(s)</label>
-						<input type="fname" class="form-control" id="nombres_1" placeholder="Nombre(s)"
+						<input type="fname" class="form-control"  name="nombres1" id="nombres_1" placeholder="Nombre(s)"
 						 minlength="1" required pattern="[A-Za-z]+"
 						 title="No se permiten números">
 					  </div>
 					  <div class="form-group col-md-6">
 						<label for="nombres">Apellido paterno</label>
-						<input type="lname" class="form-control" id="apellido_1" placeholder="Apellido paterno"
+						<input type="lname" class="form-control" name="apellido1" id="apellido_1" placeholder="Apellido paterno"
 						 minlength="1" required pattern="[A-Za-z]+"
 						 title="No se permiten números">
 					  </div>
 					  <div class="form-group col-md-6">
 						<label for="nombres">Apellido materno</label>
-						<input type="lname" class="form-control" id="apellido_2" placeholder="Apellido materno"
+						<input type="lname" class="form-control"name="apellido2" id="apellido_2" placeholder="Apellido materno"
 						 minlength="1" required pattern="[A-Za-z]+"
 						 title="No se permiten números">
 					  </div>
 					  <div class="form-group col-md-4" >
 						<label for="Sexo">Sexo</label>
-						<select id="sexo_1" class="form-control" required>
+						<select id="sexo_1" name="sexo"class="form-control" required>
 						  <option>Masculino</option>
 						  <option>Femenino</option>
 						</select>
@@ -80,27 +80,27 @@
 					</div>
 					<div class="form-group">
 					  <label for="inputAddress">Dirección</label>
-					  <input type="text" class="form-control" id="inputAddress" placeholder="Colonia, calle, etc "
+					  <input type="text" name="direccion"class="form-control" id="inputAddress" placeholder="Colonia, calle, etc "
 					   minlength="1" required pattern="[A-Za-z0-9999999999]+"
 					   title="No se permiten carácteres especiales"
 					   >
 					</div>
 					<div class="form-group">
 					  <label for="inputAddress2">Número de interior/exterior</label>
-					  <input type="text" class="form-control" id="inputAddress2" placeholder="Número de interior, número de exterior , etc"
+					  <input type="text" class="form-control"name="interior" id="inputAddress2" placeholder="Número de interior, número de exterior , etc"
 					   minlength="1" required pattern="[A-Za-z0-999999999]+"
 					   title="No se permiten carácteres especiales">
 					</div>
 					<div class="form-row">
 					  <div class="form-group col-md-6">
 						<label for="inputCity">Ciudad</label>
-						<input type="text" class="form-control" id="inputCity" placeholder="Ciudad"
+						<input type="text" name="ciudad"class="form-control" id="inputCity" placeholder="Ciudad"
 						 minlength="1" required pattern="[A-Za-z]+"
 						 title="No se permiten números">
 					  </div>
 					  <div class="form-group col-md-4">
 						<label for="inputState">Estado</label>
-						<select id="inputState" class="form-control">
+						<select id="inputState"name="estado" class="form-control">
 						  <option>Aguascalientes</option>
 						  <option>Baja California</option>
 						  <option>Baja California Sur</option>
@@ -138,7 +138,7 @@
 					  </div>
 					  <div class="form-group col-md-2">
 						<label for="inputZip">Código postal</label>
-						<input type="text" class="form-control" id="inputZip" placeholder="Código postal"
+						<input type="text" name="postal"class="form-control" id="inputZip" placeholder="Código postal"
 						 minlength="4" required pattern="[0-9999999999999999999999999999999]+"
 						 title="Solo se permiten números">
 					  </div>
@@ -149,7 +149,7 @@
                         <span class="validity"></span>
 					</div>
 		
-					<center><button type="submit"  class="btn btn-success">Continuar</button></center>
+					<center><button type="submit" name="button_submit"  id="button_submit"  class="btn btn-success">Continuar</button></center>
 
 				  </form>
 			<div class="wrapper">
