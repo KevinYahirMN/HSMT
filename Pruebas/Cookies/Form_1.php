@@ -1,14 +1,10 @@
 <?php
 session_start();
-$_SESSION["counter"] = 0;
-if(empty($_SESSION["answer"])){
+echo "holo";
+	$_SESSION["counter"] = 0;
 	$_SESSION["pointer"] = 0;
+	$_SESSION["answer"] = null;
 	$_SESSION["answer"] = array();
-	echo "holiiii";
-}else{
-	$temp = $_SESSION["answer"];
-	echo "holooooo";
-}
 ?>
 
 <!doctype html>

@@ -467,7 +467,7 @@ class supplementaryScaleInterpretation{
                 estresantes que han vivido.";
             break;   
             default:
-            $text = "Puntuacion por debajo de 65";
+            $text = "Puntuacion normal";
             break;
         }
         return $text;
@@ -487,7 +487,7 @@ class supplementaryScaleInterpretation{
                 importante.";
             break;
             default:
-            $text = "Puntuacion por debajo de 65";
+            $text = "Puntuacion normal";
             break;   
         }
         return $text;

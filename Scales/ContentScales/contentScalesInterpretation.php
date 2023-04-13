@@ -95,7 +95,7 @@ class contentScaleInterpretation{
                 desadaptadas, nerviosas y preocupadas acerca de la muerte.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;          
         }
         return $text;
@@ -118,7 +118,7 @@ class contentScaleInterpretation{
                 exageradamente autocríticas y con tendencia a culparse a sí mismas.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;   
         }
         return $text;
@@ -145,7 +145,7 @@ class contentScaleInterpretation{
                 efectivos para enfrentar los retos cotidianos.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;   
         }
         return $text;
@@ -165,7 +165,7 @@ class contentScaleInterpretation{
                 Las personas que tienen problemas reales de salud puntuan elevadas en esta escala';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;   
         }
         return $text;
@@ -184,7 +184,7 @@ class contentScaleInterpretation{
                 En la población mexicana indica que esta elevación puede deberse a factores religiosos y místicos.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;   
         }
         return $text;
@@ -207,7 +207,7 @@ class contentScaleInterpretation{
                 pero además se entristecían fácilmente y se les dificultaba salir de ese estado.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;   
         }
         return $text;
@@ -233,7 +233,7 @@ class contentScaleInterpretation{
                 elevada, siendo el grupo de homicidas el que presento las calificaciones más altas.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;   
         }
         return $text;
@@ -264,7 +264,7 @@ class contentScaleInterpretation{
                 aun cuando no esté elevada, pero sea un pico del perfil.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;   
         }
         return $text;
@@ -290,7 +290,7 @@ class contentScaleInterpretation{
                 elevadas, los describen como mundanos, críticos, enojones y tensos.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;     
         }
         return $text;
@@ -320,7 +320,7 @@ class contentScaleInterpretation{
                 decisiones, se preocupan demasiado y tienen miedo a muchas cosas.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;    
         }
         return $text;
@@ -346,7 +346,7 @@ class contentScaleInterpretation{
                 ';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;   
         }
         return $text;
@@ -368,7 +368,7 @@ class contentScaleInterpretation{
                 hiperactivas, antisociales y poco confiables o responsables.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;   
         }
         return $text;
@@ -399,7 +399,7 @@ class contentScaleInterpretation{
                 elevada, pero sí que sea el pico del perfil.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;   
         }
         return $text;
@@ -419,7 +419,7 @@ class contentScaleInterpretation{
                 que enfrentarla; con frecuencia reportan sintomas somáticos.';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuacion normal';
             break;
             
         }
