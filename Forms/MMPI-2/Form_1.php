@@ -1,5 +1,28 @@
 <?php
 session_start();
+if(isset($_POST['button_submit'])){
+    $nombres1=$_POST['nombres1'];
+	$apellido1=$_POST['apellido1'];
+	$apellido2=$_POST['apellido2'];
+	$sexo=$_POST['sexo'];
+	$direccion=$_POST['direccion'];
+	$interior=$_POST['interior'];
+	$ciudad=$_POST['ciudad'];
+	$estado=$_POST['estado'];
+	$postal=$_POST['postal'];
+	$bday=$_POST['bday'];
+    $_SESSION['nombres1']=$nombres1;
+	$_SESSION['apellido1']=$apellido1;
+	$_SESSION['apellido2']=$apellido2;
+	$_SESSION['sexo']=$sexo;
+	$_SESSION['direccion']=$direccion;
+	$_SESSION['interior']=$interior;
+	$_SESSION['ciudad']=$ciudad;
+	$_SESSION['estado']=$estado;
+	$_SESSION['postal']=$postal;
+	$_SESSION['bday']=$bday;
+	
+}
 $_SESSION["counter"] = 0;
 if(empty($_SESSION["answer"])){
 	$_SESSION["pointer"] = 0;
