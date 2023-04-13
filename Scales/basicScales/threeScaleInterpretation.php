@@ -1,6 +1,7 @@
 <?php
 class threeInterpretation{
     function maxScale($scales = array()){
+        $text = 'No se encontró patrón';
         $Max = 0;
         $sMax = 0;
         $tMax = 0;
@@ -43,16 +44,16 @@ class threeInterpretation{
             }
             $i++;
         }
-        $sum = $cMax + $scMax + $tcMax;
+        if($Max > 69 && $sMax > 69 && $tMax > 69){
+            $sum = $cMax + $scMax + $tcMax;
 
-        $text = $this->threeSuggestionMenu($sum, $cMax, $scMax, $fcMax);
+            $text = $this->threeSuggestionMenu($sum, $cMax, $scMax, $fcMax);
+        }
 
         return $text;
-
     }
 
     function threesuggestionMenu($sum, $cMax, $scMax, $fcMax){
-        $text = 'No aplica';
         switch($sum){
             case 6:
                 $text = $this->sixOption($scMax);
@@ -71,6 +72,9 @@ class threeInterpretation{
             break;
             case 17:
                 $text = $this->seventeen();
+            break;
+            default:
+                $text = 'No se encontró patrón';
             break;
         }
         return $text;

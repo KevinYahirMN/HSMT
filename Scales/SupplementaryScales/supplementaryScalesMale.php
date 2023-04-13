@@ -1,5 +1,4 @@
 <?php
-//Sumales 1 por naco estupido
 //Perfil de escalas suplementarias MMPI-2
 
 class supplementaryScalesMale{

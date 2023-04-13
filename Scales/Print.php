@@ -93,7 +93,104 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 				</h4>
 			</div>
 			<div class="card-body">
+			<div class="col-md-12 text-center text-success"><h3><i class="fa fa-address-book-o"></i> Información personal</h3></div>
 
+			<center><div class="col-lg-8">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Nombres: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['nombres1']?> </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Apellido paterno: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['apellido1']?> </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Apellido materno: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['apellido2']?> </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Sexo: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['sexo']?> </p>
+              </div>
+            </div>
+            <hr>
+			<div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Dirección: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['direccion']?> </p>
+              </div>
+            </div>
+            <hr>
+			<div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Número de interior/exterior: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['interior']?> </p>
+              </div>
+            </div>
+            <hr>
+			<div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Ciudad: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['ciudad']?></p>
+              </div>
+            </div>
+            <hr>
+			<div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Estado: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['estado']?> </p>
+              </div>
+            </div>
+            <hr>
+			<div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Código postal: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['postal']?> </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Fecha de nacimiento: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['bday']?> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+	</center>
+	<hr>
             
                 <div class="col-md-12 text-center text-success"><h3><i class="fa fa-ravelry"></i> Escalas básicas</h3></div>
 				

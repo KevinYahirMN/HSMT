@@ -1,6 +1,7 @@
 <?php
 class aditionalInterpretation{
     function maxScale($scales = array()){
+        $text = 'No se encontró patrón';
         $fMax = 0;
         $sMax = 0;
         $fcMax = 0;
@@ -18,17 +19,17 @@ class aditionalInterpretation{
             }
             $i++;
         }
-        $sum = $fcMax + $scMax;
+        if($fMax > 69 && $sMax > 69){
+            $sum = $fcMax + $scMax;
 
-        $text = $this->SuggestionMenu($sum, $fcMax);
+            $text = $this->SuggestionMenu($sum, $fcMax);
+        }
 
         return $text;
-
     }
 
     function SuggestionMenu($sum, $fMax){
         $sum = 0;
-        $text = 'No aplica';
         switch($sum){
             case 3:
                 $text = $this->three();
@@ -65,6 +66,9 @@ class aditionalInterpretation{
             break;
             case 17:
                 $text = $this->seventeen();
+            break;
+            default:
+                $text = 'No se encontró patrón';
             break;
         }
         return $text;

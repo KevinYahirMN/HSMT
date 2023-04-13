@@ -4,6 +4,7 @@ include('basicScales/basicScaleMaleTScore.php');
 include('basicScales/basicScaleFemaleTScore.php');
 include('basicScales/basicScaleInterpretation.php');
 include('basicScales/aditionalInterpretations.php');
+include('basicScales/threeScaleInterpretation.php');
 include('FactorK.php');
 
 include('SupplementaryScales/supplementaryScalesMale.php');
@@ -23,6 +24,7 @@ class Connection{
     private $factorK;
     private $basicScaleInterpretation;
     private $AditionalInterpretation;
+    private $threeScaleInterpretation;
 
     private $supplementaryScale;
     private $supplementaryScoreTFemale;
@@ -48,6 +50,7 @@ class Connection{
             $this->factorK = new FactorK();
             $this->basicScaleInterpretation = new basicScaleInterpretation();
             $this->AditionalInterpretation = new aditionalInterpretation();
+            $this->threeScaleInterpretation = new threeInterpretation();
 
             $this->supplementaryScale = new supplementaryScalesMale();
             $this->supplementaryScoreTMale = new supplementaryScaleMaleTscore();
@@ -162,6 +165,12 @@ class Connection{
     function interpretationAditional(){
         $suggestions = array();
         $suggestions = $this->AditionalInterpretation->maxScale($this->cBasic);
+        return $suggestions;
+    }
+
+    function threeinterpretationAditional(){
+        $suggestions = array();
+        $suggestions = $this->threeScaleInterpretation->maxScale($this->cBasic);
         return $suggestions;
     }
 

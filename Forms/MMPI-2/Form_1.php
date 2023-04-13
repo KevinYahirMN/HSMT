@@ -1,5 +1,28 @@
 <?php
 session_start();
+if(isset($_POST['button_submit'])){
+    $nombres1=$_POST['nombres1'];
+	$apellido1=$_POST['apellido1'];
+	$apellido2=$_POST['apellido2'];
+	$sexo=$_POST['sexo'];
+	$direccion=$_POST['direccion'];
+	$interior=$_POST['interior'];
+	$ciudad=$_POST['ciudad'];
+	$estado=$_POST['estado'];
+	$postal=$_POST['postal'];
+	$bday=$_POST['bday'];
+    $_SESSION['nombres1']=$nombres1;
+	$_SESSION['apellido1']=$apellido1;
+	$_SESSION['apellido2']=$apellido2;
+	$_SESSION['sexo']=$sexo;
+	$_SESSION['direccion']=$direccion;
+	$_SESSION['interior']=$interior;
+	$_SESSION['ciudad']=$ciudad;
+	$_SESSION['estado']=$estado;
+	$_SESSION['postal']=$postal;
+	$_SESSION['bday']=$bday;
+	
+}
 $_SESSION["counter"] = 0;
 if(empty($_SESSION["answer"])){
 	$_SESSION["pointer"] = 0;
@@ -49,7 +72,7 @@ if(empty($_SESSION["answer"])){
 					<img src="media/logo-big.png" class="img-fluid" style="max-height: 150px;">
 				</div>
 				<div class="col-4 d-flex justify-content-end align-items-center">
-					<a href="//" class="btn btn-danger"><i class="fa fa-power-off"></i> </a>
+					<a href="registro.php" id="exit_Button" onclick="return exit_Form()" class="btn btn-danger"><i class="fa fa-power-off"></i> </a>
 				</div>
 			</div>
 		</header>
@@ -64,38 +87,26 @@ if(empty($_SESSION["answer"])){
 			</div>
 			<div class="card-body">
 			
-			<!--COPIAR Y PEGAR EN TODOS LOS FORMS-->   
-			<script type="text/javascript">
-			function habilitar()
-			{
-				document.getElementById("boton").disabled=false;
-			}
-			</script>
 
 				<form method="post" action="Form_2.php">
 					<!--Pregunta 1-->            
-					<p>Me gustan las revistas de mecánica</p>
-					<!--USAR ESTE FORMATO PARA LOS RADIOBUTTON EN TODOS LOS FORMS-->   
-					<input  type="radio" value="true" name="Q" onclick="habilitar()" /> Verdadero
-					<br>
-					<input  type="radio" value="false" name="Q" onclick="habilitar()" /> Falso
-					<hr>					
-
-					<input type="radio" value="true" name="Q" checked="checked">
+					<p>Me gustan las revistas de mecánica</p>  
+					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
-					<input type="radio" value="false" name="Q">
+					<input type="radio" value="false" name="Q" onclick="enable()">
 					<label>falso</label>
-					<hr>					
+					<hr>				
 
+							
 					  <br><br>
 					  <div class="text-center">
-					 <!--EL BOTON DEBE TENER LA ETIQUETA disabled-->   
+					  
 						<button type="submit" id="boton" disabled class="btn btn-success">Siguiente</button>
 					  </div>
 				</form>
 				
 				<br>
-			</div>S
+			</div>
 			<div class="card-footer text-muted text-center">
 				Lea con atención cada pregunta y responda <strong>Verdadero</strong> o <strong>Falso</strong> según corresponda.<br><br> Por favor, responda las preguntas con total honestidad.
 			</div>
