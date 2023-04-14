@@ -192,7 +192,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 	</center>
 	<hr>
             
-                <div class="col-md-12 text-center text-success"><h3><i class="fa fa-ravelry"></i> Escalas básicas</h3></div>
+  <div class="col-md-12 text-center text-success"><h3><i class="fa fa-ravelry"></i> Escalas básicas</h3></div>
 				
 				<?php  
 				echo "";
@@ -245,6 +245,39 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 					 echo "<hr>";
 				 }
 				  ?>  
+
+<body>
+<h2>Gráfica de resultados de escalas basicas</h2>
+<canvas id="grafica"></canvas>
+    <script type="text/javascript">
+        const $grafica = document.querySelector("#grafica");
+        const Tvalue = {
+            label: "Puntuacion T",
+            data: <?php echo json_encode($AnsB) ?>,
+            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1,
+        };
+        new Chart($grafica, {
+            type: 'bar',
+            data: {
+                labels: ["L","F","K","Hs","D","Hi","Dp","MfM","Pa","Pt","Es","Ma","Is"],
+                datasets: [
+                    Tvalue,
+                ]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }],
+                },
+            }
+        });
+    </script>
+</body>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
