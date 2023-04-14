@@ -85,7 +85,7 @@ if($p == 315){
 
 			       
 					<!--Pregunta 317-->
-					<p>Tengo pensamientos extraños y originales</p>
+					<p>Me pongo ansioso e inquieto cuando tengo que hacer un viaje corto</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

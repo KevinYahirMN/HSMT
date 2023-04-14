@@ -85,7 +85,7 @@ if($p == 532){
 
 			       
 					<!--Pregunta 534-->
-	                <p>Si volviera a nacer haría las cosas de la misma manera.</p>
+	                <p>Si volviera a nacer haría las cosas de la misma manera</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

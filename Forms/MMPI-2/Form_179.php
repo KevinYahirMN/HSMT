@@ -85,7 +85,7 @@ if($p == 177){
 
 			       
 					<!--Pregunta 179-->
-					<p>No he tenidzo dificultades para mantener el equilibrio al caminar</p>
+					<p>No he tenido dificultades para mantener el equilibrio al caminar</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

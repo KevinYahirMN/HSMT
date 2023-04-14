@@ -85,7 +85,7 @@ if($p == 392){
 
 			       
 					<!--Pregunta 394-->
-					<p>Algunas veces me ha parecido que las dificultades se acumulaban de tal modo que no podia superarlas</p>
+					<p>Algunas veces me ha parecido que las dificultades se acumulaban de tal modo que no podía superarlas</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

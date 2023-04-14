@@ -85,7 +85,7 @@ if($p == 559){
 
 			       
 			   <!--Pregunta 561-->
-			   <p>Generalmente tengo suficiente energia para cumplir con mis tareas</p>
+			   <p>Generalmente tengo suficiente energía para cumplir con mis tareas</p>
 			   <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

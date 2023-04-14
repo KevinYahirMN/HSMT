@@ -85,7 +85,7 @@ if($p == 286){
 
 			       
 					<!--Pregunta 288-->
-					<p>Mis padres y familiares encuentran mas defectos en mi de lo que deberían</p>
+					<p>Mis padres y familiares encuentran mas defectos en mí de lo que deberían</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

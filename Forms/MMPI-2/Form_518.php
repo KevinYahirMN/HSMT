@@ -85,7 +85,7 @@ if($p == 516){
 
 			       
 					<!--Pregunta 518-->
-	                <p>Cometí muchos errores en mi vida.</p>
+	                <p>Cometí muchos errores en mi vida</p>
 	                <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

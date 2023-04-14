@@ -85,7 +85,7 @@ if($p == 432){
 
 			       
 					<!--Pregunta 434-->
-					<p>Si estuviera en difícultades junto con varios amigos que fueran tan culpables como yo, preferiría echarme la culpa antes de encubrirlos</p>
+					<p>Si estuviera en dificultades junto con varios amigos que fueran tan culpables como yo, preferiría echarme la culpa antes de descubrirlos</p>
                     <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

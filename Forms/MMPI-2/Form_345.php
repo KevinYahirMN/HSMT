@@ -84,7 +84,7 @@ if($p == 343){
 
 			       
 					<!--Pregunta 345-->            
-					<p>Si me dieran la oportunidad, podria hacer cosas que beneficiarian mucho al mundo</p>
+					<p>Si me dieran la oportunidad, podria hacer cosas que beneficiarían mucho al mundo</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

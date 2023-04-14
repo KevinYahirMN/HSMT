@@ -84,7 +84,7 @@ if($p == 150){
 
 			       
 					<!--Pregunta 152-->
-					<p>No me canso facilmente</p>
+					<p>No me canso fácilmente</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

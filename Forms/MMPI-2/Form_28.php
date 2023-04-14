@@ -85,7 +85,7 @@ if($p == 26){
 
 			       
 					<!--Pregunta 28-->
-					<p>Varias veces a la semana me molesta la acidez del estómago</p>
+					<p>Varias veces a la semana me molesta la acidez de estómago</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

@@ -85,7 +85,7 @@ if($p == 415){
 
 			       
 					<!--Pregunta 417-->
-					<p>Me gustaria ser corredor de automovilismo</p>
+					<p>Me gustaría ser corredor de automovilismo</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

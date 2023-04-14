@@ -84,7 +84,7 @@ if($p == 333){
 
 			       
 					<!--Pregunta 335-->
-					<p>Soy poco conciente de mi mísmo</p>
+					<p>Soy poco conciente de mi mismo</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

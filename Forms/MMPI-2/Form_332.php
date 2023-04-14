@@ -85,7 +85,7 @@ if($p == 330){
 
 			       
 					<!--Pregunta 332-->
-					<p>A veces me ha gustado ser heriido por una persona querida</p>
+					<p>A veces me ha gustado ser herido por una persona querida</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

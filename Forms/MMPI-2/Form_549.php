@@ -85,7 +85,7 @@ if($p == 547){
 
 			       
 				<!--Pregunta 549-->
-			   <p>En todo lo que hago, siento que me están tomando</p>
+			   <p>En todo lo que hago, siento que me están tomando examen</p>
 			   <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

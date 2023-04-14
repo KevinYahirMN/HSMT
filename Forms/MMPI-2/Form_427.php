@@ -85,7 +85,7 @@ if($p == 425){
 
 			       
 					<!--Pregunta 427-->
-					<p>Nunca eh tenido una "visión"</p>
+					<p>Nunca he tenido una "visión"</p>
                     <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

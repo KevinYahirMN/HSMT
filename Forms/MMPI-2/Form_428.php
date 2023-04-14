@@ -85,7 +85,7 @@ if($p == 426){
 
 			       
 				    <!--Pregunta 428-->
-				    <p>Varias veces he cambiado de modo de pensar acerca de mí trabajo</p>
+				    <p>Varias veces he cambiado de modo de pensar acerca de mi trabajo</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

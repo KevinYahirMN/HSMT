@@ -84,7 +84,7 @@ if($p == 331){
 
 			       
 					<!--Pregunta 333-->
-					<p>La gente dice de mi cosas insultantes y vulgares</p>
+					<p>La gente dice de mí cosas insultantes y vulgares</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

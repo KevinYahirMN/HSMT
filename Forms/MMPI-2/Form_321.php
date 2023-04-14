@@ -84,7 +84,7 @@ if($p == 319){
 
 			       
 					<!--Pregunta 321-->
-					<p>No me dan miedo entrar solo a una habitación donde hay gente reunida hablando</p>
+					<p>No me da miedo entrar solo a una habitación donde hay gente reunida hablando</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

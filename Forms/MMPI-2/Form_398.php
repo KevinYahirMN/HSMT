@@ -84,7 +84,7 @@ if($p == 396){
 
 			       
 					<!--Pregunta 398-->
-					<p>frecuentemente pido consejos a otras personas</p>
+					<p>Frecuentemente pido consejos a otras personas</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

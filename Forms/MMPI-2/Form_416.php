@@ -85,7 +85,7 @@ if($p == 414){
 
 			       
 					<!--Pregunta 416-->
-					<p>Tengo opiniones políticas muy definvalueas</p>
+					<p>Tengo opiniones políticas muy definidas</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

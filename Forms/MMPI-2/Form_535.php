@@ -85,7 +85,7 @@ if($p == 533){
 
 			       
 					<!--Pregunta 535-->
-	                <p>Me pone de mal humor que la gente con la que trabajo no haga las cosas a tiempo.</p>
+	                <p>Me pone de mal humor que la gente con la que trabajo no haga las cosas a tiempo</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">
