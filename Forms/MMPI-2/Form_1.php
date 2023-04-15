@@ -23,6 +23,10 @@ if(isset($_POST['button_submit'])){
 	$_SESSION['bday']=$bday;
 	
 }
+//REVISAR CODIGO
+$_SESSION["answer"] = null;
+$_SESSION["answer"] = array();
+
 $_SESSION["counter"] = 0;
 if(empty($_SESSION["answer"])){
 	$_SESSION["pointer"] = 0;

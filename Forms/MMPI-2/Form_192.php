@@ -84,7 +84,7 @@ if($p == 190){
 
 			       
 					<!--Pregunta 192-->
-					<p>Mi madre es una buena mujer,(o si lo fue, falleció)</p>
+					<p>Mi madre es una buena mujer, (o lo fue, si falleció)</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

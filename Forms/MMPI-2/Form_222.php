@@ -85,7 +85,7 @@ if($p == 220){
 
 			       
 					<!--Pregunta 222-->
-					<p>Debería enseñarse a los niños lo principal ac erca de la vida sexual</p>
+					<p>Debería enseñarse a los niños lo principal acerca de la vida sexual</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

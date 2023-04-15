@@ -77,7 +77,7 @@ class contentScaleInterpretation{
                 específicos tales como la depresión y los problemas somáticos';
             break;
             case $c <= 64:
-                $text = 'No aplica';
+                $text = 'Puntuación normal';
             break;          
         }
         return $text;
@@ -95,7 +95,7 @@ class contentScaleInterpretation{
                 desadaptadas, nerviosas y preocupadas acerca de la muerte.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;          
         }
         return $text;
@@ -105,20 +105,20 @@ class contentScaleInterpretation{
         switch($c){
             case $c > 64:
                 $text = 'Dificultades para tomar decisiones y meditan 
-                excesivamente acera de sus asuntos o problemas, 
+                excesivamente acerca de sus asuntos o problemas, 
                 provocando que otros se impacienten.
                 Tener que llevar a cabo cambios los llena de tensión 
                 y pueden manifestarse algunas conductas compulsivas, 
                 como contar o guardar cosas sin importancia.
                 Tienden a preocuparse en exceso lo que con frecuencia 
                 puede llevarlos a sentirse abrumados por sus propios pensamientos. 
-                Los hombres que calificaron alto fueron descriptos por sus parejas 
+                Los hombres que calificaron alto fueron descritos por sus parejas 
                 como: desinteresados en las cosas y faltos de confianza en sí mismos. 
                 Las mujeres fueron descritas como realistas acerca de sus habilidades, 
                 exageradamente autocríticas y con tendencia a culparse a sí mismas.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;   
         }
         return $text;
@@ -130,7 +130,7 @@ class contentScaleInterpretation{
                 $text = 'Pensamientos depresivos significativos; además, 
                 quizá involucran sentimientos de tristeza, incertidumbre 
                 acerca del futuro y desinterés por la propia vida. 
-                Los individuos que puntúan alto en DEP tienden a al cavilación, 
+                Los individuos que puntúan alto en DEP tienden a la cavilación, 
                 manifiestan infelicidad, lloran fácilmente y expresan 
                 sentimientos de desesperanza y vacío interior. 
                 Quizá verbalicen ideas suicidas o deseos de morir; pueden 
@@ -145,7 +145,7 @@ class contentScaleInterpretation{
                 efectivos para enfrentar los retos cotidianos.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;   
         }
         return $text;
@@ -165,7 +165,7 @@ class contentScaleInterpretation{
                 Las personas que tienen problemas reales de salud puntuan elevadas en esta escala';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;   
         }
         return $text;
@@ -184,7 +184,7 @@ class contentScaleInterpretation{
                 En la población mexicana indica que esta elevación puede deberse a factores religiosos y místicos.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;   
         }
         return $text;
@@ -207,7 +207,7 @@ class contentScaleInterpretation{
                 pero además se entristecían fácilmente y se les dificultaba salir de ese estado.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;   
         }
         return $text;
@@ -233,7 +233,7 @@ class contentScaleInterpretation{
                 elevada, siendo el grupo de homicidas el que presento las calificaciones más altas.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;   
         }
         return $text;
@@ -264,7 +264,7 @@ class contentScaleInterpretation{
                 aun cuando no esté elevada, pero sea un pico del perfil.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;   
         }
         return $text;
@@ -281,16 +281,16 @@ class contentScaleInterpretation{
                 para terminar sus tareas, por lo que no les gusta 
                 esperar y ser interrumpidos. 
                 Son muy directos y pueden ser desagradables en sus 
-                relaciones con otros, a quienes presionanmediante su agresividad. 
+                relaciones con otros, a quienes presionan mediante su agresividad. 
                 Suelen ser hostiles y se enojan con facilidad. 
-                Al parecer en mujeres esta, es una medida de Desadaptación, 
+                Al parecer en mujeres esta es una medida de desadaptación, 
                 quienes obtienen puntajes altos son consideradas como suspicaces. 
                 Se refieren a expresiones de enojo y competencia.
                 Las esposas de los hombres que obtuvieron puntuaciones 
                 elevadas, los describen como mundanos, críticos, enojones y tensos.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;     
         }
         return $text;
@@ -320,7 +320,7 @@ class contentScaleInterpretation{
                 decisiones, se preocupan demasiado y tienen miedo a muchas cosas.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;    
         }
         return $text;
@@ -346,7 +346,7 @@ class contentScaleInterpretation{
                 ';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;   
         }
         return $text;
@@ -358,7 +358,7 @@ class contentScaleInterpretation{
                 $text = 'Los individuos con puntuaciones elevadas en 
                 FAM, manifiestan desavenencias y pleitos desagradables y 
                 poco afectuosos.
-                Incluso quizá sientan odio pos su familia.
+                Incluso quizá sientan odio por su familia.
                 Recuerdan haber sufrido abusos en su infancia 
                 y consideran sus matrimonios como infelices y faltos de afecto.
                 Probablemente tengan historias de abuso físico.
@@ -368,7 +368,7 @@ class contentScaleInterpretation{
                 hiperactivas, antisociales y poco confiables o responsables.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;   
         }
         return $text;
@@ -391,7 +391,7 @@ class contentScaleInterpretation{
                 excesiva, otras refieren síntomas depresivos.
                 Los rasgos más sobresalientes de sus parejas adjudicaron a
                 las personas que obtenían calificaciones elevadas en DTR, 
-                fueron Desadaptación generalizada: los percibían como poco 
+                fueron desadaptación generalizada: los percibían como poco 
                 amigables y cooperadores, además de distantes de los otros.
                 En selección de personal, las personas con puntuaciones elevadas, 
                 tienen dificultades de adaptación en el trabajo.
@@ -399,7 +399,7 @@ class contentScaleInterpretation{
                 elevada, pero sí que sea el pico del perfil.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;   
         }
         return $text;
@@ -419,7 +419,7 @@ class contentScaleInterpretation{
                 que enfrentarla; con frecuencia reportan sintomas somáticos.';
             break;
             case $c <= 64:
-                $text = 'Puntuacion normal';
+                $text = 'Puntuación normal';
             break;
             
         }

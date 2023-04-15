@@ -85,7 +85,7 @@ if($p == 193){
 
 			       
 					<!--Pregunta 195-->
-					<p>comparado con otros hogares, en el mío hay poco amor o unión</p>
+					<p>Comparado con otros hogares, en el mío hay poco amor o unión</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">
