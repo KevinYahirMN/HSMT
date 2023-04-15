@@ -123,7 +123,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
                 <p class="mb-0">Sexo: </p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0"><?php  echo $_SESSION['sexo']?> </p>
+                <p class="text-muted mb-0"><?php  echo $_SESSION['sexo1']?> </p>
               </div>
             </div>
             <hr>
@@ -132,7 +132,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
                 <p class="mb-0">Dirección: </p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0"><?php  echo $_SESSION['direccion']?> </p>
+                <p class="text-muted mb-0"><?php  echo $_SESSION['inputAddress']?> </p>
               </div>
             </div>
             <hr>
@@ -150,7 +150,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
                 <p class="mb-0">Ciudad: </p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0"><?php  echo $_SESSION['ciudad']?></p>
+                <p class="text-muted mb-0"><?php  echo $_SESSION['city']?></p>
               </div>
             </div>
             <hr>
@@ -159,7 +159,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
                 <p class="mb-0">Estado: </p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0"><?php  echo $_SESSION['estado']?> </p>
+                <p class="text-muted mb-0"><?php  echo $_SESSION['inputState']?> </p>
               </div>
             </div>
             <hr>
