@@ -47,45 +47,139 @@ class threeInterpretation{
         if($Max > 69 && $sMax > 69 && $tMax > 69){
             $sum = $cMax + $scMax + $tcMax;
 
-            $text = $this->threeSuggestionMenu($sum, $cMax, $scMax, $fcMax);
+            $text = '<b>'.$cMax.'-'.$scMax.'-'.$tcMax.'</b>'.'<br>'.$this->threeSuggestionMenu($sum, $cMax, $scMax, $tcMax, $fcMax);
         }
 
         return $text;
     }
 
-    function threesuggestionMenu($sum, $cMax, $scMax, $fcMax){
+    function threesuggestionMenu($sum, $cMax, $scMax, $tcMax, $fcMax){
         switch($sum){
             case 6:
-                $text = $this->sixOption($scMax);
+                $text = $this->sixOption($cMax, $scMax);
             break;
             case 9:
-                $text = $this->nine();
+                $text = $this->ninesubMenu($cMax, $scMax);
             break;
             case 11:
-                $text = $this->elven();
+                $text = $this->elevensubMenu($cMax, $scMax);
             break;
             case 12:
-                $text = $this->twelve();
+                $text = $this->twelvesubMenu($cMax, $scMax);
             break;
             case 14:
-                $text = $this->fourteen();
+                $text = $this->fourteensubMenu($cMax, $scMax);
             break;
             case 17:
-                $text = $this->seventeen();
+                $text = $this->seventeensubMenu($cMax, $scMax);
             break;
             default:
                 $text = 'No se encontró patrón';
             break;
         }
+
         return $text;
     }
 
-    function sixOption($scMax){
-        if($scMax == 2){
-            $text = $this->sixTwo();
-        }else{
-            $text = $this->sixThree();
+    function sixOption($cMax, $scMax){
+        switch($cMax){
+            case 1:
+                if($scMax == 2){
+                    $text = $this->sixTwo();
+                }else{
+                    $text = $this->sixThree();
+                }
+            break;
+            default:
+                $text = 'No se encontró patrón';
+            break;
         }
+
+        return $text;
+    }
+
+    function ninesubMenu($cMax, $scMax){
+        switch($cMax){
+            case 2:
+                if($scMax == 7){
+                    $text = $this->nine();
+                }else{
+                    $text = 'No se encontró patrón';
+                }
+            break;
+            default:
+                $text = 'No se encontró patrón';
+            break;
+        }
+
+        return $text;
+    }
+
+    function elevensubMenu($cMax, $scMax){
+        switch($cMax){
+            case 8:
+                if($scMax == 1){
+                    $text = $this->eleven();
+                }else{
+                    $text = 'No se encontró patrón';
+                }
+            break;
+            default:
+                $text = 'No se encontró patrón';
+            break;
+        }
+
+        return $text;
+    }
+
+    function twelvesubMenu($cMax, $scMax){
+        switch($cMax){
+            case 1:
+                if($scMax == 3){
+                    $text = $this->twelve();
+                }else{
+                    $text = 'No se encontró patrón';
+                }
+            break;
+            default:
+                $text = 'No se encontró patrón';
+            break;
+        }
+
+        return $text;
+    }
+
+    function fourteensubMenu($cMax, $scMax){
+        switch($cMax){
+            case 8:
+                if($scMax == 2){
+                    $text = $this->fourteen();
+                }else{
+                    $text = 'No se encontró patrón';
+                }
+            break;
+            default:
+                $text = 'No se encontró patrón';
+            break;
+        }
+
+        return $text;
+    }
+
+    function seventeensubMenu($cMax, $scMax){
+        switch($cMax){
+            case 2:
+                if($scMax == 7){
+                    $text = $this->seventeen();
+                }else{
+                    $text = 'No se encontró patrón';
+                }
+            break;
+            default:
+                $text = 'No se encontró patrón';
+            break;
+        }
+
         return $text;
     }
 
@@ -120,7 +214,7 @@ class threeInterpretation{
         return $text;
     }
 
-    function elven(){
+    function eleven(){
         $text = 'CI más bajo del común cuando L es superior a 
         T 70. Hostilidad, poca capacidad de adaptabilidad, 
         aislamiento y confusión mental son frecuentes. 
