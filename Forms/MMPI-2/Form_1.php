@@ -92,7 +92,7 @@ if(empty($_SESSION["answer"])){
 			<div class="card-body">
 			
 
-				<form method="post" action="Form_567.php">
+				<form method="post" action="Form_2.php">
 					<!--Pregunta 1-->            
 					<p>Me gustan las revistas de mecánica</p>  
 					<input type="radio" value="true" name="Q" onclick="enable()">
