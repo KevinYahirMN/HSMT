@@ -1,30 +1,24 @@
 <?php
+
+use aditionalInterpretation as GlobalAditionalInterpretation;
+
+$ai = new GlobalAditionalInterpretation();
+
+$text = $ai->maxScale();
+
+echo $text;
+
+
 class aditionalInterpretation{
-    function maxScale($scales = array()){
-        $text = 'No se encontró patrón';
-        $fMax = 0;
-        $sMax = 0;
-        $fcMax = 0;
-        $scMax = 0;
-        $i = 3;
-        while($i < count($scales)){
-            if($scales[$i] > $fMax){
-                $sMax = $fMax;
-                $scMax = $fcMax;
-                $fMax = $scales[$i];
-                $fMax = $i - 2;
-            }else if($scales[$i] > $sMax){
-                $sMax = $scales[$i];
-                $scMax = $i - 2;
-            }
-            $i++;
-        }
-        if($fMax > 69 && $sMax > 69){
-            $sum = $fcMax + $scMax;
-
-            $text = '<b>'.$fcMax.$scMax.'/'.$scMax.$fcMax.'</b>'.'<br>'.$this->SuggestionMenu($sum, $fcMax);
-        }
-
+    function maxScale(){
+        $text = '';
+        $fcMax = 8;
+        $scMax = 8;
+        
+        $sum = $fcMax + $scMax;
+        
+        $text = '<b>'.$fcMax.$scMax.'/'.$scMax.$fcMax.'</b>'.'<br>'.$this->SuggestionMenu($sum, $fcMax);
+        
         return $text;
     }
 
@@ -548,4 +542,5 @@ class aditionalInterpretation{
     }
 
 }
+
 ?>
