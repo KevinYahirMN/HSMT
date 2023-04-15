@@ -23,21 +23,13 @@ $TituloEB = array("Escala L", "Escala F", "Escala K", "Escala Hs",
 "Escala D", "Escala Hi", "Escala Dp","Escala Mf","Escala Pa","Escala Pt",
 "Escala Es", "Escala Ma", "Escala Is");
 
-
-
-
-
 $TituloEC = array("Escala ANS", "Escala MIE", "Escala OBS", "Escala DEP",
 "Escala SAU", "Escala DEL", "Escala ENJ","Escala CIN","Escala PAS","Escala PTA",
 "Escala BAE", "Escala ISO", "Escala FAM", "Escala DTR", "Escala RTR");
 
-
-
 $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 "Escala HR", "Escala Do", "Escala Rs","Escala Dpr","Escala GM","Escala GF",
 "Escala EPK", "Escala EPS", "Escala ls1","Escala ls2","Escala ls3","Escala Fp");
-
-
 
 ?>
 <!doctype html>
@@ -402,6 +394,10 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 		</div>
 
 	</div>
-   
 </body>
 </html>
+
+<?php
+$_SESSION["answer"] = null;
+$_SESSION["answer"] = array();
+?>
