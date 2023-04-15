@@ -257,6 +257,13 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 				 }
 				  ?>  
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficas</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <link rel="stylesheet" href="Print.css">
+</head>
 <body>
 <h2>Gráfica de resultados de escalas basicas</h2>
 <canvas id="grafica"></canvas>

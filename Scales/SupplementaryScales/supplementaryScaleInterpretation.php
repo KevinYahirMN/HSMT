@@ -105,7 +105,7 @@ class supplementaryScaleInterpretation{
                 autoridad de otros.";
             break;          
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
@@ -163,7 +163,7 @@ class supplementaryScaleInterpretation{
                 formal, de ideas claras, cuidadoso.";
             break;          
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
@@ -211,13 +211,13 @@ class supplementaryScaleInterpretation{
                 estilo de conducta masculino.";
             break;   
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
     }
 
-    function scale_AMAC($c){   //INVESTIGAR QUE ES PUNTAJE CRUDO    
+    function scale_AMAC($c){ 
         switch($c){
             case $c < 41:
                 $text = "Los puntajes bajos indican que el 
@@ -242,7 +242,7 @@ class supplementaryScaleInterpretation{
                 de substancias, ya sea alcohol u otras drogas.";
             break;   
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
@@ -273,7 +273,7 @@ class supplementaryScaleInterpretation{
                 familias de origen como cálidas y fuentes de apoyo.";
             break;   
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
@@ -291,7 +291,7 @@ class supplementaryScaleInterpretation{
                 $text = "Los puntajes altos de Do son asociados con 
                 equilibrio, confianza, liderazgo, seguridad en sí mismo, 
                 iniciativa social, perseverancia, resolución y liderazgo 
-                de grupo, es decir son características de personas consideradas 
+                de grupo, es decir, son características de personas consideradas 
                 generalmente como dominantes en situaciones sociales, que se 
                 consideran a sí mismos y son considerados por los demás 
                 capaces de enfrentar apropiadamente las situaciones personales, 
@@ -301,7 +301,7 @@ class supplementaryScaleInterpretation{
                 se muestran muy perseverantes y ecuánimes ante situaciones adversas.";
             break;   
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
@@ -356,7 +356,7 @@ class supplementaryScaleInterpretation{
                 parte correspondiente de cargas y deberes.";
             break;  
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break; 
         }
         return $text;
@@ -377,7 +377,7 @@ class supplementaryScaleInterpretation{
                 la mayor parte del tiempo";
             break;   
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
@@ -386,7 +386,7 @@ class supplementaryScaleInterpretation{
     function scale_GM($c){     
         switch($c){
             case $c < 41:
-                $text = "";//Interpretacion no encontrada
+                $text = "Puntuación normal";
             break;
             case $c > 64:
                 $text = "Las puntuaciones elevadas tanto en 
@@ -407,7 +407,7 @@ class supplementaryScaleInterpretation{
                 referidos a sí mismas.";
             break;   
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
@@ -416,7 +416,7 @@ class supplementaryScaleInterpretation{
     function scale_GF($c){    
         switch($c){
             case $c < 41:
-                $text = " ";//Interpretacion no encontrada.
+                $text = "Puntuación normal";
             break;
             case $c > 64:
                 $text = "Las puntuaciones elevadas tanto en 
@@ -438,7 +438,7 @@ class supplementaryScaleInterpretation{
                 sentimientos referidos a sí mismas.";
             break;   
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
@@ -446,7 +446,7 @@ class supplementaryScaleInterpretation{
 
     function scale_EPK($c){     
         switch($c){
-            case $c > 64://corte natural 30. Investigar.
+            case $c > 64:
                 $text = "Los veteranos de guerra y otras personas 
                 que hayan experimentado un evento 
                 catastrófico y que obtengan 
@@ -467,7 +467,7 @@ class supplementaryScaleInterpretation{
                 estresantes que han vivido.";
             break;   
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
@@ -487,7 +487,7 @@ class supplementaryScaleInterpretation{
                 importante.";
             break;
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;   
         }
         return $text;
@@ -509,7 +509,7 @@ class supplementaryScaleInterpretation{
                 sociales e incomodas en situaciones nuevas.";
             break;   
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
@@ -531,7 +531,7 @@ class supplementaryScaleInterpretation{
                 sujetos evitan el contacto con otras personas.";
             break;   
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;
@@ -552,7 +552,7 @@ class supplementaryScaleInterpretation{
                 de incapacidad para determinar el propio destino.";
             break;   
             default:
-            $text = "Puntuacion normal";
+            $text = "Puntuación normal";
             break;
         }
         return $text;

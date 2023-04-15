@@ -98,7 +98,7 @@ class basicScaleInterpretation{
                 divergidos a las áreas de conflicto.';
             break;
             case $c < 80:
-                $text = 'Rigidiz en convicciones morales,
+                $text = 'Rigidez en convicciones morales,
                 sociales y/o políticas.
                 Trastorno neurótico o psicótico.
                 Una vez descartado un trastorno psiquiátrico puede 
@@ -121,7 +121,7 @@ class basicScaleInterpretation{
                 la misma.
                 Paciente psiquiátrico seriamente perturbado.
                 Inconformismo o resignación ante creencias y/o 
-                costumbres políticas, sociales o religiosas';
+                costumbres políticas, sociales o religiosas.';
             break;
         }
         return $text;
@@ -139,7 +139,7 @@ class basicScaleInterpretation{
                 Exageración de conflictos.
                 Timidez, inhibición, incapacidad de relacionarse 
                 con los demás.
-                Sinero y torpe en sus relaciones, cínico o 
+                Sincero y torpe en sus relaciones, cínico o 
                 incrédulo.
                 Conformista.
                 Abulia.
@@ -153,7 +153,7 @@ class basicScaleInterpretation{
             case $c < 71:
                 $text = 'Adaptación, sociabilidad, capacidad 
                 intelectual alta.
-                Indepencia, autoconfianza.
+                Independencia, autoconfianza.
                 Alto nivel de comunicación con el medio.
                 Comprensión y solución de problemas de forma 
                 independiente y razonable.
@@ -169,7 +169,7 @@ class basicScaleInterpretation{
                 Respondió falso a gran parte de los reactivos.
                 Pretende dar una imagen de control y eficacia.
                 Timidez, indecisión, inhibición.
-                Falta de autonocomiento y autoentendimiento.
+                Falta de autoconocimiento y autoentendimiento.
                 Intolerancia a convicciones exrtañas o poco 
                 convencionales.
                 Baja probabilidad de conductas antisociales.';
@@ -494,7 +494,7 @@ class basicScaleInterpretation{
                 Falta de interés.
                 Insatisfacción, sensible, egocéntrico, 
                 convicciones rígidas, poco exitoso.
-                Torpe, descortes, rudo.
+                Torpe, descortés, rudo.
                 Susceptible.
                 Poca capacidad de insight.
                 Probabilidad de rasgos paranoides.';
