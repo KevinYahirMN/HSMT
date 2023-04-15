@@ -72,7 +72,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 					<img src="media/logo-big.png" class="img-fluid" style="max-height: 150px;">
 				</div>
 				<div class="col-4 d-flex justify-content-end align-items-center">
-					<a href="//" class="btn btn-danger"><i class="fa fa-power-off"></i> </a>
+        <a href="registro.php" id="exit_Button" onclick="return exit_Form()" class="btn btn-danger"><i class="fa fa-power-off"></i> </a>
 				</div>
 			</div>
 		</header>
