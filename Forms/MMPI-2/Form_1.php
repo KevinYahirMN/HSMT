@@ -4,21 +4,21 @@ if(isset($_POST['button_submit'])){
     $nombres1=$_POST['nombres1'];
 	$apellido1=$_POST['apellido1'];
 	$apellido2=$_POST['apellido2'];
-	$sexo=$_POST['sexo'];
-	$direccion=$_POST['direccion'];
+	$sexo1=$_POST['sexo1'];
+	$inputAddress=$_POST['inputAddress'];
 	$interior=$_POST['interior'];
-	$ciudad=$_POST['ciudad'];
-	$estado=$_POST['estado'];
+	$city=$_POST['city'];
+	$inputState=$_POST['inputState'];
 	$postal=$_POST['postal'];
 	$bday=$_POST['bday'];
     $_SESSION['nombres1']=$nombres1;
 	$_SESSION['apellido1']=$apellido1;
 	$_SESSION['apellido2']=$apellido2;
-	$_SESSION['sexo']=$sexo;
-	$_SESSION['direccion']=$direccion;
+	$_SESSION['sexo1']=$sexo1;
+	$_SESSION['inputAddress']=$inputAddress;
 	$_SESSION['interior']=$interior;
-	$_SESSION['ciudad']=$ciudad;
-	$_SESSION['estado']=$estado;
+	$_SESSION['city']=$city;
+	$_SESSION['inputState']=$inputState;
 	$_SESSION['postal']=$postal;
 	$_SESSION['bday']=$bday;
 	
@@ -92,7 +92,7 @@ if(empty($_SESSION["answer"])){
 			<div class="card-body">
 			
 
-				<form method="post" action="Form_2.php">
+				<form method="post" action="Form_567.php">
 					<!--Pregunta 1-->            
 					<p>Me gustan las revistas de mecánica</p>  
 					<input type="radio" value="true" name="Q" onclick="enable()">
