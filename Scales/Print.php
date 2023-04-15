@@ -13,6 +13,7 @@ $conexion = new Connection();
 $AnsB = $conexion->scoreBasicScales();
 $AnsIB = $conexion->interpretationBasicScales();
 $AnsIBA = $conexion->interpretationAditional();
+$AnsIBAT = $conexion->threeinterpretationAditional();
 $AnsC = $conexion->scoreContentScales();
 $AnsIC = $conexion->interpretationContentScales();
 $AnsS = $conexion->scoreSupplementaryScales();
@@ -192,7 +193,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 	</center>
 	<hr>
             
-  <div class="col-md-12 text-center text-success"><h3><i class="fa fa-ravelry"></i> Escalas básicas</h3></div>
+  <div class="col-md-12 text-center text-success"><h3><i class="fa fa-ravelry"></i>Escalas básicas</h3></div>
 				
 				<?php  
 				echo "";
@@ -208,11 +209,21 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 
 				?>  
 
-				<div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i> Escalas adicionales</h3></div>
+				<div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i>Interpretaciones adicionales de 2 factores</h3></div>
 				
 				<?php  
 				echo "";
 				$html = $AnsIBA;
+				print $html;
+				echo "<hr>";
+
+				?>
+        
+        <div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i>Interpretaciones adicionales de 3 factores</h3></div>
+				
+				<?php  
+				echo "";
+				$html = $AnsIBAT;
 				print $html;
 				echo "<hr>";
 

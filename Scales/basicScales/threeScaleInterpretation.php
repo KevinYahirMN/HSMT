@@ -35,11 +35,11 @@ class threeInterpretation{
                     $fMax = $tMax;
                     $tMax = $scales[$i];
                     $fcMax = $tcMax;
-                    $tcMax = $i - 2; 
+                    $tcMax = $i - 2;
                 break;
                 case $scales[$i] > $fMax:
                     $fMax = $scales[$i];
-                    $fcMax = $i - 2;                    
+                    $fcMax = $i - 2;               
                 break;
             }
             $i++;
