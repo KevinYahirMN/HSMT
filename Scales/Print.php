@@ -2,7 +2,7 @@
 include("Connection.php");
 
 session_start();
-$gender = $_SESSION['gender']='Masculino'; ;
+$gender = $_SESSION['gender'];
 
 $temp = $_SESSION["answer"];
 $get = $_POST["Q"];

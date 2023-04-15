@@ -26,14 +26,8 @@ if(isset($_POST['button_submit'])){
 //REVISAR CODIGO
 $_SESSION["answer"] = null;
 $_SESSION["answer"] = array();
-
+$_SESSION["pointer"] = 0;
 $_SESSION["counter"] = 0;
-if(empty($_SESSION["answer"])){
-	$_SESSION["pointer"] = 0;
-	$_SESSION["answer"] = array();
-}else{
-	$temp = $_SESSION["answer"];
-}
 ?>
 
 <!doctype html>
