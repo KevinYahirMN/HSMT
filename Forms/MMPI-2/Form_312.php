@@ -85,7 +85,7 @@ if($p == 310){
 
 			       
 					<!--Pregunta 312-->
-					<p>La única parte interesante de los diarios es las paginas de los chistes</p>
+					<p>La única parte interesante de los diarios son las páginas de los chistes</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

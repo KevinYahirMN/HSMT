@@ -85,7 +85,7 @@ if($p == 518){
 
 			       
 				<!--Pregunta 520-->
-	            <p> Últimamente he pensado mucho en quitarme la vida.</p>
+	            <p> Últimamente he pensado mucho en quitarme la vida</p>
 	            <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

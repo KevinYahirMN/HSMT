@@ -85,7 +85,7 @@ if($p == 8){
 
 			       
 					<!--Pregunta 10-->
-					<p>Actualmente tengo tanta capacidad de trabajo como antes</p>
+					<p>Actualmente, tengo tanta capacidad de trabajo como antes</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

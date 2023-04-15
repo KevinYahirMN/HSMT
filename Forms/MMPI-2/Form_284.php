@@ -85,7 +85,7 @@ if($p == 282){
 
 			       
 					 <!--Pregunta 284-->            
-					 <p>Pienso que casi todo el mundo diria una mentira para evitar problemas</p>
+					 <p>Pienso que casi todo el mundo diría una mentira para evitar problemas</p>
 					 <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

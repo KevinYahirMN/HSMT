@@ -85,7 +85,7 @@ if($p == 337){
 
 			       
 					<!--Pregunta 339-->            
-					<p>frecuentemente mis proyectos me han parecido tan llenos de dificultades que he tenido que abandonarlos</p>
+					<p>Frecuentemente mis proyectos me han parecido tan llenos de dificultades que he tenido que abandonarlos</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

@@ -85,7 +85,7 @@ if($p == 53){
 
 			       
 					<!--Pregunta 55-->
-					<p>Algunas veces persisto en una cosa o tema hasta que los demás pierden la pasciencia conmigo</p>
+					<p>Algunas veces persisto en una cosa o tema hasta que los demás pierden la paciencia conmigo</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

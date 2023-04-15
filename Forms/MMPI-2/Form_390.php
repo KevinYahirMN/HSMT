@@ -85,7 +85,7 @@ if($p == 388){
 
 			       
 					<!--Pregunta 390-->
-					<p>Desearia haber podido dejar de preocuparme por cosas que dije y que pudieron lastimar los sentimientos de algunas personas</p>
+					<p>Desearía haber podido dejar de preocuparme por cosas que dije y que pudieron lastimar los sentimientos de algunas personas</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

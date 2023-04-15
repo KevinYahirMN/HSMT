@@ -85,7 +85,7 @@ if($p == 346){
 
 			       
 					<!--Pregunta 348-->
-					<p>Con frecuencia pienso "Me gustaría volver a ser niño"</p>
+					<p>Con frecuencia pienso: "Me gustaría volver a ser niño"</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

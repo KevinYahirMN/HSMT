@@ -84,7 +84,7 @@ if($p == 520){
             <form method="post" action="Form_523.php">
 
 			       <!--Pregunta 522-->
-	               <p>Aunque me quedara sin familia siempre hay alguien que puede ayudarme.</p>
+	               <p>Aunque me quedara sin familia siempre hay alguien que puede ayudarme</p>
 				   <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

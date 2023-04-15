@@ -85,7 +85,7 @@ if($p == 548){
 
 			       
 			   <!--Pregunta 550-->
-			   <p>Estoy bastante alejado de mis familiares actualmente.</p>
+			   <p>Estoy bastante alejado de mis familiares actualmente</p>
 			   <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

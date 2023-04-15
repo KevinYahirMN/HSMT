@@ -85,7 +85,7 @@ if($p == 527){
 
 			       
 					<!--Pregunta 529-->
-	                <p>A veces me resulta dificil dejar de hablar</p>
+	                <p>A veces me resulta difícil dejar de hablar</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

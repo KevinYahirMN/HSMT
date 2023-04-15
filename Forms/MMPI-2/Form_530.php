@@ -85,7 +85,7 @@ if($p == 528){
 
 			       
 					<!--Pregunta 530-->
-	                <p>A veces me hago daño a mi mismo sin saber por qué.</p>
+	                <p>A veces me hago daño a mi mismo sin saber por qué</p>
 	                <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

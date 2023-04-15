@@ -85,7 +85,7 @@ if($p == 394){
 
 			       
 					<!--Pregunta 396-->
-					<p>Muchas veces me ha caido mal ser incomprendido cuando trataba de evitar que alguien se equivocara</p>
+					<p>Muchas veces me ha caído mal ser incomprendido cuando trataba de evitar que alguien se equivocara</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

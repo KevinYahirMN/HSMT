@@ -85,7 +85,7 @@ if($p == 538){
 
 			       
 					<!--Pregunta 540-->
-	                <p>Hubo ocasiones en las que me enojé y romp cosas por haber bebido mucho</p>
+	                <p>Hubo ocasiones en las que me enojé y rompí cosas por haber bebido mucho</p>
 	                <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

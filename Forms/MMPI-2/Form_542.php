@@ -85,7 +85,7 @@ if($p == 540){
 
 			       
 					<!--Pregunta 542-->
-	                <p>He llegado a enfurecerme tanto con alguien que crei que iba a estallar</p>
+	                <p>He llegado a enfurecerme tanto con alguien que creí que iba a estallar</p>
 	                <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

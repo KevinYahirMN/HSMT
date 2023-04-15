@@ -84,7 +84,7 @@ if($p == 467){
 
 			       
 					<!--Pregunta 469-->
-	                <p>Algunas veces me siento al borde de uan crisis nerviosa</p>
+	                <p>Algunas veces me siento al borde de una crisis nerviosa</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

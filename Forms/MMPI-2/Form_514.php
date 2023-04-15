@@ -85,7 +85,7 @@ if($p == 512){
 
 			       
 					<!--Pregunta 514-->
-	                <p>Me cuesta decir que "no" cuando me piden que haga algo.</p>
+	                <p>Me cuesta decir que "no" cuando me piden que haga algo</p>
 	                <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

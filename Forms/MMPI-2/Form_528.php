@@ -85,7 +85,7 @@ if($p == 526){
 
 			       
 					<!--Pregunta 528-->
-	                <p>Muchos de mis problemas se deben a mi mala suerte.</p>
+	                <p>Muchos de mis problemas se deben a mi mala suerte</p>
 	                <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

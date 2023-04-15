@@ -85,7 +85,7 @@ if($p == 25){
 			       
 					<!--Pregunta 27-->
 					<p>Cuando alguien me hace algún daño, siento deseos de devolvérselo si me 
-						es posible, y esto, por cuestion de Principios
+						es posible, y esto, por cuestion de principios
 					</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>

@@ -85,7 +85,7 @@ if($p == 130){
 
 			       
 					<!--Pregunta 132-->
-					<p>Creo en la vida del allá</p>
+					<p>Creo en la vida del más allá</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">
