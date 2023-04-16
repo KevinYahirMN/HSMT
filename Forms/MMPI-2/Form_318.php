@@ -85,7 +85,7 @@ if($p == 316){
 
 			       
 					<!--Pregunta 318-->            
-					<p>Normalmente espero que éxito en las cosas que hago</p>
+					<p>Normalmente espero éxito en las cosas que hago</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

@@ -84,7 +84,7 @@ if($p == 325){
 
 			       
 					<!--Pregunta 327-->
-					<p>Se me ocurren palabras feas, a veces horribles, y no puedo dejarlas de lado.</p>
+					<p>Se me ocurren palabras feas, a veces horribles, y no puedo dejarlas de lado</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

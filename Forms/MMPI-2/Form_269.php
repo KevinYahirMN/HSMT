@@ -85,7 +85,7 @@ if($p == 267){
 
 			       
 					<!--Pregunta 269-->
-					<p>Si varias personas se encuentran inculpadas, lo que mejor que pueden hacer es ponerse de acuerdo en lo que van a dceir y no cambiarlo después</p>
+					<p>Si varias personas se encuentran inculpadas, lo que mejor que pueden hacer es ponerse de acuerdo en lo que van a decir y no cambiarlo después</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

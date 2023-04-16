@@ -85,7 +85,7 @@ if($p == 511){
 
 			       
 					<!--Pregunta 513-->
-	                <p>A veces me enojo tanto que no sé lo que digo o hago.</p>
+	                <p>A veces me enojo tanto que no sé lo que digo o hago</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

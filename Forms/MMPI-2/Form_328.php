@@ -85,7 +85,7 @@ if($p == 326){
 
 			       
 					<!--Pregunta 328-->            
-					<p>Algunas veces me ronda en la cabeza un pensamiento sin Importancia y me molesta durante días</p>
+					<p>Algunas veces me ronda en la cabeza un pensamiento sin importancia y me molesta durante días</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

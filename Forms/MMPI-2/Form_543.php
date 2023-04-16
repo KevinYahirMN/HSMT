@@ -85,7 +85,7 @@ if($p == 541){
 
 			       
 					<!--Pregunta 543-->
-	                <p> A veces tengo malos pensamientos sobre mi familia.</p>
+	                <p> A veces tengo malos pensamientos sobre mi familia</p>
 	                <input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

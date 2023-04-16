@@ -85,7 +85,7 @@ if($p == 223){
 
 			       
 					<!--Pregunta 225-->
-					<p>Mi modo de hacer las cosas tiende a ser mal interpreado por los demás</p>
+					<p>Mi modo de hacer las cosas tiende a ser mal interpretado por los demás</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">

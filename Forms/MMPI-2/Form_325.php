@@ -85,7 +85,7 @@ if($p == 323){
 
 			       
 					<!--Pregunta 325-->            
-					<p>Tengo más dificultad para concetrarme que la que otros parecen tener</p>
+					<p>Tengo más dificultad para concentrarme que la que otros parecen tener</p>
 					<input type="radio" value="true" name="Q" onclick="enable()">
 					<label>verdadero</label><br>
 					<input type="radio" value="false" name="Q" onclick="enable()">
