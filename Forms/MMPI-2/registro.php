@@ -55,19 +55,19 @@
 					  <div class="form-group col-md-6">
 						<label for="nombres">Nombre(s)</label>
 						<input type="fname" class="form-control"  name="name1" id="name1" placeholder="Nombre(s)"
-						 minlength="1" required pattern="[A-Za-z ]+"
+						 minlength="1" required pattern="[A-Za-zñ ]+"
 						 title="No se permiten números">
 					  </div>
 					  <div class="form-group col-md-6">
 						<label for="nombres">Apellido paterno</label>
 						<input type="lname" class="form-control" name="name2" id="name2" placeholder="Apellido paterno"
-						 minlength="1" required pattern="[A-Za-z ]+"
+						 minlength="1" required pattern="[A-Za-zñ ]+"
 						 title="No se permiten números">
 					  </div>
 					  <div class="form-group col-md-6">
 						<label for="nombres">Apellido materno</label>
 						<input type="lname" class="form-control"name="name3" id="name3" placeholder="Apellido materno"
-						 minlength="1" required pattern="[A-Za-z ]+"
+						 minlength="1" required pattern="[A-Za-zñ ]+"
 						 title="No se permiten números">
 					  </div>
 					  <div class="form-group col-md-4" >
@@ -81,21 +81,21 @@
 					<div class="form-group">
 					  <label for="inputAddress">Dirección</label>
 					  <input type="text" name="inputAddress"class="form-control" id="inputAddress" placeholder="Colonia, calle, etc "
-					   minlength="1" required pattern="[A-Za-z0 -9999999999 ]+"
+					   minlength="1" required pattern="[A-Za-zñ0 -9999999999 ]+"
 					   title="No se permiten carácteres especiales"
 					   >
 					</div>
 					<div class="form-group">
 					  <label for="inputAddress2">Número de interior/exterior</label>
 					  <input type="text" class="form-control"name="interior" id="interior" placeholder="Número de interior, número de exterior , etc"
-					   minlength="1" required pattern="[A-Za -z0-999999999 ]+"
+					   minlength="1" required pattern="[A-Za -zñ0-999999999 ]+"
 					   title="No se permiten carácteres especiales">
 					</div>
 					<div class="form-row">
 					  <div class="form-group col-md-6">
 						<label for="inputCity">Ciudad</label>
 						<input type="text" name="city"class="form-control" id="city" placeholder="Ciudad"
-						 minlength="1" required pattern="[A-Za-z ]+"
+						 minlength="1" required pattern="[A-Za-zñ ]+"
 						 title="No se permiten números">
 					  </div>
 					  <div class="form-group col-md-4">
