@@ -19,17 +19,17 @@ $AnsIC = $conexion->interpretationContentScales();
 $AnsS = $conexion->scoreSupplementaryScales();
 $AnsIS = $conexion->interpretationSupplementaryScales();
 
-$TituloEB = array("Escala L", "Escala F", "Escala K", "Escala Hs",
-"Escala D", "Escala Hi", "Escala Dp","Escala Mf","Escala Pa","Escala Pt",
-"Escala Es", "Escala Ma", "Escala Is");
+$TituloEB = array("Escala L (Sinceridad)", "Escala F (Validez)", "Escala K (Corrección)", "Escala Hs (Hipocondriasis)",
+"Escala D (Depresión)", "Escala Hi (Histeria)", "Escala Dp (Desviación Psicopática)","Escala Mf (Masculinidad/Feminidad)","Escala Pa (Paranoia)","Escala Pt (Psicastenia)",
+"Escala Es (Esquizofrenia)", "Escala Ma (Hipomonía)", "Escala Is (Introversión Social");
 
-$TituloEC = array("Escala ANS", "Escala MIE", "Escala OBS", "Escala DEP",
-"Escala SAU", "Escala DEL", "Escala ENJ","Escala CIN","Escala PAS","Escala PTA",
-"Escala BAE", "Escala ISO", "Escala FAM", "Escala DTR", "Escala RTR");
+$TituloEC = array("Escala ANS (Ansiedad)", "Escala MIE (Miedos)", "Escala OBS (Obsesividad)", "Escala DEP (Depresión)",
+"Escala SAU (Preocupaciones por la Salud)", "Escala DEL (Pensamientos Delirantes)", "Escala ENJ (Enojo)","Escala CIN (Cinismo)","Escala PAS (Prácticas Antisociales)","Escala PTA (Personalidad Tipo A)",
+"Escala BAE (Baja Autoestima)", "Escala ISO (Incomodidad Social)", "Escala FAM (Problemas Familiares)", "Escala DTR (Dificultades en el Trabajo)", "Escala RTR (Dificultad en el Tratamiento)");
 
-$TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
-"Escala HR", "Escala Do", "Escala Rs","Escala Dpr","Escala GM","Escala GF",
-"Escala EPK", "Escala EPS", "Escala ls1","Escala ls2","Escala ls3","Escala Fp");
+$TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (Fuerza del Yo)", "Escala A-MAC (Alcoholismo de Mc Andrew)",
+"Escala HR (Hostilidad Reprimida)", "Escala Do (Dominancia)", "Escala Rs (Responsabilidad Social)","Escala Dpr (Desajuste Profesional)","Escala GM (Género Masculino)","Escala GF (Género Femenino)",
+"Escala EPK (Desorden de Estrés Postraumático de Keane)", "Escala EPS (Estrés Postraumático de Schelenger)", "Escala ls1 (Timidez/Perturbación-autoconcepto)","Escala ls2 (Evitación Social)","Escala ls3 (Enajenación de sí mismo y de los otros)","Escala Fp (Indicador Adicional de Validez)");
 
 ?>
 <!doctype html>
@@ -185,7 +185,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 	</center>
 	<hr>
             
-      <div class="col-md-12 text-center text-success"><h3><i class="fa fa-ravelry"></i>Escalas básicas</h3></div>
+      <div class="col-md-12 text-center text-success"><h3><i class="fa fa-ravelry"></i> Escalas básicas</h3></div>
 				
 				<?php  
 				echo "";
@@ -199,7 +199,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 				}
 				?>  
 
-				<div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i>Interpretaciones adicionales de 2 factores</h3></div>
+				<div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i> Interpretaciones adicionales de 2 factores</h3></div>
 				
 				<?php  
 				echo "";
@@ -208,7 +208,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 				echo "<hr>";
 				?>
         
-        <div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i>Interpretaciones adicionales de 3 factores</h3></div>
+        <div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i> Interpretaciones adicionales de 3 factores</h3></div>
 				
 				<?php  
 				echo "";
@@ -268,7 +268,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
         new Chart($grafica, {
             type: 'bar',
             data: {
-                labels: ["L","F","K","Hs","D","Hi","Dp","MfM","Pa","Pt","Es","Ma","Is"],
+                labels: ["L","F","K","Hs","D","Hi","Dp","Mf","Pa","Pt","Es","Ma","Is"],
                 datasets: [
                     Tvalue,
                 ]
@@ -395,4 +395,5 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 <?php
 $_SESSION["answer"] = null;
 $_SESSION["answer"] = array();
+$_SESSION['gender'] = null;
 ?>
