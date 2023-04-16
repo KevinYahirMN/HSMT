@@ -12,6 +12,12 @@
     .print_Button{
         display:none;
     }
+    #exit_Button{
+        display:none;
+    }
+    #exit_Button2{
+        display:none;
+    }
 }
 @page {
     size:  auto;   /* auto es el valor inicial */
