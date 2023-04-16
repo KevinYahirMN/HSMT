@@ -96,7 +96,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
                 <p class="mb-0">Nombres: </p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0"><?php  echo $_SESSION['nombres1']?> </p>
+                <p class="text-muted mb-0"><?php  echo $_SESSION['name1']?> </p>
               </div>
             </div>
             <hr>
@@ -105,7 +105,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
                 <p class="mb-0">Apellido paterno: </p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0"><?php  echo $_SESSION['apellido1']?> </p>
+                <p class="text-muted mb-0"><?php  echo $_SESSION['name2']?> </p>
               </div>
             </div>
             <hr>
@@ -114,7 +114,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
                 <p class="mb-0">Apellido materno: </p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0"><?php  echo $_SESSION['apellido2']?> </p>
+                <p class="text-muted mb-0"><?php  echo $_SESSION['name3']?> </p>
               </div>
             </div>
             <hr>
@@ -123,7 +123,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
                 <p class="mb-0">Sexo: </p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0"><?php  echo $_SESSION['sexo1']?> </p>
+                <p class="text-muted mb-0"><?php  echo $_SESSION['gender']?> </p>
               </div>
             </div>
             <hr>
@@ -168,7 +168,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
                 <p class="mb-0">Código postal: </p>
               </div>
               <div class="col-sm-9">
-                <p class="text-muted mb-0"><?php  echo $_SESSION['postal']?> </p>
+                <p class="text-muted mb-0"><?php  echo $_SESSION['zip']?> </p>
               </div>
             </div>
             <hr>
@@ -185,7 +185,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 	</center>
 	<hr>
             
-  <div class="col-md-12 text-center text-success"><h3><i class="fa fa-ravelry"></i>Escalas básicas</h3></div>
+      <div class="col-md-12 text-center text-success"><h3><i class="fa fa-ravelry"></i>Escalas básicas</h3></div>
 				
 				<?php  
 				echo "";
@@ -197,8 +197,6 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 					echo "<hr>";
 
 				}
-				
-
 				?>  
 
 				<div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i>Interpretaciones adicionales de 2 factores</h3></div>
@@ -208,7 +206,6 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 				$html = $AnsIBA;
 				print $html;
 				echo "<hr>";
-
 				?>
         
         <div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i>Interpretaciones adicionales de 3 factores</h3></div>
@@ -218,11 +215,10 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 				$html = $AnsIBAT;
 				print $html;
 				echo "<hr>";
-
 				?>  
                 
 					
-                  <div class="col-md-12 text-center text-success"><h3><i class="fa fa-eye"></i> Escalas de contenido</h3></div>
+        <div class="col-md-12 text-center text-success"><h3><i class="fa fa-eye"></i> Escalas de contenido</h3></div>
 
 				  <?php  
 				  echo "";
@@ -237,8 +233,9 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 
               
 
-                  <div class="col-md-12 text-center text-success"><h3><i class="fa fa-frown-o"></i> Escalas suplementarias</h3></div>
-				  <?php   
+        <div class="col-md-12 text-center text-success"><h3><i class="fa fa-frown-o"></i> Escalas suplementarias</h3></div>
+				
+        <?php   
 				 echo "";
 				 for ($i = 0; $i < 16; ++$i)
 				 {   
@@ -247,7 +244,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 					 print $html;
 					 echo "<hr>";
 				 }
-				  ?>  
+				?>  
 
 <head>
     <meta charset="UTF-8">
@@ -379,9 +376,7 @@ $TituloES = array("Escala A", "Escala R", "Escala Fyo", "Escala A-MAC",
 
 </head>
                  
-            
-        	  
-					<br><br>
+					  <br><br>
 					  <div class="text-center">
 						<button onclick="window.print();" id="print" class="print_Button">Imprimir</button>
 					  </div>

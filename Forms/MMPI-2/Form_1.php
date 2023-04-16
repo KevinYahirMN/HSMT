@@ -1,25 +1,25 @@
 <?php
 session_start();
 if(isset($_POST['button_submit'])){
-    $nombres1=$_POST['nombres1'];
-	$apellido1=$_POST['apellido1'];
-	$apellido2=$_POST['apellido2'];
-	$sexo1=$_POST['sexo1'];
+    $name1=$_POST['name1'];
+	$name2=$_POST['name2'];
+	$name3=$_POST['name3'];
+	$gender=$_POST['gender'];
 	$inputAddress=$_POST['inputAddress'];
 	$interior=$_POST['interior'];
 	$city=$_POST['city'];
 	$inputState=$_POST['inputState'];
-	$postal=$_POST['postal'];
+	$zip=$_POST['zip'];
 	$bday=$_POST['bday'];
-    $_SESSION['nombres1']=$nombres1;
-	$_SESSION['apellido1']=$apellido1;
-	$_SESSION['apellido2']=$apellido2;
-	$_SESSION['sexo1']=$sexo1;
+    $_SESSION['name1']=$name1;
+	$_SESSION['name2']=$name2;
+	$_SESSION['name3']=$name3;
+	$_SESSION['gender']=$gender;
 	$_SESSION['inputAddress']=$inputAddress;
 	$_SESSION['interior']=$interior;
 	$_SESSION['city']=$city;
 	$_SESSION['inputState']=$inputState;
-	$_SESSION['postal']=$postal;
+	$_SESSION['zip']=$zip;
 	$_SESSION['bday']=$bday;
 	
 }

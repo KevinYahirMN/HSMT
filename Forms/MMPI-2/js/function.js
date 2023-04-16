@@ -16,9 +16,9 @@ function exit_Form()
 }
 
 userForm.addEventListener('input',()=>{
-    if(nombres1.value.length>0 && apellido1.value.length>0 && apellido2.value.length>0 &&
-        sexo1.value.length>0 && inputAddress.value.length>0 && interior.value.length>0 &&
-        city.value.length>0 &&inputState.value.length>0 &&postal.value.length>0 &&
+    if(name1.value.length>0 && name2.value.length>0 && name3.value.length>0 &&
+        gender.value.length>0 && inputAddress.value.length>0 && interior.value.length>0 &&
+        city.value.length>0 &&inputState.value.length>0 &&zip.value.length>0 &&
         bday.value.length>0){
         button_submit.removeAttribute('disabled');
     }

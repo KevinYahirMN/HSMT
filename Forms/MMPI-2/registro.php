@@ -54,25 +54,25 @@
 					<div class="form-row">
 					  <div class="form-group col-md-6">
 						<label for="nombres">Nombre(s)</label>
-						<input type="fname" class="form-control"  name="nombres1" id="nombres1" placeholder="Nombre(s)"
+						<input type="fname" class="form-control"  name="name1" id="name1" placeholder="Nombre(s)"
 						 minlength="1" required pattern="[A-Za-z ]+"
 						 title="No se permiten números">
 					  </div>
 					  <div class="form-group col-md-6">
 						<label for="nombres">Apellido paterno</label>
-						<input type="lname" class="form-control" name="apellido1" id="apellido1" placeholder="Apellido paterno"
+						<input type="lname" class="form-control" name="name2" id="name2" placeholder="Apellido paterno"
 						 minlength="1" required pattern="[A-Za-z ]+"
 						 title="No se permiten números">
 					  </div>
 					  <div class="form-group col-md-6">
 						<label for="nombres">Apellido materno</label>
-						<input type="lname" class="form-control"name="apellido2" id="apellido2" placeholder="Apellido materno"
+						<input type="lname" class="form-control"name="name3" id="name3" placeholder="Apellido materno"
 						 minlength="1" required pattern="[A-Za-z ]+"
 						 title="No se permiten números">
 					  </div>
 					  <div class="form-group col-md-4" >
 						<label for="Sexo">Sexo</label>
-						<select id="sexo1" name="sexo1"class="form-control" required>
+						<select id="gender" name="gender"class="form-control" required>
 						  <option>Masculino</option>
 						  <option>Femenino</option>
 						</select>
@@ -138,7 +138,7 @@
 					  </div>
 					  <div class="form-group col-md-2">
 						<label for="inputZip">Código postal</label>
-						<input type="text" name="postal"class="form-control" id="postal" placeholder="Código postal"
+						<input type="text" name="zip"class="form-control" id="zip" placeholder="Código postal"
 						 minlength="4" required pattern="[0-9999999999999999999999999999999]+"
 						 title="Solo se permiten números">
 					  </div>
