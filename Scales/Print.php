@@ -254,7 +254,7 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
     <link rel="stylesheet" href="Print.css">
 </head>
 <body>
-<h2>Gráfica de resultados de escalas basicas</h2>
+<h2>Gráfica de resultados de escalas básicas</h2>
 <canvas id="grafica"></canvas>
     <script type="text/javascript">
         const $grafica = document.querySelector("#grafica");
