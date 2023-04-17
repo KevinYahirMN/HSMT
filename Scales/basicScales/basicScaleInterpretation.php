@@ -488,7 +488,7 @@ class basicScaleInterpretation{
                 Interesado en actividades sociales.
                 Adaptación a situaciones cotidianas.
                 Ordenados, sensatos, organizados y cautelosos.
-                \nPacientes clínicos:
+                Pacientes clínicos:
                 Prudente, evasivo, reservado, 
                 desconfiado, obstinado, testarudo.
                 Falta de interés.
