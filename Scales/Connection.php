@@ -42,6 +42,7 @@ class Connection{
     private $cSupplementary;
     private $cContent;
 
+    //Inicialización de objetos y variables globales
     function __construct(){
         if($this-> basicScale == null){
             $this->basicScale = new basicScales();

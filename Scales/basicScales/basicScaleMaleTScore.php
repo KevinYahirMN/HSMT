@@ -1,6 +1,7 @@
 <?php
 class basicscoreTMale{
-
+    /*Dirigir los contadores almacenados al metodo de transformación
+    correspondiente*/
     function valuesT($counter = array()){
         $i = 0;
         while($i < count($counter)){

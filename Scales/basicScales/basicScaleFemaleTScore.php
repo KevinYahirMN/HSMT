@@ -1,6 +1,7 @@
 <?php
 class basicscoreTFemale{
-
+    /*Dirigir los contadores almacenados al metodo de transformación
+    correspondiente*/
     function valuesT($counter = array()){
         $i = 0;
         while($i < count($counter)){
@@ -66,6 +67,7 @@ class basicscoreTFemale{
         return $T;
     }
 
+    //Transformación de los datos crudos
     function scale_F($c){
         $T = ($c*3);
         switch($c){

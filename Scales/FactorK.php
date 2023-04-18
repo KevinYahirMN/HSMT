@@ -1,5 +1,8 @@
 <?php
 class FactorK{
+
+    /*Obtención de factor a sumar 
+    mediante puntuación K*/
     function sumK($c, $K){
         $c += $K;
         
