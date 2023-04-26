@@ -1,5 +1,5 @@
 <?php
-class countDV implements ICollectorCount{
+class DVcount implements ICollectorCount{
     function collect($answer){
         $c = array();
         

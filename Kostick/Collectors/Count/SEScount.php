@@ -1,5 +1,5 @@
 <?php
-class countSES implements ICollectorCount{
+class SEScount implements ICollectorCount{
     function collect($answer){
         $c = array();
         
