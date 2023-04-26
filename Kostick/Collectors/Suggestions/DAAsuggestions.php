@@ -1,5 +1,5 @@
 <?php
-class DAAsuggestions implements ICollectorSuggestion{
+class DAAsuggestions{
     function collect($c){
         $suggestions = array();
         

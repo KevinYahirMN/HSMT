@@ -1,5 +1,5 @@
 <?php
-class SESsuggestions implements ICollectorSuggestion{
+class SESsuggestions{
     function collect($answer){
         $c = array();
         

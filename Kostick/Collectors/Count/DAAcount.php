@@ -1,5 +1,5 @@
 <?php
-class DAAcount implements ICollectorCount{
+class DAAcount{
     function collect($answer){
         $c = array();
         

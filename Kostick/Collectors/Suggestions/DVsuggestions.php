@@ -1,5 +1,5 @@
 <?php
-class DVsuggestions implements ICollectorSuggestion{
+class DVsuggestions{
     function collect($answer){
         $c = array();
         
