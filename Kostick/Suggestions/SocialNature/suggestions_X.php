@@ -4,7 +4,7 @@ class Suggestions_X implements ISuggestions{
         $text = "Tiene orgullo de sí mismo y de su 
         estilo. Puede ser efectivo en grupos 
         cuando no se muestre demasiado 
-        exhibicionista. ";
+        exhibicionista.";
         return $text;
     }
 
