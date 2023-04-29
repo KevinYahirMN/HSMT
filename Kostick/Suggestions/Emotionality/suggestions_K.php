@@ -1,5 +1,6 @@
 <?php
-class Suggestions_K{
+include('../Interfaces/ISuggestions.php');
+class Suggestions_K implements ISuggestions{
     function highPositive(){
         $text = "Tiende a ser abierto y franco con las 
         personas. Tiende a desmenuzar el 

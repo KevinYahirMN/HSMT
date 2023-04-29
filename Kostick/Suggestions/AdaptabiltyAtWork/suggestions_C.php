@@ -1,5 +1,6 @@
 <?php
-class Suggestions_C{
+include('../Interfaces/ISuggestions.php');
+class Suggestions_C implements ISuggestions{
     function highPositive(){
         $text = "Es una persona que estructura las 
         cosas y es agradable estar con ella 

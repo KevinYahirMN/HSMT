@@ -1,5 +1,6 @@
 <?php
-class Suggestions_E{
+include('../Interfaces/ISuggestions.php');
+class Suggestions_E implements ISuggestions{
     function highPositive(){
         $text = "Es confiable, constante, calmado y 
         tiene control emocional y madurez. 

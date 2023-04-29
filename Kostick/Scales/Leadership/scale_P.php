@@ -1,6 +1,7 @@
 <?php
 include_once('../scaleCount/scaleCount.php');
-class scale_P{
+include_once('../Interfaces/IScales.php');
+class scale_P implements IScales{
     function scale($answer){
         $scaleCount = new scaleCount();
         $c = 0;

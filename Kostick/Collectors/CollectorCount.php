@@ -2,8 +2,9 @@
 include('Count/DAAcount.php');
 include('Count/DVcount.php');
 include('Count/SEScount.php');
+include_once('../Interfaces/ICollector.php');
 
-class CollectorCount{
+class CollectorCount implements ICollector{
     function DAA($answer){
         $daa = new DAAcount;
         $c = $daa->collect($answer);

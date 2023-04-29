@@ -1,5 +1,6 @@
 <?php
-class Suggestions_L{
+include('../Interfaces/ISuggestions.php');
+class Suggestions_L implements ISuggestions{
     function highPositive(){
         $text = "Tiene confianza, se apoya del 
         liderazgo. Se tiene confianza que no 

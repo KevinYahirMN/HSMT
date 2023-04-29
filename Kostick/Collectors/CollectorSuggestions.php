@@ -2,8 +2,9 @@
 include('Suggestions/DAAsuggestions.php');
 include('Suggestions/DVsuggestions.php');
 include('Suggestions/SESsuggestions.php');
+include_once('../Interfaces/ICollector.php');
 
-class CollectorSuggestions{
+class CollectorSuggestions implements ICollector{
     function DAA($c){
         $daa = new DAAsuggestions;
         $suggestions = $daa->collect($c);

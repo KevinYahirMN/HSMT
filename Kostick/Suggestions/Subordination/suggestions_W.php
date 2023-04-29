@@ -1,5 +1,6 @@
 <?php
-class Suggestions_W{
+include('../Interfaces/ISuggestions.php');
+class Suggestions_W implements ISuggestions{
     function highPositive(){
         $text = "Es una persona que tiene gran respeto 
         por las reglas. Puede seguir lo que se 

@@ -1,5 +1,6 @@
 <?php
-class Suggestions_S{
+include('../Interfaces/ISuggestions.php');
+class Suggestions_S implements ISuggestions{
     function highPositive(){
         $text = "Crea una buena atmósfera, buenas 
         relaciones sociales, se interesa por los 

@@ -1,5 +1,6 @@
 <?php
-class Suggestions_I{
+include('../Interfaces/ISuggestions.php');
+class Suggestions_I implements ISuggestions{
     function highPositive(){
         $text = "Es oprtimista, agresivo, entusiasta, 
         rápido en dar respuestas y presiona 
