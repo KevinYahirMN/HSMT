@@ -1,7 +1,6 @@
 <?php
 include("../Collectors/CollectorCount.php");
 include("../Collectors/CollectorSuggestions.php");
-include("../Collectors/ICollector.php");
 
 $answer = array();
 
@@ -20,13 +19,11 @@ $collectorSuggestions = new CollectorSuggestions();
 
 $DAACC = $collectorCount->DAA($temp);
 $DAACS = $collectorSuggestions->DAA($DAACC);
-$DAVCC = $collectorCount->DV($temp);
-$DAVCS = $collectorSuggestions->DV($DAVCC);
+$DVCC = $collectorCount->DV($temp);
+$DVCS = $collectorSuggestions->DV($DVCC);
 $SESCC = $collectorCount->SES($temp);
 $SESCS = $collectorSuggestions->SES($SESCC);
 ?>
-<tbody>
-
 <table>
   <tr>
     <th>CATEGORIA</th>
@@ -106,7 +103,6 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php $DVCC[2];?></td>
     <td><?php $DVCC[3];?></td>
     <td><?php $DVCC[4];?></td>
-    <td><?php $DVCC[5];?></td>
   </tr>
 </table>
 
@@ -152,4 +148,26 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php $SESCC[6];?></td>
   </tr>
 </table>
-</tbody>
+<table class="default">
+
+  <tr>
+
+    <td>Celda 1</td>
+
+    <td>Celda 2</td>
+
+    <td>Celda 3</td>
+
+  </tr>
+
+  <tr>
+
+    <td>Celda 4</td>
+
+    <td>Celda 5</td>
+
+    <td>Celda 6</td>
+
+  </tr>
+
+</table>
