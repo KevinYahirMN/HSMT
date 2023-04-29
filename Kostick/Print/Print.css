@@ -1,0 +1,25 @@
+#grafica{
+    max-width: 1200px;
+}
+#grafica2{
+    max-width: 1200px;
+}
+#grafica3{
+    max-width: 1200px;
+}
+
+@media print {
+    .print_Button{
+        display:none;
+    }
+    #exit_Button{
+        display:none;
+    }
+    #exit_Button2{
+        display:none;
+    }
+}
+@page {
+    size:  auto;   /* auto es el valor inicial */
+    margin: 10mm;  /* afecta el margen en la configuración de impresión */
+}
