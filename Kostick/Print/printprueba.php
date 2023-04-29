@@ -24,7 +24,24 @@ $DVCS = $collectorSuggestions->DV($DVCC);
 $SESCC = $collectorCount->SES($temp);
 $SESCS = $collectorSuggestions->SES($SESCC);
 ?>
-<table>
+
+<html>
+	<head>
+	</head>
+	<body>
+		<table border="1">
+		<caption>Titulo de la tabla</caption>
+		<tr>
+			<th>Col.Cab.1</th>
+			<th>Col.Cab.2</th>
+		</tr>
+		<tr>
+			<td>Celda 1</td>
+			<td>Celda 2</td>
+		</tr>
+		</table>
+    
+  <table border="1">
   <tr>
     <th>CATEGORIA</th>
     <td>LIDERAZGO</td>
@@ -60,18 +77,18 @@ $SESCS = $collectorSuggestions->SES($SESCC);
   </tr>
   <tr>
     <th>PUNTUACIÓN</th>
-    <td><?php $DAACC[0];?></td>
-    <td><?php $DAACC[1];?></td>
-    <td><?php $DAACC[2];?></td>
-    <td><?php $DAACC[3];?></td>
-    <td><?php $DAACC[4];?></td>
-    <td><?php $DAACC[5];?></td>
-    <td><?php $DAACC[6];?></td>
-    <td><?php $DAACC[7];?></td>
+    <td><?php echo $DAACC[0];?></td>
+    <td><?php echo $DAACC[1];?></td>
+    <td><?php echo $DAACC[2];?></td>
+    <td><?php echo $DAACC[3];?></td>
+    <td><?php echo $DAACC[4];?></td>
+    <td><?php echo $DAACC[5];?></td>
+    <td><?php echo $DAACC[6];?></td>
+    <td><?php echo $DAACC[7];?></td>
   </tr>
 </table>
 
-<table>
+<table border="1">
   <tr>
     <th>CATEGORIA</th>
     <td>MODO DE VIDA</td>
@@ -98,15 +115,15 @@ $SESCS = $collectorSuggestions->SES($SESCC);
   </tr>
   <tr>
     <th>PUNTUACIÓN</th>
-    <td><?php $DVCC[0];?></td>
-    <td><?php $DVCC[1];?></td>
-    <td><?php $DVCC[2];?></td>
-    <td><?php $DVCC[3];?></td>
-    <td><?php $DVCC[4];?></td>
+    <td><?php echo $DVCC[0];?></td>
+    <td><?php echo $DVCC[1];?></td>
+    <td><?php echo $DVCC[2];?></td>
+    <td><?php echo $DVCC[3];?></td>
+    <td><?php echo $DVCC[4];?></td>
   </tr>
 </table>
 
-<table>
+<table border="1">
   <tr>
     <th>CATEGORIA</th>
     <td>NATURALEZA SOCIAL</td>
@@ -139,13 +156,13 @@ $SESCS = $collectorSuggestions->SES($SESCC);
   </tr>
   <tr>
     <th>PUNTUACIÓN</th>
-    <td><?php $SESCC[0];?></td>
-    <td><?php $SESCC[1];?></td>
-    <td><?php $SESCC[2];?></td>
-    <td><?php $SESCC[3];?></td>
-    <td><?php $SESCC[4];?></td>
-    <td><?php $SESCC[5];?></td>
-    <td><?php $SESCC[6];?></td>
+    <td><?php echo $SESCC[0];?></td>
+    <td><?php echo $SESCC[1];?></td>
+    <td><?php echo $SESCC[2];?></td>
+    <td><?php echo $SESCC[3];?></td>
+    <td><?php echo $SESCC[4];?></td>
+    <td><?php echo $SESCC[5];?></td>
+    <td><?php echo $SESCC[6];?></td>
   </tr>
 </table>
 <table class="default">
@@ -169,5 +186,6 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td>Celda 6</td>
 
   </tr>
-
 </table>
+</body>
+</html>
