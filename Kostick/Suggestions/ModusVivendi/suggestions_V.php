@@ -1,5 +1,5 @@
 <?php
-class Suggestions_V implements ISuggestions{
+class Suggestions_V{
     function highPositive(){
         $text = "Tiene mucha energía para actividades 
         físicas. Comúnmente es un individuo 

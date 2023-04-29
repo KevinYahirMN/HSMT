@@ -1,5 +1,5 @@
 <?php
-class Suggestions_F implements ISuggestions{
+class Suggestions_F{
     function highPositive(){
         $text = "Es un hombre bueno, leal, de 
         compañía. Es sensible a cómo se siente 

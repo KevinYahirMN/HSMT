@@ -1,5 +1,7 @@
 <?php
-
+include('Suggestions/DAAsuggestions.php');
+include('Suggestions/DVsuggestions.php');
+include('Suggestions/SESsuggestions.php');
 
 class CollectorSuggestions{
     function DAA($c){

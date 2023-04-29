@@ -1,5 +1,5 @@
 <?php
-class Suggestions_X implements ISuggestions{
+class Suggestions_X{
     function highPositive(){
         $text = "Tiene orgullo de sí mismo y de su 
         estilo. Puede ser efectivo en grupos 

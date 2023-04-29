@@ -1,5 +1,5 @@
 <?php
-class Suggestions_T implements ISuggestions{
+class Suggestions_T{
     function highPositive(){
         $text = "Trabaja aprisa y logra bastante. Está 
         preparado internamente para la alta 

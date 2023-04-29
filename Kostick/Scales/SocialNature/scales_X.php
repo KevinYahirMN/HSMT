@@ -1,5 +1,6 @@
 <?php
-class scale_X implements Iscales{
+include('../scaleCount.php');
+class scale_X{
     function scale($answer){
         $scaleCount = new scaleCount();
         $c = 0;

@@ -1,5 +1,5 @@
 <?php
-class Suggestions_N implements ISuggestions{
+class Suggestions_N{
     function highPositive(){
         $text = "La puntuación de N alta 
         representa el fuerte deseo del examinado 

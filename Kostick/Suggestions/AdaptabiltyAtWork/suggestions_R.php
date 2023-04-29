@@ -1,5 +1,5 @@
 <?php
-class Suggestions_R implements ISuggestions{
+class Suggestions_R{
     function highPositive(){
         $text = "Es un planeador a largo plazo. Esta 
         interesado en teoría y se refleja en su 

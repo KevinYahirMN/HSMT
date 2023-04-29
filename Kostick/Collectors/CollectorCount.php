@@ -1,5 +1,7 @@
 <?php
-
+include('Count/DAAcount.php');
+include('Count/DVcount.php');
+include('Count/SEScount.php');
 
 class CollectorCount{
     function DAA($answer){

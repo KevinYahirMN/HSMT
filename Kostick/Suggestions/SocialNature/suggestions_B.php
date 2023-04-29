@@ -1,5 +1,5 @@
 <?php
-class Suggestions_B implements ISuggestions{
+class Suggestions_B{
     function highPositive(){
         $text = "Esta bien consciente de las actividades 
         del grupo. Tiene interés en cómo se 

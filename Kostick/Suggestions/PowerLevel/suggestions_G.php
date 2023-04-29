@@ -1,5 +1,5 @@
 <?php
-class Suggestions_G implements ISuggestions{
+class Suggestions_G{
     function highPositive(){
         $text = "Se identifica con el trabajo 
         arduo comúnmente aparece como un 
