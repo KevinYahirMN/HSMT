@@ -17,11 +17,11 @@ $collectorCount = new CollectorCount();
 $collectorSuggestions = new CollectorSuggestions();
 
 $DAACC = $collectorCount->DAA($temp);
-$DAACS = $collectorSuggestions->DAA($x);
+$DAACS = $collectorSuggestions->DAA($DAACC);
 $DAVCC = $collectorCount->DV($temp);
-$DAVCS = $collectorSuggestions->DV($x);
+$DAVCS = $collectorSuggestions->DV($DAVCC);
 $SESCC = $collectorCount->SES($temp);
-$SESCS = $collectorSuggestions->SES($x);
+$SESCS = $collectorSuggestions->SES($SESCC);
 ?>
 <tbody>
 
