@@ -1,9 +1,9 @@
 <?php
-include('../../Scales/ModusVivendi/scale_T.php');
-include('../../Scales/ModusVivendi/scale_V.php');
-include('../../Scales/PowerLevel/scale_A.php');
-include('../../Scales/PowerLevel/scale_G.php');
-include('../../Scales/PowerLevel/scale_N.php');
+include('../Scales/ModusVivendi/scale_T.php');
+include('../Scales/ModusVivendi/scale_V.php');
+include('../Scales/PowerLevel/scale_A.php');
+include('../Scales/PowerLevel/scale_G.php');
+include('../Scales/PowerLevel/scale_N.php');
 class DVcount{
     function collect($answer){
         $c = array();

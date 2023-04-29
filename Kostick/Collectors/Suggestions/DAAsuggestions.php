@@ -1,12 +1,12 @@
 <?php
-include('../../Suggestions/Leadership/suggestions_L.php');
-include('../../Suggestions/Leadership/suggestions_P.php');
-include('../../Suggestions/Leadership/suggestions_I.php');
-include('../../Suggestions/AdaptabiltyAtWork/suggestions_C.php');
-include('../../Suggestions/AdaptabiltyAtWork/suggestions_D.php');
-include('../../Suggestions/AdaptabiltyAtWork/suggestions_R.php');
-include('../../Suggestions/Subordination/suggestions_F.php');
-include('../../Suggestions/Subordination/suggestions_W.php');
+include('../Suggestions/Leadership/suggestions_L.php');
+include('../Suggestions/Leadership/suggestions_P.php');
+include('../Suggestions/Leadership/suggestions_I.php');
+include('../Suggestions/AdaptabiltyAtWork/suggestions_C.php');
+include('../Suggestions/AdaptabiltyAtWork/suggestions_D.php');
+include('../Suggestions/AdaptabiltyAtWork/suggestions_R.php');
+include('../Suggestions/Subordination/suggestions_F.php');
+include('../Suggestions/Subordination/suggestions_W.php');
 class DAAsuggestions{
     function collect($c){
         $suggestions = array();

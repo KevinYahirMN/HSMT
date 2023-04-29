@@ -1,9 +1,9 @@
 <?php
-include('../../Suggestions/ModusVivendi/suggestions_T.php');
-include('../../Suggestions/ModusVivendi/suggestions_V.php');
-include('../../Suggestions/PowerLevel/suggestions_A.php');
-include('../../Suggestions/PowerLevel/suggestions_G.php');
-include('../../Suggestions/PowerLevel/suggestions_N.php');
+include('../Suggestions/ModusVivendi/suggestions_T.php');
+include('../Suggestions/ModusVivendi/suggestions_V.php');
+include('../Suggestions/PowerLevel/suggestions_A.php');
+include('../Suggestions/PowerLevel/suggestions_G.php');
+include('../Suggestions/PowerLevel/suggestions_N.php');
 class DVsuggestions{
     function collect($answer){
         $c = array();

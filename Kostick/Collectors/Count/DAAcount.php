@@ -1,12 +1,12 @@
 <?php
-include('../../Scales/Leadership/scale_L.php');
-include('../../Scales/Leadership/scale_P.php');
-include('../../Scales/Leadership/scale_I.php');
-include('../../Scales/AdaptabilityAtWork/scale_C.php');
-include('../../Scales/AdaptabilityAtWork/scale_D.php');
-include('../../Scales/AdaptabilityAtWork/scale_R.php');
-include('../../Scales/Subordination/scale_F.php');
-include('../../Scales/Subordination/scale_W.php');
+include('../Scales/Leadership/scale_L.php');
+include('../Scales/Leadership/scale_P.php');
+include('../Scales/Leadership/scale_I.php');
+include('../Scales/AdaptabilityAtWork/scale_C.php');
+include('../Scales/AdaptabilityAtWork/scale_D.php');
+include('../Scales/AdaptabilityAtWork/scale_R.php');
+include('../Scales/Subordination/scale_F.php');
+include('../Scales/Subordination/scale_W.php');
 class DAAcount{
     
     function collect($answer){
