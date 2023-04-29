@@ -8,6 +8,7 @@ include('../../Scales/AdaptabilityAtWork/scale_R.php');
 include('../../Scales/Subordination/scale_F.php');
 include('../../Scales/Subordination/scale_W.php');
 class DAAcount{
+    
     function collect($answer){
         $c = array();
         
