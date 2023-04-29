@@ -4,7 +4,7 @@ $c = $_SESSION["counter"];
 $p = $_SESSION["pointer"];
 $temp = $_SESSION["answer"];
 
-if($p == 23){
+if($p == 45){
 	$p++;
 	$c++;
 	$get = $_POST["Q"];
@@ -13,9 +13,9 @@ if($p == 23){
 	$_SESSION["counter"] = $c;
 	$_SESSION["answer"] = $temp;
 }else{	
-	if($c == 23){
+	if($c == 45){
 		$get = $_POST["Q"];
-		$temp[23] = $get;
+		$temp[45] = $get;
 		$_SESSION["answer"] = $temp;
 		$c++;
 	}else{

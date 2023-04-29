@@ -4,7 +4,7 @@ $c = $_SESSION["counter"];
 $p = $_SESSION["pointer"];
 $temp = $_SESSION["answer"];
 
-if($p == 23){
+if($p == 88){
 	$p++;
 	$c++;
 	$get = $_POST["Q"];
@@ -13,9 +13,9 @@ if($p == 23){
 	$_SESSION["counter"] = $c;
 	$_SESSION["answer"] = $temp;
 }else{	
-	if($c == 23){
+	if($c == 88){
 		$get = $_POST["Q"];
-		$temp[23] = $get;
+		$temp[88] = $get;
 		$_SESSION["answer"] = $temp;
 		$c++;
 	}else{
@@ -77,7 +77,7 @@ if($p == 23){
 			</div>
 			<div class="card-body">
 
-			<form method="post" action="Form_.php">
+			<form method="post" action="../Print/print.php">
 					<!--section 90-->            
 					<input type="radio" value="A" name="Q" onclick="enable()">
 					<label><B>A) Me gusta que me digan lo que tengo que hacer.</B></label><br>
