@@ -1,5 +1,5 @@
 <?php
-
+include("ICollector.php");
 class CollectorSuggestions implements ICollector{
     function DAA($c){
         $daa = new DAAsuggestions;

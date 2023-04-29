@@ -1,6 +1,7 @@
 <?php
-include("CollectorCount.php");
-include("CollectorSuggestions.php");
+include("../Collectors/CollectorCount.php");
+include("../Collectors/CollectorSuggestions.php");
+include("../Collectors/ICollector.php");
 
 session_start();
 $temp = $_SESSION["answer"];

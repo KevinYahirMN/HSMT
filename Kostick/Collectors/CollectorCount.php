@@ -1,5 +1,5 @@
 <?php
-
+include("ICollector.php");
 class CollectorCount implements ICollector{
     function DAA($answer){
         $daa = new DAAcount;
