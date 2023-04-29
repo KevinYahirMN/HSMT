@@ -1,4 +1,12 @@
 <?php
+include('../../Scales/Emotionality/scale_E.php');
+include('../../Scales/Emotionality/scale_K.php');
+include('../../Scales/Emotionality/scale_Z.php');
+include('../../Scales/SocialNature/scale_X.php');
+include('../../Scales/SocialNature/scale_S.php');
+include('../../Scales/SocialNature/scale_B.php');
+include('../../Scales/SocialNature/scale_O.php');
+
 class SEScount{
     function collect($answer){
         $c = array();

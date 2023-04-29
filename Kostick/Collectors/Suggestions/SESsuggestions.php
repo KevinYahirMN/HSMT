@@ -1,4 +1,11 @@
 <?php
+include('../../Suggestions/Emotionality/suggestions_E.php');
+include('../../Suggestions/Emotionality/suggestions_K.php');
+include('../../Suggestions/Emotionality/suggestions_Z.php');
+include('../../Suggestions/SocialNature/suggestions_X.php');
+include('../../Suggestions/SocialNature/suggestions_S.php');
+include('../../Suggestions/SocialNature/suggestions_B.php');
+include('../../Suggestions/SocialNature/suggestions_O.php');
 class SESsuggestions{
     function collect($answer){
         $c = array();
