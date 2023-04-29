@@ -1,6 +1,7 @@
 <?php
-include("ICollector.php");
-class CollectorSuggestions implements ICollector{
+
+
+class CollectorSuggestions{
     function DAA($c){
         $daa = new DAAsuggestions;
         $suggestions = $daa->collect($c);
