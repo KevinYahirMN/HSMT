@@ -8,14 +8,14 @@ class CollectorCount implements ICollector{
     }
 
     function DV($answer){
-        $daa = new DVcount;
-        $c = $daa->collect($answer);
+        $dv = new DVcount;
+        $c = $dv->collect($answer);
         return $c;
     }
 
     function SES($answer){
-        $daa = new SEScount;
-        $c = $daa->collect($answer);
+        $ses = new SEScount;
+        $c = $ses->collect($answer);
         return $c;
     }
 }

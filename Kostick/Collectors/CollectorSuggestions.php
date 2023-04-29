@@ -8,14 +8,14 @@ class CollectorSuggestions implements ICollector{
     }
 
     function DV($c){
-        $daa = new DVsuggestions;
-        $suggestions = $daa->collect($c);
+        $dv = new DVsuggestions;
+        $suggestions = $dv->collect($c);
         return $suggestions;
     }
 
     function SES($c){
-        $daa = new SESsuggestions;
-        $suggestions = $daa->collect($c);
+        $ses = new SESsuggestions;
+        $suggestions = $ses->collect($c);
         return $suggestions;
     }
 }
