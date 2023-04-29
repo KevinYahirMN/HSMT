@@ -1,4 +1,4 @@
-.table > tbody > tr:hover {
-    background-color: #F2F2F2;
-    cursor: pointer;
-  }
+th { text-align: center; }
+td { text-align: center; }
+caption { font-family: 'Rock Salt'; padding: 20px; 
+    caption-side: top; color: #000000; text-align: center; letter-spacing: 1px; }

@@ -26,165 +26,155 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 ?>
 
 <html>
-	<head>
-	</head>
+<link href='Tablas.css' rel='stylesheet' type='text/css'>
 	<body>
-		<table border="1">
-		<caption>Titulo de la tabla</caption>
-		<tr>
-			<th>Col.Cab.1</th>
-			<th>Col.Cab.2</th>
-		</tr>
-		<tr>
-			<td>Celda 1</td>
-			<td>Celda 2</td>
-		</tr>
-		</table>
-    
-  <table border="1">
+  <table border="1" align="center">
+  <caption>DOMINIO-APEGO-ADAPTACIÓN</caption>
   <tr>
     <th>CATEGORIA</th>
-    <td>LIDERAZGO</td>
-    <td></td>
-    <td></td>
-    <td>SUBORDINACIÓN</td>
-    <td></td>
-    <td>ADAPTACIÓN AL TRABAJO</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <th>NOMBRE</th>
-    <td>ACTV. DE LIDER</td>
-    <td>CONTROL OTROS</td>
-    <td>TOMA DECISION</td>
-    <td>APOYO SUPERVISION</td>
-    <td>APEGO REGLAS</td>
-    <td>ORGANIZADO</td>  
-    <td>TRAB. DETALLES</td>
-    <td>TEORICO</td>
-  </tr>
-  <tr>
     <th>CLAVE</th>
-    <td>L</td>
-    <td>P</td>
-    <td>I</td>
-    <td>F</td>
-    <td>W</td>
-    <td>C</td>
-    <td>D</td>
-    <td>R</td>
+    <th>PUNTUACIÓN</th>
   </tr>
   <tr>
-    <th>PUNTUACIÓN</th>
+    <td>LIDERAZGO</td>
+    <td>ACTV. DE LIDER</td>
+    <td>L</td>
     <td><?php echo $DAACC[0];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>CONTROL OTROS</td>
+    <td>P</td>
     <td><?php echo $DAACC[1];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>TOMA DECISION</td>
+    <td>I</td>
     <td><?php echo $DAACC[2];?></td>
+  </tr>
+  <tr>
+    <td>SUBORDINACION</td>
+    <td>APOYO SUPERVISION</td>
+    <td>F</td>
     <td><?php echo $DAACC[3];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>APEGO REGLAS</td>
+    <td>W</td>
     <td><?php echo $DAACC[4];?></td>
+  </tr>
+  <tr>
+    <td>ADAPTACION AL TRABAJO</td>
+    <td>ORGANIZADO</td>
+    <td>C</td>
     <td><?php echo $DAACC[5];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>TRAB DETALLES</td>
+    <td>D</td>
     <td><?php echo $DAACC[6];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>TEORICO</td>
+    <td>R</td>
     <td><?php echo $DAACC[7];?></td>
   </tr>
 </table>
 
-<table border="1">
+<table border="1" align="center">
+  <caption>DINAMISMO-VIGOROSIDAD</caption>
   <tr>
     <th>CATEGORIA</th>
-    <td>MODO DE VIDA</td>
-    <td></td>
-    <td>GRADO DE ENERGIA</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <th>NOMBRE</th>
-    <td>ACTIVO</td>
-    <td>VIGOROSO</td>
-    <td>TERMINA TAREAS</td>
-    <td>ACTIVIDAD INTENSA</td>
-    <td>LOGROS</td>
-  </tr>
-  <tr>
     <th>CLAVE</th>
-    <td>T</td>
-    <td>V</td>
-    <td>N</td>
-    <td>G</td>
-    <td>A</td>
+    <th>PUNTUACIÓN</th>
   </tr>
   <tr>
-    <th>PUNTUACIÓN</th>
+    <td>MODO DE VIDA</td>
+    <td>ACTIVO</td>
+    <td>T</td>
     <td><?php echo $DVCC[0];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>VIGOROSO</td>
+    <td>V</td>
     <td><?php echo $DVCC[1];?></td>
+  </tr>
+  <tr>
+    <td>GRADO DE ENERGIA</td>
+    <td>TERMINA TAREAS</td>
+    <td>N</td>
     <td><?php echo $DVCC[2];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>ACTV. INTENSA</td>
+    <td>G</td>
     <td><?php echo $DVCC[3];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>LOGROS</td>
+    <td>A</td>
     <td><?php echo $DVCC[4];?></td>
   </tr>
 </table>
 
-<table border="1">
+<table border="1" align="center">
+<caption>ESTABILIDAD SOCIO-EMOCIONAL</caption>
   <tr>
     <th>CATEGORIA</th>
-    <td>NATURALEZA SOCIAL</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>NATURALEZA EMOCIONAL</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
     <th>NOMBRE</th>
-    <td>SER NOTIFICADO</td>
-    <td>APERTURADA SOCIAL</td>
-    <td>AFILIATIVO</td>
-    <td>AFECTO</td>
-    <td>PASIVO</td>  
-    <td>RESTRINGIDO</td>
-    <td>RESISTENTE</td>
-  </tr>
-  <tr>
     <th>CLAVE</th>
-    <td>X</td>
-    <td>S</td>
-    <td>B</td>
-    <td>O</td>
-    <td>K</td>
-    <td>E</td>
-    <td>Z</td>
-  </tr>
-  <tr>
     <th>PUNTUACIÓN</th>
+  </tr>
+  <tr>
+    <td>NATURALEZA SOCIAL</td>
+    <td>SER NOTIFICADO</td>
+    <td>X</td>
     <td><?php echo $SESCC[0];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>APERTURA SOCIAL</td>
+    <td>S</td>
     <td><?php echo $SESCC[1];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>AFILIATIVO</td>
+    <td>B</td>
     <td><?php echo $SESCC[2];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>AFECTO</td>
+    <td>O</td>
     <td><?php echo $SESCC[3];?></td>
+  </tr>
+  <tr>
+    <td>NATURALEZA EMOCIONAL</td>
+    <td>PASIVO/AGRESIVO</td>
+    <td>K</td>
     <td><?php echo $SESCC[4];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>RESTRINGIDO</td>
+    <td>E</td>
     <td><?php echo $SESCC[5];?></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>RESISTENTE/CAMBIO</td>
+    <td>Z</td>
     <td><?php echo $SESCC[6];?></td>
-  </tr>
-</table>
-<table class="default">
-
-  <tr>
-
-    <td>Celda 1</td>
-
-    <td>Celda 2</td>
-
-    <td>Celda 3</td>
-
-  </tr>
-
-  <tr>
-
-    <td>Celda 4</td>
-
-    <td>Celda 5</td>
-
-    <td>Celda 6</td>
-
   </tr>
 </table>
 </body>
