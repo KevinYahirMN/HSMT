@@ -3,6 +3,8 @@ include("../Collectors/CollectorCount.php");
 include("../Collectors/CollectorSuggestions.php");
 include("../Collectors/ICollector.php");
 
+$answer = array();
+
 for($i = 0; $i < 90; $i++){
     if($i%2 == 0){
         array_push($answer, 'A');

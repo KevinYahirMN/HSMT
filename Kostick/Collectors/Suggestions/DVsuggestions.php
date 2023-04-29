@@ -5,21 +5,21 @@ include('../Suggestions/PowerLevel/suggestions_A.php');
 include('../Suggestions/PowerLevel/suggestions_G.php');
 include('../Suggestions/PowerLevel/suggestions_N.php');
 class DVsuggestions{
-    function collect($answer){
-        $c = array();
+    function collect($c){
+        $suggestions = array();
         
         array_push($suggestions, $this->positive_T($c[0]));
-        array_push($suggestions, $this->negative_T($c[1]));
-        array_push($suggestions, $this->positive_V($c[2]));
-        array_push($suggestions, $this->negative_V($c[3]));
-        array_push($suggestions, $this->positive_N($c[4]));
-        array_push($suggestions, $this->negative_N($c[5]));
-        array_push($suggestions, $this->positive_G($c[6]));
-        array_push($suggestions, $this->negative_G($c[7]));
-        array_push($suggestions, $this->positive_A($c[8]));
-        array_push($suggestions, $this->negative_A($c[9]));
+        array_push($suggestions, $this->negative_T($c[0]));
+        array_push($suggestions, $this->positive_V($c[1]));
+        array_push($suggestions, $this->negative_V($c[1]));
+        array_push($suggestions, $this->positive_N($c[2]));
+        array_push($suggestions, $this->negative_N($c[2]));
+        array_push($suggestions, $this->positive_G($c[3]));
+        array_push($suggestions, $this->negative_G($c[3]));
+        array_push($suggestions, $this->positive_A($c[4]));
+        array_push($suggestions, $this->negative_A($c[4]));
         
-        return $c;
+        return $suggestions;
     }
 
     private function positive_T($c){

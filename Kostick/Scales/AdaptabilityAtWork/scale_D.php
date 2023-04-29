@@ -1,5 +1,5 @@
 <?php
-include('../scaleCount.php');
+include_once('../scaleCount/scaleCount.php');
 class scale_D{
     function scale($answer){
         $scaleCount = new scaleCount();

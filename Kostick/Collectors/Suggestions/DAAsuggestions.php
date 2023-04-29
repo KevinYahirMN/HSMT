@@ -12,21 +12,21 @@ class DAAsuggestions{
         $suggestions = array();
         
         array_push($suggestions, $this->positive_L($c[0]));
-        array_push($suggestions, $this->negative_L($c[1]));
-        array_push($suggestions, $this->positive_P($c[2]));
-        array_push($suggestions, $this->negative_P($c[3]));
-        array_push($suggestions, $this->positive_I($c[4]));
-        array_push($suggestions, $this->negative_I($c[5]));
-        array_push($suggestions, $this->positive_F($c[6]));
-        array_push($suggestions, $this->negative_F($c[7]));
-        array_push($suggestions, $this->positive_W($c[8]));
-        array_push($suggestions, $this->negative_W($c[9]));
-        array_push($suggestions, $this->positive_C($c[10]));
-        array_push($suggestions, $this->negative_C($c[11]));
-        array_push($suggestions, $this->positive_D($c[12]));
-        array_push($suggestions, $this->negative_D($c[13]));
-        array_push($suggestions, $this->positive_R($c[14]));
-        array_push($suggestions, $this->negative_R($c[15]));
+        array_push($suggestions, $this->negative_L($c[0]));
+        array_push($suggestions, $this->positive_P($c[1]));
+        array_push($suggestions, $this->negative_P($c[1]));
+        array_push($suggestions, $this->positive_I($c[2]));
+        array_push($suggestions, $this->negative_I($c[2]));
+        array_push($suggestions, $this->positive_F($c[3]));
+        array_push($suggestions, $this->negative_F($c[3]));
+        array_push($suggestions, $this->positive_W($c[4]));
+        array_push($suggestions, $this->negative_W($c[4]));
+        array_push($suggestions, $this->positive_C($c[5]));
+        array_push($suggestions, $this->negative_C($c[5]));
+        array_push($suggestions, $this->positive_D($c[6]));
+        array_push($suggestions, $this->negative_D($c[6]));
+        array_push($suggestions, $this->positive_R($c[7]));
+        array_push($suggestions, $this->negative_R($c[7]));
         
         return $suggestions;
     }
