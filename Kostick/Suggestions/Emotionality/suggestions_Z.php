@@ -1,5 +1,5 @@
 <?php
-include('../Interfaces/ISuggestions.php');
+include_once('../Interfaces/ISuggestions.php');
 class Suggestions_Z implements ISuggestions{
     function highPositive(){
         $text = "Es abierto a nuevas ideas y entusiasta 

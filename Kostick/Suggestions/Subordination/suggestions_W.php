@@ -1,5 +1,5 @@
 <?php
-include('../Interfaces/ISuggestions.php');
+include_once('../Interfaces/ISuggestions.php');
 class Suggestions_W implements ISuggestions{
     function highPositive(){
         $text = "Es una persona que tiene gran respeto 

@@ -1,5 +1,5 @@
 <?php
-include('../Interfaces/ISuggestions.php');
+include_once('../Interfaces/ISuggestions.php');
 class Suggestions_V implements ISuggestions{
     function highPositive(){
         $text = "Tiene mucha energía para actividades 

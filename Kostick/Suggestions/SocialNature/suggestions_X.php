@@ -1,5 +1,5 @@
 <?php
-include('../Interfaces/ISuggestions.php');
+include_once('../Interfaces/ISuggestions.php');
 class Suggestions_X implements ISuggestions{
     function highPositive(){
         $text = "Tiene orgullo de sí mismo y de su 
