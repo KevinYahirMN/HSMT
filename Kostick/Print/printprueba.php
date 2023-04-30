@@ -497,6 +497,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
                 },
             }
         });
+        
     </script>
 </body>
 <head>
