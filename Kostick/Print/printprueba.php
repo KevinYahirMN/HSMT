@@ -173,14 +173,14 @@ $SESCS = $collectorSuggestions->SES($SESCC);
   <table border="1" align="center">
   <div class="col-md-12 text-center text-success"><h3><i class="fa fa-handshake-o"></i> DOMINIO-APEGO-ADAPTACIÓN</h3></div>
   <tr>
-    <th>CATEGORIA</th>
+    <th>CATEGORÍA</th>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>PUNTUACIÓN</th>
   </tr>
   <tr>
     <td>LIDERAZGO</td>
-    <td>ACTV. DE LIDER</td>
+    <td>ACTV. DE LÍDER</td>
     <td>L</td>
     <td><?php echo $DAACC[0];?></td>
   </tr>
@@ -192,13 +192,13 @@ $SESCS = $collectorSuggestions->SES($SESCC);
   </tr>
   <tr>
     <td></td>
-    <td>TOMA DECISION</td>
+    <td>TOMA DECISIÓN</td>
     <td>I</td>
     <td><?php echo $DAACC[2];?></td>
   </tr>
   <tr>
-    <td>SUBORDINACION</td>
-    <td>APOYO SUPERVISION</td>
+    <td>SUBORDINACIÓN</td>
+    <td>APOYO SUPERVISIÓN</td>
     <td>F</td>
     <td><?php echo $DAACC[3];?></td>
   </tr>
@@ -209,7 +209,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DAACC[4];?></td>
   </tr>
   <tr>
-    <td>ADAPTACION AL TRABAJO</td>
+    <td>ADAPTACIÓN AL TRABAJO</td>
     <td>ORGANIZADO</td>
     <td>C</td>
     <td><?php echo $DAACC[5];?></td>
@@ -222,7 +222,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
   </tr>
   <tr>
     <td></td>
-    <td>TEORICO</td>
+    <td>TEÓRICO</td>
     <td>R</td>
     <td><?php echo $DAACC[7];?></td>
   </tr>
@@ -231,7 +231,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 <table border="1" align="center">
 <div class="col-md-12 text-center text-success"><h3><i class="fa fa-users"></i> DINAMISMO-VIGOROSIDAD</h3></div>
   <tr>
-    <th>CATEGORIA</th>
+    <th>CATEGORÍA</th>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>PUNTUACIÓN</th>
@@ -249,7 +249,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DVCC[1];?></td>
   </tr>
   <tr>
-    <td>GRADO DE ENERGIA</td>
+    <td>GRADO DE ENERGÍA</td>
     <td>TERMINA TAREAS</td>
     <td>N</td>
     <td><?php echo $DVCC[2];?></td>
@@ -271,7 +271,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 <table border="1" align="center">
 <div class="col-md-12 text-center text-success"><h3><i class="fa fa-smile-o"></i> ESTABILIDAD SOCIO-EMOCIONAL</h3></div>
   <tr>
-    <th>CATEGORIA</th>
+    <th>CATEGORÍA</th>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>PUNTUACIÓN</th>
@@ -329,7 +329,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <th>INTERPRETACIÓN NEGATIVA</th>
   </tr>
   <tr>
-    <td>ACTV. DE LIDER</td>
+    <td>ACTV. DE LÍDER</td>
     <td>L</td>
     <td><?php echo $DAACS[0];?></td>
     <td><?php echo $DAACS[1];?></td>
@@ -341,7 +341,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DAACS[3];?></td>
   </tr>
   <tr>
-    <td>TOMA DECISION</td>
+    <td>TOMA DECISIÓN</td>
     <td>I</td>
     <td><?php echo $DAACS[4];?></td>
     <td><?php echo $DAACS[5];?></td>
@@ -349,7 +349,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </table>
 <hr>
 <table border="1" align="center"  style="width:65%">
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-hand-pointer-o"></i> SUBORDINACION</h3></div>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-hand-pointer-o"></i> SUBORDINACIÓN</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -357,7 +357,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <th>INTERPRETACIÓN NEGATIVA</th>
   </tr>
   <tr>
-    <td>APOYO SUPERVISION</td>
+    <td>APOYO SUPERVISIÓN</td>
     <td>F</td>
     <td><?php echo $DAACS[6];?></td>
     <td><?php echo $DAACS[7];?></td>
@@ -391,7 +391,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DAACS[13];?></td>
   </tr>
   <tr>
-    <td>TEORICO</td>
+    <td>TEÓRICO</td>
     <td>R</td>
     <td><?php echo $DAACS[14];?></td>
     <td><?php echo $DAACS[15];?></td>
@@ -422,7 +422,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </table>
 <hr>
 <table border="1" align="center"  style="width:65%">
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i> GRADO DE ENERGIA</h3></div>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i> GRADO DE ENERGÍA</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -525,7 +525,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <link rel="stylesheet" href="Print.css">
 </head>
 <body>
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-handshake-o"></i>GRAFICA DE DOMINIO-APEGO-ADAPTACIÓN </h3></div>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-handshake-o"></i>GRÁFICA DE DOMINIO-APEGO-ADAPTACIÓN </h3></div>
 <canvas id="grafica"></canvas>
     <script type="text/javascript">
         const $grafica = document.querySelector("#grafica");
@@ -558,7 +558,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <hr>
 </body>
 <body>
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-smile-o"></i>GRAFICA DE DINAMISMO-VIGOROSIDAD</h3></div>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-smile-o"></i>GRÁFICA DE DINAMISMO-VIGOROSIDAD</h3></div>
 <canvas id="grafica2"></canvas>
     <script type="text/javascript">
         const $grafica2 = document.querySelector("#grafica2");
