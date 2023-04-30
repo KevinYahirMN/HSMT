@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 $c = $_SESSION["counter"];
 $p = $_SESSION["pointer"];
 $temp = $_SESSION["answer"];
@@ -77,7 +78,7 @@ if($p == 88){
 			</div>
 			<div class="card-body">
 
-			<form method="post" action="../Print/print.php">
+			<form method="post" action="../Print/printprueba.php">
 					<!--section 90-->            
 					<input type="radio" value="A" name="Q" onclick="enable()">
 					<label><B>A) Me gusta que me digan lo que tengo que hacer.</B></label><br>

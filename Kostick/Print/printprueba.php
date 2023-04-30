@@ -1,7 +1,7 @@
 <?php
+session_start();
 include("../Collectors/CollectorCount.php");
 include("../Collectors/CollectorSuggestions.php");
-
 $answer = array();
 
 for($i = 0; $i < 90; $i++){
@@ -13,10 +13,8 @@ for($i = 0; $i < 90; $i++){
 }
 
 $temp = $answer;
-
 $collectorCount = new CollectorCount();
 $collectorSuggestions = new CollectorSuggestions();
-
 $DAACC = $collectorCount->DAA($temp);
 $DAACS = $collectorSuggestions->DAA($DAACC);
 $DVCC = $collectorCount->DV($temp);
@@ -25,20 +23,164 @@ $SESCC = $collectorCount->SES($temp);
 $SESCS = $collectorSuggestions->SES($SESCC);
 ?>
 
-<html>
-<link href='Table.css' rel='stylesheet' type='text/css'>
-	<body>
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="ITT residencia">
+	<link rel="icon" href="../Forms/media/ico.ico">
+	<link rel="stylesheet" href="../Forms/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../Forms/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../Forms/css/style.css">
+  <link href='Table.css' rel='stylesheet' type='text/css'>
+	<title>Resultados</title>
+	<style>
+		.btn-group.respuestas {
+			margin: 0 auto;
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+		.btn-group.respuestas .btn {
+			min-width: 100px;
+		}
+		.banterior:hover{
+			cursor:pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header class="blog-header py-3">
+			<div class="row flex-nowrap justify-content-between align-items-center">
+				<div class="col-4 pt-1">
+				</div>
+				<div class="col-4 text-center">
+					<img src="../Forms/media/logo-big.png" class="img-fluid" style="max-height: 150px;">
+				</div>
+				<div class="col-4 d-flex justify-content-end align-items-center">
+        <a href="../Forms/registro.php" id="exit_Button" onclick="return exit_Form()" class="btn btn-danger"><i id="exit_Button2" class="fa fa-power-off"></i> </a>
+				</div>
+			</div>
+		</header>
+		<div class="card">
+			<div class="card-header text-center">
+				<h4>
+					<span class="badge badge-success">
+						Interpretación de resultados
+					</span>
+				</h4>
+			</div>
+			<div class="card-body">
+			<div class="col-md-12 text-center text-success"><h3><i class="fa fa-address-book-o"></i> Información personal</h3></div>
+			<center><div class="col-lg-8">
+        <div class="card mb-4">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Nombres: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['name1']?> </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Apellido paterno: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['name2']?> </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Apellido materno: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['name3']?> </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Sexo: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['gender']?> </p>
+              </div>
+            </div>
+            <hr>
+			<div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Dirección: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['inputAddress']?> </p>
+              </div>
+            </div>
+            <hr>
+			<div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Número de interior/exterior: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['interior']?> </p>
+              </div>
+            </div>
+            <hr>
+			<div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Ciudad: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['city']?></p>
+              </div>
+            </div>
+            <hr>
+			<div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Estado: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['inputState']?> </p>
+              </div>
+            </div>
+            <hr>
+			<div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Código postal: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['zip']?> </p>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-sm-3">
+                <p class="mb-0">Fecha de nacimiento: </p>
+              </div>
+              <div class="col-sm-9">
+                <p class="text-muted mb-0"><?php  echo $_SESSION['bday']?> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+	</center>
+	<hr>
   <table border="1" align="center">
-  <caption>DOMINIO-APEGO-ADAPTACIÓN</caption>
+  <div class="col-md-12 text-center text-success"><h3><i class="fa fa-handshake-o"></i> DOMINIO-APEGO-ADAPTACIÓN</h3></div>
   <tr>
-    <th>CATEGORIA</th>
+    <th>CATEGORÍA</th>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>PUNTUACIÓN</th>
   </tr>
   <tr>
     <td>LIDERAZGO</td>
-    <td>ACTV. DE LIDER</td>
+    <td>ACTV. DE LÍDER</td>
     <td>L</td>
     <td><?php echo $DAACC[0];?></td>
   </tr>
@@ -50,13 +192,13 @@ $SESCS = $collectorSuggestions->SES($SESCC);
   </tr>
   <tr>
     <td></td>
-    <td>TOMA DECISION</td>
+    <td>TOMA DECISIÓN</td>
     <td>I</td>
     <td><?php echo $DAACC[2];?></td>
   </tr>
   <tr>
-    <td>SUBORDINACION</td>
-    <td>APOYO SUPERVISION</td>
+    <td>SUBORDINACIÓN</td>
+    <td>APOYO SUPERVISIÓN</td>
     <td>F</td>
     <td><?php echo $DAACC[3];?></td>
   </tr>
@@ -67,7 +209,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DAACC[4];?></td>
   </tr>
   <tr>
-    <td>ADAPTACION AL TRABAJO</td>
+    <td>ADAPTACIÓN AL TRABAJO</td>
     <td>ORGANIZADO</td>
     <td>C</td>
     <td><?php echo $DAACC[5];?></td>
@@ -80,16 +222,16 @@ $SESCS = $collectorSuggestions->SES($SESCC);
   </tr>
   <tr>
     <td></td>
-    <td>TEORICO</td>
+    <td>TEÓRICO</td>
     <td>R</td>
     <td><?php echo $DAACC[7];?></td>
   </tr>
 </table>
-
+<hr>
 <table border="1" align="center">
-  <caption>DINAMISMO-VIGOROSIDAD</caption>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-users"></i> DINAMISMO-VIGOROSIDAD</h3></div>
   <tr>
-    <th>CATEGORIA</th>
+    <th>CATEGORÍA</th>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>PUNTUACIÓN</th>
@@ -107,7 +249,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DVCC[1];?></td>
   </tr>
   <tr>
-    <td>GRADO DE ENERGIA</td>
+    <td>GRADO DE ENERGÍA</td>
     <td>TERMINA TAREAS</td>
     <td>N</td>
     <td><?php echo $DVCC[2];?></td>
@@ -125,11 +267,11 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DVCC[4];?></td>
   </tr>
 </table>
-
+<hr>
 <table border="1" align="center">
-<caption>ESTABILIDAD SOCIO-EMOCIONAL</caption>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-smile-o"></i> ESTABILIDAD SOCIO-EMOCIONAL</h3></div>
   <tr>
-    <th>CATEGORIA</th>
+    <th>CATEGORÍA</th>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>PUNTUACIÓN</th>
@@ -177,15 +319,9 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $SESCC[6];?></td>
   </tr>
 </table>
-</body>
-</html>
-
-<html>
-<link href='Table.css' rel='stylesheet' type='text/css'>
-	<body>
-
+<hr>
 <table border="1" align="center"  style="width:65%">
-<caption>LIDERAZGO</caption>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-universal-access"></i> LIDERAZGO</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -193,7 +329,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <th>INTERPRETACIÓN NEGATIVA</th>
   </tr>
   <tr>
-    <td>ACTV. DE LIDER</td>
+    <td>ACTV. DE LÍDER</td>
     <td>L</td>
     <td><?php echo $DAACS[0];?></td>
     <td><?php echo $DAACS[1];?></td>
@@ -205,15 +341,15 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DAACS[3];?></td>
   </tr>
   <tr>
-    <td>TOMA DECISION</td>
+    <td>TOMA DECISIÓN</td>
     <td>I</td>
     <td><?php echo $DAACS[4];?></td>
     <td><?php echo $DAACS[5];?></td>
   </tr>
 </table>
-
+<hr>
 <table border="1" align="center"  style="width:65%">
-<caption>SUBORDINACION</caption>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-hand-pointer-o"></i> SUBORDINACIÓN</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -221,7 +357,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <th>INTERPRETACIÓN NEGATIVA</th>
   </tr>
   <tr>
-    <td>APOYO SUPERVISION</td>
+    <td>APOYO SUPERVISIÓN</td>
     <td>F</td>
     <td><?php echo $DAACS[6];?></td>
     <td><?php echo $DAACS[7];?></td>
@@ -233,9 +369,9 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DAACS[9];?></td>
   </tr>
 </table>
-
+<hr>
 <table border="1" align="center"  style="width:65%">
-<caption>ADAPTACION TRAB.</caption>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-smile-o"></i>ADAPTACIÓN TRAB.</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -255,15 +391,16 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DAACS[13];?></td>
   </tr>
   <tr>
-    <td>TEORICO</td>
+    <td>TEÓRICO</td>
     <td>R</td>
     <td><?php echo $DAACS[14];?></td>
     <td><?php echo $DAACS[15];?></td>
   </tr>
 </table>
-
+<Hr>
 <table border="1" align="center"  style="width:65%">
-<caption>MODO DE VIDA</caption>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-bed"></i> MODO DE VIDA</h3></div>
+<hr>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -283,9 +420,9 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DVCS[3];?></td>
   </tr>
 </table>
-
+<hr>
 <table border="1" align="center"  style="width:65%">
-<caption>GRADO DE ENERGIA</caption>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i> GRADO DE ENERGÍA</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -311,9 +448,9 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DVCS[9];?></td>
   </tr>
 </table>
-
+<hr>
 <table border="1" align="center"  style="width:65%">
-<caption>NATURALEZA SOCIAL</caption>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-handshake-o"></i> NATURALEZA SOCIAL</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -345,9 +482,9 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $SESCS[7];?></td>
   </tr>
 </table>
-
+<hr>
 <table border="1" align="center"  style="width:65%">
-<caption>NATURALEZA EMOCIONAL</caption>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-frown-o"></i> NATURALEZA EMOCIONAL</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -379,9 +516,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $SESCS[7];?></td>
   </tr>
 </table>
-</body>
-</html>
-
+<hr>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -390,7 +525,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <link rel="stylesheet" href="Print.css">
 </head>
 <body>
-<h2>GRAFICA DE DOMINIO-APEGO-ADAPTACIÓN </h2>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-handshake-o"></i>GRÁFICA DE DOMINIO-APEGO-ADAPTACIÓN </h3></div>
 <canvas id="grafica"></canvas>
     <script type="text/javascript">
         const $grafica = document.querySelector("#grafica");
@@ -420,18 +555,10 @@ $SESCS = $collectorSuggestions->SES($SESCC);
             }
         });
     </script>
+    <hr>
 </body>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gráficas</title>
-    <script src="Chart.min.js"></script>
-    <link rel="stylesheet" href="Print.css">
-</head>
-
 <body>
-<h2>GRAFICA DE DINAMISMO-VIGOROSIDAD</h2>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-smile-o"></i>GRÁFICA DE DINAMISMO-VIGOROSIDAD</h3></div>
 <canvas id="grafica2"></canvas>
     <script type="text/javascript">
         const $grafica2 = document.querySelector("#grafica2");
@@ -461,14 +588,18 @@ $SESCS = $collectorSuggestions->SES($SESCC);
             }
         });
     </script>
-    <head>
+    <hr>
+    </body>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráficas</title>
     <script src="Chart.min.js"></script>
     <link rel="stylesheet" href="Print.css">
 </head>
-    <h2>ESTABILIDAD SOCIO-EMOCIONAL</h2>
+
+<body>
+<div class="col-md-12 text-center text-success"><h3><i class="fa fa-frown-o"></i>GRÁFICA DE ESTABILIDAD SOCIO-EMOCIONAL</h3></div>
 <canvas id="grafica3"></canvas>
     <script type="text/javascript">
         const $grafica3 = document.querySelector("#grafica3");
@@ -499,13 +630,31 @@ $SESCS = $collectorSuggestions->SES($SESCC);
         });
         
     </script>
+    <hr>
 </body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficas</title>
+    <script src="Chart.min.js"></script>
+    <link rel="stylesheet" href="Print.css">
+</head>
+<link rel="stylesheet" href="Print.css">
 <head>
     <link rel="stylesheet" href="Print.css">
-</head>                
+</head>          
 					  <br><br>
 					  <div class="text-center">
-						<button onclick="window.print();" id="print" class="print_Button">Imprimir</button>
+						<button style="background-color: #4CAF50; 
+            color: white; 
+            padding: 10px 20px; 
+            border: none;
+            font-size: 16px;
+            padding: 8px 20px;
+            border-radius: 4px; 
+            cursor: pointer;"
+            onclick="window.print();" id="print" class="print_Button">Imprimir</button>
 					  </div>
 				<br>
 			</div>
@@ -515,6 +664,9 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 		</div>
 	</div>
 </body>
+<script type="text/javascript" src="../Forms/js/function.js"></script>
+</html>
+
 <?php
 $_SESSION["answer"] = null;
 $_SESSION["answer"] = array();
