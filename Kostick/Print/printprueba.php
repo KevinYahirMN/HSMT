@@ -461,4 +461,61 @@ $SESCS = $collectorSuggestions->SES($SESCC);
             }
         });
     </script>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficas</title>
+    <script src="Chart.min.js"></script>
+    <link rel="stylesheet" href="Print.css">
+</head>
+    <h2>ESTABILIDAD SOCIO-EMOCIONAL</h2>
+<canvas id="grafica3"></canvas>
+    <script type="text/javascript">
+        const $grafica3 = document.querySelector("#grafica3");
+        const value3 = {
+            label: "Puntuacion",
+            data: <?php echo json_encode($SESCC) ?>,
+            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1,
+        };
+        new Chart($grafica3, {
+            type: 'bar',
+            data: {
+                labels: ["X","S","B","O","K","E","Z"],
+                datasets: [
+                    value3,
+                ]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }],
+                },
+            }
+        });
+    </script>
 </body>
+<head>
+    <link rel="stylesheet" href="Print.css">
+</head>                
+					  <br><br>
+					  <div class="text-center">
+						<button onclick="window.print();" id="print" class="print_Button">Imprimir</button>
+					  </div>
+				<br>
+			</div>
+			<div class="card-footer text-muted text-center">
+			<Strong>Nota: </Strong>Este reporte no debe ser tomado textualmente pues presenta solo inferencias generales acerca del significado de la elevación de las puntuaciones que deben considerarse en cada caso de acuerdo con la historia y antecedentes del sujeto.
+			</div>
+		</div>
+	</div>
+</body>
+<?php
+$_SESSION["answer"] = null;
+$_SESSION["answer"] = array();
+$_SESSION['gender'] = null;
+?>
