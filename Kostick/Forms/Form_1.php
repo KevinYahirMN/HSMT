@@ -1,27 +1,5 @@
 <?php
 session_start();
-if(isset($_POST['button_submit'])){
-    $name1=$_POST['name1'];
-	$name2=$_POST['name2'];
-	$name3=$_POST['name3'];
-	$gender=$_POST['gender'];
-	$inputAddress=$_POST['inputAddress'];
-	$interior=$_POST['interior'];
-	$city=$_POST['city'];
-	$inputState=$_POST['inputState'];
-	$zip=$_POST['zip'];
-	$bday=$_POST['bday'];
-    $_SESSION['name1']=$name1;
-	$_SESSION['name2']=$name2;
-	$_SESSION['name3']=$name3;
-	$_SESSION['gender']=$gender;
-	$_SESSION['inputAddress']=$inputAddress;
-	$_SESSION['interior']=$interior;
-	$_SESSION['city']=$city;
-	$_SESSION['inputState']=$inputState;
-	$_SESSION['zip']=$zip;
-	$_SESSION['bday']=$bday;
-}
 //REVISAR CODIGO
 $_SESSION["answer"] = null;
 $_SESSION["answer"] = array();

@@ -7,10 +7,10 @@
 #grafica3{
     max-width: 1200px;
 }
-
 @media print {
     .print_Button{
         display:none;
+        
     }
     #exit_Button{
         display:none;
