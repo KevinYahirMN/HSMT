@@ -77,8 +77,7 @@ if($p == 88){
 				</h4>
 			</div>
 			<div class="card-body">
-			<form method="post" action="../Print/printprueba.php">
-				<!-- <form method="post" action="../Print/Print.php"> --> 
+				<form method="post" action="../Print/Print.php"> 
 					<!--section 90-->            
 					<input type="radio" value="A" name="Q" onclick="enable()">
 					<label><B>A) Me gusta que me digan lo que tengo que hacer.</B></label><br>
