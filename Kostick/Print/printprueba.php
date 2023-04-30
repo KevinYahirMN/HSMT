@@ -516,7 +516,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $SESCS[7];?></td>
   </tr>
 </table>
-<hr>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -555,8 +555,15 @@ $SESCS = $collectorSuggestions->SES($SESCC);
             }
         });
     </script>
-    <hr>
 </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficas</title>
+    <script src="Chart.min.js"></script>
+    <link rel="stylesheet" href="Print.css">
+</head>
 <body>
 <div class="col-md-12 text-center text-success"><h3><i class="fa fa-smile-o"></i>GRÁFICA DE DINAMISMO-VIGOROSIDAD</h3></div>
 <canvas id="grafica2"></canvas>
