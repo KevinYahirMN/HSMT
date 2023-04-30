@@ -171,7 +171,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 	</center>
 	<hr>
   <table border="1" align="center">
-  <div class="col-md-12 text-center text-success"><h3><i class="fa fa-handshake-o"></i> DOMINIO-APEGO-ADAPTACIÓN</h3></div>
+  <div class="col-md-12 text-center text-success"><h3>DOMINIO-APEGO-ADAPTACIÓN</h3></div>
   <tr>
     <th>CATEGORÍA</th>
     <th>NOMBRE</th>
@@ -526,8 +526,8 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </head>
 <body>
 <div class="col-md-12 text-center text-success"><h3><i class="fa fa-handshake-o"></i>GRÁFICA DE DOMINIO-APEGO-ADAPTACIÓN </h3></div>
-<canvas id="grafica"></canvas>
-    <script type="text/javascript">
+<canvas id="grafica">  </canvas>
+    <script type="text/javascript" >
         const $grafica = document.querySelector("#grafica");
         const value = {
             label: "Puntuacion",
@@ -535,6 +535,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1,
+            
         };
         new Chart($grafica, {
             type: 'bar',
@@ -565,7 +566,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <link rel="stylesheet" href="Print.css">
 </head>
 <body>
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-smile-o"></i>GRÁFICA DE DINAMISMO-VIGOROSIDAD</h3></div>
+<div class="col-md-12 text-center text-success"> <h3>GRÁFICA DE DINAMISMO-VIGOROSIDAD</h3></div>
 <canvas id="grafica2"></canvas>
     <script type="text/javascript">
         const $grafica2 = document.querySelector("#grafica2");

@@ -165,7 +165,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 	</center>
 	<hr>
   <table border="1" align="center">
-  <div class="col-md-12 text-center text-success"><h3><i class="fa fa-handshake-o"></i> DOMINIO-APEGO-ADAPTACIÓN</h3></div>
+  <div class="col-md-12 text-center text-success"><h3> DOMINIO-APEGO-ADAPTACIÓN</h3></div>
   <tr>
     <th>CATEGORÍA</th>
     <th>NOMBRE</th>
@@ -223,7 +223,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </table>
 <hr>
 <table border="1" align="center">
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-users"></i> DINAMISMO-VIGOROSIDAD</h3></div>
+<div class="col-md-12 text-center text-success"><h3> DINAMISMO-VIGOROSIDAD</h3></div>
   <tr>
     <th>CATEGORÍA</th>
     <th>NOMBRE</th>
@@ -263,7 +263,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </table>
 <hr>
 <table border="1" align="center">
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-smile-o"></i> ESTABILIDAD SOCIO-EMOCIONAL</h3></div>
+<div class="col-md-12 text-center text-success"><h3> ESTABILIDAD SOCIO-EMOCIONAL</h3></div>
   <tr>
     <th>CATEGORÍA</th>
     <th>NOMBRE</th>
@@ -315,7 +315,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </table>
 <hr>
 <table border="1" align="center"  style="width:65%">
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-universal-access"></i> LIDERAZGO</h3></div>
+<div class="col-md-12 text-center text-success"><h3>LIDERAZGO</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -343,7 +343,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </table>
 <hr>
 <table border="1" align="center"  style="width:65%">
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-hand-pointer-o"></i> SUBORDINACIÓN</h3></div>
+<div class="col-md-12 text-center text-success"><h3>SUBORDINACIÓN</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -365,7 +365,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </table>
 <hr>
 <table border="1" align="center"  style="width:65%">
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-smile-o"></i>ADAPTACIÓN TRAB.</h3></div>
+<div class="col-md-12 text-center text-success"><h3>ADAPTACIÓN TRAB.</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -393,7 +393,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </table>
 <Hr>
 <table border="1" align="center"  style="width:65%">
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-bed"></i> MODO DE VIDA</h3></div>
+<div class="col-md-12 text-center text-success"><h3> MODO DE VIDA</h3></div>
 <hr>
   <tr>
     <th>NOMBRE</th>
@@ -416,7 +416,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </table>
 <hr>
 <table border="1" align="center"  style="width:65%">
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i> GRADO DE ENERGÍA</h3></div>
+<div class="col-md-12 text-center text-success"><h3>GRADO DE ENERGÍA</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -444,7 +444,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </table>
 <hr>
 <table border="1" align="center"  style="width:65%">
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-handshake-o"></i> NATURALEZA SOCIAL</h3></div>
+<div class="col-md-12 text-center text-success"><h3> NATURALEZA SOCIAL</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -478,7 +478,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </table>
 <hr>
 <table border="1" align="center"  style="width:65%">
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-frown-o"></i> NATURALEZA EMOCIONAL</h3></div>
+<div class="col-md-12 text-center text-success"><h3> NATURALEZA EMOCIONAL</h3></div>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
@@ -519,7 +519,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <link rel="stylesheet" href="Print.css">
 </head>
 <body>
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-handshake-o"></i>GRÁFICA DE DOMINIO-APEGO-ADAPTACIÓN </h3></div>
+<div class="col-md-12 text-center text-success"><h3> GRÁFICA DE DOMINIO-APEGO-ADAPTACIÓN </h3></div>
 <canvas id="grafica"></canvas>
     <script type="text/javascript">
         const $grafica = document.querySelector("#grafica");
@@ -559,7 +559,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <link rel="stylesheet" href="Print.css">
 </head>
 <body>
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-smile-o"></i>GRÁFICA DE DINAMISMO-VIGOROSIDAD</h3></div>
+<div class="col-md-12 text-center text-success"><h3> GRÁFICA DE DINAMISMO-VIGOROSIDAD</h3></div>
 <canvas id="grafica2"></canvas>
     <script type="text/javascript">
         const $grafica2 = document.querySelector("#grafica2");
@@ -600,7 +600,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 </head>
 
 <body>
-<div class="col-md-12 text-center text-success"><h3><i class="fa fa-frown-o"></i>GRÁFICA DE ESTABILIDAD SOCIO-EMOCIONAL</h3></div>
+<div class="col-md-12 text-center text-success"><h3>GRÁFICA DE ESTABILIDAD SOCIO-EMOCIONAL</h3></div>
 <canvas id="grafica3"></canvas>
     <script type="text/javascript">
         const $grafica3 = document.querySelector("#grafica3");

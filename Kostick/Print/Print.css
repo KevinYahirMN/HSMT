@@ -1,12 +1,13 @@
 #grafica{
-    max-width: 500px;  /* Longitud que tendrá la grafica */
+    
+    max-width: 1100px;  /* Longitud que tendrá la grafica */
 }
 #grafica2{
-    max-width: 500px;
+    max-width: 850px;
    
 }
 #grafica3{
-    max-width: 500px;
+    max-width: 1100px;
 }
 @media print {
     .print_Button{
