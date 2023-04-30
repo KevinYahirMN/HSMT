@@ -386,7 +386,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráficas</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="Chart.min.js"></script>
     <link rel="stylesheet" href="Print.css">
 </head>
 <body>
@@ -426,9 +426,10 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráficas</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="Chart.min.js"></script>
     <link rel="stylesheet" href="Print.css">
 </head>
+
 <body>
 <h2>GRAFICA DE DINAMISMO-VIGOROSIDAD</h2>
 <canvas id="grafica2"></canvas>
@@ -436,7 +437,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
         const $grafica2 = document.querySelector("#grafica2");
         const value2 = {
             label: "Puntuacion",
-            data: <?php echo json_encode($DAACC) ?>,
+            data: <?php echo json_encode($DVCC) ?>,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1,
