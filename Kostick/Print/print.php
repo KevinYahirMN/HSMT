@@ -503,12 +503,6 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $SESCS[12];?></td>
     <td><?php echo $SESCS[13];?></td>
   </tr>
-  <tr>
-    <td>AFECTO</td>
-    <td>0</td>
-    <td><?php echo $SESCS[6];?></td>
-    <td><?php echo $SESCS[7];?></td>
-  </tr>
 </table>
 
 <head>
