@@ -185,7 +185,7 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
 	</center>
 	<hr>
             
-      <div class="col-md-12 text-center text-success"><h3><i class="fa fa-ravelry"></i> Escalas básicas</h3></div>
+      <div class="col-md-12 text-center text-success"><h3> Escalas básicas</h3></div>
 				
 				<?php  
 				echo "";
@@ -199,7 +199,7 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
 				}
 				?>  
 
-				<div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i> Interpretaciones adicionales de 2 factores</h3></div>
+				<div class="col-md-12 text-center text-success"><h3> Interpretaciones adicionales de 2 factores</h3></div>
 				
 				<?php  
 				echo "";
@@ -208,7 +208,7 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
 				echo "<hr>";
 				?>
         
-        <div class="col-md-12 text-center text-success"><h3><i class="fa fa-plus"></i> Interpretaciones adicionales de 3 factores</h3></div>
+        <div class="col-md-12 text-center text-success"><h3> Interpretaciones adicionales de 3 factores</h3></div>
 				
 				<?php  
 				echo "";
@@ -218,7 +218,7 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
 				?>  
                 
 					
-        <div class="col-md-12 text-center text-success"><h3><i class="fa fa-eye"></i> Escalas de contenido</h3></div>
+        <div class="col-md-12 text-center text-success"><h3> Escalas de contenido</h3></div>
 
 				  <?php  
 				  echo "";
@@ -233,7 +233,7 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
 
               
 
-        <div class="col-md-12 text-center text-success"><h3><i class="fa fa-frown-o"></i> Escalas suplementarias</h3></div>
+        <div class="col-md-12 text-center text-success"><h3> Escalas suplementarias</h3></div>
 				
         <?php   
 				 echo "";
@@ -250,7 +250,7 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráficas</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="Chart.min.js"></script>
     <link rel="stylesheet" href="Print.css">
 </head>
 <body>
@@ -289,7 +289,7 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráficas</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="Chart.min.js"></script>
     <link rel="stylesheet" href="Print.css">
 </head>
 
@@ -332,7 +332,7 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gráficas</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="Chart.min.js"></script>
     <link rel="stylesheet" href="Print.css">
 </head>
 
