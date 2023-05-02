@@ -1,5 +1,5 @@
 <?php
-include("../Collectors/CollectorCount.php");
+include("../collector/CollectorCount.php");
 session_start();
 $temp = $_SESSION["answer"];
 $get = $_POST["Q"];
