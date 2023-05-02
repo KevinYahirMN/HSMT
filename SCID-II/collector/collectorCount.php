@@ -15,73 +15,73 @@ include_once('../scales/scale_antisocial.php');
 class CollectorCount{
     function evitation($answer){
         $evi = new scale_evitation;
-        $c = $evi->scale($answer);
+        $c = 25*($evi->scale($answer));
         return $c;
     }
 
     function dependent($answer){
         $dep = new scale_dependent;
-        $c = $dep->scale($answer);
+        $c = 20*$dep->scale($answer);
         return $c;
     }
 
     function obsessive($answer){
         $obs = new scale_obsessive;
-        $c = $obs->scale($answer);
+        $c = 20*$obs->scale($answer);
         return $c;
     }
 
     function passive_agressive($answer){
         $pa = new scale_passive_aggressive;
-        $c = $pa->scale($answer);
+        $c = 20*$pa->scale($answer);
         return $c;
     }
 
     function passive_dependent($answer){
         $pd = new scale_passive_dependent;
-        $c = $pd->scale($answer);
+        $c = 20*$pd->scale($answer);
         return $c;
     }
 
     function paranoid($answer){
         $p = new scale_paranoid;
-        $c = $p->scale($answer);
+        $c = 25*$p->scale($answer);
         return $c;
     }
 
     function schizotypal($answer){
         $sch = new scale_schizotypal;
-        $c = $sch->scale($answer);
+        $c = 20*$sch->scale($answer);
         return $c;
     }
 
     function schizoid($answer){
         $sch = new scale_schizoid;
-        $c = $sch->scale($answer);
+        $c = 25*$sch->scale($answer);
         return $c;
     }
 
     function histrionic($answer){
         $h = new scale_histrionic;
-        $c = $h->scale($answer);
+        $c = 25*$h->scale($answer);
         return $c;
     }
 
     function narcissistic($answer){
         $n = new scale_narcissistic;
-        $c = $n->scale($answer);
+        $c = 16*$n->scale($answer);
         return $c;
     }
 
     function limit($answer){
         $l = new scale_limit;
-        $c = $l->scale($answer);
+        $c = 20*$l->scale($answer);
         return $c;
     }
 
     function antisocial($answer){
         $ant = new scale_antisocial;
-        $c = $ant->scale($answer);
+        $c = 33*$ant->scale($answer);
         return $c;
     }
 }
