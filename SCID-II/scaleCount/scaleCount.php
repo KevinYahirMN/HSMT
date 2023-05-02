@@ -2,7 +2,7 @@
 class scaleCount{
     
     //sumatoria de respuesta a
-    function calif_A($answer){
+    function calif_true($answer){
         if($answer == 'true'){
             return 1;
         }
