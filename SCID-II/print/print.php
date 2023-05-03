@@ -204,7 +204,7 @@ $antisocial = $collectorCount->antisocial($temp);
     <td><?php echo $passive_agressive;?></td>
   </tr>
   <tr>
-    <td>Pasivo-Denpendiente</td>
+    <td>Pasivo-Dependiente</td>
     <td><?php echo $passive_dependent;?></td>
   </tr>
   <tr>
