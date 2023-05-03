@@ -1,0 +1,16 @@
+@media print {
+    .print_Button{
+        display:none;
+        
+    }
+    #exit_Button{
+        display:none;
+    }
+    #exit_Button2{
+        display:none;
+    }
+}
+@page {
+    size:  auto;   /* auto es el valor inicial */
+    margin: 10mm;  /* afecta el margen en la configuración de impresión */
+}
