@@ -1,0 +1,267 @@
+1. Si alguien critica o desaprueba algo que usted dice o hace, ¿se siente más herido que la mayoría de las personas?
+
+2. Fuera de su familia más próxima, ¿siente que no hay nadie realmente cercano a usted?, ¿que no hay persona en las que pueda confiar o hablar de sus problemas personales?
+
+3. ¿Evita relacionarse con la gente a menos que esté seguro de que a usted realmente le agrada?
+
+4. ¿Se mantiene alejado de situaciones que involucran mucho contacto con otras personas?
+
+5. ¿Cuándo asiste a reuniones o eventos sociales, generalmente prefiere guardar silencio por temor a decir algo incorrecto, o a no contestar alguna pregunta?
+
+6. ¿Le preocupa la idea de que podría llegar a llorar, sonrojarse o verse nervioso frente a otras personas?
+
+7. ¿Le parecen peligrosas muchas cosas que a la mayoría de las personas no?
+
+8. ¿Necesita usted mucho más consejos que la mayoría de las personas para tomar cualquier decisión?
+
+9. ¿Ha permitido que otros tomen decisiones importantes por usted, como, por ejemplo, dónde vivir o qué trabajo aceptar?
+
+10. ¿Con frecuencia dice estar de acuerdo con otras personas aún cuando piensa que estas están equivocadas?
+
+11. ¿Es difícil hacer cosas si tiene que hacerlas usted solo?
+
+12. ¿A menudo se ofrece a hacer cosas, aunque no sean de su agrado, con tal de lograr que la gente lo aprecie?
+
+13. ¿Le molesta estar a solas?
+
+14. ¿La mayoría de las personas se sienten mal cuando terminan una relación cercana, ¿le afecta esto más que a otras personas?
+
+15. ¿Le preocupa mucho que lo abandonen o lo dejen solo sin que nadie vea por usted?
+
+16. ¿Trata de hacer cosas tan bien e invierte tanto tiempo en ello que se le complica terminar las tareas?
+
+17. ¿Se involucra tanto con los detalles de alguna cosa que pierde de vista el objetivo?
+
+18. ¿Insiste más que la mayoría de las personas en que los demás hagan cosas exactamente como usted quiere que lo hagan?
+
+19. ¿Prefiere hacer las cosas usted mismo porque piensa que nadie más lo hará exactamente como usted quiere que lo hagan?
+
+20. ¿Se dedica tanto al trabajo que casi no le queda tiempo para los amigos o para divertirse?
+
+21. ¿Se le dificulta terminar las cosas porque no puede decidir cómo empezar o qué debe hacer primero?
+
+22. ¿Le preocupa mucho la idea de haber hecho algo moralmente indebido?
+
+23. ¿Se enojaría con otras personas si hicieran algo moralmente indebido?
+
+24. ¿Se le hace difícil demostrarles a las personas cuánto las aprecia?
+
+25. ¿Es usted de las personas que rara vez da regalos o hacen favores a los demás?
+
+26. ¿Se le hace difícil deshacerse de las cosas porque podría llegar a necesitarlas algún día?
+
+27. ¿Acostumbra a posponer las cosas hasta el último minuto y acaba por descubrir que no las termina a tiempo?
+
+28. Algunas personas se irritan o se ponen de mal humor cuando alguien les pide hacer algo que realmente no quieren hacer, ¿es usted así?
+
+29. Algunas personas trabajan lentamente en forma deliberada o hacen mal las cosas cuando se les pide que hagan algo que realmente no quieren hacer, ¿es usted así?
+
+30. ¿Con frecuencia la gente le pide cosas irrazonables?
+
+31. ¿Tiende a olvidar lo que se supone debe hacer si realmente no desea hacerlo?
+
+32. ¿A menudo piensa que hace las cosas mejor de lo que los demás le reconocen?
+
+33. ¿Le molesta que la gente le sugiera como podría hacer las cosas mejor?
+
+34. ¿Se ha quejado la gente alguna vez de que usted los obstaculice al no hacer la parte que le corresponde de su trabajo?
+
+35. ¿A menudo termina trabajando bajo las órdenes de personas que no están haciendo las cosas tan bien como las haría usted?
+
+36. ¿Ha elegido relaciones amistosas o amorosas que le han dado mal trato o se han aprovechado de usted?
+
+37. ¿Se mete con frecuencia en situaciones difíciles en el trabajo o en la escuela de las que sale desilusionado o lastimado?
+
+38. ¿Rechaza en muchas ocasiones la ayuda de otras personas?
+
+39. ¿Piensa que la ayuda que la gente le ofrece no es, por lo general, lo que usted necesita?
+
+40. Algunas personas se deprimen cuando tienen éxito o se sienten que no merecen triunfar, o bien, hacen algo para estropear sus logros, ¿es usted así?
+
+41. ¿Le sorprende la reacción de enojo de las personas por cosas que usted decide hacer?
+
+42. ¿Con frecuencia se niega la oportunidad de hacer algo que realmente disfrutaría?
+
+43. Cuando hace algo que se supone es divertido, ¿en ocasiones no llega a divertirse?
+
+44. ¿En muchas ocasiones no hace lo que debe para conseguir lo que desea?
+
+45. ¿Con frecuencia se siente desilusionado porque no hace lo que necesita hacer?
+
+46. Algunas personas encuentran aburrida a la gente que es amable con ellas y más interesante a la que no lo es, ¿usted es así?
+
+47. ¿Casi siempre hace lo que es bueno para otras personas en vez de lo que es bueno para usted? 
+
+48. ¿Se ha quejado la gente de que usted hace cosas por ellos aun cuando no desean que las haga?
+
+49. ¿Se considera que con frecuencia tiene que mantenerse alerta para evitar que la gente se aproveche de usted?
+
+50. ¿Se preocupa en ocasiones de que sus amigos o colaboradores no sean realmente leales o dignos de confianza?
+
+51. ¿Con frecuencia interpreta lo que la gente dice o hace como una amenaza o un desprecio para usted?
+
+52. ¿Le toma mucho tiempo perdonar a alguien si lo ha insultado o lastimado?
+
+53. ¿Ha llegado a la conclusión de que es mejor no permitir que los demás sepan demasiado acerca de usted?
+
+54. ¿Con frecuencia se enoja porque alguien lo ha despreciado o insultado de algún modo?
+
+55. ¿Es usted muy celoso?
+
+56. ¿Ha sospechado en alguna ocasión que su cónyuge o compañero le es infiel?
+
+57. ¿Cuando ve gente platicando, con frecuencia se pregunta si están hablando de usted?
+
+58. ¿Ha observado en alguna ocasión objetos o sucesos comunes que le parecieran una señal especial para usted?
+
+59. ¿Se siente nervioso cuando está en un grupo de gente desconocida?
+
+60. ¿Ha tenido experiencias con lo sobrenatural?
+
+61. ¿Y con la astrología, ver el futuro, ovnis, percepción extrasensorial o un sexto sentido?
+
+62. ¿Confunden con frecuencia objetos o sombras con personas o ruidos con voces?
+
+63. ¿Alguna vez ha tenido la sensación de que alguna persona o fuerza está a su alrededor, aun cuando no pueda ver a nadie?
+
+64. Cuando mira a una persona o se ve usted mismo en el espejo, ¿ha visto alguna vez que el rostro le cambia?
+
+65. ¿Podría ser feliz sin relaciones estrechas, con una familia o amigos?
+
+66. ¿Preferiría hacer cosas solo en vez de con otras personas?
+
+67. Algunas personas parecen no sentir nunca emociones fuertes, como un gran enojo o gran felicidad, ¿es usted así?
+
+68. ¿Se sentiría bien sin involucrarse sexualmente alguna vez con otra persona?
+
+69. A algunas personas no les importa si se les reconoce o no algo que han hecho bien, ¿es usted así?
+
+70. ¿Con frecuencia acude a los demás en busca de apoyo, aprobación o reconocimiento?
+
+71. ¿Acostumbra a coquetear?
+
+72. ¿Le molesta más que a otras personas no verse atractivo(a)?
+
+73. Algunas personas expresan sus emociones de una manera exagerada p. ejem. Abrazan con efusividad a gente que no conocen muy bien o pierden el control y hacen escenas cuando las cosas no les salen bien, ¿es usted así?
+
+74. ¿Le gusta ser el centro de atracción?
+
+75. ¿Se entusiasma con frecuencia por algo o por alguien y pierde pronto el interés?
+
+76. ¿Explota fácilmente y se tranquiliza igual de rápido?
+
+77. ¿Por lo general está más preocupada por sus propias necesidades que por las de los demás?
+
+78. ¿Le han dicho alguna vez que solo se preocupa por usted mismo?
+
+79. Algunas personas pueden aguantar mucho cuando saben que finalmente obtendrán algo que desean, otras pueden esperar a obtener lo que quieren, ¿es usted el tipo de persona que no puede esperar?
+
+80. Cuando alguien lo critica, ¿a menudo se siente muy enojado, avergonzado o decaído, aun después de horas o días?
+
+81. ¿En ocasiones ha tenido que usar a otras personas para obtener lo que usted necesitaba?
+
+82. ¿Se ha visto en situaciones donde ha tenido que pisar a alguien para obtener lo que quiere?
+
+83. ¿Siente usted que es una persona con talento o habilidades especiales que los demás no han reconocido?
+
+84. ¿Le han dicho alguna vez que tiene una opinión de sí mismo demasiado buena?
+
+85. ¿Diría usted que los problemas a los que se enfrenta son tan especiales que pocas personas podrían entenderlas?
+
+86. ¿Con frecuencia sueña despierto con grandes cosas como tener mucho éxito, poder ser brillante, atractivo o muy amado?
+
+87. ¿A menudo piensa que las reglas no deberían aplicarse a usted?
+
+88. ¿Es muy importante para usted que la gente le ponga atención o lo admire de algún modo?
+
+89. ¿Le ha dicho alguna persona que usted no es comprensivo con sus problemas?
+
+90. ¿Es usted envidioso en general?
+
+91. ¿Considera que sus sentimientos hacia los demás en ocasiones cambian mucho, ha llegado a sentir amor o gran admiración por alguien en un momento y odio o tenerle desilusión en otro momento?
+
+92. ¿Con frecuencia ha hecho cosas que podrían haberlo metido en problemas como: comprar cosas que no puede darse el lujo de comprar?
+
+93. ¿Ha llegado a tener relaciones sexuales con alguien que apenas conocía?
+
+94. ¿Ha llegado a beber mucho o tomar drogas?
+
+95. ¿Ha llegado a manejar de forma imprudente?
+
+96. ¿Ha llegado a comer de forma convulsiva? (como con desesperación)
+
+97. ¿Ha llegado a robar?
+
+98. ¿Tiene cambios bruscos en su humor, altas y bajas, periodos de depresión, irritabilidad, o ansiedad?
+
+99. ¿Con frecuencia tiene estallidos temperamentales o se enoja tanto que llega a perder el control?
+
+100. ¿Ha golpeado a alguien estando enojado?
+
+101. ¿Ha tratado de lastimarse, o suicidarse o amenazó con hacerlo?
+
+102. ¿Ha tratado en forma deliberada de lastimarse o herirse buscando o provocándose un accidente?
+
+103. ¿Cambia tanto con diferentes personas o en diferentes situaciones que a veces no sabe realmente quien es usted?
+
+104. ¿Se siente confundido acerca de sus planes y objetivos a largo plazo (vocación, profesión, etc.)
+
+105. ¿Se siente confundido acerca de la clase de amigos o parejas que usted prefiere?
+
+106. ¿Se siente confundido acerca de cuáles son sus valores?
+
+107. ¿Frecuentemente se siente aburrido o vacio por dentro?
+
+108. ¿Si piensa que alguien importante para usted va a dejarlo, se siente perdido o fuera de control
+
+Las siguientes preguntas se refieren a su comportamiento antes de los 15 años de edad.
+
+109. ¿Llegó a faltar a la escuela con frecuencia?
+
+110. ¿A escaparse de su casa y a quedarse fuera durante la noche?
+
+111. ¿A iniciar peleas a golpes?
+
+112. ¿A utilizar alguna arma en una pelea?
+
+113. ¿A forzar a alguien a tener relaciones sexuales con usted?
+
+114. ¿A herir a un animal a propósito?
+
+115. ¿A herir o lastimar a alguien a propósito (que no fuera alguna pelea)?
+
+116. ¿A dañar cosas que no eran suyas en forma deliberada?
+
+117. ¿A provocar incendios?
+
+118. ¿A mentir mucho?
+
+119. ¿A robar cosas en alguna ocasión?
+
+120. ¿A robar o asaltar a alguien?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
