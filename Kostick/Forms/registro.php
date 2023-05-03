@@ -149,7 +149,8 @@
 						<label for="test">Seleccione examen a aplicar</label>
 						<select id="test" name="test"class="form-control" required>
 						  <option value="../../MMPI-2/Forms/MMPI-2/Form_1.php">MMPI-2</option>
-						  <option value="Form_1.php">Kostick</option>
+						  <option value="../../Kostick/Forms/Form_1.php">Kostick</option>
+						  <option value="../../SCID-II/Forms/Form_1.php">SCID-II</option>
 						</select>
 					  </div><center>
 					<center><button type="submit" name="button_submit"  id="button_submit" disabled="disabled"  class="btn btn-success">Continuar</button></center>
