@@ -5,9 +5,9 @@ $temp = array();
 
 for($i = 0; $i < 120; $i++){
   if($i%2 == 0){
-    array_push($temp, 'true');
+    array_push($temp, 'yes');
   }else{
-    array_push($temp, 'false');
+    array_push($temp, 'no');
   }
 }
 $collectorCount = new CollectorCount();
@@ -180,7 +180,9 @@ $antisocial = $collectorCount->antisocial($temp);
     <link rel="stylesheet" href="table.css">
 </head>
 <body>
-    <table align="center" class="content-table">
+    <table class="content-table">
+    <div class="col-md-12 text-center text-success"><h3>RESULTADOS</h3></div>
+
         <thead>
           <tr>
             <th>PERSONALIDAD</th>
