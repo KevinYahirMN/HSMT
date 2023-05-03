@@ -173,13 +173,14 @@ $antisocial = $collectorCount->antisocial($temp);
           </div>
         </div>
 	</center>
-	<hr>
 
 <html>
 <head>
     <link rel="stylesheet" href="table.css">
 </head>
 <body>
+<br>
+<hr>
     <table class="content-table">
     <div class="col-md-12 text-center text-success"><h3>RESULTADOS</h3></div>
 
