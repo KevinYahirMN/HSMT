@@ -1,5 +1,5 @@
 <?php
-class scaleCount{
+class count{
     
     //sumatoria de respuesta a
     function calif_A($answer){
