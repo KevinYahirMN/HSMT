@@ -2,8 +2,8 @@
     font-family: sans-serif;
 }
 .content-table {
-    border-collapse: collapse;
-    margin-left: 30%;
+    border-radius: collapse;
+    margin-right: 30%;
     font-size: 0.9em;
     min-width: 400px;
     border-radius: 5px 5px 0 0;
