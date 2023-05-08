@@ -13,8 +13,6 @@
 	<link rel="stylesheet" href="../forms/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../forms/css/style.css">
   <link rel="stylesheet" href="Print.css">
-  <link rel="stylesheet" href="Table.css">
-  <link href='Table.css' rel='stylesheet' type='text/css'>
 	<title>Resultados</title>
 	<style>
 		.btn-group.respuestas {
@@ -153,6 +151,7 @@
 
 <html>
 <head>
+<link rel="stylesheet" href="Table.css">
 </head>
 <body>
 <br>
@@ -178,16 +177,181 @@
         <tr>
     <td>1</td>
     <td></td>
-    <td>15</td>
+    <td>16</td>
     <td></td>
     <td>31</td>
     <td></td>
     <td>46</td>
     <td></td>
-    <td>612</td>
+    <td>61</td>
     <td></td>
        </tr>
-
+       <tr>
+    <td>2</td>
+    <td></td>
+    <td>17</td>
+    <td></td>
+    <td>32</td>
+    <td></td>
+    <td>47</td>
+    <td></td>
+    <td>62</td>
+    <td></td>
+       </tr>
+       <tr>
+    <td>3</td>
+    <td></td>
+    <td>18</td>
+    <td></td>
+    <td>33</td>
+    <td></td>
+    <td>48</td>
+    <td></td>
+    <td>63</td>
+    <td></td>
+       </tr>
+       <tr>
+    <td>4</td>
+    <td></td>
+    <td>19</td>
+    <td></td>
+    <td>34</td>
+    <td></td>
+    <td>49</td>
+    <td></td>
+    <td>64</td>
+    <td></td>
+       </tr>
+       <tr>
+    <td>5</td>
+    <td></td>
+    <td>20</td>
+    <td></td>
+    <td>35</td>
+    <td></td>
+    <td>50</td>
+    <td></td>
+    <td>65</td>
+    <td></td>
+       </tr>
+       <tr>
+    <td>6</td>
+    <td></td>
+    <td>21</td>
+    <td></td>
+    <td>36</td>
+    <td></td>
+    <td>51</td>
+    <td></td>
+    <td>66</td>
+    <td></td>
+       </tr>
+       <tr>
+    <td>7</td>
+    <td></td>
+    <td>22</td>
+    <td></td>
+    <td>37</td>
+    <td></td>
+    <td>52</td>
+    <td></td>
+    <td>67</td>
+    <td></td>
+       </tr>
+       <tr>
+    <td>8</td>
+    <td></td>
+    <td>23</td>
+    <td></td>
+    <td>38</td>
+    <td></td>
+    <td>53</td>
+    <td></td>
+    <td>68</td>
+    <td></td>
+       </tr>
+       <tr>
+    <td>9</td>
+    <td></td>
+    <td>24</td>
+    <td></td>
+    <td>39</td>
+    <td></td>
+    <td>54</td>
+    <td></td>
+    <td>69</td>
+    <td></td>
+    <tr>
+    <td>10</td>
+    <td></td>
+    <td>25</td>
+    <td></td>
+    <td>40</td>
+    <td></td>
+    <td>55</td>
+    <td></td>
+    <td>70</td>
+    <td></td>
+    <tr>
+    <td>11</td>
+    <td></td>
+    <td>26</td>
+    <td></td>
+    <td>41</td>
+    <td></td>
+    <td>56</td>
+    <td></td>
+    <td>71</td>
+    <td></td>
+       </tr>
+       <tr>
+    <td>12</td>
+    <td></td>
+    <td>27</td>
+    <td></td>
+    <td>42</td>
+    <td></td>
+    <td>57</td>
+    <td></td>
+    <td>72</td>
+    <td></td>
+       </tr>
+       <tr>
+    <td>13</td>
+    <td></td>
+    <td>28</td>
+    <td></td>
+    <td>43</td>
+    <td></td>
+    <td>58</td>
+    <td></td>
+    <td>73</td>
+    <td></td>
+       </tr>
+       <tr>
+    <td>14</td>
+    <td></td>
+    <td>29</td>
+    <td></td>
+    <td>44</td>
+    <td></td>
+    <td>59</td>
+    <td></td>
+    <td>74</td>
+    <td></td>
+       </tr>
+       <tr>
+    <td>15</td>
+    <td></td>
+    <td>30</td>
+    <td></td>
+    <td>45</td>
+    <td></td>
+    <td>60</td>
+    <td></td>
+    <td>75</td>
+    <td></td>
+       </tr>
         </tbody>
       </table>
 </body>
