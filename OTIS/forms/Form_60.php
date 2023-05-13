@@ -87,7 +87,7 @@ if($p == 58){
 					<!--Pregunta 60-->
 					<p>Esta frase tiene las palabras desordenadas, haga lo que se indica en ella: 
 					FRASE LA LETRA ESCRIBA PRIMERA ESTA DE</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[A-Za-z]+" title="Este campo solo permite letras">
 					<hr>
 			    
 					<br><br>

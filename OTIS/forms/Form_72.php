@@ -87,7 +87,7 @@ if($p == 70){
 					<!--Pregunta 72-->
 					<p>Ordene esta frase y haga lo que en ella se indica.
 					EN LETRA RECUADRO A ESCRIBA LA EL</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[A-Za-z]+" title="Este campo solo permite letras">
 					<hr>
 			    
 					<br><br>

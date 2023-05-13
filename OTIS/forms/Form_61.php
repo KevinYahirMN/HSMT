@@ -86,9 +86,9 @@ if($p == 59){
 			       
 					<!--Pregunta 61-->
 					<p>En esta serie de números cuente todos los 5 que están delante de un 7, e indique en el
-						paréntesis cuántos son: 
+						recuadro cuántos son: <br>
                         7 5 3 5 7 2 3 7 5 6 7 7 2 5 7 3 4 7 7 5 2 0 7 5 7 8 3 7 2 5 1 7 9 6 5 7</p>  
-						<input type="text" id="input_Text" name="Q">
+						<input type="text" id="input_Text" name="Q" pattern="[0-9.]+" title="Este campo solo permite números">
 					<hr>
 			    
 					<br><br>

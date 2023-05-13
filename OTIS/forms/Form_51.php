@@ -87,7 +87,7 @@ if($p == 49){
 					<p>En un idioma extranjero, SOTO GRON quiere decir muy caliente,
 					FASS GRON -...- muy frío
 					¿Por qué letra empieza la palabra que significa MUY en este idioma?</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[A-Za-z]+" title="Este campo solo permite letras">
 					<hr>
 			    
 					<br><br>

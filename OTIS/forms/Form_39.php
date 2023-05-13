@@ -89,7 +89,7 @@ if($p == 37){
 					 DAAK KOLO -...- niño bueno 
 					 ¿Por qué letra empieza la palabra que significa bueno en este idioma?
 					</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[A-Za-z]+" title="Este campo solo permite letras">
 					<hr>
 			    
 					<br><br>

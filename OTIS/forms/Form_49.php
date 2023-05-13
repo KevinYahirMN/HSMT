@@ -87,7 +87,7 @@ if($p == 47){
 					<!--Pregunta 49-->
 					<p>Si en una caja grande hubiera dos más pequeñas y dentro de cada una 
 					de estas dos hubiera cinco, ¿cuántas habría en total?</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[0-9.]+" title="Este campo solo permite números">
 					<hr>
 			    
 					<br><br>

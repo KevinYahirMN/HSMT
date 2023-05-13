@@ -89,7 +89,7 @@ if($p == 3){
 					<p>Uno de los números de esta serie es falso. Escriba en el recuadro el número que debiera
                     figurar en su lugar.
 					5 10 15 20 25 30 35 39 45 50</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[0-9.]+" title="Este campo solo permite números">
 					<hr>
 			    
 					<br><br>

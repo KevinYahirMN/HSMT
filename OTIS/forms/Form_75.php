@@ -87,7 +87,7 @@ if($p == 73){
 					<!--Pregunta 75-->
 					<p>Haga lo que se le indica en esta frase si estuviese ordenada: 
 					Y SUMA CUATRO ESCRIBA TRES LA UNO DE</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[0-9.]+" title="Este campo solo permite números">
 					<hr>
 			    
 					<br><br>

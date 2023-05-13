@@ -86,7 +86,7 @@ if($p == 19){
 			       
 					<!--Pregunta 21-->
 					<p>Escriba la letra que en el abecedario sigue a la K.</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[A-Za-z]+" title="Este campo solo permite letras">
 					<hr>
 			    
 					<br><br>

@@ -88,7 +88,7 @@ if($p == 46){
 					<p>Ordenando esta frase, ¿por qué letra empezaría la última palabra? 
 					A FALTA TORTILLAS BUENAS PAN SON DE LAS
 					</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[A-Za-z]+" title="Este campo solo permite letras">
 					<hr>
 			    
 					<br><br>

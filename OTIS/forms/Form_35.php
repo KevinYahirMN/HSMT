@@ -88,7 +88,7 @@ if($p == 33){
 					<p>Si estos números estuviesen ordenados, ¿por qué letra empezaría el del centro?
 					Ocho Diez Seis Nueve Siete
 					</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[A-Za-z]+" title="Este campo solo permite letras">
 					<hr>
 			    
 					<br><br>

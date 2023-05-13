@@ -87,7 +87,7 @@ if($p == 54){
 					<!--Pregunta 56-->
 					<p>Si estas palabras estuvieran ordenadas, ¿por qué letra empezaría la del centro? 
 					Semana, Año, Hora, Segundo, Día, Mes, Minuto</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[A-Za-z]+" title="Este campo solo permite letras">
 					<hr>
 			    
 					<br><br>

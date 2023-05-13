@@ -87,7 +87,7 @@ if($p == 43){
 					<!--Pregunta 45-->
 					<p>Si las palabras siguientes estuvieran colocadas indicando el orden jerárquico que significan, 
 					¿por qué letra empezaría la del centro? General Teniente Soldado Coronel Cabo</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[A-Za-z]+" title="Este campo solo permite letras">
 					<hr>
 			    
 					<br><br>

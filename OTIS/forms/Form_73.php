@@ -87,7 +87,7 @@ if($p == 71){
 					<!--Pregunta 73-->
 					<p>Uno de los números de esta serie está equivocado. Escriba en el recuadro el número que debería figurar en su lugar.
                     1 2 5 6 9 10 13 14 16 18</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[0-9.]+" title="Este campo solo permite números">
 					<hr>
 			    
 					<br><br>

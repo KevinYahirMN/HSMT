@@ -87,7 +87,7 @@ if($p == 65){
 					<!--Pregunta 67-->
 					<p>Si estas palabras estuvieran ordenadas, ¿por qué letra empezaría la del centro?
 					Adolescente, Niño, Hombre, Viejo, Bebé</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[A-Za-z]+" title="Este campo solo permite letras">
 					<hr>
 			    
 					<br><br>

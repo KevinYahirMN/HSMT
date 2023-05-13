@@ -89,7 +89,7 @@ if($p == 68){
 					letra empezaría la tercera palabra?
 					MADRUGA QUIEN LE DIOS A AYUDA
                     </p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[A-Za-z]+" title="Este campo solo permite letras">
 					<hr>
 			    
 					<br><br>

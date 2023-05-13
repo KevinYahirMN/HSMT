@@ -85,7 +85,7 @@ if($p == 34){
 			       
 					<!--Pregunta 36-->
 					<p> A treinta centavos el lápiz, ¿cuántos podrán comprarse por 3 pesos?</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[0-9.]+" title="Este campo solo permite números">
 					<hr>
 			    
 					<br><br>

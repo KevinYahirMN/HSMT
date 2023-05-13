@@ -86,7 +86,7 @@ if($p == 72){
 			       
 					<!--Pregunta 74-->
 					<p>Si un ciclista recorre 250 metros en 25 segundos, ¿cuántos recorrerá en un quinto de segundo?</p>  
-					<input type="text" id="input_Text" name="Q">
+					<input type="text" id="input_Text" name="Q" pattern="[0-9.]+" title="Este campo solo permite números">
 					<hr>
 			    
 					<br><br>

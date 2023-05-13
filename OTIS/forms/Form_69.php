@@ -93,8 +93,8 @@ BECO OTOH KLUP PRAC -             - Un poco de pan y leche.
 
 Prac se aproxima a:
 
-10  20 - 15 5  0</p>  
-                   <input type="text" id="input_Text" name="Q">
+"10"  "20"  "15" "5"  "0"</p>  
+                   <input type="text" id="input_Text" name="Q" pattern="[0-9.]+" title="Este campo solo permite números">
 					<hr>
 			    
 					<br><br>
