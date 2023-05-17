@@ -71,6 +71,13 @@ class count{
         }
     }
 
+    //Sumatoria de respuesta l
+    function calif_L($answer){
+        if($answer == 'L'){
+            return 1;
+        }
+    }
+
     //Sumatoria de respuesta m
     function calif_M($answer){
         if($answer == 'M'){
@@ -100,6 +107,13 @@ class count{
     }
 
     //Sumatoria de respuesta 2
+    function calif_Zero($answer){
+        if($answer == 0){
+            return 1;
+        }
+    }
+
+    //Sumatoria de respuesta 2
     function calif_Two($answer){
         if($answer == 2){
             return 1;
@@ -107,15 +121,22 @@ class count{
     }
 
     //Sumatoria de respuesta 3
-    function calif_three($answer){
+    function calif_Three($answer){
         if($answer == 3){
             return 1;
         }
     }
 
     //Sumatoria de respuesta 4
-    function calif_four($answer){
+    function calif_Four($answer){
         if($answer == 4){
+            return 1;
+        }
+    }
+
+    //Sumatoria de respuesta 5
+    function calif_Five($answer){
+        if($answer == 5){
             return 1;
         }
     }
@@ -158,6 +179,13 @@ class count{
     //Sumatoria de respuesta 17
     function calif_Seventeen($answer){
         if($answer == 17){
+            return 1;
+        }
+    }
+
+    //Sumatoria de respuesta 40
+    function calif_Forty($answer){
+        if($answer == 40){
             return 1;
         }
     }
