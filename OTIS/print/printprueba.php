@@ -31,6 +31,8 @@ $Dx = $CollectorDx->collect($IQ);
 	<link rel="stylesheet" href="../forms/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../forms/css/style.css">
   <link rel="stylesheet" href="Print.css">
+  <link rel="stylesheet" href="table.css">
+
 	<title>Resultados</title>
 	<style>
 		.btn-group.respuestas {
@@ -167,10 +169,7 @@ $Dx = $CollectorDx->collect($IQ);
         </div>
 	</center>
 
-<html>
-<head>
-<link rel="stylesheet" href="Table.css">
-</head>
+
 <body>
 <br>
 <hr>
@@ -369,6 +368,25 @@ $Dx = $CollectorDx->collect($IQ);
     <td><?php echo $temp[59];?></td>
     <td>75</td>
     <td><?php echo $temp[74];?></td>
+       </tr>
+        </tbody>
+      </table>
+
+      <table class="content-table">
+        <thead>
+          <tr>
+            <th>Puntuación Directa (PD)</th>
+            <th>Coeficiente Intelectual</th>
+            <th>Rango</th>
+            <th>Dx</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+     <td><?php echo $collect;?></td>
+     <td><?php echo $IQ;?></td>
+     <td><?php echo $Range;?></td>
+     <td><?php echo $Dx;?></td>
        </tr>
         </tbody>
       </table>
