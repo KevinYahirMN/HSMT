@@ -1,5 +1,23 @@
 <?php
+include("../collector/collectorCount.php");
+include("../collector/collectorDx.php");
+include("../collector/collectorIQ.php");
+include("../collector/collectorRange.php");
 session_start();
+$temp = $_SESSION["answer"];
+$get = $_POST["Q"];
+array_push($temp, $get);
+$_SESSION["answer"] = $temp;
+
+$CollectorCount = new collectorCount();
+$CollectorDx = new collectorDx();
+$CollectorIQ = new collectorIQ();
+$CollectorRange = new collectorRange();
+
+$collect = $CollectorCount->collect($temp);
+$IQ = $CollectorIQ->collect($collect);
+$Range = $CollectorRange->collect($IQ);
+$Dx = $CollectorDx->collect($IQ);
 ?>
 
 <!doctype html>
@@ -176,181 +194,181 @@ session_start();
         <tbody>
         <tr>
     <td>1</td>
-    <td></td>
+    <td><?php echo $temp[0];?></td>
     <td>16</td>
-    <td></td>
+    <td><?php echo $temp[15];?></td>
     <td>31</td>
-    <td></td>
+    <td><?php echo $temp[30];?></td>
     <td>46</td>
-    <td></td>
+    <td><?php echo $temp[35];?></td>
     <td>61</td>
-    <td></td>
+    <td><?php echo $temp[60];?></td>
        </tr>
        <tr>
     <td>2</td>
-    <td></td>
+    <td><?php echo $temp[1];?></td>
     <td>17</td>
-    <td></td>
+    <td><?php echo $temp[16];?></td>
     <td>32</td>
-    <td></td>
+    <td><?php echo $temp[31];?></td>
     <td>47</td>
-    <td></td>
+    <td><?php echo $temp[46];?></td>
     <td>62</td>
-    <td></td>
+    <td><?php echo $temp[61];?></td>
        </tr>
        <tr>
     <td>3</td>
-    <td></td>
+    <td><?php echo $temp[2];?></td>
     <td>18</td>
-    <td></td>
+    <td><?php echo $temp[17];?></td>
     <td>33</td>
-    <td></td>
+    <td><?php echo $temp[32];?></td>
     <td>48</td>
-    <td></td>
+    <td><?php echo $temp[47];?></td>
     <td>63</td>
-    <td></td>
+    <td><?php echo $temp[64];?></td>
        </tr>
        <tr>
     <td>4</td>
-    <td></td>
+    <td><?php echo $temp[3];?></td>
     <td>19</td>
-    <td></td>
+    <td><?php echo $temp[18];?></td>
     <td>34</td>
-    <td></td>
+    <td><?php echo $temp[33];?></td>
     <td>49</td>
-    <td></td>
+    <td><?php echo $temp[48];?></td>
     <td>64</td>
-    <td></td>
+    <td><?php echo $temp[65];?></td>
        </tr>
        <tr>
     <td>5</td>
-    <td></td>
+    <td><?php echo $temp[4];?></td>
     <td>20</td>
-    <td></td>
+    <td><?php echo $temp[19];?></td>
     <td>35</td>
-    <td></td>
+    <td><?php echo $temp[34];?></td>
     <td>50</td>
-    <td></td>
+    <td><?php echo $temp[49];?></td>
     <td>65</td>
-    <td></td>
+    <td><?php echo $temp[64];?></td>
        </tr>
        <tr>
     <td>6</td>
-    <td></td>
+    <td><?php echo $temp[5];?></td>
     <td>21</td>
-    <td></td>
+    <td><?php echo $temp[20];?></td>
     <td>36</td>
-    <td></td>
+    <td><?php echo $temp[35];?></td>
     <td>51</td>
-    <td></td>
+    <td><?php echo $temp[50];?></td>
     <td>66</td>
-    <td></td>
+    <td><?php echo $temp[65];?></td>
        </tr>
        <tr>
     <td>7</td>
-    <td></td>
+    <td><?php echo $temp[6];?></td>
     <td>22</td>
-    <td></td>
+    <td><?php echo $temp[21];?></td>
     <td>37</td>
-    <td></td>
+    <td><?php echo $temp[36];?></td>
     <td>52</td>
-    <td></td>
+    <td><?php echo $temp[51];?></td>
     <td>67</td>
-    <td></td>
+    <td><?php echo $temp[66];?></td>
        </tr>
        <tr>
     <td>8</td>
-    <td></td>
+    <td><?php echo $temp[7];?></td>
     <td>23</td>
-    <td></td>
+    <td><?php echo $temp[22];?></td>
     <td>38</td>
-    <td></td>
+    <td><?php echo $temp[37];?></td>
     <td>53</td>
-    <td></td>
+    <td><?php echo $temp[52];?></td>
     <td>68</td>
-    <td></td>
+    <td><?php echo $temp[67];?></td>
        </tr>
        <tr>
     <td>9</td>
-    <td></td>
+    <td><?php echo $temp[8];?></td>
     <td>24</td>
-    <td></td>
+    <td><?php echo $temp[23];?></td>
     <td>39</td>
-    <td></td>
+    <td><?php echo $temp[38];?></td>
     <td>54</td>
-    <td></td>
+    <td><?php echo $temp[53];?></td>
     <td>69</td>
-    <td></td>
+    <td><?php echo $temp[68];?></td>
     <tr>
     <td>10</td>
-    <td></td>
+    <td><?php echo $temp[9];?></td>
     <td>25</td>
-    <td></td>
+    <td><?php echo $temp[24];?></td>
     <td>40</td>
-    <td></td>
+    <td><?php echo $temp[39];?></td>
     <td>55</td>
-    <td></td>
+    <td><?php echo $temp[54];?></td>
     <td>70</td>
-    <td></td>
+    <td><?php echo $temp[69];?></td>
     <tr>
     <td>11</td>
-    <td></td>
+    <td><?php echo $temp[10];?></td>
     <td>26</td>
-    <td></td>
+    <td><?php echo $temp[25];?></td>
     <td>41</td>
-    <td></td>
+    <td><?php echo $temp[40];?></td>
     <td>56</td>
-    <td></td>
+    <td><?php echo $temp[55];?></td>
     <td>71</td>
-    <td></td>
+    <td><?php echo $temp[70];?></td>
        </tr>
        <tr>
     <td>12</td>
-    <td></td>
+    <td><?php echo $temp[11];?></td>
     <td>27</td>
-    <td></td>
+    <td><?php echo $temp[26];?></td>
     <td>42</td>
-    <td></td>
+    <td><?php echo $temp[41];?></td>
     <td>57</td>
-    <td></td>
+    <td><?php echo $temp[58];?></td>
     <td>72</td>
-    <td></td>
+    <td><?php echo $temp[71];?></td>
        </tr>
        <tr>
     <td>13</td>
-    <td></td>
+    <td><?php echo $temp[12];?></td>
     <td>28</td>
-    <td></td>
+    <td><?php echo $temp[27];?></td>
     <td>43</td>
-    <td></td>
+    <td><?php echo $temp[42];?></td>
     <td>58</td>
-    <td></td>
+    <td><?php echo $temp[57];?></td>
     <td>73</td>
-    <td></td>
+    <td><?php echo $temp[72];?></td>
        </tr>
        <tr>
     <td>14</td>
-    <td></td>
+    <td><?php echo $temp[13];?></td>
     <td>29</td>
-    <td></td>
+    <td><?php echo $temp[28];?></td>
     <td>44</td>
-    <td></td>
+    <td><?php echo $temp[43];?></td>
     <td>59</td>
-    <td></td>
+    <td><?php echo $temp[58];?></td>
     <td>74</td>
-    <td></td>
+    <td><?php echo $temp[73];?></td>
        </tr>
        <tr>
     <td>15</td>
-    <td></td>
+    <td><?php echo $temp[14];?></td>
     <td>30</td>
-    <td></td>
+    <td><?php echo $temp[29];?></td>
     <td>45</td>
-    <td></td>
+    <td><?php echo $temp[44];?></td>
     <td>60</td>
-    <td></td>
+    <td><?php echo $temp[59];?></td>
     <td>75</td>
-    <td></td>
+    <td><?php echo $temp[74];?></td>
        </tr>
         </tbody>
       </table>
@@ -380,7 +398,8 @@ session_start();
 </html>
 
 <?php
-$_SESSION["answer"] = null;
+/*$_SESSION["answer"] = null;
 $_SESSION["answer"] = array();
 $_SESSION['gender'] = null;
+*/
 ?>
