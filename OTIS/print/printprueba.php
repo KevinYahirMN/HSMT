@@ -371,7 +371,7 @@ $Dx = $CollectorDx->collect($IQ);
        </tr>
         </tbody>
       </table>
-
+      <br>
       <table class="content-table">
         <thead>
           <tr>
@@ -416,8 +416,7 @@ $Dx = $CollectorDx->collect($IQ);
 </html>
 
 <?php
-/*$_SESSION["answer"] = null;
+$_SESSION["answer"] = null;
 $_SESSION["answer"] = array();
 $_SESSION['gender'] = null;
-*/
 ?>

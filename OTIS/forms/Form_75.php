@@ -81,7 +81,7 @@ if($p == 73){
 			</div>
 			<div class="card-body">
 
-            <form method="post" action="../print/printprueba.php">
+            <form method="post" action="../print/print.php">
 
 			       
 					<!--Pregunta 75-->
