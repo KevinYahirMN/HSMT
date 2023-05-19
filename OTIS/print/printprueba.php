@@ -414,7 +414,6 @@ $Dx = $CollectorDx->collect($IQ);
 </body>
 <script type="text/javascript" src="../forms/js/function.js"></script>
 </html>
-
 <?php
 $_SESSION["answer"] = null;
 $_SESSION["answer"] = array();
