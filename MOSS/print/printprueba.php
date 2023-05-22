@@ -182,31 +182,52 @@ $_SESSION["answer"] = $temp;
           <td>Habilidad de supervisión</td>
           <td>%</td>
           <td>Porcentaje.exe</td>
-          <td>Interpretación.txt</td>
+          <td>Mantener la importancia y significado del propósito, las metas y la propuesta. 
+            Crear compromiso y confianza. Fortalecer la mezcla y el nivel de las habilidades. 
+            Manejar las relaciones con terceros, eliminar obstáculos. 
+            Crear oportunidades para otros.</td>
           </tr>
           <tr>
             <td>Capacidad de decisión en las relaciones humanas</td>
             <td>%</td>
             <td>Porcentaje.exe</td>
-            <td>Interpretación.txt</td>
+            <td>Analizar los problemas, para que este a su vez tome la decisión certeramente, sin 
+            entrometerse con la persona. Relacionarse sin ninguna dificultad en su medio social.
+            Tender a la socialización o manejar un gran número de personas pero superficialmente.
+            Tendrá la facilidad de escuchar a las personas pero no ir más allá de una relación más 
+            íntima. Ser una persona asertiva y amable con las personas que la rodean.</td>
           </tr>        
           <tr>
             <td>Capacidad de evaluación de problemas interpersonales</td>
             <td>%</td>
             <td>Porcentaje.exe</td>
-            <td>Interpretación.txt</td>
+            <td>Saber escuchar analíticamente. Tendrá la habilidad para saber escuchar y dar 
+              un consejo certeramente. Será una persona que cuando se presente un conflicto, 
+              sabrá cómo manejarlo adecuadamente. Es una persona que a través de su experiencia 
+              personal sabrá tomar las decisiones certeramente ante una situación que le ocasione 
+              algún problema ya sea personal o laboral.</td>
           </tr>        
           <tr>
-            <td>Relaciones interpersonales</td>
+            <td>Habilidad para establecer relaciones interpersonales</td>
             <td>%</td>
             <td>Porcentaje.exe</td>
-            <td>Interpretación.txt</td>
+            <td>Ser una persona realista y determinar expectativas ante un problema. Proporcionar 
+              retroalimentación a su grupo de amistades íntimamente. Se relacionará profundamente con 
+              su grupo de amistades ya que este será pequeño. Tendrá la habilidad para diseñar un proceso 
+              de amistad para cada uno de ellos. Es una persona sumamente emotiva con su grupo de
+              amistades.
+            </td>
           </tr>
           <tr>
             <td>Sentido común y tacto en las relaciones interpersonales</td>
             <td>%</td>
             <td>Porcentaje.exe</td>
-            <td>Interpretación.txt</td>
+            <td>Es una persona sumamente astuta y habilidosa para resolver cualquier tipo de problema 
+              y/o dificultad que se presente en su vida privada como social. Es una persona madura para 
+              enfrentar los retos y solventarlos rápidamente ante un razonamiento lógico. Tendrá el tacto 
+              para dar varios consejos a quien se lo pida y solventará rápidamente este tipo de problema. 
+              Tendrá algún número de amistades que le buscarán para hablar con ella y platicarle toda su vida. 
+              Tendrá la habilidad de escuchar y observar a todas las personas que le rodean.</td>
           </tr>
         </tbody>
       </table>
