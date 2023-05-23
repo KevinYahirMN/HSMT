@@ -2,6 +2,7 @@
 include_once('scale.php');
 include_once('../scalesCount/scaleCount.php');
 
+//Habilidad de supervison
 class scale_SF extends scale{
 
     function __construct(){

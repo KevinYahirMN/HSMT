@@ -2,6 +2,7 @@
 include_once('scale.php');
 include_once('../scalesCount/scaleCount.php');
 
+//Habilidad para establecer relaciones interpersonales
 class scale_IR extends scale{
 
     function __construct(){
