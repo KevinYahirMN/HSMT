@@ -199,7 +199,7 @@ $Dx = $CollectorDx->collect($IQ);
     <td>31</td>
     <td><?php echo $temp[30];?></td>
     <td>46</td>
-    <td><?php echo $temp[35];?></td>
+    <td><?php echo $temp[45];?></td>
     <td>61</td>
     <td><?php echo $temp[60];?></td>
        </tr>
@@ -225,7 +225,7 @@ $Dx = $CollectorDx->collect($IQ);
     <td>48</td>
     <td><?php echo $temp[47];?></td>
     <td>63</td>
-    <td><?php echo $temp[64];?></td>
+    <td><?php echo $temp[62];?></td>
        </tr>
        <tr>
     <td>4</td>
@@ -237,7 +237,7 @@ $Dx = $CollectorDx->collect($IQ);
     <td>49</td>
     <td><?php echo $temp[48];?></td>
     <td>64</td>
-    <td><?php echo $temp[65];?></td>
+    <td><?php echo $temp[63];?></td>
        </tr>
        <tr>
     <td>5</td>
@@ -329,7 +329,7 @@ $Dx = $CollectorDx->collect($IQ);
     <td>42</td>
     <td><?php echo $temp[41];?></td>
     <td>57</td>
-    <td><?php echo $temp[58];?></td>
+    <td><?php echo $temp[56];?></td>
     <td>72</td>
     <td><?php echo $temp[71];?></td>
        </tr>

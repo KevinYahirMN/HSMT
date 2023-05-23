@@ -3,105 +3,105 @@ class count{
     
     //sumatoria de respuesta a
     function calif_A($answer){
-        if($answer == 'A' && $answer == 'a'){
+        if($answer == 'A' || $answer == 'a'){
             return 1;
         }
     }
     
     //Sumatoria de respuesta b
     function calif_B($answer){
-        if($answer == 'B' && $answer == 'b'){
+        if($answer == 'B' || $answer == 'b'){
             return 1;
         }
     }
 
     //Sumatoria de respuesta c
     function calif_C($answer){
-        if($answer == 'C' && $answer == 'c'){
+        if($answer == 'C' || $answer == 'c'){
             return 1;
         }
     }
 
     //Sumatoria de respuesta d
     function calif_D($answer){
-        if($answer == 'D' && $answer == 'd'){
+        if($answer == 'D' || $answer == 'd'){
             return 1;
         }
     }
 
     //Sumatoria de respuesta e
     function calif_E($answer){
-        if($answer == 'E' && $answer == 'e'){
+        if($answer == 'E' || $answer == 'e'){
             return 1;
         }
     }
 
     //Sumatoria de respuesta f
     function calif_F($answer){
-        if($answer == 'F' && $answer == 'f'){
+        if($answer == 'F' || $answer == 'f'){
             return 1;
         }
     }
     
     //Sumatoria de respuesta g
     function calif_G($answer){
-        if($answer == 'G' && $answer == 'g'){
+        if($answer == 'G' || $answer == 'g'){
             return 1;
         }
     }
 
     //Sumatoria de respuesta h
     function calif_H($answer){
-        if($answer == 'H' && $answer == 'h'){
+        if($answer == 'H' || $answer == 'h'){
             return 1;
         }
     }
 
     //Sumatoria de respuesta i
     function calif_I($answer){
-        if($answer == 'I' && $answer == 'i'){
+        if($answer == 'I' || $answer == 'i'){
             return 1;
         }
     }
     
     //Sumatoria de respuesta j
     function calif_J($answer){
-        if($answer == 'J' && $answer == 'j'){
+        if($answer == 'J' || $answer == 'j'){
             return 1;
         }
     }
 
     //Sumatoria de respuesta l
     function calif_L($answer){
-        if($answer == 'L' && $answer == 'l'){
+        if($answer == 'L' || $answer == 'l'){
             return 1;
         }
     }
 
     //Sumatoria de respuesta m
     function calif_M($answer){
-        if($answer == 'M' && $answer == 'm'){
+        if($answer == 'M' || $answer == 'm'){
             return 1;
         }
     }
 
     //Sumatoria de respuesta o
     function calif_O($answer){
-        if($answer == 'O' && $answer == 'o'){
+        if($answer == 'O' || $answer == 'o'){
             return 1;
         }
     }
 
     //Sumatoria de respuesta q 
     function calif_Q($answer){
-        if($answer == 'Q' && $answer == 'q'){
+        if($answer == 'Q' || $answer == 'q'){
             return 1;
         }
     }
 
     //Sumatoria de respuesta t
     function calif_T($answer){
-        if($answer == 'T' && $answer == 't'){
+        if($answer == 'T' || $answer == 't'){
             return 1;
         }
     }
