@@ -3,7 +3,7 @@ include_once('../count/count.php');
 
 class revision{
     
-    function answerCount($answer = array()){
+    function answerCount($answer){
         $count = new count();
         $c = 0;
         $c += $count->calif_D($answer[0]);
