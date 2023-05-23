@@ -1,18 +1,22 @@
 <?php
-include_once('../interfaces/IscaleMOSS.php');
+include_once('scale.php');
 include_once('../scalesCount/scaleCount.php');
 
-class scale_DM implements IscaleMoss{
+class scale_DM extends scale{
 
-    function scale($answer = array())
+    function __construct(){
+        parent::__construct();
+    }
+
+    function check()
     {
         $sc = new scaleCount();
         $count = 0;
-        $count = $sc->calif_B($answer[3]);
-        $count = $sc->calif_B($answer[5]);
-        $count = $sc->calif_B($answer[19]);
-        $count = $sc->calif_A($answer[22]);
-        $count = $sc->calif_A($answer[28]);
+        $count += $sc->calif_B($this->answer[3]);
+        $count += $sc->calif_B($this->answer[5]);
+        $count += $sc->calif_B($this->answer[19]);
+        $count += $sc->calif_A($this->answer[22]);
+        $count += $sc->calif_A($this->answer[28]);
         return $count;
     }
 }
