@@ -7,9 +7,6 @@ $get = $_POST["Q"];
 array_push($temp, $get);
 $_SESSION["answer"] = $temp;
 
-
-
-
 $collectorCount = new CollectorCount();
 $CS = $collectorCount->collect_CS();
 $DM = $collectorCount->collect_DM();
