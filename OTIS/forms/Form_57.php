@@ -87,15 +87,15 @@ if($p == 55){
 					<!--Pregunta 57-->
 					<p>El capitán es para el barco lo que el alcalde es para:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  El estado</B></label>
+					<label>A)  El estado</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) La provincia</B></label>
+					<label>B) La provincia</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) La ciudad</B></label>
+					<label>C) La ciudad</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) El patrón</B></label>
+					<label>D) El patrón</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) El juez</B></label>
+					<label>E) El juez</label>
 					<hr>
 
 			     

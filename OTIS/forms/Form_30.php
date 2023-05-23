@@ -87,15 +87,15 @@ if($p == 28){
 					<!--Pregunta 30-->
 					<p>¿Qué es para la abeja lo que las uñas son para el gato?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Vuelo</B></label>
+					<label>A)  Vuelo</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Miel</B></label>
+					<label>B) Miel</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Alas</B></label>
+					<label>C) Alas</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Cera</B></label>
+					<label>D) Cera</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Aguijón</B></label>
+					<label>E) Aguijón</label>
 					<hr>
 
 			     

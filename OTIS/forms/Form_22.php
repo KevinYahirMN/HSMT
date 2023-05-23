@@ -87,15 +87,15 @@ if($p == 20){
 					<!--Pregunta 22-->
 					<p>El Rey es a la Monarquía lo que el Presidente es a:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  La presidencia del consejo de ministros</B></label>
+					<label>A)  La presidencia del consejo de ministros</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) El Senado</B></label>
+					<label>B) El Senado</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) La República</B></label>
+					<label>C) La República</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Un monárquico</B></label>
+					<label>D) Un monárquico</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Un republicano</B></label>
+					<label>E) Un republicano</label>
 					<hr>
 			     
             

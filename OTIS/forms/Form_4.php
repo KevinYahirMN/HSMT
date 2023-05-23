@@ -88,15 +88,15 @@ if($p == 2){
 					<!--Pregunta 4-->
 					<p>¿Qué es para el automóvil lo que el carbón es para la locomotora?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  El humo</B></label>
+					<label>A)  El humo</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) La motocicleta</B></label>
+					<label>B) La motocicleta</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Las ruedas</B></label>
+					<label>C) Las ruedas</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) La gasolina</B></label>
+					<label>D) La gasolina</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) La bocina</B></label>
+					<label>E) La bocina</label>
 					<hr>
 
 			     

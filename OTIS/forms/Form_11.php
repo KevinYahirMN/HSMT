@@ -86,25 +86,25 @@ if($p == 9){
 					<!--Pregunta 11-->
 					<p>¿Cuál de estas diez cantidades es la mayor?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A) 6456</B></label>
+					<label>A) 6456</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) 8963</B></label>
+					<label>B) 8963</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) 4265</B></label>
+					<label>C) 4265</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) 5064</B></label>
+					<label>D) 5064</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) 4108</B></label>
+					<label>E) 4108</label><br>
 					<input type="radio" value="F" name="Q" onclick="enable()">
-					<label><B>F) 7549</B></label>
+					<label>F) 7549</label><br>
 					<input type="radio" value="G" name="Q" onclick="enable()">
-					<label><B>G) 2335</B></label>
+					<label>G) 2335</label><br>
 					<input type="radio" value="H" name="Q" onclick="enable()">
-					<label><B>H) 9472</B></label>
+					<label>H) 9472</label><br>
 					<input type="radio" value="I" name="Q" onclick="enable()">
-					<label><B>I) 3286</B></label>
+					<label>I) 3286</label><br>
 					<input type="radio" value="J" name="Q" onclick="enable()">
-					<label><B>J) 8970</B></label>
+					<label>J) 8970</label><br>
 					<hr>
 					
 

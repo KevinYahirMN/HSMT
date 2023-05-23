@@ -87,15 +87,15 @@ if($p == 53){
 					<!--Pregunta 55-->
 					<p>Hay un refrán que dice: "A hierro caliente, batir de repente", y esto significa:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  El hierro batido en frío es malo</B></label><br>
+					<label>A)  El hierro batido en frío es malo</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) No se pueden hacer varias cosas al mismo tiempo</B></label><br>
+					<label>B) No se pueden hacer varias cosas al mismo tiempo</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Hay que saber aprovechar el momento oportuno</B></label><br>
+					<label>C) Hay que saber aprovechar el momento oportuno</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Los herreros han de trabajar siempre de prisa</B></label><br>
+					<label>D) Los herreros han de trabajar siempre de prisa</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) El trabajo del hierro es cansado</B></label>
+					<label>E) El trabajo del hierro es cansado</label>
 					<hr>
 			     
             

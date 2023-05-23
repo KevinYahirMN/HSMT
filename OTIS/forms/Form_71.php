@@ -86,19 +86,19 @@ if($p == 69){
 					<!--Pregunta 71-->
 					<p>¿Cuál de estas palabras sería la última que encontraríamos en un diccionario?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Hectárea</B></label>
+					<label>A)  Hectárea</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Juez</B></label>
+					<label>B) Juez</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Grande</B></label>
+					<label>C) Grande</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Nervio</B></label>
+					<label>D) Nervio</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Hora</B></label>
+					<label>E) Hora</label><br>
 					<input type="radio" value="F" name="Q" onclick="enable()">
-					<label><B>F) Norte</B></label>
+					<label>F) Norte</label><br>
 					<input type="radio" value="G" name="Q" onclick="enable()">
-					<label><B>G) Labio</B></label>
+					<label>G) Labio</label>
 					<hr>
 
 			     

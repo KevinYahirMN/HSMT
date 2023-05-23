@@ -89,15 +89,15 @@ if($p == 1){
 					<!--Pregunta 3-->
 					<p>La hierba es para la vaca lo que el pan es para:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A) La manteca</B></label>
+					<label>A) La manteca</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) La harina</B></label>
+					<label>B) La harina</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) La leche</B></label>
+					<label>C) La leche</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) El hombre</B></label>
+					<label>D) El hombre</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) La cosecha</B></label>
+					<label>E) La cosecha</label>
 					<hr>
 
 			     

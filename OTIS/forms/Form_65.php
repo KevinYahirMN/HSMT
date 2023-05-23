@@ -87,15 +87,15 @@ if($p == 63){
 					<!--Pregunta 65-->
 					<p>¿Cuál de estas palabras significa lo contrario de común?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Banal</B></label>
+					<label>A)  Banal</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Vivo</B></label>
+					<label>B) Vivo</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Difícil</B></label>
+					<label>C) Difícil</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Raro</B></label>
+					<label>D) Raro</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Interesante</B></label>
+					<label>E) Interesante</label>
 					<hr>
 			     
             

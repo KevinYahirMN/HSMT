@@ -86,15 +86,15 @@ if($p == 14){
 					<!--Pregunta 16-->
 					<p>¿Qué definición de estas expresa más exactamente lo que es un reloj?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Una cosa redonda que hace tic-tac</B></label><br>
+					<label>A)  Una cosa redonda que hace tic-tac</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Un aparato que se coloca en las torres</B></label><br>
+					<label>B) Un aparato que se coloca en las torres</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Un instrumento redondo con una cadena</B></label><br>
+					<label>C) Un instrumento redondo con una cadena</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Un instrumento que mide el tiempo</B></label><br>
+					<label>D) Un instrumento que mide el tiempo</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Una cosa que tiene aguja y un cristal</B></label>
+					<label>E) Una cosa que tiene aguja y un cristal</label>
 					<hr>
 
 			     

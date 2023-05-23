@@ -87,15 +87,15 @@ if($p == 13){
 					<!--Pregunta 15-->
 					<p>¿Cuál de estas cinco cosas no puede agruparse a las demás?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Pera</B></label>
+					<label>A)  Pera</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Plátano</B></label>
+					<label>B) Plátano</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Naranja</B></label>
+					<label>C) Naranja</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Pelota</B></label>
+					<label>D) Pelota</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Higo</B></label>
+					<label>E) Higo</label>
 					<hr>
 
 			     

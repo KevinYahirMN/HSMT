@@ -87,15 +87,15 @@ if($p == 24){
 					<!--Pregunta 26-->
 					<p>Mejor es a bueno lo que peor es a:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Muy bueno</B></label>
+					<label>A)  Muy bueno</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Mediano</B></label>
+					<label>B) Mediano</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Malo</B></label>
+					<label>C) Malo</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Nulo</B></label>
+					<label>D) Nulo</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Superior</B></label>
+					<label>E) Superior</label>
 					<hr>
 			     
             

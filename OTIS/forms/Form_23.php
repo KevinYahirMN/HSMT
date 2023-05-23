@@ -87,15 +87,15 @@ if($p == 21){
 					<!--Pregunta 23-->
 					<p>La lana es para el carnero lo que las plumas son para:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  La almohada</B></label>
+					<label>A)  La almohada</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) El conejo</B></label>
+					<label>B) El conejo</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) El pájaro</B></label>
+					<label>C) El pájaro</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) La cabra</B></label>
+					<label>D) La cabra</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) La cama</B></label>
+					<label>E) La cama</label>
 					<hr>
             
         	  

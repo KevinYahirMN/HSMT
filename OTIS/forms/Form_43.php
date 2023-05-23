@@ -88,13 +88,13 @@ if($p == 41){
 					<p>Si Jorge es mayor que Pedro, y Pedro es mayor que Juan, entonces Jorge es......... que
 					Juan.</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Mayor</B></label>
+					<label>A)  Mayor</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Más pequeño</B></label>
+					<label>B) Más pequeño</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Igual</B></label>
+					<label>C) Igual</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) No se puede saber</B></label>
+					<label>D) No se puede saber</label>
 					<hr>
 			     
             

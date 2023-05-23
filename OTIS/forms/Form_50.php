@@ -86,15 +86,15 @@ if($p == 48){
 					<!--Pregunta 50-->
 					<p>¿Qué indica mejor lo que es una mentira?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Un error</B></label><br>
+					<label>A)  Un error</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Una afirmación voluntariamente falsa</B></label><br>
+					<label>B) Una afirmación voluntariamente falsa</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Una afirmación involuntariamente falsa</B></label><br>
+					<label>C) Una afirmación involuntariamente falsa</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Una exageración</B></label><br>
+					<label>D) Una exageración</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Una respuesta inexacta</B></label>
+					<label>E) Una respuesta inexacta</label>
 					<hr>
 
 			     

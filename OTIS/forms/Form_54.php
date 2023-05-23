@@ -87,15 +87,15 @@ if($p == 52){
 					<!--Pregunta 54-->
 					<p>¿Cuál de estas cosas tiene más parecido con serpiente, vaca y gorrión?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Árbol</B></label>
+					<label>A)  Árbol</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Muñeca</B></label>
+					<label>B) Muñeca</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Carnero</B></label>
+					<label>C) Carnero</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Pluma</B></label>
+					<label>D) Pluma</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Piel</B></label>
+					<label>E) Piel</label>
 					<hr>
 
 			     

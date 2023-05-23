@@ -87,15 +87,15 @@ if($p == 31){
 					<!--Pregunta 33-->
 					<p>La corteza es para la naranja y la vaina es para el chícharo, lo que la cáscara es para:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  La manzana</B></label>
+					<label>A)  La manzana</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) El huevo</B></label>
+					<label>B) El huevo</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) El jugo</B></label>
+					<label>C) El jugo</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) El melocotón</B></label>
+					<label>D) El melocotón</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) La gallina</B></label>
+					<label>E) La gallina</label>
 					<hr>
 
 			     

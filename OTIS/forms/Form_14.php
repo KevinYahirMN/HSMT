@@ -87,15 +87,15 @@ if($p == 12){
 					<!--Pregunta 14-->
 					<p>¿Qué palabra indica lo contrario a soberbia?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Tristeza</B></label>
+					<label>A)  Tristeza</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Humildad</B></label>
+					<label>B) Humildad</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Pobreza</B></label>
+					<label>C) Pobreza</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Variedad</B></label>
+					<label>D) Variedad</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Altanería</B></label>
+					<label>E) Altanería</label>
 					<hr>
 
 			     

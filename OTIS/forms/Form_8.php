@@ -88,15 +88,15 @@ if($p == 6){
 					<!--Pregunta 8-->
 					<p>De una persona que tiene deseos de hacer una cosa, pero teme el fracaso, se dice que es:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Seria</B></label>
+					<label>A)  Seria</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Ansiosa</B></label>
+					<label>B) Ansiosa</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Trabajadora</B></label>
+					<label>C) Trabajadora</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Energética</B></label>
+					<label>D) Energética</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Tímida</B></label>
+					<label>E) Tímida</label>
 					<hr>
 
 			     

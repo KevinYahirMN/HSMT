@@ -67,15 +67,15 @@ $_SESSION["counter"] = 0;
 					<!--Pregunta 1-->            
 					<p>¿Qué expresa mejor qué es un martillo?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A) Cosa</B></label>
+					<label>A) Cosa</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Mueble</B></label>
+					<label>B) Mueble</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Arma</B></label>
+					<label>C) Arma</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Herramienta</B></label>
+					<label>D) Herramienta</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Máquina</B></label>
+					<label>E) Máquina</label>
 					<hr>				
 
 							

@@ -86,21 +86,21 @@ if($p == 61){
 					<!--Pregunta 63-->
 					<p>¿Cuál de estas palabras sería la primera que encontraríamos en un diccionario?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Bravo</B></label>
+					<label>A)  Bravo</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Bueno</B></label>
+					<label>B) Bueno</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Brocha</B></label>
+					<label>C) Brocha</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Bujía</B></label>
+					<label>D) Bujía</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Bretón</B></label>
+					<label>E) Bretón</label><br>
 					<input type="radio" value="F" name="Q" onclick="enable()">
-					<label><B>F) Broma</B></label>
+					<label>F) Broma</label><br>
 					<input type="radio" value="G" name="Q" onclick="enable()">
-					<label><B>G) Bucle</B></label>
+					<label>G) Bucle</label><br>
 					<input type="radio" value="H" name="Q" onclick="enable()">
-					<label><B>H) Bribón</B></label>
+					<label>H) Bribón</label>
 					<hr>
 
 			     

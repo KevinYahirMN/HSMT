@@ -2,3 +2,7 @@ p{
     
     font-weight: bold;
 }
+#input_Text {
+    height: 70%;
+    width:10%;
+   }

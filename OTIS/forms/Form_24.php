@@ -87,15 +87,15 @@ if($p == 22){
 					<!--Pregunta 24-->
 					<p>¿Cuál de estas definiciones expresa más exactamente lo que es un cordero?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Un animal terrestre</B></label><br>
+					<label>A)  Un animal terrestre</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Un ser que tiene cuatro patas y una cola</B></label><br>
+					<label>B) Un ser que tiene cuatro patas y una cola</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Un animal pequeño y avispado</B></label><br>
+					<label>C) Un animal pequeño y avispado</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Un carnero joven</B></label><br>
+					<label>D) Un carnero joven</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Es un animalito que come hierba</B></label>
+					<label>E) Es un animalito que come hierba</label>
 					<hr>
 			     
             

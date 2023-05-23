@@ -88,13 +88,13 @@ if($p == 45){
 					<p>Si Juan es mayor que José, y José tiene la misma edad que Carlos, entonces Carlos
 						es....... que Juan.</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Mayor</B></label>
+					<label>A)  Mayor</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Más joven</B></label>
+					<label>B) Más joven</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) De la misma edad</B></label>
+					<label>C) De la misma edad</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) No se puede saber</B></label>
+					<label>D) No se puede saber</label>
 					<hr>
 
 			     

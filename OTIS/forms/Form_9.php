@@ -87,15 +87,15 @@ if($p == 7){
 					<!--Pregunta 9-->
 					<p>El sombrero es para la cabeza lo que el dedal es para:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  El dedo</B></label>
+					<label>A)  El dedo</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) La aguja</B></label>
+					<label>B) La aguja</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) El hilo</B></label>
+					<label>C) El hilo</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) La mano</B></label>
+					<label>D) La mano</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) La costura</B></label>
+					<label>E) La costura</label>
 					<hr>
 
 			     

@@ -88,13 +88,13 @@ if($p == 44){
 					<p>Hay un refrán que dice: "Un grano no hace granero, pero ayuda al compañero", y esto
 					significa que:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Resuélvete a hacer lo que debes y haz sin falta lo que hayas resuelto</B></label><br>
+					<label>A)  Resuélvete a hacer lo que debes y haz sin falta lo que hayas resuelto</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Hay que ganarse la vida a fuerza de amor</B></label><br>
+					<label>B) Hay que ganarse la vida a fuerza de amor</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) No se deben menospreciar las cosas pequeñas</B></label><br>
+					<label>C) No se deben menospreciar las cosas pequeñas</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) En casa de pobre no es necesario granero</B></label>
+					<label>D) En casa de pobre no es necesario granero</label>
 					<hr>
 			     
             

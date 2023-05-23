@@ -87,15 +87,15 @@ if($p == 36){
 					<!--Pregunta 38-->
 					<p>Hay un refrán que dice "No es oro todo lo que reluce" y esto significa:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Hay oro que no brilla</B></label><br>
+					<label>A)  Hay oro que no brilla</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) No hay que dejarse llevar por las apariencias</B></label><br>
+					<label>B) No hay que dejarse llevar por las apariencias</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) El diamante es más brillante que el oro</B></label><br>
+					<label>C) El diamante es más brillante que el oro</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) No hay que llevar bisutería que imite al oro</B></label><br>
+					<label>D) No hay que llevar bisutería que imite al oro</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Hay gentes a quienes gusta ostentar sus riquezas</B></label>
+					<label>E) Hay gentes a quienes gusta ostentar sus riquezas</label>
 					<hr>
 
 			     

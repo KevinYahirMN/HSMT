@@ -87,15 +87,15 @@ if($p == 32){
 					<!--Pregunta 34-->
 					<p>¿Qué es para el criminal lo que el hospital es para el enfermo?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Juez</B></label>
+					<label>A)  Juez</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Hospicio</B></label>
+					<label>B) Hospicio</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Doctor</B></label>
+					<label>C) Doctor</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Presidio</B></label>
+					<label>D) Presidio</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Sentencia</B></label>
+					<label>E) Sentencia</label>
 					<hr>
 			     
             

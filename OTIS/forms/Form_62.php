@@ -87,15 +87,15 @@ if($p == 60){
 					<!--Pregunta 62-->
 					<p>¿Qué indica mejor lo que es un termómetro</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Un tubo de cristal graduado que contiene mercurio</B></label><br>
+					<label>A)  Un tubo de cristal graduado que contiene mercurio</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Un instrumento para medir la fiebre</B></label><br>
+					<label>B) Un instrumento para medir la fiebre</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Un aparato muy sensible al calor</B></label><br>
+					<label>C) Un aparato muy sensible al calor</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Un instrumento para medir la temperatura</B></label><br>
+					<label>D) Un instrumento para medir la temperatura</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Un objeto que utilizan los médicos</B></label>
+					<label>E) Un objeto que utilizan los médicos</label>
 					<hr>
 			     
             

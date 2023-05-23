@@ -87,15 +87,15 @@ if($p == 57){
 					<!--Pregunta 59-->
 					<p>Si un pleito se resuelve por mutuo acuerdo, se dice que ha habido:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Promesa</B></label>
+					<label>A)  Promesa</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Debate</B></label>
+					<label>B) Debate</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Amnistía</B></label>
+					<label>C) Amnistía</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Proceso</B></label>
+					<label>D) Proceso</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Aveniencia</B></label>
+					<label>E) Aveniencia</label>
 					<hr>
 			     
             

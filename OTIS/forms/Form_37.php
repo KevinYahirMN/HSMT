@@ -87,15 +87,15 @@ if($p == 35){
 					<!--Pregunta 37-->
 					<p>De una cantidad que disminuye se dice que:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Se va</B></label>
+					<label>A)  Se va</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Decrece</B></label>
+					<label>B) Decrece</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Se agota</B></label>
+					<label>C) Se agota</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Muere</B></label>
+					<label>D) Muere</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Desaparece</B></label>
+					<label>E) Desaparece</label>
 					<hr>
 
 			     

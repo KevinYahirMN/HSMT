@@ -87,15 +87,15 @@ if($p == 8){
 					<!--Pregunta 10-->
 					<p>El hijo de la hermana de mi padre es mi:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Hermano</B></label>
+					<label>A)  Hermano</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Sobrino</B></label>
+					<label>B) Sobrino</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Primo</B></label>
+					<label>C) Primo</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Tío</B></label>
+					<label>D) Tío</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Nieto</B></label>
+					<label>E) Nieto</label>
 					<hr>
 			     
             

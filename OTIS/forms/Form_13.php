@@ -87,15 +87,15 @@ if($p == 11){
 					<!--Pregunta 13-->
 					<p>¿Qué palabra indica lo opuesto a Este?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Norte</B></label>
+					<label>A)  Norte</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Polo</B></label>
+					<label>B) Polo</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Ecuador</B></label>
+					<label>C) Ecuador</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Sur</B></label>
+					<label>D) Sur</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Oeste</B></label>
+					<label>E) Oeste</label>
 					<hr>
 			     
             

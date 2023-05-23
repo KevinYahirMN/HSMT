@@ -87,13 +87,13 @@ if($p == 15){
 					<p>Si una persona al salir de su casa anda siete pasos hacia la derecha 
 					y después retrocede cuatro hacia la izquierda, ¿a cuántos pasos está de su casa?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  3</B></label>
+					<label>A)  3</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) 7</B></label>
+					<label>B) 7</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) 0</B></label>
+					<label>C) 0</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) 4</B></label>
+					<label>D) 4</label>
 					<hr>
 			     
             

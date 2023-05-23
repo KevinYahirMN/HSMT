@@ -88,15 +88,15 @@ if($p == 50){
 					<p>La palabra que mejor expresa que una cosa o institución se mantiene a lo largo del tiempo
 					es:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Permanente</B></label>
+					<label>A)  Permanente</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Firme</B></label>
+					<label>B) Firme</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Estacionaria</B></label>
+					<label>C) Estacionaria</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Sólida</B></label>
+					<label>D) Sólida</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Verdadera</B></label>
+					<label>E) Verdadera</label>
 					<hr>
 
 			     

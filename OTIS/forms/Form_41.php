@@ -87,15 +87,15 @@ if($p == 39){
 					<!--Pregunta 41-->
 					<p>¿Cuál de estas cinco cosas es más completa?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Retoño</B></label>
+					<label>A)  Retoño</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Hoja</B></label>
+					<label>B) Hoja</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Árbol</B></label>
+					<label>C) Árbol</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Rama</B></label>
+					<label>D) Rama</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Tronco</B></label>
+					<label>E) Tronco</label>
 					<hr>
 			     
             

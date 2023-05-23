@@ -87,15 +87,15 @@ if($p == 23){
 					<!--Pregunta 25-->
 					<p>Pesado es a plomo, lo que sonoro es a:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Suave</B></label>
+					<label>A)  Suave</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Pequeño</B></label>
+					<label>B) Pequeño</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Macizo</B></label>
+					<label>C) Macizo</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Gris</B></label>
+					<label>D) Gris</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Ruido</B></label>
+					<label>E) Ruido</label>
 					<hr>
 			     
             

@@ -87,13 +87,13 @@ if($p == 17){
 					<!--Pregunta 19-->
 					<p>¿Cuál es la razón por la cual las fachadas de los comercios están muy iluminadas?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Con el fin de que los transeuntes sepan en dónde están</B></label><br>
+					<label>A)  Con el fin de que los transeuntes sepan en dónde están</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Para que puedan ver los artículos expuestos y la gente sienta deseos de comprar</B></label><br>
+					<label>B) Para que puedan ver los artículos expuestos y la gente sienta deseos de comprar</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Porque los comercios pagan muy barata la corriente eléctrica</B></label><br>
+					<label>C) Porque los comercios pagan muy barata la corriente eléctrica</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Para aumentar la iluminación de la calle</B></label>
+					<label>D) Para aumentar la iluminación de la calle</label>
 					<hr>
             
         	  

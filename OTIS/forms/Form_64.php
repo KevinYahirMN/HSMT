@@ -85,7 +85,7 @@ if($p == 62){
 			       
 					<!--Pregunta 64-->
 					<p>Uno de los números de esta serie está equivocado. Escriba en el recuadro el número que debería figurar en su lugar.
-					1 2 4 8 12 32 64
+					1 2 4 8 (12) 32 64
                     </p>  
 					<input type="text" id="input_Text" name="Q" pattern="[0-9.]+" title="Este campo solo permite números">
 					<hr>

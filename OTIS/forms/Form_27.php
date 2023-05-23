@@ -86,15 +86,15 @@ if($p == 25){
 					<!--Pregunta 27-->
 					<p>¿Cuál de estas cosas tiene más parecido con tenazas, alambre y clavo?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Billete de 20 pesos</B></label>
+					<label>A)  Billete de 20 pesos</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Hueso</B></label>
+					<label>B) Hueso</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Cuerda</B></label>
+					<label>C) Cuerda</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Jugo</B></label>
+					<label>D) Jugo</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Cuchillo</B></label>
+					<label>E) Cuchillo</label>
 					<hr>
 
 			     

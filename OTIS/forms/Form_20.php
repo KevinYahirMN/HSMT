@@ -87,15 +87,15 @@ if($p == 18){
 					<!--Pregunta 20-->
 					<p>¿Cuál de estas cinco cosas tiene más parecido con manzana, durazno y pera?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Semilla</B></label>
+					<label>A)  Semilla</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Árbol</B></label>
+					<label>B) Árbol</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Ciruela</B></label>
+					<label>C) Ciruela</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Jugo</B></label>
+					<label>D) Jugo</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Cuchillo</B></label>
+					<label>E) Cuchillo</label>
 					<hr>
 			     
             

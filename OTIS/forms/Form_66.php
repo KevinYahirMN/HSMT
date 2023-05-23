@@ -86,15 +86,15 @@ if($p == 64){
 					<!--Pregunta 66-->
 					<p>¿Cuál de estas cinco cosas tiene más parecido con Presidente, Almirante y General?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Navio</B></label>
+					<label>A)  Navio</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Ejército</B></label>
+					<label>B) Ejército</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Rey</B></label>
+					<label>C) Rey</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) República</B></label>
+					<label>D) República</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Soldadura</B></label>
+					<label>E) Soldadura</label>
 					<hr>
 			     
             

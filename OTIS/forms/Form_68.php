@@ -86,15 +86,15 @@ if($p == 66){
 					<!--Pregunta 68-->
 					<p>¿Cuál de estas definiciones indica más exactamente lo que es un caballo?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Un animal que tiene cola</B></label>
+					<label>A)  Un animal que tiene cola</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Un ser viviente</B></label>
+					<label>B) Un ser viviente</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Una cosa que trabaja</B></label>
+					<label>C) Una cosa que trabaja</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Un rumiante</B></label>
+					<label>D) Un rumiante</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Un animal que tira de los coches</B></label>
+					<label>E) Un animal que tira de los coches</label>
 					<hr>
 			     
             

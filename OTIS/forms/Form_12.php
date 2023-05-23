@@ -88,15 +88,15 @@ if($p == 10){
 					<p>Cuando sabemos que un acontecimiento va a pasar sin ninguna clase de duda, decimos
 					que es:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Probable</B></label>
+					<label>A)  Probable</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Seguro</B></label>
+					<label>B) Seguro</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Dudoso</B></label>
+					<label>C) Dudoso</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Posible</B></label>
+					<label>D) Posible</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Diferido</B></label>
+					<label>E) Diferido</label>
 					<hr>
 			     
             

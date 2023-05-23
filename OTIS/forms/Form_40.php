@@ -87,13 +87,13 @@ if($p == 38){
 					<!--Pregunta 40-->
 					<p>Este refrán, "Más vale pájaro en mano que ciento volando", quiere decir:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Es preferible poseer una cosa que esperar una grande</B></label><br>
+					<label>A)  Es preferible poseer una cosa que esperar una grande</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) El corazón fuerte no se deja rendir por la lisonja</B></label><br>
+					<label>B) El corazón fuerte no se deja rendir por la lisonja</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Ningún hombre suele apartarse de la verdad sin engañarse a sí mismo</B></label><br>
+					<label>C) Ningún hombre suele apartarse de la verdad sin engañarse a sí mismo</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) el que está en todas partes no está en ninguna</B></label>
+					<label>D) el que está en todas partes no está en ninguna</label>
 					<hr>
 			     
             

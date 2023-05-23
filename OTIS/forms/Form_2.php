@@ -89,15 +89,15 @@ if($p == 0){
 					<!--Pregunta 2-->
 					<p>¿Cuál de estas cinco palabras significa lo contrario de ganar?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A) Conseguir</B></label>
+					<label>A) Conseguir</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Decaer</B></label>
+					<label>B) Decaer</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Perder</B></label>
+					<label>C) Perder</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Acceder</B></label>
+					<label>D) Acceder</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Ensayar</B></label>
+					<label>E) Ensayar</label>
 					<hr>
             
         	  

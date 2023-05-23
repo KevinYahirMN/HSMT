@@ -88,15 +88,15 @@ if($p == 30){
 					<p>¿Cuál es la principal razón por la que vemos cada día sustituir las carretas por los
 					automóviles?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Los caballos son cada día más escasos</B></label><br>
+					<label>A)  Los caballos son cada día más escasos</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Los caballos se desbocan fácilmente</B></label><br>
+					<label>B) Los caballos se desbocan fácilmente</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Los autos nos hacen ganar tiempo</B></label><br>
+					<label>C) Los autos nos hacen ganar tiempo</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Los autos son más económicos que las carretas </B></label><br>
+					<label>D) Los autos son más económicos que las carretas </label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Las reparaciones de los autos son más baratas que las de las carretas</B></label>
+					<label>E) Las reparaciones de los autos son más baratas que las de las carretas</label>
 					<hr>
 			     
             

@@ -85,7 +85,7 @@ if($p == 56){
 			       
 					<!--Pregunta 58-->
 					<p>Uno de los números de esta serie está equivocado. 
-					Escriba en el recuadro el número que debería figurar en su lugar 2 3 4 3 2 3 4 3 2 4</p>  
+					Escriba en el recuadro el número que debería figurar en su lugar 2 3 4 3 (2) 3 4 3 2 4</p>  
 					<input type="text" id="input_Text" name="Q" pattern="[0-9.]+" title="Este campo solo permite números">
 					<hr>
 			    

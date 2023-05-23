@@ -87,15 +87,15 @@ if($p == 26){
 					<!--Pregunta 28-->
 					<p>Ante el dolor de los demás, normalmente sentimos:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Rabia</B></label>
+					<label>A)  Rabia</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Piedad</B></label>
+					<label>B) Piedad</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Desprecio</B></label>
+					<label>C) Desprecio</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Desdén</B></label>
+					<label>D) Desdén</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Añoranza</B></label>
+					<label>E) Añoranza</label>
 					<hr>
 
 			     

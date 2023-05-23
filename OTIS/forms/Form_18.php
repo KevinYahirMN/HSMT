@@ -88,15 +88,15 @@ if($p == 16){
 					<p>Si comparamos el automóvil con una carreta, ¿con qué deberíamos comparar una
 					motocicleta?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  A la carrera</B></label>
+					<label>A)  A la carrera</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Al caballo</B></label>
+					<label>B) Al caballo</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Al tranvía</B></label>
+					<label>C) Al tranvía</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Al tren</B></label>
+					<label>D) Al tren</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) A la bicicleta</B></label>
+					<label>E) A la bicicleta</label>
 					<hr>
 			     
             

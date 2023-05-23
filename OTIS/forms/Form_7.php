@@ -88,15 +88,15 @@ if($p == 5){
 					<!--Pregunta 7-->
 					<p>De un muchacho que no hace más que hablar de sus cualidades y de su sabiduría, se dice que:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Miente</B></label>
+					<label>A)  Miente</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Bromea</B></label>
+					<label>B) Bromea</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Engaña</B></label>
+					<label>C) Engaña</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Se divierte</B></label>
+					<label>D) Se divierte</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Se alaba</B></label>
+					<label>E) Se alaba</label>
 					<hr>
 
 			     

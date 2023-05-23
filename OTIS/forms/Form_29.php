@@ -87,15 +87,15 @@ if($p == 27){
 					<!--Pregunta 29-->
 					<p>Cuando alguien concibe una nueva máquina, se dice que ha hecho una:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Exploración</B></label>
+					<label>A)  Exploración</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Adaptación</B></label>
+					<label>B) Adaptación</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Renovación</B></label>
+					<label>C) Renovación</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Novedad</B></label>
+					<label>D) Novedad</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Invención</B></label>
+					<label>E) Invención</label>
 					<hr>
 			     
             

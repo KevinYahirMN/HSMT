@@ -86,7 +86,7 @@ if($p == 29){
 			       
 					<!--Pregunta 31-->
 					<p>Uno de los números de esta serie es falso. Escriba en el recuadro el número que debiera
-					figurar en su lugar: 1 7 2 7 3 7 4 7 5 7 6 7 8 7</p>  
+					figurar en su lugar: 1 7 2 7 3 7 4 7 5 7 6 7 (8) 7</p>  
 					<input type="text" id="input_Text" name="Q" pattern="[0-9.]+" title="Este campo solo permite números">
 					<hr>
 			    

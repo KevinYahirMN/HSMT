@@ -87,19 +87,19 @@ if($p == 42){
 					<!--Pregunta 44-->
 					<p>¿Cuál de estas palabras sería la primera que encontraríamos en un diccionario?</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  Tren</B></label>
+					<label>A)  Tren</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) Santo</B></label>
+					<label>B) Santo</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) Raspador</B></label>
+					<label>C) Raspador</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) Queso</B></label>
+					<label>D) Queso</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) Gruta</B></label>
+					<label>E) Gruta</label><br>
 					<input type="radio" value="F" name="Q" onclick="enable()">
-					<label><B>F) Noche</B></label>
+					<label>F) Noche</label><br>
 					<input type="radio" value="G" name="Q" onclick="enable()">
-					<label><B>G) Pintura</B></label>
+					<label>G) Pintura</label>
 					<hr>
             
         	  

@@ -88,15 +88,15 @@ if($p == 4){
 					<!--Pregunta 6-->
 					<p>La mano es para el brazo lo que el pie es para:</p>  
 					<input type="radio" value="A" name="Q" onclick="enable()">
-					<label><B>A)  La pierna</B></label>
+					<label>A)  La pierna</label><br>
 					<input type="radio" value="B" name="Q" onclick="enable()">
-					<label><B>B) El pulgar</B></label>
+					<label>B) El pulgar</label><br>
 					<input type="radio" value="C" name="Q" onclick="enable()">
-					<label><B>C) El dedo</B></label>
+					<label>C) El dedo</label><br>
 					<input type="radio" value="D" name="Q" onclick="enable()">
-					<label><B>D) El puño</B></label>
+					<label>D) El puño</label><br>
 					<input type="radio" value="E" name="Q" onclick="enable()">
-					<label><B>E) La rodilla</B></label>
+					<label>E) La rodilla</label>
 					<hr>
 
 			     
