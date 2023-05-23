@@ -1,10 +1,30 @@
 <?php
 include("../collectors/collectorCount.php");
 
+/*
 session_start();
 $temp = $_SESSION["answer"];
 $get = $_POST["Q"];
 array_push($temp, $get);
+$_SESSION["answer"] = $temp;
+*/
+session_start();
+$_SESSION["answer"] = array();
+
+$temp = array();
+
+for($i = 0; $i < 30; $i++){
+  if($i%2 == 0){
+    array_push($temp, 'a');    
+  }else if($i%3 == 0){
+    array_push($temp, 'b');
+  }else if($i%5 == 0){
+    array_push($temp, 'c');
+  }else{
+    array_push($temp, 'd');
+  }
+}
+
 $_SESSION["answer"] = $temp;
 
 $collectorCount = new CollectorCount();
