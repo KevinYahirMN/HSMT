@@ -2,6 +2,7 @@
 include_once('scale.php');
 include_once('../scalesCount/scaleCount.php');
 
+//Capacidad de decisiones en las relaciones humanas
 class scale_DM extends scale{
 
     function __construct(){

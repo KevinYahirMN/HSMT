@@ -2,6 +2,7 @@
 include_once('scale.php');
 include_once('../scalesCount/scaleCount.php');
 
+//Sentido común y tacto en las relaciones interpersonales
 class scale_CS extends scale{
 
     function __construct(){

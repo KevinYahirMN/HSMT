@@ -2,6 +2,7 @@
 include_once('scale.php');
 include_once('../scalesCount/scaleCount.php');
 
+//Capacidad de evaluacion de problemas interpersonales
 class scale_IP extends scale{
 
     function __construct(){
