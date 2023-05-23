@@ -1,16 +1,21 @@
 <?php
-/*include("../collector/collectorCount.php");
-include("../collector/collectorDx.php");
-include("../collector/collectorIQ.php");
-include("../collector/collectorRange.php");
+include("../collectors/collectorCount.php");
 
 session_start();
 $temp = $_SESSION["answer"];
 $get = $_POST["Q"];
 array_push($temp, $get);
 $_SESSION["answer"] = $temp;
-*/
 
+
+
+
+$collectorCount = new CollectorCount();
+$CS = $collectorCount->collect_CS();
+$DM = $collectorCount->collect_DM();
+$IP = $collectorCount->collect_IP();
+$IR = $collectorCount->collect_IR();
+$SF = $collectorCount->collect_SF();
 ?>
 
 <!doctype html>
@@ -181,7 +186,7 @@ $_SESSION["answer"] = $temp;
           <tr>
           <td>Habilidad de supervisión</td>
           <td>%</td>
-          <td>Porcentaje.exe</td>
+          <td><?php echo $SF ?></td>
           <td>Mantener la importancia y significado del propósito, las metas y la propuesta. 
             Crear compromiso y confianza. Fortalecer la mezcla y el nivel de las habilidades. 
             Manejar las relaciones con terceros, eliminar obstáculos. 
@@ -190,7 +195,7 @@ $_SESSION["answer"] = $temp;
           <tr>
             <td>Capacidad de decisión en las relaciones humanas</td>
             <td>%</td>
-            <td>Porcentaje.exe</td>
+            <td><?php echo $DM ?></td>
             <td>Analizar los problemas, para que este a su vez tome la decisión certeramente, sin 
             entrometerse con la persona. Relacionarse sin ninguna dificultad en su medio social.
             Tender a la socialización o manejar un gran número de personas pero superficialmente.
@@ -200,7 +205,7 @@ $_SESSION["answer"] = $temp;
           <tr>
             <td>Capacidad de evaluación de problemas interpersonales</td>
             <td>%</td>
-            <td>Porcentaje.exe</td>
+            <td><?php echo $IP ?></td>
             <td>Saber escuchar analíticamente. Tendrá la habilidad para saber escuchar y dar 
               un consejo certeramente. Será una persona que cuando se presente un conflicto, 
               sabrá cómo manejarlo adecuadamente. Es una persona que a través de su experiencia 
@@ -210,7 +215,7 @@ $_SESSION["answer"] = $temp;
           <tr>
             <td>Habilidad para establecer relaciones interpersonales</td>
             <td>%</td>
-            <td>Porcentaje.exe</td>
+            <td><?php echo $IR ?></td>
             <td>Ser una persona realista y determinar expectativas ante un problema. Proporcionar 
               retroalimentación a su grupo de amistades íntimamente. Se relacionará profundamente con 
               su grupo de amistades ya que este será pequeño. Tendrá la habilidad para diseñar un proceso 
@@ -221,7 +226,7 @@ $_SESSION["answer"] = $temp;
           <tr>
             <td>Sentido común y tacto en las relaciones interpersonales</td>
             <td>%</td>
-            <td>Porcentaje.exe</td>
+            <td><?php echo $CS ?></td>
             <td>Es una persona sumamente astuta y habilidosa para resolver cualquier tipo de problema 
               y/o dificultad que se presente en su vida privada como social. Es una persona madura para 
               enfrentar los retos y solventarlos rápidamente ante un razonamiento lógico. Tendrá el tacto 
