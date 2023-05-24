@@ -18,7 +18,7 @@ for($i = 0; $i < 30; $i++){
     array_push($temp, 'a');    
   }else if($i%3 == 0){
     array_push($temp, 'b');
-  }else if($i%5 == 0){
+  }else if($i%11 == 0){
     array_push($temp, 'c');
   }else{
     array_push($temp, 'd');

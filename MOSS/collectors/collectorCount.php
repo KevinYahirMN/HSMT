@@ -9,30 +9,30 @@ class collectorCount{
 
     function collect_CS(){
         $obj = new scale_CS;
-        $count = $obj->check();
-        return $count;
+        return $this->collect($obj);
     }
 
     function collect_DM(){
         $obj = new scale_DM;
-        $count = $obj->check();
-        return $count;
+        return $this->collect($obj);
     }
 
     function collect_IP(){
         $obj = new scale_IP;
-        $count = $obj->check();
-        return $count;
+        return $this->collect($obj);
     }
 
     function collect_IR(){
         $obj = new scale_IR;
-        $count = $obj->check();
-        return $count;
+        return $this->collect($obj);
     }
 
     function collect_SF(){
         $obj = new scale_SF;
+        return $this->collect($obj);
+    }
+
+    private function collect($obj){
         $count = $obj->check();
         return $count;
     }
