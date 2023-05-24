@@ -1,5 +1,9 @@
 <?php
 include("../collectors/collectorCount.php");
+include("../collectors/collectorRange.php");
+include("../collectors/collectorAdaptability.php");
+
+
 
 /*
 session_start();
@@ -24,7 +28,6 @@ for($i = 0; $i < 30; $i++){
     array_push($temp, 'd');
   }
 }
-
 $_SESSION["answer"] = $temp;
 
 $collectorCount = new CollectorCount();
@@ -33,6 +36,22 @@ $DM = $collectorCount->collect_DM();
 $IP = $collectorCount->collect_IP();
 $IR = $collectorCount->collect_IR();
 $SF = $collectorCount->collect_SF();
+$collectorPercent = new CollectorPercent();
+$CCS = $collectorPercent->collect_CS($CS);
+$CDM = $collectorPercent->collect_DM($DM);
+$CIP = $collectorPercent->collect_IP($IP);
+$CIR = $collectorPercent->collect_IR($IR);
+$CSF = $collectorPercent->collect_SF($SF);
+
+$CollectorRange = new CollectorRange();
+$RCS = $CollectorRange->range_Adaptability($CCS);
+$RDM = $CollectorRange->range_Adaptability($CDM);
+$RIP = $CollectorRange->range_Adaptability($CIP);
+$RIR = $CollectorRange->range_Adaptability($CIR);
+$RSF = $CollectorRange->range_Adaptability($CSF);
+$RCount = $CS+$DM+$IP+$IR+$SF;
+$Range = $CollectorRange->range_Count($RCount)
+
 ?>
 
 <!doctype html>
@@ -202,8 +221,8 @@ $SF = $collectorCount->collect_SF();
         <tbody>
           <tr>
           <td>Habilidad de supervisión</td>
-          <td>%</td>
-          <td><?php echo $SF ?></td>
+          <td><?php echo $CSF ?>%</td>
+          <td><?php echo $RSF ?></td>
           <td>Mantener la importancia y significado del propósito, las metas y la propuesta. 
             Crear compromiso y confianza. Fortalecer la mezcla y el nivel de las habilidades. 
             Manejar las relaciones con terceros, eliminar obstáculos. 
@@ -211,8 +230,8 @@ $SF = $collectorCount->collect_SF();
           </tr>
           <tr>
             <td>Capacidad de decisión en las relaciones humanas</td>
-            <td>%</td>
-            <td><?php echo $DM ?></td>
+            <td><?php echo $CDM ?>%</td>
+            <td><?php echo $RDM ?></td>
             <td>Analizar los problemas, para que este a su vez tome la decisión certeramente, sin 
             entrometerse con la persona. Relacionarse sin ninguna dificultad en su medio social.
             Tender a la socialización o manejar un gran número de personas pero superficialmente.
@@ -221,8 +240,8 @@ $SF = $collectorCount->collect_SF();
           </tr>        
           <tr>
             <td>Capacidad de evaluación de problemas interpersonales</td>
-            <td>%</td>
-            <td><?php echo $IP ?></td>
+            <td><?php echo $CIP ?>%</td>
+            <td><?php echo $RIP ?></td>
             <td>Saber escuchar analíticamente. Tendrá la habilidad para saber escuchar y dar 
               un consejo certeramente. Será una persona que cuando se presente un conflicto, 
               sabrá cómo manejarlo adecuadamente. Es una persona que a través de su experiencia 
@@ -231,8 +250,8 @@ $SF = $collectorCount->collect_SF();
           </tr>        
           <tr>
             <td>Habilidad para establecer relaciones interpersonales</td>
-            <td>%</td>
-            <td><?php echo $IR ?></td>
+            <td><?php echo $CIR ?>%</td>
+            <td><?php echo $RIR ?></td>
             <td>Ser una persona realista y determinar expectativas ante un problema. Proporcionar 
               retroalimentación a su grupo de amistades íntimamente. Se relacionará profundamente con 
               su grupo de amistades ya que este será pequeño. Tendrá la habilidad para diseñar un proceso 
@@ -242,8 +261,8 @@ $SF = $collectorCount->collect_SF();
           </tr>
           <tr>
             <td>Sentido común y tacto en las relaciones interpersonales</td>
-            <td>%</td>
-            <td><?php echo $CS ?></td>
+            <td><?php echo $CCS ?>%</td>
+            <td><?php echo $RCS ?></td>
             <td>Es una persona sumamente astuta y habilidosa para resolver cualquier tipo de problema 
               y/o dificultad que se presente en su vida privada como social. Es una persona madura para 
               enfrentar los retos y solventarlos rápidamente ante un razonamiento lógico. Tendrá el tacto 
