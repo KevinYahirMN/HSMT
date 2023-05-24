@@ -90,7 +90,7 @@ if($p == 1){
 					<p>Un empleado de 60 años de edad que ha sido leal a la empresa durante 25 años se queja del exceso de trabajo. 
                        Lo mejor sería:</p>  
 					<input type="radio" value="a" name="Q" onclick="enable()">
-					<label>A) Decirle que vuelva a su trabajo so pena de cese.</label><br>
+					<label>A) Decirle que vuelva a su trabajo sin pena de cese.</label><br>
 					<input type="radio" value="b" name="Q" onclick="enable()">
 					<label>B) Despedirlo, substituyéndolo por alguien más joven.</label><br>
 					<input type="radio" value="c" name="Q" onclick="enable()">
