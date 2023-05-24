@@ -94,7 +94,7 @@ if($p == 11){
 					<input type="radio" value="c" name="Q" onclick="enable()">
 					<label>C) Ofrecer algo de retribución.</label><br>
 					<input type="radio" value="d" name="Q" onclick="enable()">
-					<label>D) Decir que lo que desea en forma breve indicando los motivos.</label>
+					<label>D) Decir que es lo que desea en forma breve indicando los motivos.</label>
 					<hr>
 			     
             
