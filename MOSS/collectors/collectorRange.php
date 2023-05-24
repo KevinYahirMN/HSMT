@@ -4,6 +4,7 @@ class collectorRange{
     function range_Adaptability($percent){
         $range = '';
         switch($percent){
+            case 0: $range = 'Deficiente'; break;
             case $percent < 7: $range = 'Deficiente'; break;
             case $percent < 27: $range = 'Inferior'; break;
             case $percent < 42: $range = 'Medio Inferior'; break;
@@ -19,6 +20,7 @@ class collectorRange{
     function range_Count($count){
         $range = '';
         switch($count){
+            case 0: $range = 'Deficiente'; break;
             case $count < 8: $range = 'Deficiente'; break;
             case $count < 12: $range = 'Pobre'; break;
             case $count < 19: $range = 'Medio'; break;

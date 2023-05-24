@@ -1,7 +1,7 @@
 <?php
 include("../collectors/collectorCount.php");
 include("../collectors/collectorRange.php");
-include("../collectors/collectorAdaptability.php");
+include("../collectors/collectorPercent.php");
 
 
 
@@ -50,7 +50,7 @@ $RIP = $CollectorRange->range_Adaptability($CIP);
 $RIR = $CollectorRange->range_Adaptability($CIR);
 $RSF = $CollectorRange->range_Adaptability($CSF);
 $RCount = $CS+$DM+$IP+$IR+$SF;
-$Range = $CollectorRange->range_Count($RCount)
+$Range = $CollectorRange->range_Count($RCount);
 
 ?>
 
