@@ -148,11 +148,11 @@
 					<center><div class="form-group col-md-4" >
 						<label for="test">Seleccione examen a aplicar</label>
 						<select id="test" name="test"class="form-control" required>
-						  <option value="../../MMPI-2/Forms/MMPI-2/Form_1.php">MMPI-2</option>
-						  <option value="../../Kostick/Forms/Form_1.php">Kostick</option>
-						  <option value="../../SCID-II/Forms/Form_1.php">SCID-II</option>
-						  <option value="../../OTIS/forms/Form_1.php">OTIS</option>
-						  <option value="../../MOSS/forms/Form_1.php">Moss</option>
+						  <option value="../../Forms/MMPI-2/Form_1.php">MMPI-2</option>
+						  <option value="../../../Kostick/Forms/Form_1.php">Kostick</option>
+						  <option value="../../../SCID-II/Forms/Form_1.php">SCID-II</option>
+						  <option value="../../../OTIS/forms/Form_1.php">OTIS</option>
+						  <option value="../../../MOSS/forms/Form_1.php">Moss</option>
 						</select>
 					  </div><center>
 					<center><button type="submit" name="button_submit"  id="button_submit" disabled="disabled"  class="btn btn-success">Continuar</button></center>
