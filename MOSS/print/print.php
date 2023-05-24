@@ -249,6 +249,7 @@ $Range = $CollectorRange->range_Count($RCount);
           </tr>
         </tbody>
         </table>
+        <br>
       <table class="content-table">
     <div class="col-md-12 text-center text-success"><h3>NIVEL DE JUICIO SOCIAL</h3></div>
 
