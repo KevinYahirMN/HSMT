@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="es">
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,7 +16,6 @@
 			width: 100%;
 			text-align: center;
 		}
-		
 		.btn-group.respuestas .btn {
 			min-width: 100px;
 		}
@@ -26,7 +24,6 @@
 		}
 	</style>
 </head>
-
 <body>
 	<div class="container">
 		<header class="blog-header py-3">
@@ -50,7 +47,7 @@
 			</div>
 			<div class="card-body">
               
-			<form  id="userForm" method="post" action="Form_1.php">
+			<form  id="userForm" method="post" action="tests.php">
 					<div class="form-row">
 					  <div class="form-group col-md-6">
 						<label for="nombres">Nombre(s)</label>
@@ -148,14 +145,20 @@
 						<input type="date" id ="bday" name="bday" required pattern="\d{4}-\d{2}-\d{2}" id="nac_" />
                         <span class="validity"></span>
 					</div>
-		
+					<center><div class="form-group col-md-4" >
+						<label for="test">Seleccione examen a aplicar</label>
+						<select id="test" name="test"class="form-control" required>
+						  <option value="../../MMPI-2/Forms/MMPI-2/Form_1.php">MMPI-2</option>
+						  <option value="../../Kostick/Forms/Form_1.php">Kostick</option>
+						  <option value="../../SCID-II/Forms/Form_1.php">SCID-II</option>
+						  <option value="../../OTIS/forms/Form_1.php">OTIS</option>
+						  <option value="../../MOSS/forms/Form_1.php">Moss</option>
+						</select>
+					  </div><center>
 					<center><button type="submit" name="button_submit"  id="button_submit" disabled="disabled"  class="btn btn-success">Continuar</button></center>
-
 				  </form>
 			<div class="wrapper">
-	
-        </div>
-			    
+        </div>  
 			<br>
 			</div>
 			<div class="card-footer text-muted text-center">
