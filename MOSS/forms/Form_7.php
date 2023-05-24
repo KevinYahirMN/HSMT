@@ -86,7 +86,7 @@ if($p == 5){
 			       
 					
 					<!--Pregunta 7-->
-					<p>Un agente viajero con 15 años de antigüedad decide, presionado por su familia 
+					<p>Un agente viajero con 15 años de antigüedad decide, presionado por su familia, 
 					sentar raíces. Se le cambia a las oficinas generales. Es de esperar que:</p>  
 					<input type="radio" value="a" name="Q" onclick="enable()">
 					<label>A) Guste de los descansos del trabajo de oficina.</label><br>
