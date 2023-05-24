@@ -93,7 +93,7 @@ if($p == 6){
 					<input type="radio" value="b" name="Q" onclick="enable()">
 					<label>B) Intentar cambiar de tema.</label><br>
 					<input type="radio" value="c" name="Q" onclick="enable()">
-					<label>C) Intervenir dando los propios puntos de vista y mostrar dónde ambos pecan extremosos.</label><br>
+					<label>C) Intervenir dando los propios puntos de vista y mostrar dónde ambos pecan de extremosos.</label><br>
 					<input type="radio" value="d" name="Q" onclick="enable()">
 					<label>D)  Pedir que cambien de tema para evitar mayor discusión.</label>
 					<hr>
