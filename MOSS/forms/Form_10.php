@@ -94,7 +94,7 @@ if($p == 8){
 					<input type="radio" value="c" name="Q" onclick="enable()">
 					<label>C) Adaptarse mejor a las condiciones y aceptar consejos de sus compañeros.</label><br>
 					<input type="radio" value="d" name="Q" onclick="enable()">
-					<label>D) Pedir al jefe toda el consejo necesario.</label>
+					<label>D) Pedir al jefe todo el consejo necesario.</label>
 					<hr>
 			     
             
