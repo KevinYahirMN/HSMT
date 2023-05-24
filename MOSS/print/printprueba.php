@@ -203,12 +203,11 @@ $Range = $CollectorRange->range_Count($RCount);
         </div>
 	</center>
 
-
 <body>
 <br>
 <hr>
     <table class="content-table">
-    <div class="col-md-12 text-center text-success"><h3>RESULTADOS</h3></div>
+    <div class="col-md-12 text-center text-success"><h3>NIVELES DE ADAPTACION SOCIAL</h3></div>
 
     <thead>
           <tr>
@@ -271,8 +270,25 @@ $Range = $CollectorRange->range_Count($RCount);
               Tendrá la habilidad de escuchar y observar a todas las personas que le rodean.</td>
           </tr>
         </tbody>
-      </table>
+        </table>
+      <table class="content-table">
+    <div class="col-md-12 text-center text-success"><h3>NIVEL DE JUICIO SOCIAL</h3></div>
+
+    <thead>
+          <tr>
+            <th>NÚMERO DE RESPUESTAS</th>
+            <th>RANGO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+          <td><?php echo $RCount ?></td>
+          <td><?php echo $Range ?></td>
+          </tr>
+        </tbody>
+        </table>
       <br>
+      
 </body>
 </html>
 					  <br><br>
