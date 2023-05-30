@@ -203,7 +203,6 @@ $Range = $CollectorRange->range_Count($RCount);
         </div>
 	</center>
 
-<body>
 <br>
 <hr>
     <table class="content-table">

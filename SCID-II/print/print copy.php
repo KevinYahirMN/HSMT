@@ -2,10 +2,9 @@
 include("../collector/CollectorCount.php");
 $temp = array();
 for($i = 0; $i < 120; $i++){
-  if($i%2 == 0){
-    array_push($temp, 'A');
-  }else{
-    array_push($temp, 'B');
+  if($i%1 == 0){
+    array_push($temp, 'yes');
+
   }
 }
 $collectorCount = new CollectorCount();
@@ -34,8 +33,7 @@ $antisocial = $collectorCount->antisocial($temp);
 	<link rel="stylesheet" href="../forms/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../forms/css/style.css">
   <link rel="stylesheet" href="Print.css">
-  <link rel="stylesheet" href="Table.css">
-  <link href='Table.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="table.css">
 	<title>Resultados</title>
 	<style>
 		.btn-group.respuestas {
@@ -173,15 +171,11 @@ $antisocial = $collectorCount->antisocial($temp);
 	</center>
 
 <html>
-<head>
-    <link rel="stylesheet" href="table.css">
-</head>
 <body>
 <br>
 <hr>
     <table class="content-table">
     <div class="col-md-12 text-center text-success"><h3>RESULTADOS</h3></div>
-
         <thead>
           <tr>
             <th>PERSONALIDAD</th>
@@ -237,8 +231,8 @@ $antisocial = $collectorCount->antisocial($temp);
     <td>Antisocial</td>
     <td><?php echo $antisocial;?></td>
   </tr>
-        </tbody>
-      </table>
+      </tbody>
+    </table>
 </body>
 </html>
 					  <br><br>

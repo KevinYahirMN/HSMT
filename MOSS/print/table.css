@@ -1,6 +1,7 @@
-table td {
+td {
     text-align: center;
-  }
+   }
+
 * {
     font-family: sans-serif;
 }
@@ -15,7 +16,7 @@ table td {
 }
 
 .content-table thead tr {
-    background-color: #0aa54b;
+    background-color: #666666;
     color: #ffffff;
     text-align: left;
     font-weight: bold;
