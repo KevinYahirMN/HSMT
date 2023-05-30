@@ -7,29 +7,46 @@ include_once('../scales/scale_SF.php');
 
 class collectorCount{
 
+    private $cs;
+    private $dm;
+    private $ip;
+    private $ir;
+    private $sf;
+
+    //Inicialización de objetos y variables globales
+    function __construct(){
+        if($this->cs == null){
+            $this->cs = new scale_CS;
+            $this->dm = new scale_DM;
+            $this->ip = new scale_IP;
+            $this->ir = new scale_IR;
+            $this->sf = new scale_SF;
+        }
+    }
+
     function collect_CS(){
-        $obj = new scale_CS;
-        return $this->collect($obj);
+        $count = $this->collect($this->cs);
+        return $count;
     }
 
     function collect_DM(){
-        $obj = new scale_DM;
-        return $this->collect($obj);
+        $count = $this->collect($this->dm);
+        return $count;
     }
 
     function collect_IP(){
-        $obj = new scale_IP;
-        return $this->collect($obj);
+        $count = $this->collect($this->ip);
+        return $count;
     }
 
     function collect_IR(){
-        $obj = new scale_IR;
-        return $this->collect($obj);
+        $count = $this->collect($this->ir);
+        return $count;
     }
 
     function collect_SF(){
-        $obj = new scale_SF;
-        return $this->collect($obj);
+        $count = $this->collect($this->sf);
+        return $count;
     }
 
     private function collect($obj){

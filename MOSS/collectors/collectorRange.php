@@ -1,33 +1,28 @@
 <?php
+include_once('../range/range_Count.php');
+include_once('../range/range_Adaptability.php');
 
 class collectorRange{
-    function range_Adaptability($percent){
-        $range = '';
-        switch($percent){
-            case 0: $range = 'Deficiente'; break;
-            case $percent < 7: $range = 'Deficiente'; break;
-            case $percent < 27: $range = 'Inferior'; break;
-            case $percent < 42: $range = 'Medio Inferior'; break;
-            case $percent < 64: $range = 'Promedio'; break;
-            case $percent < 83: $range = 'Medio Superior'; break;
-            case $percent < 98: $range = 'Superior'; break;
-            default: $range = 'Muy Superior'; break;
-        }
 
+    private $adap;
+    private $rcount;
+
+    function __construct()
+    {
+        if($this->adap == null){
+            $this->adap = new range_Adaptability;
+            $this->rcount = new range_Count;
+        }
+        
+    }
+
+    function range_Adaptability($percent){
+        $range = $this->adap->range($percent);
         return $range;
     }
 
     function range_Count($count){
-        $range = '';
-        switch($count){
-            case 0: $range = 'Deficiente'; break;
-            case $count < 8: $range = 'Deficiente'; break;
-            case $count < 12: $range = 'Pobre'; break;
-            case $count < 19: $range = 'Medio'; break;
-            case $count < 24: $range = 'Bueno'; break;
-            default: $range = 'Superior'; break;
-        }
-
+        $range = $this->rcount->range($count);
         return $range;
     }
 }

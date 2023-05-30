@@ -1,42 +1,40 @@
 <?php
+include_once('../percent/percent.php');
+
 class collectorPercent{
 
+    private $percent;
+
+    function __construct()
+    {
+        if($this->percent == null){
+            $this->percent = new percent;
+        }
+    }
+
     function collect_CS($count){
-        $percent = $this->collectSix($count);
-        return $percent;
+        $res = $this->percent->percent_CS($count);
+        return $res;
     }
 
     function collect_DM($count){
-        $percent = $this->collectTwo($count);
-        return $percent;
+        $res = $this->percent->percent_DM($count);
+        return $res;
     }
 
     function collect_IP($count){
-        $op = ($count*0.125)*100;
-        $percent = round($op);
-        return $percent;
+        $res = $this->percent->percent_IP($count);
+        return $res;
     }
 
     function collect_IR($count){
-        $percent = $this->collectTwo($count);
-        return $percent;
+        $res = $this->percent->percent_IR($count);
+        return $res;
     }
 
     function collect_SF($count){
-        $percent = $this->collectSix($count);
-        return $percent;
-    }
-
-    private function collectTwo($count){
-        $op = ($count*0.2)*100;
-        $percent = round($op);
-        return $percent;
-    }
-
-    private function collectSix($count){
-        $op = ($count*0.1666)*100;
-        $percent = round($op);
-        return $percent;
+        $res = $this->percent->percent_SF($count);
+        return $res;
     }
 
 }
