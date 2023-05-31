@@ -44,6 +44,7 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
+  <link rel='stylesheet' type='text/css' href='Print.css'>
 	<title>Resultados</title>
 	<style>
 		.btn-group.respuestas {
