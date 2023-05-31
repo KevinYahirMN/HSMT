@@ -7,9 +7,9 @@ include("../collector/collectorRange.php");
 $temp = array();
 for($i = 0; $i < 75; $i++){
   if($i%2 == 0){
-    array_push($temp, 'A');
-  }else{
     array_push($temp, 'B');
+  }else{
+    array_push($temp, 'A');
   }
 }
 
@@ -422,4 +422,5 @@ $Dx = $CollectorDx->collect($IQ);
 $_SESSION["answer"] = null;
 $_SESSION["answer"] = array();
 $_SESSION['gender'] = null;
+$temp = null;
 ?>
