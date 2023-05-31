@@ -9,7 +9,7 @@ include('../Scales/Subordination/scale_F.php');
 include('../Scales/Subordination/scale_W.php');
 class DAAcount{
     
-    function collect($answer){
+    function collect($answer = array()){
         $c = array();
         
         array_push($c, $this->scale_L($answer));
@@ -24,49 +24,49 @@ class DAAcount{
         return $c;
     }
 
-    private function scale_L($answer){
+    private function scale_L($answer = array()){
         $obj = new scale_L;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_P($answer){
+    private function scale_P($answer = array()){
         $obj = new scale_P;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_I($answer){
+    private function scale_I($answer = array()){
         $obj = new scale_I;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_F($answer){
+    private function scale_F($answer = array()){
         $obj = new scale_F;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_W($answer){
+    private function scale_W($answer = array()){
         $obj = new scale_W;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_C($answer){
+    private function scale_C($answer = array()){
         $obj = new scale_C;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_D($answer){
+    private function scale_D($answer = array()){
         $obj = new scale_D;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_R($answer){
+    private function scale_R($answer = array()){
         $obj = new scale_R;
         $c = $obj->scale($answer);
         return $c;

@@ -8,7 +8,7 @@ include('../Scales/SocialNature/scale_B.php');
 include('../Scales/SocialNature/scale_O.php');
 
 class SEScount{
-    function collect($answer){
+    function collect($answer = array()){
         $c = array();
         
         array_push($c, $this->scale_X($answer));
@@ -22,43 +22,43 @@ class SEScount{
         return $c;
     }
 
-    private function scale_X($answer){
+    private function scale_X($answer = array()){
         $obj = new scale_X;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_S($answer){
+    private function scale_S($answer = array()){
         $obj = new scale_S;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_B($answer){
+    private function scale_B($answer = array()){
         $obj = new scale_B;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_O($answer){
+    private function scale_O($answer = array()){
         $obj = new scale_O;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_K($answer){
+    private function scale_K($answer = array()){
         $obj = new scale_K;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_E($answer){
+    private function scale_E($answer = array()){
         $obj = new scale_E;
         $c = $obj->scale($answer);
         return $c;
     }
 
-    private function scale_Z($answer){
+    private function scale_Z($answer = array()){
         $obj = new scale_Z;
         $c = $obj->scale($answer);
         return $c;

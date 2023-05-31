@@ -5,30 +5,30 @@ include('../Suggestions/PowerLevel/suggestions_A.php');
 include('../Suggestions/PowerLevel/suggestions_G.php');
 include('../Suggestions/PowerLevel/suggestions_N.php');
 class DVsuggestions{
-    function collect($c){
+    function collect($count = array()){
         $suggestions = array();
         
-        array_push($suggestions, $this->positive_T($c[0]));
-        array_push($suggestions, $this->negative_T($c[0]));
-        array_push($suggestions, $this->positive_V($c[1]));
-        array_push($suggestions, $this->negative_V($c[1]));
-        array_push($suggestions, $this->positive_N($c[2]));
-        array_push($suggestions, $this->negative_N($c[2]));
-        array_push($suggestions, $this->positive_G($c[3]));
-        array_push($suggestions, $this->negative_G($c[3]));
-        array_push($suggestions, $this->positive_A($c[4]));
-        array_push($suggestions, $this->negative_A($c[4]));
+        array_push($suggestions, $this->positive_T($count[0]));
+        array_push($suggestions, $this->negative_T($count[0]));
+        array_push($suggestions, $this->positive_V($count[1]));
+        array_push($suggestions, $this->negative_V($count[1]));
+        array_push($suggestions, $this->positive_N($count[2]));
+        array_push($suggestions, $this->negative_N($count[2]));
+        array_push($suggestions, $this->positive_G($count[3]));
+        array_push($suggestions, $this->negative_G($count[3]));
+        array_push($suggestions, $this->positive_A($count[4]));
+        array_push($suggestions, $this->negative_A($count[4]));
         
         return $suggestions;
     }
 
-    private function positive_T($c){
+    private function positive_T($count = array()){
         $obj = new suggestions_T;
-        switch($c){
-            case $c < 3:
+        switch($count){
+            case $count < 3:
                 $suggestion = $obj->lowPositive();
             break;
-            case $c > 6:
+            case $count > 6:
                 $suggestion = $obj->highPositive();
             break;
             default:
@@ -38,13 +38,13 @@ class DVsuggestions{
         return $suggestion;
     }
 
-    private function negative_T($c){
+    private function negative_T($count = array()){
         $obj = new suggestions_T;
-        switch($c){
-            case $c < 3:
+        switch($count){
+            case $count < 3:
                 $suggestion = $obj->lowNegative();
             break;
-            case $c > 6:
+            case $count > 6:
                 $suggestion = $obj->highNegative();
             break;
             default:
@@ -54,13 +54,13 @@ class DVsuggestions{
         return $suggestion;
     }
 
-    private function positive_V($c){
+    private function positive_V($count = array()){
         $obj = new suggestions_V;
-        switch($c){
-            case $c < 3:
+        switch($count){
+            case $count < 3:
                 $suggestion = $obj->lowPositive();
             break;
-            case $c > 6:
+            case $count > 6:
                 $suggestion = $obj->highPositive();
             break;
             default:
@@ -70,13 +70,13 @@ class DVsuggestions{
         return $suggestion;
     }
 
-    private function negative_V($c){
+    private function negative_V($count = array()){
         $obj = new suggestions_V;
-        switch($c){
-            case $c < 3:
+        switch($count){
+            case $count < 3:
                 $suggestion = $obj->lowNegative();
             break;
-            case $c > 6:
+            case $count > 6:
                 $suggestion = $obj->highNegative();
             break;
             default:
@@ -86,13 +86,13 @@ class DVsuggestions{
         return $suggestion;
     }
 
-    private function positive_N($c){
+    private function positive_N($count = array()){
         $obj = new suggestions_N;
-        switch($c){
-            case $c < 3:
+        switch($count){
+            case $count < 3:
                 $suggestion = $obj->lowPositive();
             break;
-            case $c > 6:
+            case $count > 6:
                 $suggestion = $obj->highPositive();
             break;
             default:
@@ -102,13 +102,13 @@ class DVsuggestions{
         return $suggestion;
     }
 
-    private function negative_N($c){
+    private function negative_N($count = array()){
         $obj = new suggestions_N;
-        switch($c){
-            case $c < 3:
+        switch($count){
+            case $count < 3:
                 $suggestion = $obj->lowNegative();
             break;
-            case $c > 6:
+            case $count > 6:
                 $suggestion = $obj->highNegative();
             break;
             default:
@@ -118,13 +118,13 @@ class DVsuggestions{
         return $suggestion;
     }
 
-    private function positive_G($c){
+    private function positive_G($count = array()){
         $obj = new suggestions_G;
-        switch($c){
-            case $c < 3:
+        switch($count){
+            case $count < 3:
                 $suggestion = $obj->lowPositive();
             break;
-            case $c > 6:
+            case $count > 6:
                 $suggestion = $obj->highPositive();
             break;
             default:
@@ -134,13 +134,13 @@ class DVsuggestions{
         return $suggestion;
     }
 
-    private function negative_G($c){
+    private function negative_G($count = array()){
         $obj = new suggestions_G;
-        switch($c){
-            case $c < 3:
+        switch($count){
+            case $count < 3:
                 $suggestion = $obj->lowNegative();
             break;
-            case $c > 6:
+            case $count > 6:
                 $suggestion = $obj->highNegative();
             break;
             default:
@@ -150,13 +150,13 @@ class DVsuggestions{
         return $suggestion;
     }
 
-    private function positive_A($c){
+    private function positive_A($count = array()){
         $obj = new suggestions_A;
-        switch($c){
-            case $c < 3:
+        switch($count){
+            case $count < 3:
                 $suggestion = $obj->lowPositive();
             break;
-            case $c > 6:
+            case $count > 6:
                 $suggestion = $obj->highPositive();
             break;
             default:
@@ -166,13 +166,13 @@ class DVsuggestions{
         return $suggestion;
     }
 
-    private function negative_A($c){
+    private function negative_A($count = array()){
         $obj = new suggestions_A;
-        switch($c){
-            case $c < 3:
+        switch($count){
+            case $count < 3:
                 $suggestion = $obj->lowNegative();
             break;
-            case $c > 6:
+            case $count > 6:
                 $suggestion = $obj->highNegative();
             break;
             default:

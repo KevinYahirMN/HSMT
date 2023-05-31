@@ -5,21 +5,21 @@ include('Suggestions/SESsuggestions.php');
 include_once('../Interfaces/ICollector.php');
 
 class CollectorSuggestions implements ICollector{
-    function DAA($c){
+    function DAA($count = 0){
         $daa = new DAAsuggestions;
-        $suggestions = $daa->collect($c);
+        $suggestions = $daa->collect($count);
         return $suggestions;
     }
 
-    function DV($c){
+    function DV($count = 0){
         $dv = new DVsuggestions;
-        $suggestions = $dv->collect($c);
+        $suggestions = $dv->collect($count);
         return $suggestions;
     }
 
-    function SES($c){
+    function SES($count = 0){
         $ses = new SESsuggestions;
-        $suggestions = $ses->collect($c);
+        $suggestions = $ses->collect($count);
         return $suggestions;
     }
 }

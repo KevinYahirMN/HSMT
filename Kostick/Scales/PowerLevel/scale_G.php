@@ -2,7 +2,7 @@
 include_once('../scaleCount/scaleCount.php');
 include_once('../Interfaces/IScales.php');
 class scale_G implements IScales{
-    function scale($answer){
+    function scale($answer = array()){
         $scaleCount = new scaleCount();
         $c = 0;
         $c += $scaleCount->calif_A($answer[0]);
