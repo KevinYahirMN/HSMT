@@ -1,4 +1,4 @@
 <?php
-header("Location: SCID-II/forms/registro.php");
+header("Location: Registro/registro.php");
 exit;
 ?>
