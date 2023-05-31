@@ -7,248 +7,65 @@ include('../Suggestions/SocialNature/suggestions_S.php');
 include('../Suggestions/SocialNature/suggestions_B.php');
 include('../Suggestions/SocialNature/suggestions_O.php');
 class SESsuggestions{
+    private $e;
+    private $k;
+    private $z;
+    private $x;
+    private $s;
+    private $b;
+    private $o;
+
+    function __construct(){
+        if($this->e == null){
+            $this->e = new suggestions_E;
+            $this->k = new suggestions_K;
+            $this->z = new suggestions_Z;
+            $this->x = new suggestions_X;
+            $this->s = new suggestions_S;
+            $this->b = new suggestions_B;
+            $this->o = new suggestions_O;
+        }
+    }
     function collect($count = array()){
         $suggestions = array();
         
-        array_push($suggestions, $this->positive_X($count[0]));
-        array_push($suggestions, $this->negative_X($count[0]));
-        array_push($suggestions, $this->positive_S($count[1]));
-        array_push($suggestions, $this->negative_S($count[1]));
-        array_push($suggestions, $this->positive_B($count[2]));
-        array_push($suggestions, $this->negative_B($count[2]));
-        array_push($suggestions, $this->positive_O($count[3]));
-        array_push($suggestions, $this->negative_O($count[3]));
-        array_push($suggestions, $this->positive_K($count[4]));
-        array_push($suggestions, $this->negative_K($count[4]));
-        array_push($suggestions, $this->positive_E($count[5]));
-        array_push($suggestions, $this->negative_E($count[5]));
-        array_push($suggestions, $this->positive_Z($count[6]));
-        array_push($suggestions, $this->negative_Z($count[6]));
+        array_push($suggestions, $this->positive($count[0], $this->x));
+        array_push($suggestions, $this->negative($count[0], $this->x));
+        array_push($suggestions, $this->positive($count[1], $this->s));
+        array_push($suggestions, $this->negative($count[1], $this->s));
+        array_push($suggestions, $this->positive($count[2], $this->b));
+        array_push($suggestions, $this->negative($count[2], $this->b));
+        array_push($suggestions, $this->positive($count[3], $this->o));
+        array_push($suggestions, $this->negative($count[3], $this->o));
+        array_push($suggestions, $this->positive($count[4], $this->k));
+        array_push($suggestions, $this->negative($count[4], $this->k));
+        array_push($suggestions, $this->positive($count[5], $this->e));
+        array_push($suggestions, $this->negative($count[5], $this->e));
+        array_push($suggestions, $this->positive($count[6], $this->z));
+        array_push($suggestions, $this->negative($count[6], $this->z));
         
         return $suggestions;
     }
 
-    private function positive_X($count = array()){
-        $obj = new suggestions_X;
+    private function positive($count = array(), $obj = null){
         switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowPositive();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highPositive();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
+            case 0: $suggestion = $obj->lowPositive(); break;
+            case $count < 3: $suggestion = $obj->lowPositive(); break;
+            case $count > 6: $suggestion = $obj->highPositive(); break;
+            default: $suggestion = "Puntuación normal"; break;
         }
+
         return $suggestion;
     }
-
-    private function negative_X($count = array()){
-        $obj = new suggestions_X;
+    
+    private function negative($count = array(), $obj = null){
         switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowNegative();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highNegative();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
+            case 0: $suggestion = $obj->lowNegative(); break;
+            case $count < 3: $suggestion = $obj->lowNegative(); break;
+            case $count > 6: $suggestion = $obj->highNegative(); break;
+            default: $suggestion = "Puntuación normal"; break;
         }
-        return $suggestion;
-    }
 
-    private function positive_S($count = array()){
-        $obj = new suggestions_S;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowPositive();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highPositive();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
-        return $suggestion;
-    }
-
-    private function negative_S($count = array()){
-        $obj = new suggestions_S;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowNegative();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highNegative();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
-        return $suggestion;
-    }
-
-    private function positive_B($count = array()){
-        $obj = new suggestions_B;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowPositive();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highPositive();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
-        return $suggestion;
-    }
-
-    private function negative_B($count = array()){
-        $obj = new suggestions_B;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowNegative();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highNegative();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
-        return $suggestion;
-    }
-
-    private function positive_O($count = array()){
-        $obj = new suggestions_O;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowPositive();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highPositive();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
-        return $suggestion;
-    }
-
-    private function negative_O($count = array()){
-        $obj = new suggestions_O;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowNegative();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highNegative();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
-        return $suggestion;
-    }
-
-    private function positive_K($count = array()){
-        $obj = new suggestions_K;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowPositive();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highPositive();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
-        return $suggestion;
-    }
-
-    private function negative_K($count = array()){
-        $obj = new suggestions_K;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowNegative();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highNegative();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
-        return $suggestion;
-    }
-
-    private function positive_E($count = array()){
-        $obj = new suggestions_E;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowPositive();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highPositive();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
-        return $suggestion;
-    }
-
-    private function negative_E($count = array()){
-        $obj = new suggestions_E;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowNegative();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highNegative();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
-        return $suggestion;
-    }
-
-    private function positive_Z($count = array()){
-        $obj = new suggestions_Z;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowPositive();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highPositive();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
-        return $suggestion;
-    }
-
-    private function negative_Z($count = array()){
-        $obj = new suggestions_Z;
-        switch($count){
-            case $count < 3:
-                $suggestion = $obj->lowNegative();
-            break;
-            case $count > 6:
-                $suggestion = $obj->highNegative();
-            break;
-            default:
-                $suggestion = "Puntuación normal";
-            break;
-        }
         return $suggestion;
     }
 }

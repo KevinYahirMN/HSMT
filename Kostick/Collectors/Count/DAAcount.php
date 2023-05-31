@@ -8,68 +8,46 @@ include('../Scales/AdaptabilityAtWork/scale_R.php');
 include('../Scales/Subordination/scale_F.php');
 include('../Scales/Subordination/scale_W.php');
 class DAAcount{
+    private $l;
+    private $p;
+    private $i;
+    private $c;
+    private $d;
+    private $r;
+    private $f;
+    private $w;
+
+    function __construct(){
+        if($this->l == null){
+            $this->l = new scale_L; 
+            $this->p = new scale_P; 
+            $this->i = new scale_I; 
+            $this->c = new scale_C; 
+            $this->d = new scale_D; 
+            $this->r = new scale_R; 
+            $this->f = new scale_F; 
+            $this->w = new scale_W; 
+        }
+    }
     
     function collect($answer = array()){
-        $c = array();
+        $count = array();
         
-        array_push($c, $this->scale_L($answer));
-        array_push($c, $this->scale_P($answer));
-        array_push($c, $this->scale_I($answer));
-        array_push($c, $this->scale_F($answer));
-        array_push($c, $this->scale_W($answer));
-        array_push($c, $this->scale_C($answer));
-        array_push($c, $this->scale_D($answer));
-        array_push($c, $this->scale_R($answer));
+        array_push($count, $this->revision($answer, $this->l));
+        array_push($count, $this->revision($answer, $this->p));
+        array_push($count, $this->revision($answer, $this->i));
+        array_push($count, $this->revision($answer, $this->f));
+        array_push($count, $this->revision($answer, $this->w));
+        array_push($count, $this->revision($answer, $this->c));
+        array_push($count, $this->revision($answer, $this->d));
+        array_push($count, $this->revision($answer, $this->r));
         
-        return $c;
+        return $count;
     }
 
-    private function scale_L($answer = array()){
-        $obj = new scale_L;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_P($answer = array()){
-        $obj = new scale_P;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_I($answer = array()){
-        $obj = new scale_I;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_F($answer = array()){
-        $obj = new scale_F;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_W($answer = array()){
-        $obj = new scale_W;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_C($answer = array()){
-        $obj = new scale_C;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_D($answer = array()){
-        $obj = new scale_D;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_R($answer = array()){
-        $obj = new scale_R;
-        $c = $obj->scale($answer);
-        return $c;
+    private function revision($answer = array(), $obj = null){
+        $count = $obj->scale($answer);
+        return $count;
     }
 }
 ?>

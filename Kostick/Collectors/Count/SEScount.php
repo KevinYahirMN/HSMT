@@ -8,60 +8,43 @@ include('../Scales/SocialNature/scale_B.php');
 include('../Scales/SocialNature/scale_O.php');
 
 class SEScount{
+    private $e;
+    private $k;
+    private $z;
+    private $x;
+    private $s;
+    private $b;
+    private $o;
+
+    function __construct(){
+        if($this->e == null){
+            $this->e = new scale_E;
+            $this->k = new scale_K;
+            $this->z = new scale_Z;
+            $this->x = new scale_X;
+            $this->s = new scale_S;
+            $this->b = new scale_B;
+            $this->o = new scale_O;
+        }
+    }
+
     function collect($answer = array()){
-        $c = array();
+        $count = array();
         
-        array_push($c, $this->scale_X($answer));
-        array_push($c, $this->scale_S($answer));
-        array_push($c, $this->scale_B($answer));
-        array_push($c, $this->scale_O($answer));
-        array_push($c, $this->scale_K($answer));
-        array_push($c, $this->scale_E($answer));
-        array_push($c, $this->scale_Z($answer));
+        array_push($count, $this->revision($answer, $this->x));
+        array_push($count, $this->revision($answer, $this->s));
+        array_push($count, $this->revision($answer, $this->b));
+        array_push($count, $this->revision($answer, $this->o));
+        array_push($count, $this->revision($answer, $this->k));
+        array_push($count, $this->revision($answer, $this->e));
+        array_push($count, $this->revision($answer, $this->z));
         
-        return $c;
+        return $count;
     }
 
-    private function scale_X($answer = array()){
-        $obj = new scale_X;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_S($answer = array()){
-        $obj = new scale_S;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_B($answer = array()){
-        $obj = new scale_B;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_O($answer = array()){
-        $obj = new scale_O;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_K($answer = array()){
-        $obj = new scale_K;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_E($answer = array()){
-        $obj = new scale_E;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_Z($answer = array()){
-        $obj = new scale_Z;
-        $c = $obj->scale($answer);
-        return $c;
+    private function revision($answer = array(), $obj = null){
+        $count = $obj->scale($answer);
+        return $count;
     }
 }
 ?>

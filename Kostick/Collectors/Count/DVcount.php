@@ -5,46 +5,38 @@ include('../Scales/PowerLevel/scale_A.php');
 include('../Scales/PowerLevel/scale_G.php');
 include('../Scales/PowerLevel/scale_N.php');
 class DVcount{
+    private $t;
+    private $v;
+    private $n;
+    private $g;
+    private $a;
+
+    function __construct(){
+        if($this->t == null){
+            $this->t = new scale_T; 
+            $this->v = new scale_V; 
+            $this->n = new scale_N; 
+            $this->g = new scale_G; 
+            $this->a = new scale_A;
+        }
+    }
+
     function collect($answer = array()){
-        $c = array();
+        $count = array();
         
-        array_push($c, $this->scale_T($answer));
-        array_push($c, $this->scale_V($answer));
-        array_push($c, $this->scale_N($answer));
-        array_push($c, $this->scale_G($answer));
-        array_push($c, $this->scale_A($answer));
+        array_push($count, $this->revision($answer, $this->t));
+        array_push($count, $this->revision($answer, $this->v));
+        array_push($count, $this->revision($answer, $this->n));
+        array_push($count, $this->revision($answer, $this->g));
+        array_push($count, $this->revision($answer, $this->a));
         
-        return $c;
+        return $count;
     }
 
-    private function scale_T($answer = array()){
-        $obj = new scale_T;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_V($answer = array()){
-        $obj = new scale_V;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_N($answer = array()){
-        $obj = new scale_N;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_G($answer = array()){
-        $obj = new scale_G;
-        $c = $obj->scale($answer);
-        return $c;
-    }
-
-    private function scale_A($answer = array()){
-        $obj = new scale_A;
-        $c = $obj->scale($answer);
-        return $c;
+    private function revision($answer = array(), $obj = null){
+        $count = $obj->scale($answer);
+        return $count;
     }
 }
+
 ?>
