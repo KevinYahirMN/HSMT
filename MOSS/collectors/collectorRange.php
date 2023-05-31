@@ -16,12 +16,12 @@ class collectorRange{
         
     }
 
-    function range_Adaptability($percent){
+    function range_Adaptability($percent = 0){
         $range = $this->adap->range($percent);
         return $range;
     }
 
-    function range_Count($count){
+    function range_Count($count = 0){
         $range = $this->rcount->range($count);
         return $range;
     }

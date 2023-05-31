@@ -1,7 +1,7 @@
 <?php
 
 class range_Adaptability{
-    function range($percent){
+    function range($percent = 0){
         $range = '';
         switch($percent){
             case 0: $range = 'Deficiente'; break;

@@ -1,7 +1,7 @@
 <?php
 
 class range_Count{
-    function range($count){
+    function range($count = 0){
         $range = '';
         switch($count){
             case 0: $range = 'Deficiente'; break;

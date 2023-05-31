@@ -3,37 +3,37 @@ include_once('../percent/percent.php');
 
 class collectorPercent{
 
-    private $percent;
+    private $obj;
 
     function __construct()
     {
-        if($this->percent == null){
-            $this->percent = new percent;
+        if($this->obj == null){
+            $this->obj = new percent;
         }
     }
 
-    function collect_CS($count){
-        $res = $this->percent->percent_CS($count);
+    function collect_CS($count = 0){
+        $res = $this->obj->percent_CS($count);
         return $res;
     }
 
-    function collect_DM($count){
-        $res = $this->percent->percent_DM($count);
+    function collect_DM($count = 0){
+        $res = $this->obj->percent_DM($count);
         return $res;
     }
 
-    function collect_IP($count){
-        $res = $this->percent->percent_IP($count);
+    function collect_IP($count = 0){
+        $res = $this->obj->percent_IP($count);
         return $res;
     }
 
-    function collect_IR($count){
-        $res = $this->percent->percent_IR($count);
+    function collect_IR($count = 0){
+        $res = $this->obj->percent_IR($count);
         return $res;
     }
 
-    function collect_SF($count){
-        $res = $this->percent->percent_SF($count);
+    function collect_SF($count = 0){
+        $res = $this->obj->percent_SF($count);
         return $res;
     }
 
