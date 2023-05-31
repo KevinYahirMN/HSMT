@@ -11,7 +11,6 @@ class scale_SF extends scale{
 
     function check()
     {
-        $sc = new scaleCount();
         $count = 0;
         $count += $this->sc->calif_B($this->answer[1]);
         $count += $this->sc->calif_D($this->answer[2]);

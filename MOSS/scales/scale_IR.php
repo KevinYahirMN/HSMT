@@ -11,7 +11,6 @@ class scale_IR extends scale{
 
     function check()
     {
-        $sc = new scaleCount();
         $count = 0;
         $count += $this->sc->calif_C($this->answer[0]);
         $count += $this->sc->calif_C($this->answer[9]);
