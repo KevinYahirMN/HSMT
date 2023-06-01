@@ -81,7 +81,7 @@ if($p == 565){
 			</div>
 			<div class="card-body">
 
-            <form method="post" action="../../Scales/Print.php">
+            <form method="post" action="../../print/Print.php">
 
 			       
 			   <!--Pregunta 567-->
