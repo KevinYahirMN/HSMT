@@ -1,21 +1,25 @@
 <?php
 include_once('../scaleCount/scaleCount.php');
-include_once('../Interfaces/IScales.php');
-class scale_W implements IScales{
+include_once('../Interfaces/scaleKostick.php');
+class scale_W extends scaleKostick{
+    
+    function __construct(){
+        parent::initialiate();
+    }
+
     function scale($answer = array()){
-        $scaleCount = new scaleCount();
-        $c = 0;
-        $c += $scaleCount->calif_A($answer[89]);
-        $c += $scaleCount->calif_A($answer[20]);
-        $c += $scaleCount->calif_A($answer[79]);
-        $c += $scaleCount->calif_A($answer[69]);
-        $c += $scaleCount->calif_A($answer[59]);
-        $c += $scaleCount->calif_A($answer[49]);
-        $c += $scaleCount->calif_A($answer[39]);
-        $c += $scaleCount->calif_A($answer[29]);
-        $c += $scaleCount->calif_A($answer[19]);
-        $c += $scaleCount->calif_A($answer[9]);
-        return $c;
+        $count = 0;
+        $count += $this->sc->calif_A($answer[89]);
+        $count += $this->sc->calif_A($answer[20]);
+        $count += $this->sc->calif_A($answer[79]);
+        $count += $this->sc->calif_A($answer[69]);
+        $count += $this->sc->calif_A($answer[59]);
+        $count += $this->sc->calif_A($answer[49]);
+        $count += $this->sc->calif_A($answer[39]);
+        $count += $this->sc->calif_A($answer[29]);
+        $count += $this->sc->calif_A($answer[19]);
+        $count += $this->sc->calif_A($answer[9]);
+        return $count;
     }
 }
 ?>

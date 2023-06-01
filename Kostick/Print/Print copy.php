@@ -2,6 +2,8 @@
 include("../Collectors/CollectorCount.php");
 include("../Collectors/CollectorSuggestions.php");
 
+session_start();
+$_SESSION["answer"] = array();
 
 $temp = array();
 for($i = 0; $i < 90; $i++){
