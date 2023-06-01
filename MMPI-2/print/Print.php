@@ -1,5 +1,5 @@
 <?php
-include("Connection.php");
+include("../scales/Connection.php");
 
 session_start();
 $gender = $_SESSION['gender'];

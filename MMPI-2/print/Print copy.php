@@ -1,5 +1,5 @@
 <?php
-include("Connection.php");
+include("../scales/Connection.php");
 
 $temp = array();
 for($i = 0; $i < 567; $i++){
@@ -9,6 +9,9 @@ for($i = 0; $i < 567; $i++){
     array_push($temp, 'false');
   }
 }
+
+$_SESSION['answer'] = $temp;
+$_SESSION['gender'] = 'Masculino';
   
 $conexion = new Connection();
 $AnsB = $conexion->scoreBasicScales();
