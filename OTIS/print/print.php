@@ -66,7 +66,7 @@ $Dx = $CollectorDx->collect($IQ);
 		<div class="card">
 			<div class="card-header text-center">
 				<h4>
-					<span class="badge badge-success">
+					<span id="badge" class="badge badge-success">
 						Interpretación de resultados
 					</span>
 				</h4>
@@ -406,7 +406,7 @@ $Dx = $CollectorDx->collect($IQ);
 					  </div>
 				<br>
 			</div>
-			<div class="card-footer text-muted text-center">
+			<div id="footer" class="card-footer text-muted text-center">
 			<Strong>Nota: </Strong>Este reporte no debe ser tomado textualmente pues presenta solo inferencias generales acerca del significado de la elevación de las puntuaciones que deben considerarse en cada caso de acuerdo con la historia y antecedentes del sujeto.
 			</div>
 		</div>

@@ -1,4 +1,22 @@
 p{
     
     font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+tr{
+    
+    font-family:Arial, Helvetica, sans-serif;
+}
+#footer{
+    font-family:Arial, Helvetica, sans-serif;
+}
+#badge{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#print{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+
 }
