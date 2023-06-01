@@ -1,3 +1,7 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+
 #grafica{
     
     max-width: 1100px;  /* Longitud que tendrá la grafica */

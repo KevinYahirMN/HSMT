@@ -1,3 +1,7 @@
+*{
+    font-family:Arial, Helvetica, sans-serif
+}
+
 @media print {
     .print_Button{
         display:none;
