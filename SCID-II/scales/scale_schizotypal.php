@@ -1,19 +1,23 @@
 <?php
 include_once('../scaleCount/scaleCount.php');
-include_once('../interfaces/IScales.php');
-class scale_schizotypal implements IScales{
-    function scale($answer){
-        $scaleCount = new scaleCount();
-        $c = 0;
-        $c += $scaleCount->calif_true($answer[56]);
-        $c += $scaleCount->calif_true($answer[57]);
-        $c += $scaleCount->calif_true($answer[58]);
-        $c += $scaleCount->calif_true($answer[59]);
-        $c += $scaleCount->calif_true($answer[60]);
-        $c += $scaleCount->calif_true($answer[61]);
-        $c += $scaleCount->calif_true($answer[62]);
-        $c += $scaleCount->calif_true($answer[63]);
-        return $c;
+include_once('scaleSCID.php');
+class scale_schizotypal  extends scaleSCID{
+
+    function __construct(){
+        parent::initialiate();
+    }
+
+    function scale(){
+        $count = 0;
+        $count += $this->sc->calif_true($this->answer[56]);
+        $count += $this->sc->calif_true($this->answer[57]);
+        $count += $this->sc->calif_true($this->answer[58]);
+        $count += $this->sc->calif_true($this->answer[59]);
+        $count += $this->sc->calif_true($this->answer[60]);
+        $count += $this->sc->calif_true($this->answer[61]);
+        $count += $this->sc->calif_true($this->answer[62]);
+        $count += $this->sc->calif_true($this->answer[63]);
+        return $count;
     }
 }
 ?>

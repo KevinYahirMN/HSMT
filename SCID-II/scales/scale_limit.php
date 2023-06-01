@@ -1,29 +1,33 @@
 <?php
 include_once('../scaleCount/scaleCount.php');
-include_once('../interfaces/IScales.php');
-class scale_limit implements IScales{
-    function scale($answer){
-        $scaleCount = new scaleCount();
-        $c = 0;
-        $c += $scaleCount->calif_true($answer[90]);
-        $c += $scaleCount->calif_true($answer[91]);
-        $c += $scaleCount->calif_true($answer[92]);
-        $c += $scaleCount->calif_true($answer[93]);
-        $c += $scaleCount->calif_true($answer[94]);
-        $c += $scaleCount->calif_true($answer[95]);
-        $c += $scaleCount->calif_true($answer[96]);
-        $c += $scaleCount->calif_true($answer[97]);
-        $c += $scaleCount->calif_true($answer[98]);
-        $c += $scaleCount->calif_true($answer[99]);
-        $c += $scaleCount->calif_true($answer[100]);
-        $c += $scaleCount->calif_true($answer[101]);
-        $c += $scaleCount->calif_true($answer[102]);
-        $c += $scaleCount->calif_true($answer[103]);
-        $c += $scaleCount->calif_true($answer[104]);
-        $c += $scaleCount->calif_true($answer[105]);
-        $c += $scaleCount->calif_true($answer[106]);
-        $c += $scaleCount->calif_true($answer[107]);
-        return $c;
+include_once('scaleSCID.php');
+class scale_limit extends scaleSCID{
+
+    function __construct(){
+        parent::initialiate();
+    }
+
+    function scale(){
+        $count = 0;
+        $count += $this->sc->calif_true($this->answer[90]);
+        $count += $this->sc->calif_true($this->answer[91]);
+        $count += $this->sc->calif_true($this->answer[92]);
+        $count += $this->sc->calif_true($this->answer[93]);
+        $count += $this->sc->calif_true($this->answer[94]);
+        $count += $this->sc->calif_true($this->answer[95]);
+        $count += $this->sc->calif_true($this->answer[96]);
+        $count += $this->sc->calif_true($this->answer[97]);
+        $count += $this->sc->calif_true($this->answer[98]);
+        $count += $this->sc->calif_true($this->answer[99]);
+        $count += $this->sc->calif_true($this->answer[100]);
+        $count += $this->sc->calif_true($this->answer[101]);
+        $count += $this->sc->calif_true($this->answer[102]);
+        $count += $this->sc->calif_true($this->answer[103]);
+        $count += $this->sc->calif_true($this->answer[104]);
+        $count += $this->sc->calif_true($this->answer[105]);
+        $count += $this->sc->calif_true($this->answer[106]);
+        $count += $this->sc->calif_true($this->answer[107]);
+        return $count;
     }
 }
 ?>

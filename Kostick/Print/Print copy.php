@@ -14,6 +14,8 @@ for($i = 0; $i < 90; $i++){
   }
 }
 
+$_SESSION["answer"] = $temp;
+
 $collectorCount = new CollectorCount();
 $collectorSuggestions = new CollectorSuggestions();
 $DAACC = $collectorCount->DAA($temp);

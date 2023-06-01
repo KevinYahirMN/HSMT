@@ -7,18 +7,18 @@ array_push($temp, $get);
 $_SESSION["answer"] = $temp;
 
 $collectorCount = new CollectorCount();
-$evitation = $collectorCount->evitation($temp);
-$dependent = $collectorCount->dependent($temp);
-$obsessive = $collectorCount->obsessive($temp);
-$passive_agressive = $collectorCount->passive_agressive($temp);
-$passive_dependent = $collectorCount->passive_dependent($temp);
-$paranoid = $collectorCount->paranoid($temp);
-$schizotypal = $collectorCount->schizotypal($temp);
-$schizoid = $collectorCount->schizoid($temp);
-$histrionic = $collectorCount->histrionic($temp);
-$narcissistic = $collectorCount->narcissistic($temp);
-$limit = $collectorCount->limit($temp);
-$antisocial = $collectorCount->antisocial($temp);
+$evitation = $collectorCount->evitation();
+$dependent = $collectorCount->dependent();
+$obsessive = $collectorCount->obsessive();
+$passive_agressive = $collectorCount->passive_agressive();
+$passive_dependent = $collectorCount->passive_dependent();
+$paranoid = $collectorCount->paranoid();
+$schizotypal = $collectorCount->schizotypal();
+$schizoid = $collectorCount->schizoid();
+$histrionic = $collectorCount->histrionic();
+$narcissistic = $collectorCount->narcissistic();
+$limit = $collectorCount->limit();
+$antisocial = $collectorCount->antisocial();
 ?>
 
 <!doctype html>

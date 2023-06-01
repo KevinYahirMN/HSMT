@@ -1,19 +1,23 @@
 <?php
 include_once('../scaleCount/scaleCount.php');
-include_once('../interfaces/IScales.php');
-class scale_dependent implements IScales{
-    function scale($answer){
-        $scaleCount = new scaleCount();
-        $c = 0;
-        $c += $scaleCount->calif_true($answer[7]);
-        $c += $scaleCount->calif_true($answer[8]);
-        $c += $scaleCount->calif_true($answer[9]);
-        $c += $scaleCount->calif_true($answer[10]);
-        $c += $scaleCount->calif_true($answer[11]);
-        $c += $scaleCount->calif_true($answer[12]);
-        $c += $scaleCount->calif_true($answer[13]);
-        $c += $scaleCount->calif_true($answer[14]);
-        return $c;
+include_once('scaleSCID.php');
+class scale_dependent  extends scaleSCID{
+
+    function __construct(){
+        parent::initialiate();
+    }
+
+    function scale(){
+        $count = 0;
+        $count += $this->sc->calif_true($this->answer[7]);
+        $count += $this->sc->calif_true($this->answer[14]);
+        $count += $this->sc->calif_true($this->answer[8]);
+        $count += $this->sc->calif_true($this->answer[9]);
+        $count += $this->sc->calif_true($this->answer[10]);
+        $count += $this->sc->calif_true($this->answer[11]);
+        $count += $this->sc->calif_true($this->answer[12]);
+        $count += $this->sc->calif_true($this->answer[13]);
+        return $count;
     }
 }
 ?>
