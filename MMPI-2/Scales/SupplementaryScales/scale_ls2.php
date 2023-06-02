@@ -1,7 +1,7 @@
 <?php
 include_once('../scaleCount/scaleCount.php');
 include_once('../template/scaleMMPI.php');
-class scale_ls2 extends scaleMMPI{
+class scale_Ls2 extends scaleMMPI{
     function __construct(){
         parent::initialiate();
     }

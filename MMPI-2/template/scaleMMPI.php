@@ -4,7 +4,7 @@ abstract class scaleMMPI{
     protected $answer;
     protected $sc;
 
-    function initialiate(){
+    protected function initialiate(){
         if($this->answer != $_SESSION['answer']){
             $this->answer = $_SESSION['answer'];
         }
