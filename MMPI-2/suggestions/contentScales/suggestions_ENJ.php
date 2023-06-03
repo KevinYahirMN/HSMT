@@ -1,27 +1,27 @@
 <?php
 
 class suggestions_ENJ{
-    function score($count){
+    function suggestions($count){
         switch($count){
-            case 0: $score = 30; break;
-            case 1: $score = 31; break;
-            case 2: $score = 34; break;   
-            case 3: $score = 37; break;
-            case 4: $score = 40; break;
-            case 5: $score = 42; break;   
-            case 6: $score = 44; break;
-            case 7: $score = 47; break;
-            case 8: $score = 49; break;   
-            case 9: $score = 52; break;
-            case 10: $score = 56;break;
-            case 11: $score = 59; break; 
-            case 12: $score = 63; break;
-            case 13: $score = 67; break;
-            case 14: $score = 71; break;   
-            case 15: $score = 75; break;  
-            default: $score = 78; break;
+            case $count > 64:
+                $text = 'Las personas con puntajes altos en 
+                esta escala presentan problemas de control del enojo, 
+                se consideran a si mismas como irritables y gruñonas, 
+                además de impacientes, temperamentales y tercas. 
+                A veces sienten deseos de maldecir o destrozar cosas. 
+                Pueden perder el autocontrol y dañar fisicamente a la gente o a objetos. 
+                Mientras más alta la escala más probabilidades de que se muestre abiertamente agresiva.
+                Los hombres fueron descritos por sus parejas como 
+                desagradables, tercos, con problemas en sus relaciones 
+                interpersonales, enojonas y con arrebatos agresivos.
+                Las mujeres presentaban estas mismas características, 
+                pero además se entristecían fácilmente y se les dificultaba salir de ese estado.';
+            break;
+            case $count <= 64:
+                $text = 'Puntuación normal';
+            break;        
         }
-        return $score;
+        return $text;
     }
 }
 

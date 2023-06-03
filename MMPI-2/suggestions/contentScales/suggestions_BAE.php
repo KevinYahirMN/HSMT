@@ -1,30 +1,34 @@
 <?php
 
 class suggestions_BAE{
-    function score($count){
+    function suggestions($count){
         switch($count){
-            
-            case 0: $score = 33; break;
-            case 1: $score = 37; break;
-            case 2: $score = 41; break;   
-            case 3: $score = 45; break;
-            case 4: $score = 48; break;
-            case 5: $score = 51; break; 
-            case 6: $score = 54; break;
-            case 7: $score = 56; break;
-            case 8: $score = 59; break;      
-            case 9: $score = 62; break;
-            case 10: $score = 65; break;
-            case 11: $score = 68; break; 
-            case 12: $score = 71; break;
-            case 13: $score = 73; break;
-            case 14: $score = 76; break;   
-            case 15: $score = 79; break;
-            case 16: $score = 82; break;
-            case 17: $score = 85; break; 
-            default: $score = 87; break;
+            case $count > 64:
+                $text = 'Las personas con puntajes elevados 
+                en esta escala tienen una opinión 
+                muy pobre de ellas mismas. 
+                Creen que no les agradan a los demás y 
+                que no son importantes para otros. 
+                Mantienen actitudes negativas hacia sí mismos, 
+                incluyendo pensamientos como el no ser atractivos, 
+                considerados torpes, incapaces e inútiles y percibirse 
+                como una carga para los demás. 
+                Tienen poca confianza en sí mismos y encuentran 
+                difícil aceptar cumplidos de otros, se sienten abrumados 
+                por los defectos que ven en su persona. 
+                Se comportan en forma desfavorable con los demás 
+                y tienden a ser pasivos en sus relaciones interpersonales.
+                Los cónyuges de estos individuos los describen como 
+                personas que se dan por vencidas con facilidad, 
+                susceptibles al rechazo y con poca confianza en sí mismos. 
+                Son personas que experimentan dificultad para tomar 
+                decisiones, se preocupan demasiado y tienen miedo a muchas cosas.';
+            break;
+            case $count <= 64:
+                $text = 'Puntuación normal';
+            break;        
         }
-        return $score;
+        return $text;
     }
 }
 
