@@ -3,52 +3,52 @@ class FactorK{
 
     /*Obtención de factor a sumar 
     mediante puntuación K*/
-    function sumK($c, $K){
-        $c += $K;
+    function sumK($count, $countK){
+        $count += $countK;
         
-        return $c;
+        return $count;
     }
 
-    function sum5K($c, $K){
+    function sum5K($count, $countK){
         $factorK = 0;
-        if($K%2 == 0){
-            $factorK = $K*0.5;
+        if($countK%2 == 0){
+            $factorK = $countK*0.5;
         }else{
-            $factorK = (($K+1)*(0.5));
+            $factorK = (($countK+1)*(0.5));
         }
-        $c += $factorK;
+        $count += $factorK;
         
-        return $c;
+        return $count;
     }
 
-    function sum4K($c, $K){
-        $factorK = $K*0.4;
+    function sum4K($count, $countK){
+        $factorK = $countK*0.4;
         
-        if($K%2.5 >= 1.5){
+        if($countK%2.5 >= 1.5){
             $factorK = round($factorK);
         }
         else{
             $factorK = intval($factorK);
         }
 
-        $c += $factorK;
+        $count += $factorK;
         
-        return $c;
+        return $count;
     }
 
-    function sum2K($c, $K){
-        $factorK = $K*0.2;
+    function sum2K($count, $countK){
+        $factorK = $countK*0.2;
 
-        if($K%5 >= 3){
+        if($countK%5 >= 3){
             $factorK = round($factorK);
         }
         else{
             $factorK = intval($factorK);
         }
         
-        $c += $factorK;
+        $count += $factorK;
 
-        return $c;
+        return $count;
     }
 }
 ?>
