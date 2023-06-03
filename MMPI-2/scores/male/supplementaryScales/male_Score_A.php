@@ -3,7 +3,6 @@
 class male_Score_A{
     function score($count){
         switch($count){
-            
             case 0: $score = 37; break;
             case 1: $score = 38; break;
             case 2: $score = 40; break;   
