@@ -1,5 +1,20 @@
 <?php
 include_once('countMMPI.php');
+include_once('../Scales/ContentScales/scale_ANS.php');
+include_once('../Scales/ContentScales/scale_BAE.php');
+include_once('../Scales/ContentScales/scale_CIN.php');
+include_once('../Scales/ContentScales/scale_DEL.php');
+include_once('../Scales/ContentScales/scale_DEP.php');
+include_once('../Scales/ContentScales/scale_DTR.php');
+include_once('../Scales/ContentScales/scale_ENJ.php');
+include_once('../Scales/ContentScales/scale_FAM.php');
+include_once('../Scales/ContentScales/scale_ISO.php');
+include_once('../Scales/ContentScales/scale_MIE.php');
+include_once('../Scales/ContentScales/scale_OBS.php');
+include_once('../Scales/ContentScales/scale_PAS.php');
+include_once('../Scales/ContentScales/scale_PTA.php');
+include_once('../Scales/ContentScales/scale_RTR.php');
+include_once('../Scales/ContentScales/scale_SAU.php');
 
 class contentCount extends countMMPI{
 

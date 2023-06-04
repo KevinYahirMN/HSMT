@@ -1,5 +1,19 @@
 <?php
 include_once('countMMPI.php');
+include_once('../Scales/basicScales/scale_D.php');
+include_once('../Scales/basicScales/scale_Dp.php');
+include_once('../Scales/basicScales/scale_Es.php');
+include_once('../Scales/basicScales/scale_F.php');
+include_once('../Scales/basicScales/scale_Hi.php');
+include_once('../Scales/basicScales/scale_Hs.php');
+include_once('../Scales/basicScales/scale_Is.php');
+include_once('../Scales/basicScales/scale_K.php');
+include_once('../Scales/basicScales/scale_L.php');
+include_once('../Scales/basicScales/scale_Ma.php');
+include_once('../Scales/basicScales/scale_Mf_Female.php');
+include_once('../Scales/basicScales/scale_Mf_Male.php');
+include_once('../Scales/basicScales/scale_Pa.php');
+include_once('../Scales/basicScales/scale_Pt.php');
 
 class basicCount extends countMMPI{
 
@@ -50,11 +64,16 @@ class basicCount extends countMMPI{
             'k' => parent::revision($this->k),
             'l' => parent::revision($this->l),
             'ma' => parent::revision($this->ma),
-            'mff' => parent::revision($this->mff),
-            'mfm' => parent::revision($this->mfm),
             'pa' => parent::revision($this->pa),
             'pt' => parent::revision($this->pt)
         );
+
+        if($_SESSION['gender'] == 'Masculino'){
+            $count['mfm'] = parent::revision($this->mfm);
+        }else{
+            $count['mff'] = parent::revision($this->mff);
+        }
+
         return $count;
     }
 }

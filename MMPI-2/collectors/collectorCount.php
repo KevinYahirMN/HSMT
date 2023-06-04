@@ -1,5 +1,8 @@
 <?php
 include_once('collectorMMPI.php');
+include_once('count/basicCount.php');
+include_once('count/contentCount.php');
+include_once('count/supplementaryCount.php');
 
 class collectorCount extends collectorMMPI{
 

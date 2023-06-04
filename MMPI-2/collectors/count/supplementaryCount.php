@@ -1,5 +1,21 @@
 <?php
 include_once('countMMPI.php');
+include_once('../Scales/SupplementaryScales/scale_A.php');
+include_once('../Scales/SupplementaryScales/scale_A_MAC.php');
+include_once('../Scales/SupplementaryScales/scale_Do.php');
+include_once('../Scales/SupplementaryScales/scale_Dpr.php');
+include_once('../Scales/SupplementaryScales/scale_EPK.php');
+include_once('../Scales/SupplementaryScales/scale_EPS.php');
+include_once('../Scales/SupplementaryScales/scale_Fp.php');
+include_once('../Scales/SupplementaryScales/scale_Fyo.php');
+include_once('../Scales/SupplementaryScales/scale_GF.php');
+include_once('../Scales/SupplementaryScales/scale_GM.php');
+include_once('../Scales/SupplementaryScales/scale_HR.php');
+include_once('../Scales/SupplementaryScales/scale_ls1.php');
+include_once('../Scales/SupplementaryScales/scale_ls2.php');
+include_once('../Scales/SupplementaryScales/scale_ls3.php');
+include_once('../Scales/SupplementaryScales/scale_R.php');
+include_once('../Scales/SupplementaryScales/scale_Rs.php');
 
 class supplementaryCount extends countMMPI{
     private $a;
