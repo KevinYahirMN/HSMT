@@ -69,9 +69,9 @@ class basicCount extends countMMPI{
         );
 
         if($_SESSION['gender'] == 'Masculino'){
-            $count['mfm'] = parent::revision($this->mfm);
+            $count['mf'] = parent::revision($this->mfm);
         }else{
-            $count['mff'] = parent::revision($this->mff);
+            $count['mf'] = parent::revision($this->mff);
         }
 
         return $count;
