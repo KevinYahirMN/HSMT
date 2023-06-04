@@ -3,6 +3,7 @@ include("../collectors/collectorCount.php");
 include("../collectors/collectorScoreMale.php");
 include("../collectors/collectorScoreFemale.php");
 include("../collectors/collectorSuggestions.php");
+include("../collectors/collectorAditional.php");
 
 
 $temp = array();
@@ -56,6 +57,11 @@ $C3 = array();
         foreach($CountSC as $var){
         array_push($C3, $var);
         }
+
+$CollectorAditional = new collectorAditional($C1);
+$CA2 = $CollectorAditional->collect_Two_Combination();
+$CA3 = $CollectorAditional->collect_Three_Combination();
+
 ?>
 <!doctype html>
 <html lang="es">
@@ -236,18 +242,13 @@ $C3 = array();
 				?>  
 
 				<div class="col-md-12 text-center text-success"><h3> Interpretaciones adicionales de 2 factores</h3></div>
-				
-        
-
 				<?php  
+        echo $CA2;
 				?>
         
         <div class="col-md-12 text-center text-success"><h3> Interpretaciones adicionales de 3 factores</h3></div>
-				
-
-
 				<?php  
-
+        echo $CA3;
 				?>  
                 				
         <div class="col-md-12 text-center text-success"><h3> Escalas de contenido</h3></div>
