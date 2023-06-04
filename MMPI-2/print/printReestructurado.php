@@ -24,8 +24,8 @@ $CCC = $CollectorCount->collect_Content();
 
 $CollectorScoreMale = new collectorScoreMale();
 $CSMB = $CollectorScoreMale->collect_Basic($CCB);
-$CSMS = $CollectorScoreMale->collect_Supplementary($CSS);
-$CSMC = $CollectorScoreMale->collect_Content($CSC);
+$CSMS = $CollectorScoreMale->collect_Supplementary($CCS);
+$CSMC = $CollectorScoreMale->collect_Content($CCC);
 
 /*$CollectorScoreFemale = new collectorScoreFemale();
 $CSFB = $CollectorScoreFemale->collect_Basic($CCB);
@@ -33,9 +33,9 @@ $CSFS = $CollectorScoreFemale->collect_Supplementary($CSS);
 $CSFC = $CollectorScoreFemale->collect_Content($CSC);
 */
 $collectorSuggestions = new collectorSuggestions();
-$CSB = $collectorSuggestions->collect_Basic($CSFB);
-$CSS = $collectorSuggestions->collect_Basic($CSFS);
-$CSC = $collectorSuggestions->collect_Basic($CSFC);
+$CSB = $collectorSuggestions->collect_Basic($CSMB);
+$CSS = $collectorSuggestions->collect_Basic($CSMS);
+$CSC = $collectorSuggestions->collect_Basic($CSMC);
 
 
 $TituloEB = array("Escala L (Sinceridad)", "Escala F (Validez)", "Escala K (Corrección)", "Escala Hs (Hipocondriasis)",
