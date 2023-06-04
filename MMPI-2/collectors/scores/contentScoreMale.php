@@ -29,7 +29,7 @@ class contentScoreMale extends scoreMMPI{
     private $pas;
     private $pta;
     private $bae;
-    private $isp;
+    private $iso;
     private $fam;
     private $dtr;
     private $rtr;
@@ -47,7 +47,7 @@ class contentScoreMale extends scoreMMPI{
             $this->pas = new male_Score_PAS;
             $this->pta = new male_Score_PTA;
             $this->bae = new male_Score_BAE;
-            $this->isp = new male_Score_ISO;
+            $this->iso = new male_Score_ISO;
             $this->fam = new male_Score_FAM;
             $this->dtr = new male_Score_DTR;
             $this->rtr = new male_Score_RTR;
@@ -67,7 +67,7 @@ class contentScoreMale extends scoreMMPI{
             'pas' => parent::score($this->pas, $count['pas']),
             'pta' => parent::score($this->pta, $count['pta']),
             'bae' => parent::score($this->bae, $count['bae']),
-            'isp' => parent::score($this->isp, $count['isp']),
+            'iso' => parent::score($this->iso, $count['iso']),
             'fam' => parent::score($this->fam, $count['fam']),
             'dtr' => parent::score($this->dtr, $count['dtr']),
             'rtr' => parent::score($this->rtr, $count['rtr'])
