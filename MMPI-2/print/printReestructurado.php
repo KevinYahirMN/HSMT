@@ -1,8 +1,8 @@
 <?php
-include("../collectors/collectorCount");
-include("../collectors/collectorMale");
+include("../collectors/collectorCount.php");
+include("../collectors/collectorScoreMale.php");
 //include("../collectors/collectorFemale");
-include("../collectors/collectorSuggestions");
+include("../collectors/collectorSuggestions.php");
 
 
 $temp = array();
