@@ -1,7 +1,7 @@
 <?php
 include("../collectors/collectorCount.php");
 include("../collectors/collectorScoreMale.php");
-//include("../collectors/collectorFemale");
+include("../collectors/collectorScoreFemale.php");
 include("../collectors/collectorSuggestions.php");
 
 
