@@ -69,9 +69,9 @@ class basicSuggestion extends suggestionMMPI{
         );
 
         if($_SESSION['gender'] == 'Masculino'){
-            $count['mfm'] = parent::suggestion($this->mfm, $score['mfm']);
+            $suggestions['mfm'] = parent::suggestion($this->mfm, $score['mfm']);
         }else{
-            $count['mff'] = parent::suggestion($this->mff, $score['mff']);
+            $suggestions['mff'] = parent::suggestion($this->mff, $score['mff']);
         }
 
         return $suggestions;
