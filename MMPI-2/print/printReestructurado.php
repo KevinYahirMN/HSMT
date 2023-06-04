@@ -294,55 +294,51 @@ echo "";
         <div class="col-md-12 text-center text-success"><h3> Escalas suplementarias</h3></div>
 				
         <?php   
-				 echo "";
-         $TituloES = array("", "", "", "",
-"", "", "","","","",
-"", "", "","","","");
         echo "";
         echo "<h3>Escala A (Ansiedad)</h3>";
-        echo $CSC['a'];
+        echo $CSS['a'];
         echo "";
         echo "<h3>Escala R (Represión)</h3>";
-        echo $CSC['r'];
+        echo $CSS['r'];
         echo "";
         echo "<h3>Escala Fyo (Fuerza del Yo)</h3>";
-        echo $CSC['fyo'];
+        echo $CSS['fyo'];
         echo "";
         echo "<h3>Escala A-MAC (Alcoholismo de Mc Andrew)</h3>";
-        echo $CSC['amac'];
+        echo $CSS['a_mac'];
         echo "";
         echo "<h3>Escala HR (Hostilidad Reprimida)</h3>";
-        echo $CSC['hr'];
+        echo $CSS['hr'];
         echo "";
         echo "<h3>Escala Do (Dominancia)</h3>";
-        echo $CSC['do'];
+        echo $CSS['do'];
         echo "";
         echo "<h3>Escala Dpr (Desajuste Profesional)</h3>";
-        echo $CSC['drp'];
+        echo $CSS['dpr'];
         echo "";
         echo "<h3>Escala GM (Género Masculino)</h3>";
-        echo $CSC['gm'];
+        echo $CSS['gm'];
         echo "";
         echo "<h3>Escala GF (Género Femenino)</h3>";
-        echo $CSC['gf'];
+        echo $CSS['gf'];
         echo "";
         echo "<h3>Escala EPK (Desorden de Estrés Postraumático de Keane)</h3>";
-        echo $CSC['epk'];
+        echo $CSS['epk'];
         echo "";
         echo "<h3>Escala EPS (Estrés Postraumático de Schelenger)</h3>";
-        echo $CSC['eps'];
+        echo $CSS['eps'];
         echo "";
         echo "<h3>Escala ls1 (Timidez/Perturbación-autoconcepto)</h3>";
-        echo $CSC['ls1'];
+        echo $CSS['ls1'];
         echo "";
         echo "<h3>Escala ls2 (Evitación Social)</h3>";
-        echo $CSC['ls2'];
+        echo $CSS['ls2'];
         echo "";
         echo "<h3>Escala ls3 (Enajenación de sí mismo y de los otros)</h3>";
-        echo $CSC['ls3'];
+        echo $CSS['ls3'];
         echo "";
         echo "<h3>Escala Fp (Indicador Adicional de Validez)</h3>";
-        echo $CSC['fp'];
+        echo $CSS['fp'];
 				?>  
 
 <head>
