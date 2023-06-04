@@ -1,5 +1,10 @@
 <?php
 include("../scales/Connection.php");
+include("../collectors/CollectorCount");
+include("../collectors/CollectorMale");
+//include("../collectors/CollectorFemale");
+include("../collectors/CollectorSuggestions");
+
 
 $temp = array();
 for($i = 0; $i < 567; $i++){
@@ -12,16 +17,27 @@ for($i = 0; $i < 567; $i++){
 
 $_SESSION['answer'] = $temp;
 $_SESSION['gender'] = 'Masculino';
-  
-$conexion = new Connection();
-$AnsB = $conexion->scoreBasicScales();
-$AnsIB = $conexion->interpretationBasicScales();
-$AnsIBA = $conexion->interpretationAditional();
-$AnsIBAT = $conexion->threeinterpretationAditional();
-$AnsC = $conexion->scoreContentScales();
-$AnsIC = $conexion->interpretationContentScales();
-$AnsS = $conexion->scoreSupplementaryScales();
-$AnsIS = $conexion->interpretationSupplementaryScales();
+
+$CollectorCount = new collectorCount();
+$CCB = $CollectorCount->collect_Basic();
+$CCS = $CollectorCount->collect_Supplementary();
+$CCC = $CollectorCount->collect_Content();
+
+$CollectorScoreMale = new collectorScoreMale();
+$CSMB = $CollectorScoreMale->collect_Basic($CCB);
+$CSMS = $CollectorScoreMale->collect_Supplementary($CSS);
+$CSMC = $CollectorScoreMale->collect_Content($CSC);
+
+/*$CollectorScoreFemale = new collectorScoreFemale();
+$CSFB = $CollectorScoreFemale->collect_Basic($CCB);
+$CSFS = $CollectorScoreFemale->collect_Supplementary($CSS);
+$CSFC = $CollectorScoreFemale->collect_Content($CSC);
+*/
+$collectorSuggestions = new collectorSuggestions();
+$CSB = $collectorSuggestions->collect_Basic($CSFB);
+$CSS = $collectorSuggestions->collect_Basic($CSFS);
+$CSC = $collectorSuggestions->collect_Basic($CSFC);
+
 
 $TituloEB = array("Escala L (Sinceridad)", "Escala F (Validez)", "Escala K (Corrección)", "Escala Hs (Hipocondriasis)",
 "Escala D (Depresión)", "Escala Hi (Histeria)", "Escala Dp (Desviación Psicopática)","Escala Mf (Masculinidad/Feminidad)","Escala Pa (Paranoia)","Escala Pt (Psicastenia)",
@@ -188,20 +204,12 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
           </div>
         </div>
 	</center>
-	<hr>
-            
-      <div class="col-md-12 text-center text-success"><h3> Escalas básicas</h3></div>
-				
+	<hr>         
+      <div class="col-md-12 text-center text-success"><h3> Escalas básicas</h3></div>		
 				<?php  
 				echo "";
-				for ($i = 0; $i < 13; ++$i)
-				{   
-					echo "<h3><B>$TituloEB[$i]</B></h3>";
-					$html = $AnsIB[$i];
-					print $html;
-					echo "<hr>";
-
-				}
+				
+        
 				?>  
 
 				<div class="col-md-12 text-center text-success"><h3> Interpretaciones adicionales de 2 factores</h3></div>
