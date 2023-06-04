@@ -24,17 +24,24 @@ $CCC = $CollectorCount->collect_Content();
 
 if($_SESSION['gender'] == 'Masculino'){
 
-  $CollectorScoreMale = new collectorScoreMale();
+$CollectorScoreMale = new collectorScoreMale();
+$CountSB = array();
+$CountSS = array();
+$CountSC = array();
 $CountSB = $CollectorScoreMale->collect_Basic($CCB);
 $CountSS = $CollectorScoreMale->collect_Supplementary($CCS);
 $CountSC = $CollectorScoreMale->collect_Content($CCC);
 }
 else
 {
+ 
+  $CountSB2 = array();
+  $CountSC = array();
   $CollectorScoreFemale = new collectorScoreFemale();
   $CountSB = $CollectorScoreFemale->collect_Basic($CCB);
-  $CpuntSS = $CollectorScoreFemale->collect_Supplementary($CSS);
+  $CountSS = $CollectorScoreFemale->collect_Supplementary($CSS);
   $CountSC = $CollectorScoreFemale->collect_Content($CSC);
+  $CountSB2 = $CountSB;
 };
 
 $collectorSuggestions = new collectorSuggestions();
@@ -355,7 +362,7 @@ echo "";
         const $grafica = document.querySelector("#grafica");
         const Tvalue = {
             label: "Puntuacion T",
-            data: <?php echo json_encode($CSB) ?>,
+            data: <?php echo json_encode($CountSB) ?>,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1,
@@ -395,7 +402,7 @@ echo "";
         const $grafica2 = document.querySelector("#grafica2");
         const Tvalue2 = {
             label: "Puntuacion T",
-            data: <?php echo json_encode($CSC) ?>,
+            data: <?php echo json_encode($CountSC) ?>,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)', 
             borderWidth: 1, 
@@ -438,7 +445,7 @@ echo "";
         const $grafica3 = document.querySelector("#grafica3");
         const Tvalue3 = {
             label: "Puntuacion T",
-            data: <?php echo json_encode($CSS) ?>,
+            data: <?php echo json_encode($CountSS) ?>,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1,
