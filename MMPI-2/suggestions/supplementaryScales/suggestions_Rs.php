@@ -1,28 +1,60 @@
 <?php
 
 class suggestions_Rs{
-    function score($count){
+    
+    function suggestions($count){        
         switch($count){
-            case 0: $score = 0; break;
-            case 14: $score = 32; break;
-            case 15: $score = 35; break;
-            case 16: $score = 37; break;   
-            case 17: $score = 40; break;
-            case 18: $score = 42; break;
-            case 19: $score = 45; break;
-            case 20: $score = 48; break;
-            case 21: $score = 50; break;
-            case 22: $score = 53; break;   
-            case 23: $score = 56; break;
-            case 24: $score = 58; break;
-            case 25: $score = 61; break;
-            case 26: $score = 63; break;
-            case 27: $score = 66; break;
-            case 28: $score = 69; break;   
-            case 29: $score = 71; break; 
-            default: $score = 74; break;
+            case $count < 41:
+                $text = "Quienes obtienen puntuaciones bajas en 
+                Rs, debajo de 40, se caracterizan por no 
+                estar dispuestas a asumir 
+                responsabilidades y tal vez no hayan 
+                aceptado valores o normas sociales; por 
+                otra parte no pueden ser vistos a sí mismos 
+                como poco dignos de confianza, faltos de 
+                integridad y con pobre sentido de 
+                responsabilidad para con el grupo.";
+            break;
+            case $count > 64:
+                $text = "Las personas que tienen más de 25 años 
+                con puntuaciones altas tienden a aceptar 
+                su sistema de valores actual e intentan 
+                continuar utilizándolo, y quienes obtienen 
+                puntuaciones bajas pueden cuestionar su 
+                sistema de valores presente o rechazar los 
+                recién adquiridos. Para las personas más 
+                jóvenes, las puntuaciones RS altas indican 
+                que aceptan el sistema de valores de los 
+                padres, mientras que las puntuaciones 
+                bajas indican el cuestionamiento o rechazo 
+                del sistema de valores de los padres. 
+                Puntuaciones altas en RS sugieren que un 
+                individuo tiende a verse a sí mismo y ser 
+                visto por otras personas como dispuesto a 
+                aceptar las consecuencias de su propia 
+                conducta y como responsable, así mismo 
+                se le considera digno de confianza y 
+                persona íntegra, con sentido de 
+                responsabilidad para el grupo; además, es 
+                probable que se encuentre en situaciones 
+                de liderazgo y toma de decisiones.
+                Puntuaciones altas arriba de 60, indican 
+                un fuerte sentido de justicia y un alto 
+                sentido a las normas, indican también que
+                la persona tiene confianza en sí misma, es 
+                digna de confianza y responsable, y que 
+                posee, además, un sentido de compromiso 
+                social. Así mismo, están profundamente 
+                interesados en problemas éticos y morales: 
+                rechazan los privilegios y favores, y dan un 
+                énfasis excesivo al cumplimiento de su 
+                parte correspondiente de cargas y deberes.";
+            break;  
+            default:
+            $text = "Puntuación normal";
+            break;
         }
-        return $score;
+        return $text;
     }
 }
 

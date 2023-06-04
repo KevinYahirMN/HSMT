@@ -1,16 +1,35 @@
 <?php
 
 class suggestions_GM{
-    function score($count){
-        $score = ($count*2);
+    
+    function suggestions($count){        
         switch($count){
-            case 26: $score = 30; break;
-            case 27: $score = 32; break;
-            case 28: $score = 35; break;   
-            case $count < 47: $score -= 21; break;
-            default: $T = 73; break;
+            case $count < 41:
+                $text = "Puntuación baja";
+            break;
+            case $count > 64:
+                $text = "Las puntuaciones elevadas tanto en 
+                hombres con mujeres, son características 
+                positivas, debido a que son personas que 
+                tienden a tener confianzas en sí mismas y 
+                libres de temores y preocupaciones. En 
+                caso de varones GM se relaciona con una 
+                gran confianza en sí mismos, gran 
+                perseverancia y amplios intereses, además 
+                de la carencia de temores o sentimientos 
+                referentes de sí mismos.
+                Para las mujeres GM se vincula con una 
+                gran confianza en sí mismas, con 
+                honestidad y la disposición para probar 
+                nuevas cosas, además de que indica la 
+                carencia de preocupaciones y sentimientos 
+                referidos a sí mismas.";
+            break;   
+            default:
+            $text = "Puntuación normal";
+            break;
         }
-        return $score;
+        return $text;
     }
 }
 
