@@ -386,7 +386,7 @@ class supplementaryScaleInterpretation{
     function scale_GM($c){     
         switch($c){
             case $c < 41:
-                $text = "Puntuación normal";
+                $text = "Puntuación baja";
             break;
             case $c > 64:
                 $text = "Las puntuaciones elevadas tanto en 
@@ -416,7 +416,7 @@ class supplementaryScaleInterpretation{
     function scale_GF($c){    
         switch($c){
             case $c < 41:
-                $text = "Puntuación normal";
+                $text = "Puntuación baja";
             break;
             case $c > 64:
                 $text = "Las puntuaciones elevadas tanto en 

@@ -1,40 +1,63 @@
 <?php
 
 class suggestions_R{
-    function score($count){
+    
+    function suggestions($count){        
         switch($count){
-            case 0: $score = 0; break;
-            case 9: $score = 31; break;
-            case 10: $score = 34; break;
-            case 11: $score = 36; break;   
-            case 12: $score = 38; break;
-            case 13: $score = 40; break;
-            case 14: $score = 43; break; 
-            case 15: $score = 45; break;
-            case 16: $score = 47; break;   
-            case 17: $score = 49; break;
-            case 18: $score = 52; break;
-            case 19: $score = 54; break; 
-            case 20: $score = 56; break;
-            case 21: $score = 59; break;   
-            case 22: $score = 61; break;
-            case 23: $score = 63; break;
-            case 24: $score = 65; break; 
-            case 25: $score = 68; break;
-            case 26: $score = 70; break;   
-            case 27: $score = 72; break;
-            case 28: $score = 74; break;
-            case 29: $score = 77; break; 
-            case 30: $score = 79; break;
-            case 31: $score = 81; break;   
-            case 32: $score = 83; break;
-            case 33: $score = 86; break;
-            case 34: $score = 88; break; 
-            case 35: $score = 90; break;
-            case 36: $score = 93; break;   
-            default: $score = 95; break;
+            case $count < 41:
+                $text = "Puede ser una persona emotiva, 
+                desinhibida verbal, entusiasta, 
+                atrevida y alegre. 
+                También puede ser una persona 
+                generosa, impulsiva, agresiva, 
+                sarcástica, informal y 
+                autoindulgente, puede ser astuta, 
+                perspicaz, lista, sutil, engañosa y 
+                mentirosa.
+                Además son extrovertidas, 
+                emotivas, espontáneas y su estilo 
+                de vida es dominante en sus 
+                relaciones interpersonales.
+                Aparecen como enérgicas, 
+                expresivas informales. La 
+                interpretación de las puntuaciones 
+                bajas es indicativa de un individuo 
+                que es sociable, abierto, 
+                parlanchín, arriesgado, atrevido, 
+                vigoroso. 
+                Además es mandón, le gusta 
+                discutir, es egoísta, 
+                autoindulgente, perspicaz, 
+                precavido.";
+            break;
+            case $count < 64:
+                $text = "Parece carecer de insight, es 
+                sobrecontrolador e inhibido 
+                socialmente, también se percibe a 
+                sí mismos y son percibidos por los 
+                demás como convencionales y 
+                reservados en el sentido 
+                emocional, amables y poco 
+                espontáneos.
+                Tiende a evitar los conflictos en 
+                vez de tratarlos directamente 
+                debido a que suele ser sumiso y 
+                cauteloso. Otros lo ven como 
+                demasiado conservador en su 
+                conducta y acciones. Además se 
+                caracteriza por mostrar su 
+                pensamiento claro, ser lento en 
+                sus acciones y muy meticuloso.
+                La interpretación de puntuaciones 
+                elevadas de la escala de represión 
+                es indicativa de un individuo 
+                formal, de ideas claras, cuidadoso.";
+            break;
+            default:
+            $text = "Puntuación normal";
+            break;
         }
-        return $score;
+        return $text;
     }
 }
 

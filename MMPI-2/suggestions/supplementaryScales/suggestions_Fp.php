@@ -1,33 +1,36 @@
 <?php
 
 class suggestions_Fp{
-    function score($count){
+    
+    function suggestions($count){        
         switch($count){
-            case 0: $score = 40; break;
-            case 1: $score = 44; break;
-            case 2: $score = 47; break;   
-            case 3: $score = 51; break;
-            case 4: $score = 54; break;
-            case 5: $score = 58; break; 
-            case 6: $score = 61; break;
-            case 7: $score = 65; break;
-            case 8: $score = 68; break;   
-            case 9: $score = 72; break;
-            case 10: $score = 76; break;
-            case 11: $score = 79; break; 
-            case 12: $score = 83; break;
-            case 13: $score = 86; break;
-            case 14: $score = 90; break;   
-            case 15: $score = 93; break;
-            case 16: $score = 97; break;
-            case 17: $score = 100; break; 
-            case 18: $score = 104; break;
-            case 19: $score = 108; break;
-            case 20: $score = 111; break;   
-            case 21: $score = 115; break;
-            default: $score = 118; break;
+            case $count < 89:
+                $text = "Si tanto la F como la Fp están 
+                debajo de 89 se puede interpretar 
+                todas las escalas, las básicas, las de 
+                contenido y las suplementarias.";
+            break;
+            case $count > 90:
+                $text = "Puntuacion cuestionable
+                No se deben interpretar las 
+                escalas de contenido y las 
+                suplementarias.";
+            break;
+            case 110: $text ="Utilidad del perfil invalida
+            Posible patologia, si otras
+            escalas relacionadas son validas.
+            Si la F es valida pero la Fp no, solo se
+            podrá interpretar las escalas basicas, 
+            pero no las suplementarias.";
+            break;
+            case $count > 110:
+                $text = "Puntuacion invalida
+                Si la F y la Fp están arriba de
+                110, la prueba no es valida y
+                NO se interpreta.";
+            break;
         }
-        return $score;
+        return $text;
     }
 }
 

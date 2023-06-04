@@ -1,33 +1,35 @@
 <?php
 
 class suggestions_PAS{
-    function score($count){
-       
+    function suggestions($count){
         switch($count){
-            case 0: $score = 33; break;
-            case 1: $score = 37; break;
-            case 2: $score = 39; break;   
-            case 3: $score = 40; break;
-            case 4: $score = 43; break;
-            case 5: $score = 45; break; 
-            case 6: $score = 47; break;
-            case 7: $score = 49; break;
-            case 8: $score = 52; break;   
-            case 10: $score = 54;break;
-            case 11: $score = 56; break; 
-            case 12: $score = 60; break;
-            case 13: $score = 64; break;
-            case 14: $score = 68; break;
-            case 15: $score = 72; break;
-            case 16: $score = 75; break; 
-            case 17: $score = 79; break;
-            case 18: $score = 80; break;
-            case 19: $score = 85; break;
-            case 20: $score = 87; break;
-            case 21: $score = 90; break;
-            default: $score = 93; break;
+            case $count > 64:
+                $text = 'Puntajes elevados indican actitudes misantrópicas 
+                similares a CIN, problemas de conducta durante los años 
+                escolares y prácticas antisociales como robar o hurtar en 
+                supermercados, lo que puede dar lugar a problemas con la ley. 
+                Las personas que tienen puntuaciones altas en esta escala 
+                manifiestan disfrutar con las artimañas de los criminales y 
+                aunque no incurran en conducta ilegal, creen que no está 
+                mal evitar el incumplimiento de la ley, son poco confiables 
+                y deshonestos. 
+                Tanto hombre y mujeres fueron descritos por sus parejas como 
+                personas que habían incurrido en prácticas antisociales. 
+                Los varones fueron descritos como muy demandantes, inmaduros, 
+                abusaban de substancias y habían tenido problemas con la ley. 
+                Las mujeres fueron descritas como mentirosas, amenazantes con 
+                quienes discreparan de sus opiniones, poco constructivas, no 
+                dispuestas a recibir ayuda y con poca claridad de juicio. 
+                En selección de personal se tiene que tomar en cuenta que 
+                las personas con puntuaciones altas se les consideran no 
+                confiables y tienen dificultades para aceptar reglas, 
+                aun cuando no esté elevada, pero sea un pico del perfil.';
+            break;
+            case $count <= 64:
+                $text = 'Puntuación normal';
+            break;          
         }
-        return $score;
+        return $text;
     }
 }
 
