@@ -25,23 +25,16 @@ $CCC = $CollectorCount->collect_Content();
 if($_SESSION['gender'] == 'Masculino'){
 
 $CollectorScoreMale = new collectorScoreMale();
-$CountSB = array();
-$CountSS = array();
-$CountSC = array();
 $CountSB = $CollectorScoreMale->collect_Basic($CCB);
 $CountSS = $CollectorScoreMale->collect_Supplementary($CCS);
 $CountSC = $CollectorScoreMale->collect_Content($CCC);
 }
 else
 {
- 
-  $CountSB2 = array();
-  $CountSC = array();
   $CollectorScoreFemale = new collectorScoreFemale();
   $CountSB = $CollectorScoreFemale->collect_Basic($CCB);
   $CountSS = $CollectorScoreFemale->collect_Supplementary($CSS);
   $CountSC = $CollectorScoreFemale->collect_Content($CSC);
-  $CountSB2 = $CountSB;
 };
 
 $collectorSuggestions = new collectorSuggestions();
@@ -49,12 +42,20 @@ $CSB = $collectorSuggestions->collect_Basic($CountSB);
 $CSS = $collectorSuggestions->collect_Supplementary($CountSS);
 $CSC = $collectorSuggestions->collect_Content($CountSC);
 
+$C1 = array();
+        foreach($CountSB as $var){
+        array_push($C1, $var);
+        }
 
+$C2 = array();
+        foreach($CountSS as $var){
+        array_push($C2, $var);
+        }
 
-
-
-
-
+$C3 = array();
+        foreach($CountSC as $var){
+        array_push($C3, $var);
+        }
 ?>
 <!doctype html>
 <html lang="es">
@@ -236,7 +237,7 @@ $CSC = $collectorSuggestions->collect_Content($CountSC);
 
 				<div class="col-md-12 text-center text-success"><h3> Interpretaciones adicionales de 2 factores</h3></div>
 				
-
+        
 
 				<?php  
 				?>
@@ -252,48 +253,30 @@ $CSC = $collectorSuggestions->collect_Content($CountSC);
         <div class="col-md-12 text-center text-success"><h3> Escalas de contenido</h3></div>
 
 				  <?php  
-
-$TituloEC = array("", "", "", "",
-"", "", "","","","",
-"", "", "", "", "");
-				  
-echo "";
           echo "<h3>Escala ANS (Ansiedad)</h3>";
           echo $CSC['ans'];
-          echo "";
           echo "<h3>Escala MIE (Miedos)</h3>";
           echo $CSC['mie'];
-          echo "";
           echo "<h3>Escala OBS (Obsesividad)</h3>";
           echo $CSC['obs'];
-          echo "";
           echo "<h3>Escala DEP (Depresión)</h3>";
           echo $CSC['obs'];
-          echo "";
           echo "Escala DEL (Pensamientos Delirantes)</h3>";
           echo $CSC['obs'];
-          echo "";
           echo "<h3>Escala PAS (Prácticas Antisociales)</h3>";
           echo $CSC['pas'];
-          echo "";
           echo "<h3>Escala CIN (Cinismo)</h3>";
           echo $CSC['cin'];
-          echo "";
           echo "<h3>Escala PTA (Personalidad Tipo A)</h3>";
           echo $CSC['pta'];
-          echo "";
           echo "<h3>Escala BAE (Baja Autoestima)</h3>";
           echo $CSC['bae'];
-          echo "";
           echo "<h3>Escala ISO (Incomodidad Social)</h3>";
           echo $CSC['iso'];
-          echo "";
           echo "<h3>Escala FAM (Problemas Familiares)</h3>";
           echo $CSC['fam'];
-          echo "";
           echo "<h3>Escala DTR (Dificultades en el Trabajo)</h3>";
           echo $CSC['dtr'];
-          echo "";
           echo "<h3>Escala RTR (Dificultad en el Tratamiento)</h3>";
           echo $CSC['rtr'];
 				  ?>  
@@ -301,49 +284,34 @@ echo "";
         <div class="col-md-12 text-center text-success"><h3> Escalas suplementarias</h3></div>
 				
         <?php   
-        echo "";
         echo "<h3>Escala A (Ansiedad)</h3>";
         echo $CSS['a'];
-        echo "";
         echo "<h3>Escala R (Represión)</h3>";
         echo $CSS['r'];
-        echo "";
         echo "<h3>Escala Fyo (Fuerza del Yo)</h3>";
         echo $CSS['fyo'];
-        echo "";
         echo "<h3>Escala A-MAC (Alcoholismo de Mc Andrew)</h3>";
         echo $CSS['a_mac'];
-        echo "";
         echo "<h3>Escala HR (Hostilidad Reprimida)</h3>";
         echo $CSS['hr'];
-        echo "";
         echo "<h3>Escala Do (Dominancia)</h3>";
         echo $CSS['do'];
-        echo "";
         echo "<h3>Escala Dpr (Desajuste Profesional)</h3>";
         echo $CSS['dpr'];
-        echo "";
         echo "<h3>Escala GM (Género Masculino)</h3>";
         echo $CSS['gm'];
-        echo "";
         echo "<h3>Escala GF (Género Femenino)</h3>";
         echo $CSS['gf'];
-        echo "";
         echo "<h3>Escala EPK (Desorden de Estrés Postraumático de Keane)</h3>";
         echo $CSS['epk'];
-        echo "";
         echo "<h3>Escala EPS (Estrés Postraumático de Schelenger)</h3>";
         echo $CSS['eps'];
-        echo "";
         echo "<h3>Escala ls1 (Timidez/Perturbación-autoconcepto)</h3>";
         echo $CSS['ls1'];
-        echo "";
         echo "<h3>Escala ls2 (Evitación Social)</h3>";
         echo $CSS['ls2'];
-        echo "";
         echo "<h3>Escala ls3 (Enajenación de sí mismo y de los otros)</h3>";
         echo $CSS['ls3'];
-        echo "";
         echo "<h3>Escala Fp (Indicador Adicional de Validez)</h3>";
         echo $CSS['fp'];
 				?>  
@@ -362,7 +330,7 @@ echo "";
         const $grafica = document.querySelector("#grafica");
         const Tvalue = {
             label: "Puntuacion T",
-            data: <?php echo json_encode($CountSB) ?>,
+            data: <?php echo json_encode($C1) ?>,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1,
@@ -402,7 +370,7 @@ echo "";
         const $grafica2 = document.querySelector("#grafica2");
         const Tvalue2 = {
             label: "Puntuacion T",
-            data: <?php echo json_encode($CountSC) ?>,
+            data: <?php echo json_encode($C3) ?>,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)', 
             borderWidth: 1, 
@@ -445,7 +413,7 @@ echo "";
         const $grafica3 = document.querySelector("#grafica3");
         const Tvalue3 = {
             label: "Puntuacion T",
-            data: <?php echo json_encode($CountSS) ?>,
+            data: <?php echo json_encode($C2) ?>,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1,
