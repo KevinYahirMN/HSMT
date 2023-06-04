@@ -55,7 +55,7 @@ class contentScoreMale extends scoreMMPI{
     }
 
     function collect($count = array()){
-        $count = array(
+        $count = [
             'ans' => parent::score($this->ans, $count['ans']),
             'cin' => parent::score($this->cin, $count['cin']),
             'del' => parent::score($this->del, $count['del']),
@@ -71,7 +71,7 @@ class contentScoreMale extends scoreMMPI{
             'fam' => parent::score($this->fam, $count['fam']),
             'dtr' => parent::score($this->dtr, $count['dtr']),
             'rtr' => parent::score($this->rtr, $count['rtr'])
-        );
+        ];
         return $count;
     }
 }
