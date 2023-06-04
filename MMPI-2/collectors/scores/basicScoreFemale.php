@@ -14,7 +14,7 @@ include_once('../scores/female/basicScales/female_score_Mf.php');
 include_once('../scores/female/basicScales/female_score_Pa.php');
 include_once('../scores/female/basicScales/female_score_Pt.php');
 
-class basicCountFemale extends scoreMMPI{
+class basicScoreFemale extends scoreMMPI{
 
     private $d;
     private $dp;
