@@ -1,5 +1,5 @@
 <?php
-include_once('suggestionsMMPI.php');
+include_once('suggestionMMPI.php');
 include_once('../suggestions/supplementaryScales/suggestions_A.php');
 include_once('../suggestions/supplementaryScales/suggestions_A_MAC.php');
 include_once('../suggestions/supplementaryScales/suggestions_Do.php');
