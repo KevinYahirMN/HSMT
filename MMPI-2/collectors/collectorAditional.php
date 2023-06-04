@@ -2,7 +2,7 @@
 include_once('../suggestions/basicScales/additionals/twoScaleSuggestions.php');
 include_once('../suggestions/basicScales/additionals/threeScaleSuggestions.php');
 include_once('../suggestions/basicScales/additionals/maxScales.php');
-class collectorSuggestions{
+class collectorAditional{
 
     private $twoSuggestions;
     private $threeSuggestions;
