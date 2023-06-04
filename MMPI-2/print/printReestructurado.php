@@ -1,9 +1,8 @@
 <?php
-include("../scales/Connection.php");
-include("../collectors/CollectorCount");
-include("../collectors/CollectorMale");
-//include("../collectors/CollectorFemale");
-include("../collectors/CollectorSuggestions");
+include("../collectors/collectorCount");
+include("../collectors/collectorMale");
+//include("../collectors/collectorFemale");
+include("../collectors/collectorSuggestions");
 
 
 $temp = array();
