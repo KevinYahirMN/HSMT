@@ -1,11 +1,12 @@
 <?php
 class maxScales{
-    function maxPositions($count = array()){
 
-    }
+    private $scalesPosition;
+    private $scalesCount;
 
-    function maxCounts($count = array()){
-        
+    function __construct($count = array())
+    {
+        max($count);
     }
 
     function max($count = array()){
@@ -40,13 +41,18 @@ class maxScales{
             $i++;
         }
 
-        $scales = array(
-            'first' => $cMax,
-            'second' => $scMax,
-            'third' => $tcMax
-        );
+        $this->scalesPosition = array($cMax, $scMax, $tcMax);
 
-        return $scales;
+        $this->scalesCount = array($Max, $sMax, $tMax);
+
+    }
+
+    function maxPositions(){
+        return $this->scalesPosition;
+    }
+
+    function maxCounts(){
+        return $this->scalesCount;
     }
 }
 ?>
