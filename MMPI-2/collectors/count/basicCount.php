@@ -53,7 +53,7 @@ class basicCount extends countMMPI{
     }
 
     function collect(){
-        $count = array(
+        $count = [
             'd' => parent::revision($this->d),
             'dp' => parent::revision($this->dp),
             'es' => parent::revision($this->es),
@@ -66,7 +66,7 @@ class basicCount extends countMMPI{
             'ma' => parent::revision($this->ma),
             'pa' => parent::revision($this->pa),
             'pt' => parent::revision($this->pt)
-        );
+        ];
 
         if($_SESSION['gender'] == 'Masculino'){
             $count['mf'] = parent::revision($this->mfm);

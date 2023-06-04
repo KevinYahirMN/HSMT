@@ -57,7 +57,7 @@ class supplementaryCount extends countMMPI{
     }
 
     function collect(){
-        $count = array(
+        $count = [
             'a' => parent::revision($this->a),
             'a_mac' => parent::revision($this->a_mac),
             'do' => parent::revision($this->do),
@@ -74,7 +74,7 @@ class supplementaryCount extends countMMPI{
             'ls3' => parent::revision($this->ls3),
             'r' => parent::revision($this->r),
             'rs' => parent::revision($this->rs)
-        );
+        ];
         return $count;
     }
 }

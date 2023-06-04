@@ -55,7 +55,7 @@ class contentSuggestion extends SuggestionMMPI{
     }
 
     function collect($score = array()){
-        $Suggestions = array(
+        $Suggestions = [
             'ans' => parent::suggestion($this->ans, $score['ans']),
             'cin' => parent::suggestion($this->cin, $score['cin']),
             'del' => parent::suggestion($this->del, $score['del']),
@@ -71,7 +71,7 @@ class contentSuggestion extends SuggestionMMPI{
             'fam' => parent::suggestion($this->fam, $score['fam']),
             'dtr' => parent::suggestion($this->dtr, $score['dtr']),
             'rtr' => parent::suggestion($this->rtr, $score['rtr'])
-        );
+        ];
         return $Suggestions;
     }
 }

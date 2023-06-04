@@ -55,7 +55,7 @@ class contentCount extends countMMPI{
     }
 
     function collect(){
-        $count = array(
+        $count = [
             'ans' => parent::revision($this->ans),
             'cin' => parent::revision($this->cin),
             'del' => parent::revision($this->del),
@@ -71,7 +71,7 @@ class contentCount extends countMMPI{
             'fam' => parent::revision($this->fam),
             'dtr' => parent::revision($this->dtr),
             'rtr' => parent::revision($this->rtr)
-        );
+        ];
         return $count;
     }
 }

@@ -57,7 +57,7 @@ class supplementarySuggestion extends suggestionMMPI{
     }
 
     function collect($score = array()){
-        $suggestions = array(
+        $suggestions = [
             'a' => parent::suggestion($this->a, $score['a']),
             'a_mac' => parent::suggestion($this->a_mac, $score['a_mac']),
             'do' => parent::suggestion($this->do, $score['do']),
@@ -74,7 +74,7 @@ class supplementarySuggestion extends suggestionMMPI{
             'ls3' => parent::suggestion($this->ls3, $score['ls3']),
             'r' => parent::suggestion($this->r, $score['r']),
             'rs' => parent::suggestion($this->rs, $score['rs'])
-        );
+        ];
         return $suggestions;
     }
 }
