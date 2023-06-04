@@ -34,8 +34,8 @@ $CSFC = $CollectorScoreFemale->collect_Content($CSC);
 */
 $collectorSuggestions = new collectorSuggestions();
 $CSB = $collectorSuggestions->collect_Basic($CSMB);
-$CSS = $collectorSuggestions->collect_Basic($CSMS);
-$CSC = $collectorSuggestions->collect_Basic($CSMC);
+$CSS = $collectorSuggestions->collect_Supplementary($CSMS);
+$CSC = $collectorSuggestions->collect_Content($CSMC);
 
 
 $TituloEB = array("Escala L (Sinceridad)", "Escala F (Validez)", "Escala K (Corrección)", "Escala Hs (Hipocondriasis)",
