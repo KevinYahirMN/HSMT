@@ -20,19 +20,16 @@ class collectorSuggestions extends collectorMMPI{
     }
 
     function collect_Basic($score = array()){
-        $count = array();
         $count = parent::collector($this->basic, $score);
         return $count;
     }
 
     function collect_Content($score = array()){
-        $count = array();
         $count = parent::collector($this->content, $score);
         return $count;
     }
 
     function collect_Supplementary($score = array()){
-        $count = array();
         $count = parent::collector($this->supplementary, $score);
         return $count;
     }

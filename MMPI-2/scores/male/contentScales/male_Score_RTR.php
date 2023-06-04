@@ -1,7 +1,7 @@
 <?php
 
 class male_Score_RTR{
-    function scale_RTR($count){
+    function score($count){
         switch($count){
             case 0: $score = 30; break;
             case 1: $score = 33; break;

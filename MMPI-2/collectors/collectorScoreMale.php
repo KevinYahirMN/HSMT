@@ -20,19 +20,16 @@ class collectorScoreMale extends collectorMMPI{
     }
 
     function collect_Basic($count = array()){
-        $count = array();
         $count = parent::collector($this->basic, $count);
         return $count;
     }
 
     function collect_Content($count = array()){
-        $count = array();
         $count = parent::collector($this->content, $count);
         return $count;
     }
 
     function collect_Supplementary($count = array()){
-        $count = array();
         $count = parent::collector($this->supplementary, $count);
         return $count;
     }

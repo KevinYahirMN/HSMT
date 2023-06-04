@@ -60,7 +60,7 @@ class basicScoreMale extends scoreMMPI{
             'k' => parent::score($this->k, $count['k']),
             'l' => parent::score($this->l, $count['l']),
             'ma' => parent::score($this->ma, $count['ma']),
-            'mff' => parent::score($this->mf, $count['mff']),
+            'mfm' => parent::score($this->mf, $count['mfm']),
             'pa' => parent::score($this->pa, $count['pa']),
             'pt' => parent::score($this->pt, $count['pt'])
         );
