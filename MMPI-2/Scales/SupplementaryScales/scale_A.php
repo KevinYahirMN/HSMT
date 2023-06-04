@@ -32,7 +32,7 @@ class scale_A extends scaleMMPI{
         $count += $this->sc->calif_True($this->answer[338]);
         $count += $this->sc->calif_True($this->answer[340]);
         $count += $this->sc->calif_True($this->answer[346]);
-        $count += $this->sc->alif_False($this->answer[387]);
+        $count += $this->sc->calif_False($this->answer[387]);
         $count += $this->sc->calif_True($this->answer[389]);
         $count += $this->sc->calif_True($this->answer[390]);
         $count += $this->sc->calif_True($this->answer[393]);
