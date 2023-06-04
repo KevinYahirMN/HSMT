@@ -29,7 +29,7 @@ class contentCount extends countMMPI{
     private $pas;
     private $pta;
     private $bae;
-    private $isp;
+    private $iso;
     private $fam;
     private $dtr;
     private $rtr;
@@ -47,7 +47,7 @@ class contentCount extends countMMPI{
             $this->pas = new scale_PAS;
             $this->pta = new scale_PTA;
             $this->bae = new scale_BAE;
-            $this->isp = new scale_ISO;
+            $this->iso = new scale_ISO;
             $this->fam = new scale_FAM;
             $this->dtr = new scale_DTR;
             $this->rtr = new scale_RTR;
@@ -67,7 +67,7 @@ class contentCount extends countMMPI{
             'pas' => parent::revision($this->pas),
             'pta' => parent::revision($this->pta),
             'bae' => parent::revision($this->bae),
-            'isp' => parent::revision($this->isp),
+            'iso' => parent::revision($this->iso),
             'fam' => parent::revision($this->fam),
             'dtr' => parent::revision($this->dtr),
             'rtr' => parent::revision($this->rtr)

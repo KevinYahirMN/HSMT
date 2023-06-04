@@ -29,7 +29,7 @@ class contentSuggestion extends SuggestionMMPI{
     private $pas;
     private $pta;
     private $bae;
-    private $isp;
+    private $iso;
     private $fam;
     private $dtr;
     private $rtr;
@@ -47,7 +47,7 @@ class contentSuggestion extends SuggestionMMPI{
             $this->pas = new Suggestions_PAS;
             $this->pta = new Suggestions_PTA;
             $this->bae = new Suggestions_BAE;
-            $this->isp = new Suggestions_ISO;
+            $this->iso = new Suggestions_ISO;
             $this->fam = new Suggestions_FAM;
             $this->dtr = new Suggestions_DTR;
             $this->rtr = new Suggestions_RTR;
@@ -67,7 +67,7 @@ class contentSuggestion extends SuggestionMMPI{
             'pas' => parent::suggestion($this->pas, $score['pas']),
             'pta' => parent::suggestion($this->pta, $score['pta']),
             'bae' => parent::suggestion($this->bae, $score['bae']),
-            'isp' => parent::suggestion($this->isp, $score['isp']),
+            'iso' => parent::suggestion($this->iso, $score['iso']),
             'fam' => parent::suggestion($this->fam, $score['fam']),
             'dtr' => parent::suggestion($this->dtr, $score['dtr']),
             'rtr' => parent::suggestion($this->rtr, $score['rtr'])
