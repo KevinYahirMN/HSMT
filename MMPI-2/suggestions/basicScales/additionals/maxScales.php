@@ -6,7 +6,7 @@ class maxScales{
 
     function __construct($count = array())
     {
-        max($count);
+        $this->max($count);
     }
 
     function max($count = array()){
@@ -41,9 +41,17 @@ class maxScales{
             $i++;
         }
 
-        $this->scalesPosition = array($cMax, $scMax, $tcMax);
+        $this->scalesPosition = [
+            0 => $cMax,
+            1 => $scMax,
+            2 => $tcMax
+        ];
 
-        $this->scalesCount = array($Max, $sMax, $tMax);
+        $this->scalesCount = [
+            0 => $Max,
+            1 => $sMax,
+            2 => $tMax
+        ];
 
     }
 

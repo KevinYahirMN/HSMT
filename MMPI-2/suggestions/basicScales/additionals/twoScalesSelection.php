@@ -47,29 +47,27 @@ class twoScaleSelection{
 
     function __construct()
     {
-        if($this->dpt = null){
-            $this->dpt = new suggestions_D_Pt;
-            $this->esd = new suggestions_Es_D;
-            $this->esdp = new suggestions_Es_Dp;
-            $this->esma = new suggestions_Es_Ma;
-            $this->espa = new suggestions_Es_Pa;
-            $this->espt = new suggestions_Es_Pt;
-            $this->hid = new suggestions_Hi_D;
-            $this->hidp = new suggestions_Hi_Dp;
-            $this->hies = new suggestions_Hi_Es;
-            $this->hipa = new suggestions_Hi_Pa;
-            $this->hsd = new suggestions_Hs_D;
-            $this->hsdp = new suggestions_Hs_Dp;
-            $this->hses = new suggestions_Hs_Es;
-            $this->hshi = new suggestions_Hs_Hi;
-            $this->hsma = new suggestions_Hs_Ma;
-            $this->mad = new suggestions_ma_D;
-            $this->madp = new suggestions_ma_Dp;
-            $this->mapa = new suggestions_ma_Pa;
-            $this->mfdp = new suggestions_mf_Dp;
-            $this->padp = new suggestions_pa_Dp;
-            $this->ptdp = new suggestions_pt_Dp;    
-        }
+        $this->dpt = new suggestions_D_Pt;
+        $this->esd = new suggestions_Es_D;
+        $this->esdp = new suggestions_Es_Dp;
+        $this->esma = new suggestions_Es_Ma;
+        $this->espa = new suggestions_Es_Pa;
+        $this->espt = new suggestions_Es_Pt;
+        $this->hid = new suggestions_Hi_D;
+        $this->hidp = new suggestions_Hi_Dp;
+        $this->hies = new suggestions_Hi_Es;
+        $this->hipa = new suggestions_Hi_Pa;
+        $this->hsd = new suggestions_Hs_D;
+        $this->hsdp = new suggestions_Hs_Dp;
+        $this->hses = new suggestions_Hs_Es;
+        $this->hshi = new suggestions_Hs_Hi;
+        $this->hsma = new suggestions_Hs_Ma;
+        $this->mad = new suggestions_ma_D;
+        $this->madp = new suggestions_ma_Dp;
+        $this->mapa = new suggestions_ma_Pa;
+        $this->mfdp = new suggestions_mf_Dp;
+        $this->padp = new suggestions_pa_Dp;
+        $this->ptdp = new suggestions_pt_Dp;
     }
 
     function select($sum = 0, $fMax = 0){

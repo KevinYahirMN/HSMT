@@ -9,9 +9,8 @@ class twoScaleSuggestions{
             $this->tss = new twoScaleSelection;
         }
     }
-    
-    function combination($scalesPosition = array(), $scalesCount = array()){
 
+    function combination($scalesPosition = array(), $scalesCount = array()){
         $text = 'No se encontró patrón';
         $fMax = $scalesCount[0];
         $sMax = $scalesCount[1];
@@ -22,6 +21,7 @@ class twoScaleSuggestions{
             $sum = $fcMax + $scMax;
 
             $text = '<b>'.$fcMax.$scMax.'/'.$scMax.$fcMax.'</b>'.'<br>'.$this->tss->select($sum, $fcMax);
+            
         }
 
         return $text;

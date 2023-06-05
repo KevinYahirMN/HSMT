@@ -23,7 +23,7 @@ class threeScaleSuggestions{
         if($fMax > 69 && $sMax > 69 && $tMax > 69){
             $sum = $fcMax + $scMax;
 
-            $text = '<b>'.$fcMax.$scMax.'/'.$scMax.$fcMax.'</b>'.'<br>'.$this->tss->select($sum, $fcMax, $scMax);
+            $text = '<b>'.$fcMax.$scMax.$tcMax.'</b>'.'<br>'.$this->tss->select($sum, $fcMax, $scMax);
         }
 
         return $text;

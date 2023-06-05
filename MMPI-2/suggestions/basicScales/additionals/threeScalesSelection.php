@@ -20,15 +20,13 @@ class threeScaleSelection{
 
     function __construct()
     {
-        if($this->dptes = null){
-            $this->dptes = new suggestions_D_Pt_Es;
-            $this->dpthi = new suggestions_D_Pt_Hi;
-            $this->esddp = new suggestions_Es_D_Dp;
-            $this->eshsd = new suggestions_Es_Hs_D;
-            $this->hsdhi = new suggestions_Hs_D_Hi;
-            $this->hshies = new suggestions_Hs_Hi_Es;
-            $this->hshid = new suggestions_Hs_Hi_D;
-        }
+        $this->dptes = new suggestions_D_Pt_Es;
+        $this->dpthi = new suggestions_D_Pt_Hi;
+        $this->esddp = new suggestions_Es_D_Dp;
+        $this->eshsd = new suggestions_Es_Hs_D;
+        $this->hsdhi = new suggestions_Hs_D_Hi;
+        $this->hshies = new suggestions_Hs_Hi_Es;
+        $this->hshid = new suggestions_Hs_Hi_D;
     }
 
     function select($sum, $fcMax, $scMax){
