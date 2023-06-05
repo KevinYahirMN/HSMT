@@ -1,6 +1,18 @@
 <?php
-include("../scales/Connection.php");
+include("../collectors/collectorCount.php");
+include("../collectors/collectorScoreMale.php");
+include("../collectors/collectorScoreFemale.php");
+include("../collectors/collectorSuggestions.php");
+include("../collectors/collectorAditional.php");
+/*
+session_start();
+$gender = $_SESSION['gender'];
 
+$temp = $_SESSION["answer"];
+$get = $_POST["Q"];
+array_push($temp, $get);
+$_SESSION["answer"] = $temp;
+*/
 $temp = array();
 for($i = 0; $i < 567; $i++){
   if($i%2 == 0){
@@ -12,28 +24,50 @@ for($i = 0; $i < 567; $i++){
 
 $_SESSION['answer'] = $temp;
 $_SESSION['gender'] = 'Masculino';
-  
-$conexion = new Connection();
-$AnsB = $conexion->scoreBasicScales();
-$AnsIB = $conexion->interpretationBasicScales();
-$AnsIBA = $conexion->interpretationAditional();
-$AnsIBAT = $conexion->threeinterpretationAditional();
-$AnsC = $conexion->scoreContentScales();
-$AnsIC = $conexion->interpretationContentScales();
-$AnsS = $conexion->scoreSupplementaryScales();
-$AnsIS = $conexion->interpretationSupplementaryScales();
 
-$TituloEB = array("Escala L (Sinceridad)", "Escala F (Validez)", "Escala K (Corrección)", "Escala Hs (Hipocondriasis)",
-"Escala D (Depresión)", "Escala Hi (Histeria)", "Escala Dp (Desviación Psicopática)","Escala Mf (Masculinidad/Feminidad)","Escala Pa (Paranoia)","Escala Pt (Psicastenia)",
-"Escala Es (Esquizofrenia)", "Escala Ma (Hipomonía)", "Escala Is (Introversión Social");
+$CollectorCount = new collectorCount();
+$CCB = $CollectorCount->collect_Basic();
+$CCS = $CollectorCount->collect_Supplementary();
+$CCC = $CollectorCount->collect_Content();
 
-$TituloEC = array("Escala ANS (Ansiedad)", "Escala MIE (Miedos)", "Escala OBS (Obsesividad)", "Escala DEP (Depresión)",
-"Escala SAU (Preocupaciones por la Salud)", "Escala DEL (Pensamientos Delirantes)", "Escala ENJ (Enojo)","Escala CIN (Cinismo)","Escala PAS (Prácticas Antisociales)","Escala PTA (Personalidad Tipo A)",
-"Escala BAE (Baja Autoestima)", "Escala ISO (Incomodidad Social)", "Escala FAM (Problemas Familiares)", "Escala DTR (Dificultades en el Trabajo)", "Escala RTR (Dificultad en el Tratamiento)");
+if($_SESSION['gender'] == 'Masculino'){
 
-$TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (Fuerza del Yo)", "Escala A-MAC (Alcoholismo de Mc Andrew)",
-"Escala HR (Hostilidad Reprimida)", "Escala Do (Dominancia)", "Escala Rs (Responsabilidad Social)","Escala Dpr (Desajuste Profesional)","Escala GM (Género Masculino)","Escala GF (Género Femenino)",
-"Escala EPK (Desorden de Estrés Postraumático de Keane)", "Escala EPS (Estrés Postraumático de Schelenger)", "Escala ls1 (Timidez/Perturbación-autoconcepto)","Escala ls2 (Evitación Social)","Escala ls3 (Enajenación de sí mismo y de los otros)","Escala Fp (Indicador Adicional de Validez)");
+$CollectorScoreMale = new collectorScoreMale();
+$CountSB = $CollectorScoreMale->collect_Basic($CCB);
+$CountSS = $CollectorScoreMale->collect_Supplementary($CCS);
+$CountSC = $CollectorScoreMale->collect_Content($CCC);
+}
+else
+{
+  $CollectorScoreFemale = new collectorScoreFemale();
+  $CountSB = $CollectorScoreFemale->collect_Basic($CCB);
+  $CountSS = $CollectorScoreFemale->collect_Supplementary($CSS);
+  $CountSC = $CollectorScoreFemale->collect_Content($CSC);
+};
+
+$collectorSuggestions = new collectorSuggestions();
+$CSB = $collectorSuggestions->collect_Basic($CountSB);
+$CSS = $collectorSuggestions->collect_Supplementary($CountSS);
+$CSC = $collectorSuggestions->collect_Content($CountSC);
+
+$C1 = array();
+        foreach($CountSB as $var){
+        array_push($C1, $var);
+        }
+
+$C2 = array();
+        foreach($CountSS as $var){
+        array_push($C2, $var);
+        }
+
+$C3 = array();
+        foreach($CountSC as $var){
+        array_push($C3, $var);
+        }
+
+$CollectorAditional = new collectorAditional($C1);
+$CA2 = $CollectorAditional->collect_Two_Combination();
+$CA3 = $CollectorAditional->collect_Three_Combination();
 
 ?>
 <!doctype html>
@@ -188,67 +222,142 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
           </div>
         </div>
 	</center>
-	<hr>
-            
-      <div class="col-md-12 text-center text-success"><h3> Escalas básicas</h3></div>
-				
+	<hr>         
+      <div class="col-md-12 text-center text-success"><h1> Escalas básicas</h1></div>		
 				<?php  
-				echo "";
-				for ($i = 0; $i < 13; ++$i)
-				{   
-					echo "<h3><B>$TituloEB[$i]</B></h3>";
-					$html = $AnsIB[$i];
-					print $html;
-					echo "<hr>";
-
-				}
+				echo "<h3>Escala L (Sinceridad)</h3>";
+        echo  $CSB['l'] ;
+        echo "<br><br>";
+        echo "<h3>Escala K (Corrección)</h3>";
+        echo $CSB['k'];
+        echo "<br><br>";
+        echo "<h3>Escala Hs (Hipocondriasis)</h3>";
+        echo $CSB['hs'];
+        echo "<br><br>";
+        echo "<h3>Escala D (Depresión)</h3>";
+        echo $CSB['d'];
+        echo "<br><br>";
+        echo "<h3>Escala Hi (Histeria)</h3>";
+        echo $CSB['hi'];
+        echo "<br><br>";
+        echo "<h3>Escala Dp (Desviación Psicopática)</h3>";
+        echo $CSB['dp'];
+        echo "<br><br>";
+        echo "<h3>Escala Pa (Paranoia)</h3>";
+        echo $CSB['pa'];
+        echo "<br><br>";
+        echo "<h3>Escala Es (Esquizofrenia)</h3>";
+        echo $CSB['es'];
+        echo "<br><br>";
+        echo "<h3>Escala Ma (Hipomonía)</h3>";
+        echo $CSB['ma'];
+        echo "<br><br>";
+        echo "<h3>Escala Is (Introversión Social</h3>";
+        echo $CSB['is'];
+        echo "<br><br>";
 				?>  
 
-				<div class="col-md-12 text-center text-success"><h3> Interpretaciones adicionales de 2 factores</h3></div>
-				
+				<div class="col-md-12 text-center text-success"><h2>Interpretaciones adicionales de 2 factores</h2></div>
 				<?php  
-				echo "";
-				$html = $AnsIBA;
-				print $html;
-				echo "<hr>";
+        echo $CA2;
 				?>
         
-        <div class="col-md-12 text-center text-success"><h3> Interpretaciones adicionales de 3 factores</h3></div>
-				
+        <div class="col-md-12 text-center text-success"><h2>Interpretaciones adicionales de 3 factores</h2></div>
 				<?php  
-				echo "";
-				$html = $AnsIBAT;
-				print $html;
-				echo "<hr>";
+        echo $CA3;
 				?>  
-                
-					
-        <div class="col-md-12 text-center text-success"><h3> Escalas de contenido</h3></div>
+                				
+        <div class="col-md-12 text-center text-success"><h1> Escalas de contenido</h1></div>
 
 				  <?php  
-				  echo "";
-				  for ($i = 0; $i < 15; ++$i)
-				  {   
-					  echo "<h3><B>$TituloEC[$i]</B></h3>";
-					  $html = $AnsIC[$i];
-					  print $html;
-					  echo "<hr>";
-				  }
+          echo "<h3>Escala ANS (Ansiedad)</h3>";
+          echo $CSC['ans'];
+          echo "<br><br>";
+          echo "<h3>Escala MIE (Miedos)</h3>";
+          echo $CSC['mie'];
+          echo "<br><br>";
+          echo "<h3>Escala OBS (Obsesividad)</h3>";
+          echo $CSC['obs'];
+          echo "<br><br>";
+          echo "<h3>Escala DEP (Depresión)</h3>";
+          echo $CSC['dep'];
+          echo "<br><br>";
+          echo "<h3>Escala DEL (Pensamientos Delirantes)</h3>";
+          echo $CSC['del'];
+          echo "<br><br>";
+          echo "<h3>Escala PAS (Prácticas Antisociales)</h3>";
+          echo $CSC['pas'];
+          echo "<br><br>";
+          echo "<h3>Escala CIN (Cinismo)</h3>";
+          echo $CSC['cin'];
+          echo "<br><br>";
+          echo "<h3>Escala PTA (Personalidad Tipo A)</h3>";
+          echo $CSC['pta'];
+          echo "<br><br>";
+          echo "<h3>Escala BAE (Baja Autoestima)</h3>";
+          echo $CSC['bae'];
+          echo "<br><br>";
+          echo "<h3>Escala ISO (Incomodidad Social)</h3>";
+          echo $CSC['iso'];
+          echo "<br><br>";
+          echo "<h3>Escala FAM (Problemas Familiares)</h3>";
+          echo $CSC['fam'];
+          echo "<br><br>";
+          echo "<h3>Escala DTR (Dificultades en el Trabajo)</h3>";
+          echo $CSC['dtr'];
+          echo "<br><br>";
+          echo "<h3>Escala RTR (Dificultad en el Tratamiento)</h3>";
+          echo $CSC['rtr'];
 				  ?>  
 
-              
-
-        <div class="col-md-12 text-center text-success"><h3> Escalas suplementarias</h3></div>
+        <div class="col-md-12 text-center text-success"><h1> Escalas suplementarias</h1></div>
 				
         <?php   
-				 echo "";
-				 for ($i = 0; $i < 16; ++$i)
-				 {   
-					 echo "<h3><B>$TituloES[$i]</B></h3>";
-					 $html = $AnsIS[$i];
-					 print $html;
-					 echo "<hr>";
-				 }
+        echo "<h3>Escala A (Ansiedad)</h3>";
+        echo $CSS['a'];
+        echo "<br><br>";
+        echo "<h3>Escala R (Represión)</h3>";
+        echo $CSS['r'];
+        echo "<br><br>";
+        echo "<h3>Escala Fyo (Fuerza del Yo)</h3>";
+        echo $CSS['fyo'];
+        echo "<br><br>";
+        echo "<h3>Escala A-MAC (Alcoholismo de Mc Andrew)</h3>";
+        echo $CSS['a_mac'];
+        echo "<br><br>";
+        echo "<h3>Escala HR (Hostilidad Reprimida)</h3>";
+        echo $CSS['hr'];
+        echo "<br><br>";
+        echo "<h3>Escala Do (Dominancia)</h3>";
+        echo $CSS['do'];
+        echo "<br><br>";
+        echo "<h3>Escala Dpr (Desajuste Profesional)</h3>";
+        echo $CSS['dpr'];
+        echo "<br><br>";
+        echo "<h3>Escala GM (Género Masculino)</h3>";
+        echo $CSS['gm'];
+        echo "<br><br>";
+        echo "<h3>Escala GF (Género Femenino)</h3>";
+        echo $CSS['gf'];
+        echo "<br><br>";
+        echo "<h3>Escala EPK (Desorden de Estrés Postraumático de Keane)</h3>";
+        echo $CSS['epk'];
+        echo "<br><br>";
+        echo "<h3>Escala EPS (Estrés Postraumático de Schelenger)</h3>";
+        echo $CSS['eps'];
+        echo "<br><br>";
+        echo "<h3>Escala ls1 (Timidez/Perturbación-autoconcepto)</h3>";
+        echo $CSS['ls1'];
+        echo "<br><br>";
+        echo "<h3>Escala ls2 (Evitación Social)</h3>";
+        echo $CSS['ls2'];
+        echo "<br><br>";
+        echo "<h3>Escala ls3 (Enajenación de sí mismo y de los otros)</h3>";
+        echo $CSS['ls3'];
+        echo "<br><br>";
+        echo "<h3>Escala Fp (Indicador Adicional de Validez)</h3>";
+        echo $CSS['fp'];
+        echo "<br><br>";
 				?>  
 
 <head>
@@ -259,13 +368,13 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
     <link rel="stylesheet" href="Print.css">
 </head>
 <body>
-<h2>Gráfica de resultados de escalas básicas</h2>
+<h3><B>Gráfica de resultados de escalas básicas</B></h3>
 <canvas id="grafica"></canvas>
     <script type="text/javascript">
         const $grafica = document.querySelector("#grafica");
         const Tvalue = {
             label: "Puntuacion T",
-            data: <?php echo json_encode($AnsB) ?>,
+            data: <?php echo json_encode($C1) ?>,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1,
@@ -299,13 +408,13 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
 </head>
 
 <body>
-<h2>Gráfica de resultados de escalas de contenido</h2>
+<h3><B>Gráfica de resultados de escalas de contenido</B></h3>
     <canvas id="grafica2"></canvas>
     <script type="text/javascript">
         const $grafica2 = document.querySelector("#grafica2");
         const Tvalue2 = {
             label: "Puntuacion T",
-            data: <?php echo json_encode($AnsC) ?>,
+            data: <?php echo json_encode($C3) ?>,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)', 
             borderWidth: 1, 
@@ -342,13 +451,13 @@ $TituloES = array("Escala A (Ansiedad)", "Escala R (Represión)", "Escala Fyo (F
 </head>
 
 <body>
-<h2>Gráfica de resultados de escalas suplementarias</h2>
+<h3><B>Gráfica de resultados de escalas suplementarias</B></h3>
     <canvas id="grafica3"></canvas>
     <script type="text/javascript">
         const $grafica3 = document.querySelector("#grafica3");
         const Tvalue3 = {
             label: "Puntuacion T",
-            data: <?php echo json_encode($AnsS) ?>,
+            data: <?php echo json_encode($C2) ?>,
             backgroundColor: 'rgba(54, 162, 235, 0.2)',
             borderColor: 'rgba(54, 162, 235, 1)',
             borderWidth: 1,
