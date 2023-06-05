@@ -260,11 +260,13 @@ $CA3 = $CollectorAditional->collect_Three_Combination();
 				<div class="col-md-12 text-center text-success"><h2>Interpretaciones adicionales de 2 factores</h2></div>
 				<?php  
         echo $CA2;
+        echo "<br><br>";
 				?>
         
         <div class="col-md-12 text-center text-success"><h2>Interpretaciones adicionales de 3 factores</h2></div>
 				<?php  
         echo $CA3;
+        echo "<br><br>";
 				?>  
                 				
         <div class="col-md-12 text-center text-success"><h1> Escalas de contenido</h1></div>
