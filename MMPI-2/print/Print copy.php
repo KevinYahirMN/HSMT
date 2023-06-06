@@ -511,22 +511,6 @@ while ($i < count($temp)) {
 ?>
 </table>
 
-<?php
-/*
-$i = 0;
-foreach($temp as $element){
-  echo '<tr>'.
-  '<td>'.$element.'</td>'.
-  '<td>'.$element.'</td>'.
-  '<td>'.$element.'</td>'.
-  '<td>'.$element.'</td>'.
-  '<td>'.$element.'</td>'.
-  '</tr>';
-}
-*/
-?>
-</table>
-
 					  <br><br>
 					  <div class="text-center">
 						<button onclick="window.print();" id="print" class="print_Button">Imprimir</button>
