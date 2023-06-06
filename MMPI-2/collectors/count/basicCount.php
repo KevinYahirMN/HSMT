@@ -58,12 +58,13 @@ class basicCount extends countMMPI{
         $count = [
             'l' => parent::revision($this->l),
             'f' => parent::revision($this->f),
-            'k' => parent::revision($this->k),
-            'hs' => parent::revision($this->hs, $this->factorK),
-            'd' => parent::revision($this->d),
-            'hi' => parent::revision($this->hi),
-            'dp' => parent::revision($this->dp, $this->factorK)
+            'k' => parent::revision($this->k)
         ];
+
+        $count['hs'] = parent::revision($this->hs, $this->factorK, $count['k']);
+        $count['d'] = parent::revision($this->d);
+        $count['hi'] = parent::revision($this->hi);
+        $count['dp'] = parent::revision($this->dp, $this->factorK, $count['k']);
 
         if($_SESSION['gender'] == 'Masculino'){
             $count['mf'] = parent::revision($this->mfm);
@@ -72,9 +73,9 @@ class basicCount extends countMMPI{
         }
 
         $count['pa'] = parent::revision($this->pa);
-        $count['pt'] = parent::revision($this->pt, $this->factorK);
-        $count['es'] = parent::revision($this->es, $this->factorK);
-        $count['ma'] = parent::revision($this->ma, $this->factorK);
+        $count['pt'] = parent::revision($this->pt, $this->factorK, $count['k']);
+        $count['es'] = parent::revision($this->es, $this->factorK, $count['k']);
+        $count['ma'] = parent::revision($this->ma, $this->factorK, $count['k']);
         $count['is'] = parent::revision($this->is);
 
         return $count;
