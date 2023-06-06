@@ -490,8 +490,8 @@ $CA3 = $CollectorAditional->collect_Three_Combination();
 <head>
     <link rel="stylesheet" href="Print.css">
 </head>
+<br></br>
 <div class="col-md-12 text-center text-success"><h1> Respuestas del examen</h1></div>  
-
 <table border = "0" align = "center">
 <?php
 $i = 0;

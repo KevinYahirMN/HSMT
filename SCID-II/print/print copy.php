@@ -241,6 +241,7 @@ $antisocial = $collectorCount->antisocial();
     </table>
 </body>
 </html>
+<br></br>
 <div class="col-md-12 text-center text-success"><h1> Respuestas del examen</h1></div>  
 <table border = "0" align = "center">
 <?php

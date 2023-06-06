@@ -269,11 +269,27 @@ $Range = $CollectorRange->range_Count($RCount);
       <br>     
     </body>
     </html>
-    <div class="col-md-12 text-center text-success"><h1> Respuestas del examen</h1></div>  
-    <?php
-    for ($i = 0; $i < count($temp); $i++) {
-      echo  "<b>" . $i+1 . ". </b>" .$temp[$i] . " ";}
-    ?>
+    <br></br>
+<div class="col-md-12 text-center text-success"><h1> Respuestas del examen</h1></div>  
+<table border = "0" align = "center">
+<?php
+$i = 0;
+while ($i < count($temp)) {
+  echo "<tr><td style = 'width:60px'>".""."<b>" . $i+1 . ".</b> " .$temp[$i] ."</td>".
+  "<td style = 'width:60px'>".""."<b>" . $i+2 . ".</b> " .$temp[$i+1] ."</td>".
+  "<td style = 'width:60px'>".""."<b>" . $i+3 . ".</b> " .$temp[$i+2] ."</td>".
+  "<td style = 'width:60px'>".""."<b>" . $i+4 . ".</b> " .$temp[$i+3] ."</td>".
+  "<td style = 'width:60px'>".""."<b>" . $i+5 . ".</b> " .$temp[$i+4] ."</td>".
+  "<td style = 'width:60px'>".""."<b>" . $i+6 . ".</b> " .$temp[$i+5] ."</td>".
+  "<td style = 'width:60px'>".""."<b>" . $i+7 . ".</b> " .$temp[$i+6] ."</td>".
+  "<td style = 'width:60px'>".""."<b>" . $i+8 . ".</b> " .$temp[$i+7] ."</td>".
+  "<td style = 'width:60px'>".""."<b>" . $i+9 . ".</b> " .$temp[$i+8] ."</td>".
+  "<td style = 'width:60px'>".""."<b>" . $i+10 . ".</b> " .$temp[$i+9] ."</td>".
+  "</td></tr>" ;
+  $i += 10;
+}
+?>
+</table>
 					  <br><br>
 					  <div class="text-center">
 						<button style="background-color: #4CAF50; 

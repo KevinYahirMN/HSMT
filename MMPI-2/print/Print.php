@@ -478,11 +478,26 @@ $CA3 = $CollectorAditional->collect_Three_Combination();
     <link rel="stylesheet" href="Print.css">
 
 </head>
+<br></br>
 <div class="col-md-12 text-center text-success"><h1> Respuestas del examen</h1></div>  
+<table border = "0" align = "center">
 <?php
-for ($i = 0; $i < count($temp); $i++) {
-  echo  "<b>" . $i+1 . ". </b>" .$temp[$i] . " ";}
-?>   
+$i = 0;
+while ($i < count($temp)) {
+  echo "<tr><td style = 'width:120px'>".""."<b>" . $i+1 . ".</b> " .($temp[$i] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+2 .".</b> ".($temp[$i+1] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+3 .".</b> ".($temp[$i+2] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+4 .".</b> ".($temp[$i+3] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+5 .".</b> ".($temp[$i+4] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+6 .".</b> ".($temp[$i+5] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+7 .".</b> ".($temp[$i+6] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+8 .".</b> ".($temp[$i+7] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+9 .".</b> ".($temp[$i+8] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "</td></tr>" ;
+  $i += 9;
+}
+?>
+</table> 
 					  <br><br>
 					  <div class="text-center">
 						<button onclick="window.print();" id="print" class="print_Button">Imprimir</button>
