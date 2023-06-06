@@ -57,13 +57,13 @@ class contentSuggestion extends SuggestionMMPI{
     function collect($score = array()){
         $Suggestions = [
             'ans' => parent::suggestion($this->ans, $score['ans']),
-            'cin' => parent::suggestion($this->cin, $score['cin']),
-            'del' => parent::suggestion($this->del, $score['del']),
-            'dep' => parent::suggestion($this->dep, $score['dep']),
-            'enj' => parent::suggestion($this->enj, $score['enj']),
             'mie' => parent::suggestion($this->mie, $score['mie']),
             'obs' => parent::suggestion($this->obs, $score['obs']),
+            'dep' => parent::suggestion($this->dep, $score['dep']),
             'sau' => parent::suggestion($this->sau, $score['sau']),
+            'del' => parent::suggestion($this->del, $score['del']),
+            'enj' => parent::suggestion($this->enj, $score['enj']),
+            'cin' => parent::suggestion($this->cin, $score['cin']),
             'pas' => parent::suggestion($this->pas, $score['pas']),
             'pta' => parent::suggestion($this->pta, $score['pta']),
             'bae' => parent::suggestion($this->bae, $score['bae']),

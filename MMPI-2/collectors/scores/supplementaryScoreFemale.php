@@ -59,21 +59,21 @@ class supplementaryScoreFemale extends scoreMMPI{
     function collect($count = array()){
         $count = [
             'a' => parent::score($this->a, $count['a']),
+            'r' => parent::score($this->r, $count['r']),
+            'fyo' => parent::score($this->fyo, $count['fyo']),
             'a_mac' => parent::score($this->a_mac, $count['a_mac']),
+            'hr' => parent::score($this->hr, $count['hr']),
             'do' => parent::score($this->do, $count['do']),
+            'rs' => parent::score($this->rs, $count['rs']),
             'dpr' => parent::score($this->dpr, $count['dpr']),
+            'gm' => parent::score($this->gm, $count['gm']),
+            'gf' => parent::score($this->gf, $count['gf']),
             'epk' => parent::score($this->epk, $count['epk']),
             'eps' => parent::score($this->eps, $count['eps']),
-            'fp' => parent::score($this->fp, $count['fp']),
-            'fyo' => parent::score($this->fyo, $count['fyo']),
-            'gf' => parent::score($this->gf, $count['gf']),
-            'gm' => parent::score($this->gm, $count['gm']),
-            'hr' => parent::score($this->hr, $count['hr']),
             'ls1' => parent::score($this->ls1, $count['ls1']),
             'ls2' => parent::score($this->ls2, $count['ls2']),
             'ls3' => parent::score($this->ls3, $count['ls3']),
-            'r' => parent::score($this->r, $count['r']),
-            'rs' => parent::score($this->rs, $count['rs'])
+            'fp' => parent::score($this->fp, $count['fp'])
         ];
         return $count;
     }

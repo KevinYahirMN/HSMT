@@ -50,19 +50,19 @@ class basicScoreMale extends scoreMMPI{
 
     function collect($count = array()){
         $score = [
-            'd' => parent::score($this->d, $count['d']),
-            'dp' => parent::score($this->dp, $count['dp']),
-            'es' => parent::score($this->es, $count['es']),
-            'f' => parent::score($this->f, $count['f']),
-            'hi' => parent::score($this->hi, $count['hi']),
-            'hs' => parent::score($this->hs, $count['hs']),
-            'is' => parent::score($this->is, $count['is']),
-            'k' => parent::score($this->k, $count['k']),
             'l' => parent::score($this->l, $count['l']),
-            'ma' => parent::score($this->ma, $count['ma']),
+            'f' => parent::score($this->f, $count['f']),
+            'k' => parent::score($this->k, $count['k']),
+            'hs' => parent::score($this->hs, $count['hs']),
+            'd' => parent::score($this->d, $count['d']),
+            'hi' => parent::score($this->hi, $count['hi']),
+            'dp' => parent::score($this->dp, $count['dp']),
             'mf' => parent::score($this->mf, $count['mf']),
             'pa' => parent::score($this->pa, $count['pa']),
-            'pt' => parent::score($this->pt, $count['pt'])
+            'pt' => parent::score($this->pt, $count['pt']),
+            'es' => parent::score($this->es, $count['es']),
+            'ma' => parent::score($this->ma, $count['ma']),
+            'is' => parent::score($this->is, $count['is'])
         ];
         return $score;
     }

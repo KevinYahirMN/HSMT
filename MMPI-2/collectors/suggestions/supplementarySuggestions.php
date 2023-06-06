@@ -59,21 +59,21 @@ class supplementarySuggestion extends suggestionMMPI{
     function collect($score = array()){
         $suggestions = [
             'a' => parent::suggestion($this->a, $score['a']),
+            'r' => parent::suggestion($this->r, $score['r']),
+            'fyo' => parent::suggestion($this->fyo, $score['fyo']),
             'a_mac' => parent::suggestion($this->a_mac, $score['a_mac']),
+            'hr' => parent::suggestion($this->hr, $score['hr']),
             'do' => parent::suggestion($this->do, $score['do']),
+            'rs' => parent::suggestion($this->rs, $score['rs']),
             'dpr' => parent::suggestion($this->dpr, $score['dpr']),
+            'gm' => parent::suggestion($this->gm, $score['gm']),
+            'gf' => parent::suggestion($this->gf, $score['gf']),
             'epk' => parent::suggestion($this->epk, $score['epk']),
             'eps' => parent::suggestion($this->eps, $score['eps']),
-            'fp' => parent::suggestion($this->fp, $score['fp']),
-            'fyo' => parent::suggestion($this->fyo, $score['fyo']),
-            'gf' => parent::suggestion($this->gf, $score['gf']),
-            'gm' => parent::suggestion($this->gm, $score['gm']),
-            'hr' => parent::suggestion($this->hr, $score['hr']),
             'ls1' => parent::suggestion($this->ls1, $score['ls1']),
             'ls2' => parent::suggestion($this->ls2, $score['ls2']),
             'ls3' => parent::suggestion($this->ls3, $score['ls3']),
-            'r' => parent::suggestion($this->r, $score['r']),
-            'rs' => parent::suggestion($this->rs, $score['rs'])
+            'fp' => parent::suggestion($this->fp, $score['fp'])
         ];
         return $suggestions;
     }

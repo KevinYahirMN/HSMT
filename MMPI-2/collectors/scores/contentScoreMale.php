@@ -57,13 +57,13 @@ class contentScoreMale extends scoreMMPI{
     function collect($count = array()){
         $count = [
             'ans' => parent::score($this->ans, $count['ans']),
-            'cin' => parent::score($this->cin, $count['cin']),
-            'del' => parent::score($this->del, $count['del']),
-            'dep' => parent::score($this->dep, $count['dep']),
-            'enj' => parent::score($this->enj, $count['enj']),
             'mie' => parent::score($this->mie, $count['mie']),
             'obs' => parent::score($this->obs, $count['obs']),
+            'dep' => parent::score($this->dep, $count['dep']),
             'sau' => parent::score($this->sau, $count['sau']),
+            'del' => parent::score($this->del, $count['del']),
+            'enj' => parent::score($this->enj, $count['enj']),
+            'cin' => parent::score($this->cin, $count['cin']),
             'pas' => parent::score($this->pas, $count['pas']),
             'pta' => parent::score($this->pta, $count['pta']),
             'bae' => parent::score($this->bae, $count['bae']),

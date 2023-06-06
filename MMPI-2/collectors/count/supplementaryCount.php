@@ -59,21 +59,21 @@ class supplementaryCount extends countMMPI{
     function collect(){
         $count = [
             'a' => parent::revision($this->a),
+            'r' => parent::revision($this->r),
+            'fyo' => parent::revision($this->fyo),
             'a_mac' => parent::revision($this->a_mac),
+            'hr' => parent::revision($this->hr),
             'do' => parent::revision($this->do),
+            'rs' => parent::revision($this->rs),
             'dpr' => parent::revision($this->dpr),
+            'gm' => parent::revision($this->gm),
+            'gf' => parent::revision($this->gf),
             'epk' => parent::revision($this->epk),
             'eps' => parent::revision($this->eps),
-            'fp' => parent::revision($this->fp),
-            'fyo' => parent::revision($this->fyo),
-            'gf' => parent::revision($this->gf),
-            'gm' => parent::revision($this->gm),
-            'hr' => parent::revision($this->hr),
             'ls1' => parent::revision($this->ls1),
             'ls2' => parent::revision($this->ls2),
             'ls3' => parent::revision($this->ls3),
-            'r' => parent::revision($this->r),
-            'rs' => parent::revision($this->rs)
+            'fp' => parent::revision($this->fp)
         ];
         return $count;
     }

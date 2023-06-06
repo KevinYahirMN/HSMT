@@ -14,6 +14,7 @@ include_once('../Scales/basicScales/scale_Mf_Female.php');
 include_once('../Scales/basicScales/scale_Mf_Male.php');
 include_once('../Scales/basicScales/scale_Pa.php');
 include_once('../Scales/basicScales/scale_Pt.php');
+include_once('../Scales/FactorK.php');
 
 class basicCount extends countMMPI{
 
@@ -31,6 +32,7 @@ class basicCount extends countMMPI{
     private $mfm;
     private $pa;
     private $pt;
+    private $factorK;
 
     function __construct(){
         if($this->d == null){
@@ -48,24 +50,19 @@ class basicCount extends countMMPI{
             $this->mfm = new scale_Mf_Male;
             $this->pa = new scale_Pa;
             $this->pt = new scale_Pt;
-        
+            $this->factorK = new FactorK;
         }
     }
 
     function collect(){
         $count = [
-            'd' => parent::revision($this->d),
-            'dp' => parent::revision($this->dp),
-            'es' => parent::revision($this->es),
-            'f' => parent::revision($this->f),
-            'hi' => parent::revision($this->hi),
-            'hs' => parent::revision($this->hs),
-            'is' => parent::revision($this->is),
-            'k' => parent::revision($this->k),
             'l' => parent::revision($this->l),
-            'ma' => parent::revision($this->ma),
-            'pa' => parent::revision($this->pa),
-            'pt' => parent::revision($this->pt)
+            'f' => parent::revision($this->f),
+            'k' => parent::revision($this->k),
+            'hs' => parent::revision($this->hs, $this->factorK),
+            'd' => parent::revision($this->d),
+            'hi' => parent::revision($this->hi),
+            'dp' => parent::revision($this->dp, $this->factorK)
         ];
 
         if($_SESSION['gender'] == 'Masculino'){
@@ -73,6 +70,12 @@ class basicCount extends countMMPI{
         }else{
             $count['mf'] = parent::revision($this->mff);
         }
+
+        $count['pa'] = parent::revision($this->pa);
+        $count['pt'] = parent::revision($this->pt, $this->factorK);
+        $count['es'] = parent::revision($this->es, $this->factorK);
+        $count['ma'] = parent::revision($this->ma, $this->factorK);
+        $count['is'] = parent::revision($this->is);
 
         return $count;
     }

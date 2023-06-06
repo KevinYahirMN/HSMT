@@ -57,13 +57,13 @@ class contentCount extends countMMPI{
     function collect(){
         $count = [
             'ans' => parent::revision($this->ans),
-            'cin' => parent::revision($this->cin),
-            'del' => parent::revision($this->del),
-            'dep' => parent::revision($this->dep),
-            'enj' => parent::revision($this->enj),
             'mie' => parent::revision($this->mie),
             'obs' => parent::revision($this->obs),
+            'dep' => parent::revision($this->dep),
             'sau' => parent::revision($this->sau),
+            'del' => parent::revision($this->del),
+            'enj' => parent::revision($this->enj),
+            'cin' => parent::revision($this->cin),
             'pas' => parent::revision($this->pas),
             'pta' => parent::revision($this->pta),
             'bae' => parent::revision($this->bae),

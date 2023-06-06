@@ -54,18 +54,13 @@ class basicSuggestion extends suggestionMMPI{
 
     function collect($score = array()){
         $suggestions = [
-            'd' => parent::suggestion($this->d, $score['d']),
-            'dp' => parent::suggestion($this->dp, $score['dp']),
-            'es' => parent::suggestion($this->es, $score['es']),
-            'f' => parent::suggestion($this->f, $score['f']),
-            'hi' => parent::suggestion($this->hi, $score['hi']),
-            'hs' => parent::suggestion($this->hs, $score['hs']),
-            'is' => parent::suggestion($this->is, $score['is']),
-            'k' => parent::suggestion($this->k, $score['k']),
             'l' => parent::suggestion($this->l, $score['l']),
-            'ma' => parent::suggestion($this->ma, $score['ma']),
-            'pa' => parent::suggestion($this->pa, $score['pa']),
-            'pt' => parent::suggestion($this->pt, $score['pt'])
+            'f' => parent::suggestion($this->f, $score['f']),
+            'k' => parent::suggestion($this->k, $score['k']),
+            'hs' => parent::suggestion($this->hs, $score['hs']),
+            'd' => parent::suggestion($this->d, $score['d']),
+            'hi' => parent::suggestion($this->hi, $score['hi']),
+            'dp' => parent::suggestion($this->dp, $score['dp'])
         ];
 
         if($_SESSION['gender'] == 'Masculino'){
@@ -73,6 +68,12 @@ class basicSuggestion extends suggestionMMPI{
         }else{
             $suggestions['mf'] = parent::suggestion($this->mff, $score['mf']);
         }
+
+        $suggestions['pa'] = parent::suggestion($this->pa, $score['pa']);
+        $suggestions['pt'] = parent::suggestion($this->pt, $score['pt']);
+        $suggestions['es'] = parent::suggestion($this->es, $score['es']);
+        $suggestions['ma'] = parent::suggestion($this->ma, $score['ma']);
+        $suggestions['is'] = parent::suggestion($this->is, $score['is']);
 
         return $suggestions;
     }
