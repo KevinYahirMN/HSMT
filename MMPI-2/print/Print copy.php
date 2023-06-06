@@ -492,32 +492,32 @@ $CA3 = $CollectorAditional->collect_Three_Combination();
 </head>
 <div class="col-md-12 text-center text-success"><h1> Respuestas del examen</h1></div>  
 
-<?php
-/*
-  $i = 0;
-  while ($i < count($temp)) {
-    echo  "<tr> <td>"."<b>" . $i+1 . ". </b>" .$temp[$i+1] . " </td>".
-    "<td>"."<b>" . $i+2 . ". </b>" .$temp[$i+2] . " </td>".
-    "<td>"."<b>" . $i+3 . ". </b>" .$temp[$i+3] . " </td>".
-    "<td>"."<b>" . $i+4 . ". </b>" .$temp[$i+4] . " </td>".
-    "<td>"."<b>" . $i+5 . ". </b>" .$temp[$i+5] . " </td>".
-    "<td>"."<b>" . $i+6 . ". </b>" .$temp[$i+6] . " </td>".
-    "<td>"."<b>" . $i+7 . ". </b>" .$temp[$i+7] . " </td>".
-    "<td>"."<b>" . $i+8 . ". </b>" .$temp[$i+8] . " </td>".
-    "<td>"."<b>" . $i+9 . ". </b>" .$temp[$i+9] . " </td>".
-    "<td>"."<b>" . $i+10 . ". </b>" .$temp[$i+10] . " </td>".
-    "<td>"."<b>" . $i+11 . ". </b>" .$temp[$i+11] . " </td>".
-    "<td>"."<b>" . $i+12 . ". </b>" .$temp[$i+12] . " </td>".
-    "<td>"."<b>" . $i+13 . ". </b>" .$temp[$i+13] . " </td>".
-    "<td>"."<b>" . $i+14 . ". </b>" .$temp[$i+14] . " </td>".
-    "<td>"."<b>" . $i+15 . ". </b>" .$temp[$i+15] . " </td></tr>" ;
-    $i += 15;
-}
-*/
-?>
-
 <table border = "0">
 <?php
+$i = 0;
+while ($i < count($temp)) {
+  echo  "<tr> <td>"."<b>" . $i+1 . ". </b>" .$temp[$i+1] . " </td>".
+  "<td>"."<b>" . $i+2 . ". </b>" .$temp[$i+2] . " </td>".
+  "<td>"."<b>" . $i+3 . ". </b>" .$temp[$i+3] . " </td>".
+  "<td>"."<b>" . $i+4 . ". </b>" .$temp[$i+4] . " </td>".
+  "<td>"."<b>" . $i+5 . ". </b>" .$temp[$i+5] . " </td>".
+  "<td>"."<b>" . $i+6 . ". </b>" .$temp[$i+6] . " </td>".
+  "<td>"."<b>" . $i+7 . ". </b>" .$temp[$i+7] . " </td>".
+  "<td>"."<b>" . $i+8 . ". </b>" .$temp[$i+8] . " </td>".
+  "<td>"."<b>" . $i+9 . ". </b>" .$temp[$i+9] . " </td>".
+  "<td>"."<b>" . $i+10 . ". </b>" .$temp[$i+10] . " </td>".
+  "<td>"."<b>" . $i+11 . ". </b>" .$temp[$i+11] . " </td>".
+  "<td>"."<b>" . $i+12 . ". </b>" .$temp[$i+12] . " </td>".
+  "<td>"."<b>" . $i+13 . ". </b>" .$temp[$i+13] . " </td>".
+  "<td>"."<b>" . $i+14 . ". </b>" .$temp[$i+14] . " </td>".
+  "<td>"."<b>" . $i+15 . ". </b>" .$temp[$i+15] . " </td></tr>" ;
+  $i += 15;
+}
+?>
+</table>
+
+<?php
+/*
 $i = 0;
 foreach($temp as $element){
   echo '<tr>'.
@@ -528,6 +528,7 @@ foreach($temp as $element){
   '<td>'.$element.'</td>'.
   '</tr>';
 }
+*/
 ?>
 </table>
 
