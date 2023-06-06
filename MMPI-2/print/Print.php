@@ -38,19 +38,19 @@ $CSS = $collectorSuggestions->collect_Supplementary($CountSS);
 $CSC = $collectorSuggestions->collect_Content($CountSC);
 
 $C1 = array();
-        foreach($CountSB as $var){
-        array_push($C1, $var);
-        }
+foreach($CountSB as $var){
+  array_push($C1, $var);
+  }
 
 $C2 = array();
-        foreach($CountSS as $var){
-        array_push($C2, $var);
-        }
+foreach($CountSS as $var){
+array_push($C2, $var);
+}
 
 $C3 = array();
-        foreach($CountSC as $var){
-        array_push($C3, $var);
-        }
+foreach($CountSC as $var){
+array_push($C3, $var);
+}
 
 $CollectorAditional = new collectorAditional($C1);
 $CA2 = $CollectorAditional->collect_Two_Combination();
