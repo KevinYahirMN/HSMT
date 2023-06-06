@@ -496,15 +496,15 @@ $CA3 = $CollectorAditional->collect_Three_Combination();
 <?php
 $i = 0;
 while ($i < count($temp)) {
-  echo "<tr><td style = 'width:100px'>".""."<b>" . $i+1 . ".</b> " .$temp[$i] ."</td>".
-  "<td style = 'width:100px'>".""."<b>" . $i+2 . ".</b> " .$temp[$i+1] ."</td>".
-  "<td style = 'width:100px'>".""."<b>" . $i+3 . ".</b> " .$temp[$i+2] ."</td>".
-  "<td style = 'width:100px'>".""."<b>" . $i+4 . ".</b> " .$temp[$i+3] ."</td>".
-  "<td style = 'width:100px'>".""."<b>" . $i+5 . ".</b> " .$temp[$i+4] ."</td>".
-  "<td style = 'width:100px'>".""."<b>" . $i+6 . ".</b> " .$temp[$i+5] ."</td>".
-  "<td style = 'width:100px'>".""."<b>" . $i+7 . ".</b> " .$temp[$i+6] ."</td>".
-  "<td style = 'width:100px'>".""."<b>" . $i+8 . ".</b> " .$temp[$i+7] ."</td>".
-  "<td style = 'width:100px'>".""."<b>" . $i+9 . ".</b> " .$temp[$i+8] ."</td>".
+  echo "<tr><td style = 'width:120px'>".""."<b>" . $i+1 . ".</b> " .($temp[$i] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+2 .".</b> ".($temp[$i+1] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+3 .".</b> ".($temp[$i+2] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+4 .".</b> ".($temp[$i+3] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+5 .".</b> ".($temp[$i+4] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+6 .".</b> ".($temp[$i+5] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+7 .".</b> ".($temp[$i+6] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+8 .".</b> ".($temp[$i+7] == 'true' ? 'Verdadero' : 'Falso')."</td>".
+  "<td style = 'width:120px'>".""."<b>".$i+9 .".</b> ".($temp[$i+8] == 'true' ? 'Verdadero' : 'Falso')."</td>".
   "</td></tr>" ;
   $i += 9;
 }
