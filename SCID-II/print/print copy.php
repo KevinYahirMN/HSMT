@@ -241,6 +241,14 @@ $antisocial = $collectorCount->antisocial();
     </table>
 </body>
 </html>
+<div class="col-md-12 text-center text-success"><h1> Respuestas del examen</h1></div>  
+<?php
+for ($i = 0; $i < count($temp); $i++) {
+if($temp[$i] == "yes"){
+  echo  "<b>" . $i+1 . ". </b> Sí ";}
+  else{  echo  "<b>" . $i+1 . ". </b> No ";}
+}
+?>
 					  <br><br>
 					  <div class="text-center">
 						<button style="background-color: #4CAF50; 

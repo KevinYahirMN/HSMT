@@ -271,6 +271,7 @@ $Range = $CollectorRange->range_Count($RCount);
         </tbody>
         </table>
       <table class="content-table">
+        <br></br>
     <div class="col-md-12 text-center text-success"><h3>NIVEL DE JUICIO SOCIAL</h3></div>
 
     <thead>
@@ -290,6 +291,11 @@ $Range = $CollectorRange->range_Count($RCount);
       
 </body>
 </html>
+<div class="col-md-12 text-center text-success"><h1> Respuestas del examen</h1></div>  
+<?php
+for ($i = 0; $i < count($temp); $i++) {
+  echo  "<b>" . $i+1 . ". </b>" .$temp[$i] . " ";}
+?>
 					  <br><br>
 					  <div class="text-center">
 						<button style="background-color: #4CAF50; 

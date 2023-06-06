@@ -478,7 +478,11 @@ $CA3 = $CollectorAditional->collect_Three_Combination();
     <link rel="stylesheet" href="Print.css">
 
 </head>
-                 
+<div class="col-md-12 text-center text-success"><h1> Respuestas del examen</h1></div>  
+<?php
+for ($i = 0; $i < count($temp); $i++) {
+  echo  "<b>" . $i+1 . ". </b>" .$temp[$i] . " ";}
+?>   
 					  <br><br>
 					  <div class="text-center">
 						<button onclick="window.print();" id="print" class="print_Button">Imprimir</button>
