@@ -594,8 +594,9 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <link rel="stylesheet" href="Print.css">
 </head>
 <body>
-<div class="col-md-12 text-center text-success"><h3> GRÁFICA DE DINAMISMO-VIGOROSIDAD</h3></div>
-<canvas id="grafica2"></canvas>
+  <div class ="center">
+  <div class="col-md-12 text-center text-success"><h3> GRÁFICA DE DINAMISMO-VIGOROSIDAD</h3></div>
+  <canvas id="grafica2"></canvas>
     <script type="text/javascript">
         const $grafica2 = document.querySelector("#grafica2");
         const value2 = {
@@ -625,6 +626,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
         });
     </script>
     <hr>
+    </div>
     </body>
 <head>
     <meta charset="UTF-8">
