@@ -27,7 +27,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 	<link rel="stylesheet" href="../Forms/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../Forms/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../Forms/css/style.css">
-  <link href='Table.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="table.css">
 	<title>Resultados</title>
 	<style>
 		.btn-group.respuestas {
@@ -61,7 +61,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 		<div class="card">
 			<div class="card-header text-center">
 				<h4>
-					<span id="badge" class="badge badge-success">
+					<span class="badge badge-success">
 						Interpretación de resultados
 					</span>
 				</h4>
@@ -164,14 +164,17 @@ $SESCS = $collectorSuggestions->SES($SESCC);
         </div>
 	</center>
 	<hr>
-  <table border="1" align="center">
+    <table class="content-table">
   <div class="col-md-12 text-center text-success"><h3> DOMINIO-APEGO-ADAPTACIÓN</h3></div>
+  <thead>
   <tr>
     <th>CATEGORÍA</th>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>PUNTUACIÓN</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <td>LIDERAZGO</td>
     <td>ACTV. DE LÍDER</td>
@@ -220,16 +223,20 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td>R</td>
     <td><?php echo $DAACC[7];?></td>
   </tr>
+  </tbody>
 </table>
 <hr>
-<table border="1" align="center">
+
+<table class="content-table">
 <div class="col-md-12 text-center text-success"><h3> DINAMISMO-VIGOROSIDAD</h3></div>
-  <tr>
+  <thead><tr>
     <th>CATEGORÍA</th>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>PUNTUACIÓN</th>
+    </thead>
   </tr>
+  <tbody>
   <tr>
     <td>MODO DE VIDA</td>
     <td>ACTIVO</td>
@@ -260,16 +267,21 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td>A</td>
     <td><?php echo $DVCC[4];?></td>
   </tr>
+  </tbody>
 </table>
 <hr>
-<table border="1" align="center">
+
+<table class="content-table">
 <div class="col-md-12 text-center text-success"><h3> ESTABILIDAD SOCIO-EMOCIONAL</h3></div>
+  <thead>
   <tr>
     <th>CATEGORÍA</th>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>PUNTUACIÓN</th>
+    </thead>
   </tr>
+  <tbody>
   <tr>
     <td>NATURALEZA SOCIAL</td>
     <td>SER NOTIFICADO</td>
@@ -312,16 +324,20 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td>Z</td>
     <td><?php echo $SESCC[6];?></td>
   </tr>
+  </tbody>
 </table>
 <hr>
-<table border="1" align="center"  style="width:65%">
+<table class="content-table">
 <div class="col-md-12 text-center text-success"><h3>LIDERAZGO</h3></div>
+  <thead>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>INTERPRETACIÓN POSITIVA</th>
     <th>INTERPRETACIÓN NEGATIVA</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <td>ACTV. DE LÍDER</td>
     <td>L</td>
@@ -340,16 +356,20 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DAACS[4];?></td>
     <td><?php echo $DAACS[5];?></td>
   </tr>
+  </tbody>
 </table>
 <hr>
-<table border="1" align="center"  style="width:65%">
+<table class="content-table">
 <div class="col-md-12 text-center text-success"><h3>SUBORDINACIÓN</h3></div>
+  <thead>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>INTERPRETACIÓN POSITIVA</th>
     <th>INTERPRETACIÓN NEGATIVA</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <td>APOYO SUPERVISIÓN</td>
     <td>F</td>
@@ -362,16 +382,20 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DAACS[8];?></td>
     <td><?php echo $DAACS[9];?></td>
   </tr>
+  </tbody>
 </table>
 <hr>
-<table border="1" align="center"  style="width:65%">
+<table class="content-table">
 <div class="col-md-12 text-center text-success"><h3>ADAPTACIÓN TRAB.</h3></div>
+  <thead>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>INTERPRETACIÓN POSITIVA</th>
     <th>INTERPRETACIÓN NEGATIVA</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <td>ORGANIZADO</td>
     <td>C</td>
@@ -390,17 +414,21 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DAACS[14];?></td>
     <td><?php echo $DAACS[15];?></td>
   </tr>
+  </tbody>
 </table>
-<Hr>
-<table border="1" align="center"  style="width:65%">
+<hr>
+<table class="content-table">
 <div class="col-md-12 text-center text-success"><h3> MODO DE VIDA</h3></div>
 <hr>
+<thead>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>INTERPRETACIÓN POSITIVA</th>
     <th>INTERPRETACIÓN NEGATIVA</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <td>ACTIVO</td>
     <td>T</td>
@@ -413,16 +441,20 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DVCS[2];?></td>
     <td><?php echo $DVCS[3];?></td>
   </tr>
+  </tbody>
 </table>
 <hr>
-<table border="1" align="center"  style="width:65%">
+<table class="content-table">
 <div class="col-md-12 text-center text-success"><h3>GRADO DE ENERGÍA</h3></div>
+  <thead>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>INTERPRETACIÓN POSITIVA</th>
     <th>INTERPRETACIÓN NEGATIVA</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <td>TERMINA TAREAS</td>
     <td>N</td>
@@ -441,16 +473,20 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $DVCS[8];?></td>
     <td><?php echo $DVCS[9];?></td>
   </tr>
+  </tbody>
 </table>
 <hr>
-<table border="1" align="center"  style="width:65%">
+<table class="content-table">
 <div class="col-md-12 text-center text-success"><h3> NATURALEZA SOCIAL</h3></div>
+  <thead>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>INTERPRETACIÓN POSITIVA</th>
     <th>INTERPRETACIÓN NEGATIVA</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <td>SER NOTIFICADO</td>
     <td>X</td>
@@ -475,16 +511,20 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $SESCS[6];?></td>
     <td><?php echo $SESCS[7];?></td>
   </tr>
+  </tbody>
 </table>
 <hr>
-<table border="1" align="center"  style="width:65%">
+<table class="content-table">
 <div class="col-md-12 text-center text-success"><h3> NATURALEZA EMOCIONAL</h3></div>
+  <thead>
   <tr>
     <th>NOMBRE</th>
     <th>CLAVE</th>
     <th>INTERPRETACIÓN POSITIVA</th>
     <th>INTERPRETACIÓN NEGATIVA</th>
   </tr>
+  </thead>
+  <tbody>
   <tr>
     <td>PASIVO/AGRESIVO</td>
     <td>K</td>
@@ -503,6 +543,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
     <td><?php echo $SESCS[12];?></td>
     <td><?php echo $SESCS[13];?></td>
   </tr>
+  </tbody>
 </table>
 
 <head>
@@ -638,7 +679,7 @@ $SESCS = $collectorSuggestions->SES($SESCC);
 <link rel="stylesheet" href="Print.css">
 <head>
     <link rel="stylesheet" href="Print.css">
-</head>        
+</head> 
 <br></br>         
 <div class="col-md-12 text-center text-success"><h1> Respuestas del examen</h1></div>  
 <table border = "0" align = "center">
@@ -659,6 +700,7 @@ while ($i < count($temp)) {
   $i += 10;
 }
 ?>
+</table>
 					  <br><br>
 					  <div class="text-center">
 						<button style="background-color: #4CAF50; 
@@ -673,7 +715,7 @@ while ($i < count($temp)) {
 					  </div>
 				<br>
 			</div>
-			<div id="footer" class="card-footer text-muted text-center">
+			<div class="card-footer text-muted text-center">
 			<Strong>Nota: </Strong>Este reporte no debe ser tomado textualmente pues presenta solo inferencias generales acerca del significado de la elevación de las puntuaciones que deben considerarse en cada caso de acuerdo con la historia y antecedentes del sujeto.
 			</div>
 		</div>
