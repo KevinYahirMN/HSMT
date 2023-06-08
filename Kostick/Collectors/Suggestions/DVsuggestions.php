@@ -38,7 +38,7 @@ class DVsuggestions{
         return $suggestions;
     }
 
-    private function positive($count = array(), $obj = null){
+    private function positive($count = 0, $obj = null){
         switch($count){
             case 0: $suggestion = $obj->lowPositive(); break;
             case $count < 3: $suggestion = $obj->lowPositive(); break;
@@ -49,7 +49,7 @@ class DVsuggestions{
         return $suggestion;
     }
     
-    private function negative($count = array(), $obj = null){
+    private function negative($count = 0, $obj = null){
         switch($count){
             case 0: $suggestion = $obj->lowNegative(); break;
             case $count < 3: $suggestion = $obj->lowNegative(); break;
