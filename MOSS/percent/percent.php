@@ -1,6 +1,12 @@
 <?php
 class percent{
 
+    function percent_IP($count = 0){
+        $op = ($count*0.125)*100;
+        $percent = round($op);
+        return $percent;
+    }
+
     function percent_CS($count = 0){
         $percent = $this->calculateSix($count);
         return $percent;
@@ -8,12 +14,6 @@ class percent{
 
     function percent_DM($count = 0){
         $percent = $this->calculateTwo($count);
-        return $percent;
-    }
-
-    function percent_IP($count = 0){
-        $op = ($count*0.125)*100;
-        $percent = round($op);
         return $percent;
     }
 

@@ -25,35 +25,29 @@ class collectorCount{
     }
 
     function collect_CS(){
-        $count = $this->collect($this->cs);
+        $count = $this->cs->check();
         return $count;
     }
 
     function collect_DM(){
-        $count = $this->collect($this->dm);
+        $count = $this->dm->check();
         return $count;
     }
 
     function collect_IP(){
-        $count = $this->collect($this->ip);
+        $count = $this->ip->check();
         return $count;
     }
 
     function collect_IR(){
-        $count = $this->collect($this->ir);
+        $count = $this->ir->check();
         return $count;
     }
 
     function collect_SF(){
-        $count = $this->collect($this->sf);
+        $count = $this->sf->check();
         return $count;
     }
-
-    private function collect($obj){
-        $count = $obj->check();
-        return $count;
-    }
-
 }
 
 ?>
