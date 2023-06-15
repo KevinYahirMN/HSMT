@@ -1,5 +1,5 @@
 <?php
-
+include_once('../scaleCount/scaleCount.php');
 abstract class scaleMMPI{
     protected $answer;
     protected $sc;
