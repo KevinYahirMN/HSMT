@@ -175,7 +175,6 @@ $Dx = $CollectorDx->collect($IQ);
 <hr>
     <table class="content-table">
     <div class="col-md-12 text-center text-success"><h3>RESULTADOS</h3></div>
-
     <thead>
           <tr>
             <th>Reactivo</th>
@@ -416,8 +415,7 @@ $Dx = $CollectorDx->collect($IQ);
 </html>
 
 <?php
-/*$_SESSION["answer"] = null;
+$_SESSION["answer"] = null;
 $_SESSION["answer"] = array();
 $_SESSION['gender'] = null;
-*/
 ?>
