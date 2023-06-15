@@ -4,9 +4,9 @@ include("../collectors/collectorScoreMale.php");
 include("../collectors/collectorScoreFemale.php");
 include("../collectors/collectorSuggestions.php");
 include("../collectors/collectorAditional.php");
+
 session_start();
 $gender = $_SESSION['gender'];
-
 $temp = $_SESSION["answer"];
 $get = $_POST["Q"];
 array_push($temp, $get);

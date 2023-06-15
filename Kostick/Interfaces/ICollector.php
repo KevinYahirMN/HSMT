@@ -3,7 +3,7 @@
 interface ICollector{
 
     /*Recibe un arreglo para realizar el conteo
-    o seleccionar las sujerencias de interpretación
+    o seleccionar las sugerencias de interpretación
     a partir del conteo por cada categoría*/
     function DAA($array = array());
 
